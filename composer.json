@@ -1,0 +1,48 @@
+{
+	"name": "lykegenes/laravel-datagrid-builder",
+	"description": "Laravel datagrid generator - using jQuery-bootgrid",
+	"keywords": [
+		"laravel",
+		"bootgrid",
+		"datagrid",
+		"table",
+		"datatable"
+	],
+	"homepage": "https://github.com/Lykegenes/laravel-datagrid-builder",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Patrick Samson",
+			"email": "patricksamson236@gmail.com"
+		}
+	],
+	"require": {
+		"illuminate/support": "~5.1",
+        "mledoze/countries": "~1.7"
+	},
+	"require-dev": {
+		"phpunit/phpunit" : "~5.2",
+        "mockery/mockery": "0.9.*",
+        "orchestra/testbench": "~3.1",
+        "satooshi/php-coveralls": "~1.0",
+        "illuminate/foundation": "^5.1.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Lykegenes\\DatagridBuilder\\": "src"
+		},
+		"files": [
+			"src/RenderingHelpers.php"
+		]
+	},
+	"scripts": {
+		"test": "phpunit"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,6 +1,6 @@
 {
-	"name": "lykegenes/laravel-datagrid-builder",
-	"description": "Laravel datagrid generator - using jQuery-bootgrid",
+	"name": "lykegenes/laravel-countries",
+	"description": "Get informations about countries.",
 	"keywords": [
 		"laravel",
 		"bootgrid",
@@ -8,7 +8,7 @@
 		"table",
 		"datatable"
 	],
-	"homepage": "https://github.com/Lykegenes/laravel-datagrid-builder",
+	"homepage": "https://github.com/Lykegenes/laravel-countries",
 	"license": "MIT",
 	"authors": [
 		{
@@ -29,11 +29,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Lykegenes\\DatagridBuilder\\": "src"
-		},
-		"files": [
-			"src/RenderingHelpers.php"
-		]
+			"Lykegenes\\LaravelCountries\\": "src"
+		}
 	},
 	"scripts": {
 		"test": "phpunit"

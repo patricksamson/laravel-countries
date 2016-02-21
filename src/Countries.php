@@ -26,19 +26,19 @@ class Countries
     /**
      * Dependencies paths
      */
-    protected $prod_path = __DIR__.'/../../../mledoze/countries/dist/countries-unescaped.json';
-    protected $dev_path = __DIR__.'/../vendor/mledoze/countries/dist/countries-unescaped.json';
+    protected static $PROD_PATH = __DIR__.'/../../../mledoze/countries/dist/countries-unescaped.json';
+    protected static $DEV_PATH = __DIR__.'/../vendor/mledoze/countries/dist/countries-unescaped.json';
 
     protected $data = [];
 
     public function __construct()
     {
-        if (file_exists($this->prod_path)){
-            $this->data = json_decode(file_get_contents($this->prod_path), true);
-        } else if (file_exists($this->dev_path)){
-            $this->data = json_decode(file_get_contents($this->dev_path), true);
+        if (file_exists(self::$PROD_PATH)){
+            $this->data = json_decode(file_get_contents(self::$PROD_PATH), true);
+        } else if (file_exists(self::$DEV_PATH)){
+            $this->data = json_decode(file_get_contents(self::$DEV_PATH), true);
         } else {
-            return;
+            return; // we should throw an exception here...
         }
     }
 

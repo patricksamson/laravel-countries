@@ -23,24 +23,33 @@ class Countries
     const OCEANIA = 'Oceania';
     const NO_REGION = '';
 
+    /**
+     * Dependencies paths
+     */
+    protected $prod_path = __DIR__.'/../../../mledoze/countries/dist/countries-unescaped.json';
+    protected $dev_path = __DIR__.'/../vendor/mledoze/countries/dist/countries-unescaped.json';
+
     protected $data = [];
 
     public function __construct()
     {
-        $this->data = json_decode(file_get_contents(base_path().'/vendor/mledoze/countries/dist/countries-unescaped.json'), true);
-
-        // if we eventually want to compile it in a PHP return array() file;
-        // $this->data = include __DIR__ . '/file.php';
+        if (file_exists($this->prod_path)){
+            $this->data = json_decode(file_get_contents($this->prod_path), true);
+        } else if (file_exists($this->dev_path)){
+            $this->data = json_decode(file_get_contents($this->dev_path), true);
+        } else {
+            return;
+        }
     }
 
     public function getByAlpha2Code($code)
     {
-        return $this->searchByColumn(self::ISO3166_ALPHA_2, $code);
+        return $this->searchSingleItemByColumn(self::ISO3166_ALPHA_2, $code);
     }
 
     public function getByAlpha3Code($code)
     {
-        return $this->searchByColumn(self::ISO3166_ALPHA_3, $code);
+        return $this->searchSingleItemByColumn(self::ISO3166_ALPHA_3, $code);
     }
 
     public function getByNumericCode($code)

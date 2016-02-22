@@ -34,7 +34,7 @@ class CountriesTest extends TestCase
     /** @test */
     public function it_gets_countries_by_region()
     {
-        $this->countries = $this->countries->getByRegion($this->countries::AMERICAS);
+        $this->countries = $this->countries->getByRegion($this->countries::$AMERICAS);
         $codes = array_column($this->countries, 'cca2');
 
         $this->assertContains('CA', $codes);

@@ -34,8 +34,18 @@ class CountriesTest extends LaravelCountriesTestCase
     /** @test */
     public function it_gets_countries_by_region()
     {
-        $this->countries = $this->countries->getByRegion(\Countries::$REGION_AMERICAS);
-        $codes = array_column($this->countries, 'cca2');
+        $results = $this->countries->getByRegion(\Countries::$REGION_AMERICAS);
+        $codes = array_column($results, 'cca2');
+
+        $this->assertContains('CA', $codes);
+        $this->assertNotContains('FR', $codes);
+    }
+
+    /** @test */
+    public function it_gets_countries_by_subregion()
+    {
+        $results = $this->countries->getBySubregion('Northern America');
+        $codes = array_column($results, 'cca2');
 
         $this->assertContains('CA', $codes);
         $this->assertNotContains('FR', $codes);

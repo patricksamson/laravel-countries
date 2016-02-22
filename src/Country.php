@@ -18,6 +18,16 @@ class Country
         return $this->data[self::$ISO3166_ALPHA_2];
     }
 
+    public function getAlpha2Code()
+    {
+        return $this->data[self::$ISO3166_ALPHA_3];
+    }
+
+    public function getNumericCode()
+    {
+        return $this->data[self::$$ISO3166_NUMERIC_3];
+    }
+
     public function getRawData()
     {
         return $this->data;

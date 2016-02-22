@@ -4,24 +4,7 @@ namespace Lykegenes\LaravelCountries;
 
 class CountriesRepository
 {
-    /**
-     * The column constants.
-     */
-    protected static $ISO3166_ALPHA_2 = 'cca2';
-    protected static $ISO3166_ALPHA_3 = 'cca3';
-    protected static $ISO3166_NUMERIC_3 = 'ccn3';
-    protected static $REGION = 'region';
-    protected static $SUBREGION = 'subregion';
-
-    /**
-     * The regions constants.
-     */
-    const AFRICA = 'Africa';
-    const AMERICAS = 'Americas';
-    const ASIA = 'Asia';
-    const EUROPE = 'Europe';
-    const OCEANIA = 'Oceania';
-    const NO_REGION = '';
+    use RegionsTrait, CountryAttributesTrait;
 
     /**
      * Dependencies paths.

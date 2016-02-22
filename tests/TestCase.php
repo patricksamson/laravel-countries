@@ -5,7 +5,7 @@ namespace Lykegenes\LaravelCountries\Tests;
 class TestCase extends \Orchestra\Testbench\TestCase
 {
     /**
-     * @var Lykegenes\LaravelCountries\Countries
+     * @var Lykegenes\LaravelCountries\CountriesRepository
      */
     protected $countries;
 

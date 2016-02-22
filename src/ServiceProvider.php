@@ -17,12 +17,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $configPath = __DIR__.'/../config/config.php';
         $this->mergeConfigFrom($configPath, 'countries');
 
-        $this->app->singleton('countries', function ($app) {
-
-            return new CountriesRepository();
-        });
-
-        $this->app->alias('countries', CountriesRepository::class);
+        $this->app->singleton('countries', \Lykegenes\LaravelCountries\CountriesRepository::class);
     }
 
     public function boot()

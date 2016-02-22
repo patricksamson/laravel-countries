@@ -35,12 +35,18 @@ class CountriesTest extends \Orchestra\Testbench\TestCase
     {
         $country = $this->countries->getByAlpha2Code('CA');
         $this->assertEquals('Canada', $country['name']['official']);
+
+        $country = $this->countries->getByAlpha2Code('ca');
+        $this->assertEquals('Canada', $country['name']['official']);
     }
 
     /** @test */
     public function it_gets_country_from_alpha3_code()
     {
         $country = $this->countries->getByAlpha3Code('CAN');
+        $this->assertEquals('Canada', $country['name']['official']);
+
+        $country = $this->countries->getByAlpha3Code('can');
         $this->assertEquals('Canada', $country['name']['official']);
     }
     /** @test */

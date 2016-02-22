@@ -11,7 +11,7 @@ class RegionsTest extends LaravelCountriesTestCase
         $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_AMERICAS));
         $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_ASIA));
         $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_EUROPE));
-        $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_OCEANIA)));
+        $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_OCEANIA));
         $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_NONE));
     }
 }

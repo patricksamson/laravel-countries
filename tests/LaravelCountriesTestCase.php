@@ -2,7 +2,7 @@
 
 namespace Lykegenes\LaravelCountries\Tests;
 
-class TestCase extends \Orchestra\Testbench\TestCase
+abstract class LaravelCountriesTestCase extends \Orchestra\Testbench\TestCase
 {
     /**
      * @var Lykegenes\LaravelCountries\CountriesRepository

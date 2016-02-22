@@ -2,7 +2,7 @@
 
 namespace Lykegenes\LaravelCountries\Tests;
 
-class IntegrationTest extends TestCase
+class IntegrationTest extends LaravelCountriesTestCase
 {
     /** @test */
     public function it_resolves_from_container()

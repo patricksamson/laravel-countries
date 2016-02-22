@@ -2,10 +2,10 @@
 
 namespace Lykegenes\LaravelCountries\Tests;
 
-class RegionsTest extends TestCase
+class RegionsTest extends LaravelCountriesTestCase
 {
     /** @test */
-    public function regions_names_have_not_changed()
+    public function it_makes_sure_regions_names_have_not_changed()
     {
         $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_AFRICA));
         $this->assertNotEmpty($this->countries->getByRegion(\Countries::$REGION_AMERICAS));

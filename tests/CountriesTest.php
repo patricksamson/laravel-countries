@@ -2,7 +2,7 @@
 
 namespace Lykegenes\LaravelCountries\Tests;
 
-class CountriesTest extends TestCase
+class CountriesTest extends LaravelCountriesTestCase
 {
     /** @test */
     public function it_gets_country_from_alpha2_code()

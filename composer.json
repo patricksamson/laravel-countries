@@ -32,6 +32,11 @@
 			"Lykegenes\\LaravelCountries\\": "src"
 		}
 	},
+    "autoload-dev": {
+        "psr-4": {
+            "Lykegenes\\LaravelCountries\\Tests\\": "tests"
+        }
+    },
 	"scripts": {
 		"test": "phpunit"
 	},

@@ -11,6 +11,6 @@ class Countries extends Facade
 {
     public static function getFacadeAccessor()
     {
-        return \Lykegenes\LaravelCountries\Countries::class;
+        return 'countries';
     }
 }

@@ -15,12 +15,14 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $configPath = __DIR__.'/../config/config.php';
-        $this->mergeConfigFrom($configPath, 'laravel-countries');
+        $this->mergeConfigFrom($configPath, 'countries');
 
-        $this->app->singleton('laravel-countries', function ($app) {
+        $this->app->singleton('countries', function ($app) {
 
-            return new DatagridBuilder($app, $app['laravel-countries']);
+            return new CountriesRepository();
         });
+
+        $this->app->alias('countries', CountriesRepository::class);
     }
 
     public function boot()
@@ -35,7 +37,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function provides()
     {
-        return ['laravel-countries'];
+        return ['countries'];
     }
 
     /**
@@ -45,6 +47,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     protected function getConfigPath()
     {
-        return config_path('laravel-countries.php');
+        return config_path('countries.php');
     }
 }

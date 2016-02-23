@@ -138,6 +138,7 @@ class CountriesRepository
         foreach ($keys as $value) {
             $countries[] = new Country($value);
         }
+        var_dump($countries);
 
         return $countries;
     }

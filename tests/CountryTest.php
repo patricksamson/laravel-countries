@@ -36,14 +36,4 @@ class CountryTest extends LaravelCountriesTestCase
     {
         $this->assertEquals('Canada', $this->country->getOfficialName());
     }
-
-    /** @test */
-    public function it_implements_arrayaccess_properly()
-    {
-        $this->assertTrue(isset($this->country->cca2));
-        $this->assertFalse(empty($this->country->cca2));
-
-        $this->assertEquals('CA', $this->country->cca2);
-        $this->assertEquals(124, $this->country->ccn3);
-    }
 }

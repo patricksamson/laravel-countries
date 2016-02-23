@@ -4,7 +4,7 @@ namespace Lykegenes\LaravelCountries;
 
 class CountriesRepository
 {
-    use RegionsTrait, CountryAttributesTrait;
+    use RegionsTrait;
 
     /**
      * Dependencies paths.
@@ -27,41 +27,58 @@ class CountriesRepository
 
     public function getByAlpha2Code($code)
     {
-        return $this->searchSingleItemByColumn(self::$ISO3166_ALPHA_2, strtoupper($code));
+        return $this->getItemWhere('cca2', strtoupper($code));
     }
 
     public function getByAlpha3Code($code)
     {
-        return $this->searchSingleItemByColumn(self::$ISO3166_ALPHA_3, strtoupper($code));
+        return $this->getItemWhere('cca3', strtoupper($code));
     }
 
     public function getByNumericCode($code)
     {
-        return $this->searchSingleItemByColumn(self::$ISO3166_NUMERIC_3, $code);
+        return $this->getItemWhere('ccn3', $code);
     }
 
     public function getByRegion($region)
     {
-        return $this->searchMultipleItemsByColumn(self::$REGION, $region);
+        return $this->getListWhere('region', $region);
     }
 
     public function getBySubregion($subregion)
     {
-        return $this->searchMultipleItemsByColumn(self::$SUBREGION, $subregion);
+        return $this->getListWhere('subregion', $subregion);
     }
 
-    protected function searchSingleItemByColumn($columnKey, $input)
+    public function getByCurrency($currency)
+    {
+        return $this->getListWhere('currency', $currency);
+    }
+
+    /**
+     * Get a single Country by filtering this column.
+     * @param  string $columnKey The column to filter
+     * @param  mixed $input     The value to filter for
+     * @return Lykegenes\LaravelCountries\Country|null            The matching country or null
+     */
+    protected function getItemWhere($columnKey, $input)
     {
         $key = array_search($input, array_column($this->data, $columnKey));
 
-        return $this->data[$key];
+        return new Country($this->data[$key]);
     }
 
-    protected function searchMultipleItemsByColumn($columnKey, $input)
+    protected function getListWhere($columnKey, $input)
     {
         $keys = array_flip(array_keys(array_column($this->data, $columnKey), $input));
+        $keys = array_intersect_key($this->data, $keys);
+        $countries = [];
 
-        return array_intersect_key($this->data, $keys);
+        foreach ($keys as $value) {
+            $countries[] = new Country($value);
+        }
+
+        return $countries;
     }
 
     public function getRawData()

@@ -2,47 +2,114 @@
 
 namespace Lykegenes\LaravelCountries;
 
-class Country
+use ArrayAccess;
+
+class Country implements ArrayAccess
 {
-    use CountryAttributesTrait;
+    protected $attributes = [];
 
-    protected $data = [];
-
-    public function __construct(array $data)
+    public function __construct(array $attributes)
     {
-        $this->data = $data;
+        $this->attributes = $attributes;
     }
 
     public function getAlpha2Code()
     {
-        return $this->data[self::$ISO3166_ALPHA_2];
+        return $this->attributes['cca2'];
     }
 
-    public function getAlpha2Code()
+    public function getAlpha3Code()
     {
-        return $this->data[self::$ISO3166_ALPHA_3];
+        return $this->attributes['cca3'];
     }
 
     public function getNumericCode()
     {
-        return $this->data[self::$$ISO3166_NUMERIC_3];
+        return $this->attributes['ccn3'];
     }
 
-    public function getRawData()
+    public function getOfficialName()
     {
-        return $this->data;
+        return $this->attributes['name']['official'];
     }
 
-    public function __get($name)
-        if (array_key_exists($name, $this->data)) {
-            return $this->data[$name];
+    /**
+     * Dynamically retrieve attributes on the model.
+     *
+     * @param  string  $key
+     * @return mixed
+     */
+    public function __get($key)
+    {
+        if (array_key_exists($key, $this->attributes)) {
+            return $this->attributes[$key];
         }
+    }
 
-        $trace = debug_backtrace();
-        trigger_error(
-            'Undefined property via __get(): ' . $name .
-            ' in ' . $trace[0]['file'] .
-            ' on line ' . $trace[0]['line'],
-            E_USER_NOTICE);
-        return null;
+    /**
+     * Determine if the given attribute exists.
+     *
+     * @param  mixed  $offset
+     * @return bool
+     */
+    public function offsetExists($offset)
+    {
+        return isset($this->$offset);
+    }
+
+    /**
+     * Get the value for a given offset.
+     *
+     * @param  mixed  $offset
+     * @return mixed
+     */
+    public function offsetGet($offset)
+    {
+        return $this->$offset;
+    }
+
+    /**
+     * Set the value for a given offset.
+     *
+     * @param  mixed  $offset
+     * @param  mixed  $value
+     * @return void
+     */
+    public function offsetSet($offset, $value)
+    {
+        $this->$offset = $value;
+    }
+
+    /**
+     * Unset the value for a given offset.
+     *
+     * @param  mixed  $offset
+     * @return void
+     */
+    public function offsetUnset($offset)
+    {
+        unset($this->$offset);
+    }
+
+    /**
+     * Determine if an attribute exists on the model.
+     *
+     * @param  string  $key
+     * @return bool
+     */
+    public function __isset($key)
+    {
+        return isset($this->attributes[$key]);
+    }
+
+    /**
+     * Unset an attribute on the model.
+     *
+     * @param  string  $key
+     * @return void
+     */
+    public function __unset($key)
+    {
+        unset($this->attributes[$key]);
+    }
 }

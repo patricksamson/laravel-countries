@@ -9,13 +9,13 @@ class IntegrationTest extends LaravelCountriesTestCase
     {
         $countries = $this->app['countries'];
         $country = $countries->getByAlpha2Code('CA');
-        $this->assertEquals('Canada', $country['name']['official']);
+        $this->assertEquals('Canada', $country->getOfficialName());
     }
 
     /** @test */
     public function it_resolves_from_facade()
     {
         $country = \Countries::getByAlpha2Code('CA');
-        $this->assertEquals('Canada', $country['name']['official']);
+        $this->assertEquals('Canada', $country->getOfficialName());
     }
 }

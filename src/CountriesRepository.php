@@ -25,31 +25,67 @@ class CountriesRepository
         }
     }
 
+    /**
+     * Get the country from it's 2-letters country code from ISO3166.
+     *
+     * @param  string $code The country's code.
+     * @return Country   The matching country.
+     */
     public function getByAlpha2Code($code)
     {
         return $this->searchItem('cca2', strtoupper($code));
     }
 
+    /**
+     * Get the country from it's 3-letters country code from ISO3166.
+     *
+     * @param  string $code The country's code.
+     * @return Country   The matching country.
+     */
     public function getByAlpha3Code($code)
     {
         return $this->searchItem('cca3', strtoupper($code));
     }
 
+    /**
+     * Get the country from it's 3-digits country code from ISO3166.
+     *
+     * @param  int $code The country's code.
+     * @return Country   The matching country.
+     */
     public function getByNumericCode($code)
     {
         return $this->searchItem('ccn3', $code);
     }
 
+    /**
+     * Get all the countries in a region.
+     *
+     * @param  string $region The region name
+     * @return array   An array of the matching countries.
+     */
     public function getByRegion($region)
     {
         return $this->searchArray('region', $region);
     }
 
+    /**
+     * Get all the countries in a subregion.
+     *
+     * @param  string $region The subregion name
+     * @return array   An array of the matching countries.
+     */
     public function getBySubregion($subregion)
     {
         return $this->searchArray('subregion', $subregion);
     }
 
+    /**
+     * Get all the countries using this currency.
+     *
+     * @param  string $region The currency code
+     * @return array   An array of the matching countries.
+     */
     public function getByCurrency($currency)
     {
         $results = array_filter($this->data, function ($value) use ($currency) {

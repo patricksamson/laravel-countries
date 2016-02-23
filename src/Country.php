@@ -13,21 +13,41 @@ class Country implements ArrayAccess
         $this->attributes = $attributes;
     }
 
+    /**
+     * Get this country's 2-letters country code from ISO3166.
+     *
+     * @return string   The 2-letters country code
+     */
     public function getAlpha2Code()
     {
         return $this->attributes['cca2'];
     }
 
+    /**
+     * Get this country's 3-letters country code from ISO3166.
+     *
+     * @return string   The 3-letters country code
+     */
     public function getAlpha3Code()
     {
         return $this->attributes['cca3'];
     }
 
+    /**
+     * Get this country's 3-digits country code from ISO3166.
+     *
+     * @return int   The 3-digits country code
+     */
     public function getNumericCode()
     {
         return $this->attributes['ccn3'];
     }
 
+    /**
+     * Get this country's official name.
+     *
+     * @return string   The country's official name
+     */
     public function getOfficialName()
     {
         return $this->attributes['name']['official'];

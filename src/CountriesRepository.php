@@ -27,53 +27,78 @@ class CountriesRepository
 
     public function getByAlpha2Code($code)
     {
-        return $this->getItemWhere('cca2', strtoupper($code));
+        return $this->searchItem('cca2', strtoupper($code));
     }
 
     public function getByAlpha3Code($code)
     {
-        return $this->getItemWhere('cca3', strtoupper($code));
+        return $this->searchItem('cca3', strtoupper($code));
     }
 
     public function getByNumericCode($code)
     {
-        return $this->getItemWhere('ccn3', $code);
+        return $this->searchItem('ccn3', $code);
     }
 
     public function getByRegion($region)
     {
-        return $this->getListWhere('region', $region);
+        return $this->searchArray('region', $region);
     }
 
     public function getBySubregion($subregion)
     {
-        return $this->getListWhere('subregion', $subregion);
+        return $this->searchArray('subregion', $subregion);
     }
 
     public function getByCurrency($currency)
     {
-        return $this->getListWhere('currency', $currency);
+        $results = array_filter($this->data, function ($value) use ($currency) {
+            return in_array($currency, $value['currency']);
+        });
+
+        $countries = [];
+
+        foreach ($results as $value) {
+            $countries[] = new Country($value);
+        }
+
+        return $countries;
     }
 
     /**
      * Get a single Country by filtering this column.
+     *
      * @param  string $columnKey The column to filter
      * @param  mixed $input     The value to filter for
-     * @return Lykegenes\LaravelCountries\Country|null            The matching country or null
+     * @return Lykegenes\LaravelCountries\Country|null  The matching country or null
      */
-    protected function getItemWhere($columnKey, $input)
+    protected function searchItem($columnKey, $input)
     {
+        // Only the first matching key will be returned, or null.
         $key = array_search($input, array_column($this->data, $columnKey));
 
         return new Country($this->data[$key]);
     }
 
-    protected function getListWhere($columnKey, $input)
+    /**
+     * Get an array of Countries by filtering this column.
+     *
+     * @param  string $columnKey The column to filter
+     * @param  mixed $input     The value to filter for
+     * @return Lykegenes\LaravelCountries\Country|null  The matching country or null
+     */
+    protected function searchArray($columnKey, $input)
     {
-        $keys = array_flip(array_keys(array_column($this->data, $columnKey), $input));
-        $keys = array_intersect_key($this->data, $keys);
-        $countries = [];
+        // Apply filter on the dataset.
+        $keys = array_keys(array_column($this->data, $columnKey), $input);
 
+        // Flip the keys and values to get the original keys from the dataset.
+        $keys = array_flip($keys);
+
+        // Extract the matching keys and associated data from the dataset.
+        $keys = array_intersect_key($this->data, $keys);
+
+        $countries = [];
         foreach ($keys as $value) {
             $countries[] = new Country($value);
         }

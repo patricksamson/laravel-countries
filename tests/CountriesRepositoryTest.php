@@ -50,4 +50,13 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
         $this->assertContains('CA', $codes);
         $this->assertNotContains('FR', $codes);
     }
+    /** @test */
+    public function it_gets_countries_by_currency()
+    {
+        $results = $this->countries->getByCurrency('CAD');
+        $codes = array_column($results, 'cca2');
+
+        $this->assertContains('CA', $codes);
+        $this->assertNotContains('FR', $codes);
+    }
 }

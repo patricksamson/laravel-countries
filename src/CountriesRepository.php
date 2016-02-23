@@ -92,13 +92,7 @@ class CountriesRepository
             return in_array($currency, $value['currency']);
         });
 
-        $countries = [];
-
-        foreach ($results as $value) {
-            $countries[] = new Country($value);
-        }
-
-        return $countries;
+        return $this->castArrayToCountries($results);
     }
 
     /**
@@ -134,16 +128,22 @@ class CountriesRepository
         // Extract the matching keys and associated data from the dataset.
         $keys = array_intersect_key($this->data, $keys);
 
-        $countries = [];
-        foreach ($keys as $value) {
-            $countries[] = new Country($value);
-        }
-
-        return $countries;
+        return $this->castArrayToCountries($keys);
     }
 
     public function getRawData()
     {
         return $this->data;
+    }
+
+    protected function castArrayToCountries(array $inputArray)
+    {
+        $countries = [];
+        foreach ($inputArray as $value) {
+            $country = new Country($value);
+            $countries[$country->getAlpha2Code()] = $country;
+        }
+
+        return $countries;
     }
 }

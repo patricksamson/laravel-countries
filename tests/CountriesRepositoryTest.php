@@ -44,8 +44,8 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
         $codes = array_column($results, 'cca2');
 
         $this->assertContainsOnlyInstancesOf(\Lykegenes\LaravelCountries\Country::class, $results);
-        $this->assertContains('CA', $codes);
-        $this->assertNotContains('FR', $codes);
+        $this->assertArrayHasKey('CA', $results);
+        $this->assertArrayNotHasKey('FR', $results);
     }
 
     /** @test */
@@ -55,19 +55,16 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
         $codes = array_column($results, 'cca2');
 
         $this->assertContainsOnlyInstancesOf(\Lykegenes\LaravelCountries\Country::class, $results);
-        $this->assertContains('CA', $codes);
-        $this->assertNotContains('FR', $codes);
+        $this->assertArrayHasKey('CA', $results);
+        $this->assertArrayNotHasKey('FR', $results);
     }
     /** @test */
     public function it_gets_countries_by_currency()
     {
         $results = $this->countries->getByCurrency('CAD');
-        var_dump($results);
-        $codes = array_column($results, 'cca2');
-        var_dump($codes);
 
         $this->assertContainsOnlyInstancesOf(\Lykegenes\LaravelCountries\Country::class, $results);
-        $this->assertContains('CA', $codes);
-        $this->assertNotContains('FR', $codes);
+        $this->assertArrayHasKey('CA', $results);
+        $this->assertArrayNotHasKey('FR', $results);
     }
 }

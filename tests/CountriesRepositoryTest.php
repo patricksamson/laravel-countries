@@ -62,6 +62,7 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
     public function it_gets_countries_by_currency()
     {
         $results = $this->countries->getByCurrency('CAD');
+        var_dump($results);
         $codes = array_column($results, 'cca2');
         var_dump($codes);
 

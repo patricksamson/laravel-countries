@@ -146,4 +146,20 @@ class CountriesRepository
 
         return $countries;
     }
+
+    /**
+     * Get an array of all countries with the format provided by parameter.
+     *
+     * @param  string $format The format to receive the 
+     * @param  string $language The language you want the data to be received (3 letter code)
+     * @param  string $common OPTIONAL The common name (value="common") or the official name (value="official")
+     * @return array   An array of the countries with their format as the option value for your select
+     */
+    public function getCountriesArrayForSelect($format, $language, $common = "common"){
+        $countries = array();
+        foreach ($this->getRawData() as $country) {
+            $countries[$country[$format]] = $country['translations'][$language][$common];
+        }
+        return $countries;
+    }
 }

@@ -58,6 +58,7 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
         $this->assertArrayHasKey('CA', $results);
         $this->assertArrayNotHasKey('FR', $results);
     }
+
     /** @test */
     public function it_gets_countries_by_currency()
     {
@@ -66,5 +67,33 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
         $this->assertContainsOnlyInstancesOf(\Lykegenes\LaravelCountries\Country::class, $results);
         $this->assertArrayHasKey('CA', $results);
         $this->assertArrayNotHasKey('FR', $results);
+    }
+
+    /** @test */
+    public function it_returns_list_form_dropdown()
+    {
+        // Test the key parameter
+        $results = $this->countries->getListForDropdown('cca2');
+        $this->assertArrayHasKey('US', $results);
+
+        $results = $this->countries->getListForDropdown('cca3');
+        $this->assertArrayHasKey('USA', $results);
+
+        // Test the Official parameter
+        $results = $this->countries->getListForDropdown('cca3', false);
+        $this->assertEquals('United States', $results['USA']);
+
+        $results = $this->countries->getListForDropdown('cca3', true);
+        $this->assertEquals('United States of America', $results['USA']);
+
+        // Test the Localization parameter
+        $results = $this->countries->getListForDropdown('cca3', false, null);
+        $this->assertEquals('United States', $results['USA']);
+
+        $results = $this->countries->getListForDropdown('cca3', false, 'fra');
+        $this->assertEquals('États-Unis', $results['USA']);
+
+        $results = $this->countries->getListForDropdown('cca3', true, 'fra');
+        $this->assertEquals("Les états-unis d'Amérique", $results['USA']);
     }
 }

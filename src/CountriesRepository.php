@@ -96,6 +96,32 @@ class CountriesRepository
     }
 
     /**
+     * Get a dropdown-ready list of countries.
+     *
+     * @param  string  $key          The country attribute to use as key.
+     * @param  bool $official     True for the offical country name, False for the common name.
+     * @param  string  $localization A 3-letter locale code to try to translate. Will default to English if it`s missing.
+     * @return array                 An array composed of the selected Keys, and the Countries names as values.
+     */
+    public function getListForDropdown($key = 'cca3', $official = false, $localization = null)
+    {
+        $list = [];
+
+        $size = sizeOf($this->data);
+        for ($i = 0; $i < $size; $i++) {
+            // Try to get the translated names, if they are present
+            $names = ($localization === null || ! isset($this->data[$i]['translations'][$localization]))
+                    ? $this->data[$i]['name']
+                    : $this->data[$i]['translations'][$localization];
+
+            // Set this country in the list to either it's Official or common name
+            $list[$this->data[$i][$key]] = $official ? $names['official'] : $names['common'];
+        }
+
+        return $list;
+    }
+
+    /**
      * Get a single Country by filtering this column.
      *
      * @param  string $columnKey The column to filter

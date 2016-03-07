@@ -14,17 +14,12 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $configPath = __DIR__.'/../config/config.php';
-        $this->mergeConfigFrom($configPath, 'countries');
-
         $this->app->singleton('countries', \Lykegenes\LaravelCountries\CountriesRepository::class);
     }
 
     public function boot()
     {
-        $configPath = __DIR__.'/../config/config.php';
-
-        $this->publishes([$configPath => $this->getConfigPath()], 'config');
+        // no config to publish.
     }
 
     /**
@@ -33,15 +28,5 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function provides()
     {
         return ['countries'];
-    }
-
-    /**
-     * Get the config path.
-     *
-     * @return string
-     */
-    protected function getConfigPath()
-    {
-        return config_path('countries.php');
     }
 }

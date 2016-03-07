@@ -28,12 +28,6 @@ Lykegenes\LaravelCountries\ServiceProvider::class,
 'Countries' => Lykegenes\LaravelCountries\Facades\Countries::class,
 ```
 
-Optionally, you can publish and edit the configuration file :
-
-``` bash
-php artisan vendor:publish --provider="Lykegenes\LaravelCountries\ServiceProvider" --tag=config
-```
-
 ## Usage
 
 You can search for a specific country using one of the following unique country codes :

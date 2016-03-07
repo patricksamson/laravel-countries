@@ -107,7 +107,7 @@ class CountriesRepository
     {
         $list = [];
 
-        $size = sizeOf($this->data);
+        $size = count($this->data);
         for ($i = 0; $i < $size; $i++) {
             // Try to get the translated names, if they are present
             $names = ($localization === null || ! isset($this->data[$i]['translations'][$localization]))

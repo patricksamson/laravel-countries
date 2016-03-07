@@ -80,20 +80,20 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
         $this->assertArrayHasKey('USA', $results);
 
         // Test the Official parameter
-        $results = $this->countries->getListForDropdown('cca3', false);
+        $results = $this->countries->getListForDropdown('cca3', $official = false);
         $this->assertEquals('United States', $results['USA']);
 
-        $results = $this->countries->getListForDropdown('cca3', true);
+        $results = $this->countries->getListForDropdown('cca3', $official = true);
         $this->assertEquals('United States of America', $results['USA']);
 
         // Test the Localization parameter
-        $results = $this->countries->getListForDropdown('cca3', false, null);
+        $results = $this->countries->getListForDropdown('cca3', $official = false, null);
         $this->assertEquals('United States', $results['USA']);
 
-        $results = $this->countries->getListForDropdown('cca3', false, 'fra');
+        $results = $this->countries->getListForDropdown('cca3', $official = false, 'fra');
         $this->assertEquals('États-Unis', $results['USA']);
 
-        $results = $this->countries->getListForDropdown('cca3', true, 'fra');
+        $results = $this->countries->getListForDropdown('cca3', $official = true, 'fra');
         $this->assertEquals("Les états-unis d'Amérique", $results['USA']);
     }
 }

@@ -12,5 +12,5 @@ trait RegionsTrait
     public static $REGION_ASIA = 'Asia';
     public static $REGION_EUROPE = 'Europe';
     public static $REGION_OCEANIA = 'Oceania';
-    public static $REGION_NONE = '';
+    public static $REGION_ANTARCTIC = 'Antarctic';
 }

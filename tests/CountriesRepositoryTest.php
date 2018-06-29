@@ -51,7 +51,7 @@ class CountriesRepositoryTest extends LaravelCountriesTestCase
     /** @test */
     public function it_gets_countries_by_subregion()
     {
-        $results = $this->countries->getBySubregion('Northern America');
+        $results = $this->countries->getBySubregion('North America');
         $codes = array_column($results, 'cca2');
 
         $this->assertContainsOnlyInstancesOf(\Lykegenes\LaravelCountries\Country::class, $results);

@@ -47,7 +47,7 @@ $countries = \Countries::getByRegion(\Countries::$REGION_AMERICAS);
 $countries = \Countries::getByRegion(\Countries::$REGION_ASIA);
 $countries = \Countries::getByRegion(\Countries::$REGION_EUROPE);
 $countries = \Countries::getByRegion(\Countries::$REGION_OCEANIA);
-$countries = \Countries::getByRegion(\Countries::$REGION_NONE); // Antarctica amongst others.
+$countries = \Countries::getByRegion(\Countries::$REGION_ANTARCTIC);
 ```
 
 Results will be returned as Country objects. These objects have the following helper methods :

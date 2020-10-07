@@ -2,8 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Code Coverage][ico-coveralls]][link-coveralls]
+![Build Status][ico-github-action]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 This package gives you access effortlessly to data from every country.
@@ -14,18 +13,6 @@ Via Composer
 
 ``` bash
 composer require lykegenes/laravel-countries
-```
-
-Then, add this to your Service Providers :
-
-``` php
-Lykegenes\LaravelCountries\ServiceProvider::class,
-```
-
-...and this to your Aliases :
-
-``` php
-'Countries' => Lykegenes\LaravelCountries\Facades\Countries::class,
 ```
 
 ## Usage
@@ -44,10 +31,10 @@ $countries = \Countries::getByCurrency('CAD'); /// A 3-letters currency code
 // Search by region
 $countries = \Countries::getByRegion(\Countries::$REGION_AFRICA);
 $countries = \Countries::getByRegion(\Countries::$REGION_AMERICAS);
+$countries = \Countries::getByRegion(\Countries::$REGION_ANTARCTICA);
 $countries = \Countries::getByRegion(\Countries::$REGION_ASIA);
 $countries = \Countries::getByRegion(\Countries::$REGION_EUROPE);
 $countries = \Countries::getByRegion(\Countries::$REGION_OCEANIA);
-$countries = \Countries::getByRegion(\Countries::$REGION_NONE); // Antarctica amongst others.
 ```
 
 Results will be returned as Country objects. These objects have the following helper methods :
@@ -90,13 +77,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/lykegenes/laravel-countries.svg
 [ico-license]: https://img.shields.io/packagist/l/lykegenes/laravel-countries.svg
-[ico-travis]: https://img.shields.io/travis/Lykegenes/laravel-countries/master.svg
-[ico-coveralls]: https://img.shields.io/coveralls/Lykegenes/laravel-countries.svg
+[ico-github-action]: https://github.com/patricksamson/laravel-countries/workflows/Run%20Tests/badge.svg?branch=master
 [ico-downloads]: https://img.shields.io/packagist/dt/lykegenes/laravel-countries.svg
 
 [link-packagist]: https://packagist.org/packages/lykegenes/laravel-countries
-[link-travis]: https://travis-ci.org/Lykegenes/laravel-countries
-[link-coveralls]: https://coveralls.io/github/Lykegenes/laravel-countries
 [link-downloads]: https://packagist.org/packages/lykegenes/laravel-countries
 [link-author]: https://github.com/lykegenes
 [link-contributors]: ../../contributors

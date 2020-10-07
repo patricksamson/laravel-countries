@@ -2,8 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Code Coverage][ico-coveralls]][link-coveralls]
+![Build Status][ico-github-action]]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 This package gives you access effortlessly to data from every country.
@@ -78,13 +77,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/lykegenes/laravel-countries.svg
 [ico-license]: https://img.shields.io/packagist/l/lykegenes/laravel-countries.svg
-[ico-travis]: https://img.shields.io/travis/Lykegenes/laravel-countries/master.svg
-[ico-coveralls]: https://img.shields.io/coveralls/Lykegenes/laravel-countries.svg
+[ico-github-action]: https://github.com/patricksamson/laravel-countries/workflows/Run%20Tests/badge.svg?branch=master
 [ico-downloads]: https://img.shields.io/packagist/dt/lykegenes/laravel-countries.svg
 
 [link-packagist]: https://packagist.org/packages/lykegenes/laravel-countries
-[link-travis]: https://travis-ci.org/Lykegenes/laravel-countries
-[link-coveralls]: https://coveralls.io/github/Lykegenes/laravel-countries
 [link-downloads]: https://packagist.org/packages/lykegenes/laravel-countries
 [link-author]: https://github.com/lykegenes
 [link-contributors]: ../../contributors

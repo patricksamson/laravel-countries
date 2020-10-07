@@ -16,18 +16,6 @@ Via Composer
 composer require lykegenes/laravel-countries
 ```
 
-Then, add this to your Service Providers :
-
-``` php
-Lykegenes\LaravelCountries\ServiceProvider::class,
-```
-
-...and this to your Aliases :
-
-``` php
-'Countries' => Lykegenes\LaravelCountries\Facades\Countries::class,
-```
-
 ## Usage
 
 You can search for a specific country using one of the following unique country codes :

@@ -6,7 +6,7 @@ class CountryTest extends LaravelCountriesTestCase
 {
     protected $country;
 
-    public function setUp()
+    public function setUp():void
     {
         parent::setUp();
 

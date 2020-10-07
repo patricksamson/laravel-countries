@@ -9,8 +9,8 @@ trait RegionsTrait
      */
     public static $REGION_AFRICA = 'Africa';
     public static $REGION_AMERICAS = 'Americas';
+    public static $REGION_ANTARCTIC = 'Antarctic';
     public static $REGION_ASIA = 'Asia';
     public static $REGION_EUROPE = 'Europe';
     public static $REGION_OCEANIA = 'Oceania';
-    public static $REGION_NONE = '';
 }

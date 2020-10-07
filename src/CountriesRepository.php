@@ -2,26 +2,21 @@
 
 namespace Lykegenes\LaravelCountries;
 
+use Exception;
+
 class CountriesRepository
 {
     use RegionsTrait;
-
-    /**
-     * Dependencies paths.
-     */
-    protected static $PROD_PATH = __DIR__.'/../../../mledoze/countries/dist/countries-unescaped.json';
-    protected static $DEV_PATH = __DIR__.'/../vendor/mledoze/countries/dist/countries-unescaped.json';
 
     protected $data = [];
 
     public function __construct()
     {
-        if (file_exists(self::$PROD_PATH)) {
-            $this->data = json_decode(file_get_contents(self::$PROD_PATH), true);
-        } elseif (file_exists(self::$DEV_PATH)) {
-            $this->data = json_decode(file_get_contents(self::$DEV_PATH), true);
+        $countriesJsonPath = './vendor/mledoze/countries/dist/countries-unescaped.json';
+        if (file_exists($countriesJsonPath)) {
+            $this->data = json_decode(file_get_contents($countriesJsonPath), true);
         } else {
-            throw new Exception(sprintf('Cannot find the file "%s".', self::$PROD_PATH));
+            throw new Exception(sprintf('Cannot find the file "%s".', $countriesJsonPath));
         }
     }
 
@@ -89,7 +84,7 @@ class CountriesRepository
     public function getByCurrency($currency)
     {
         $results = array_filter($this->data, function ($value) use ($currency) {
-            return in_array($currency, $value['currency']);
+            return array_key_exists($currency, $value['currencies']);
         });
 
         return $this->castArrayToCountries($results);

@@ -12,11 +12,15 @@ class CountriesRepository
 
     public function __construct()
     {
-        $countriesJsonPath = './vendor/mledoze/countries/dist/countries-unescaped.json';
-        if (file_exists($countriesJsonPath)) {
-            $this->data = json_decode(file_get_contents($countriesJsonPath), true);
+        $countriesJsonPath = config('laravel-countries.countries_json_path', null);
+        if (is_null($countriesJsonPath)) {
+            $this->data = CountriesDataSource::COUNTRIES_DATA;
         } else {
-            throw new Exception(sprintf('Cannot find the file "%s".', $countriesJsonPath));
+            if (file_exists($countriesJsonPath)) {
+                $this->data = json_decode(file_get_contents($countriesJsonPath), true);
+            } else {
+                throw new Exception(sprintf('Cannot find the file "%s".', $countriesJsonPath));
+            }
         }
     }
 

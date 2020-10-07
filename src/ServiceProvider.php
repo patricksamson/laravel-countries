@@ -14,12 +14,18 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
+        $this->mergeConfigFrom(
+            __DIR__.'/config/laravel-countries.php', 'laravel-countries'
+        );
+
         $this->app->singleton('countries', \Lykegenes\LaravelCountries\CountriesRepository::class);
     }
 
     public function boot()
     {
-        // no config to publish.
+        $this->publishes([
+            __DIR__.'/config/laravel-countries.php' => config_path('laravel-countries.php'),
+        ]);
     }
 
     /**

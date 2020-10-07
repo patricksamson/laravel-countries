@@ -77,7 +77,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/lykegenes/laravel-countries.svg
 [ico-license]: https://img.shields.io/packagist/l/lykegenes/laravel-countries.svg
-[ico-github-action]: https://github.com/patricksamson/laravel-countries/workflows/Run%20Tests/badge.svg?branch=master
+[ico-github-action]: https://github.com/patricksamson/laravel-countries/workflows/Run%20Tests%20-%20Current/badge.svg?branch=master
 [ico-downloads]: https://img.shields.io/packagist/dt/lykegenes/laravel-countries.svg
 
 [link-packagist]: https://packagist.org/packages/lykegenes/laravel-countries

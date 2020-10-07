@@ -12,12 +12,13 @@ class CountriesRepository
 
     public function __construct()
     {
-        $countriesJsonPath = './vendor/mledoze/countries/dist/countries-unescaped.json';
+        /*$countriesJsonPath = './vendor/mledoze/countries/dist/countries-unescaped.json';
         if (file_exists($countriesJsonPath)) {
             $this->data = json_decode(file_get_contents($countriesJsonPath), true);
         } else {
             throw new Exception(sprintf('Cannot find the file "%s".', $countriesJsonPath));
-        }
+        }*/
+        $this->data = CountriesDataSource::COUNTRIES_DATA;
     }
 
     /**

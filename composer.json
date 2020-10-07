@@ -33,7 +33,8 @@
         }
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit",
+        "compile-data-source": "php ./scripts/compile-data-source.php"
     },
     "extra": {
         "laravel": {

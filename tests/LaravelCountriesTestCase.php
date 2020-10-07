@@ -9,7 +9,7 @@ abstract class LaravelCountriesTestCase extends \Orchestra\Testbench\TestCase
      */
     protected $countries;
 
-    public function setUp()
+    public function setUp():void
     {
         parent::setUp();
 

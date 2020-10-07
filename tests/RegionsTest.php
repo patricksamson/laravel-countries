@@ -9,21 +9,23 @@ class RegionsTest extends LaravelCountriesTestCase
     {
         $africa = $this->countries->getByRegion(\Countries::$REGION_AFRICA);
         $americas = $this->countries->getByRegion(\Countries::$REGION_AMERICAS);
+        $antartic = $this->countries->getByRegion(\Countries::$REGION_ANTARCTIC);
         $asia = $this->countries->getByRegion(\Countries::$REGION_ASIA);
         $europe = $this->countries->getByRegion(\Countries::$REGION_EUROPE);
         $oceania = $this->countries->getByRegion(\Countries::$REGION_OCEANIA);
-        $others = $this->countries->getByRegion(\Countries::$REGION_NONE);
 
         // No region should be empty
         $this->assertNotEmpty($africa);
         $this->assertNotEmpty($americas);
+        $this->assertNotEmpty($antartic);
         $this->assertNotEmpty($asia);
         $this->assertNotEmpty($europe);
         $this->assertNotEmpty($oceania);
-        $this->assertNotEmpty($others);
 
         // Make sure the totals match
-        $this->assertEquals(count($this->countries->getRawData()),
-            count($africa) + count($americas) + count($asia) + count($europe) + count($oceania) + count($others));
+        $this->assertEquals(
+            count($this->countries->getRawData()),
+            count($africa) + count($americas) + count($antartic) + count($asia) + count($europe) + count($oceania)
+        );
     }
 }

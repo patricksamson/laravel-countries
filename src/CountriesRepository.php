@@ -12,7 +12,7 @@ class CountriesRepository
 
     public function __construct()
     {
-        $countriesJsonPath = config('laravel-countries.config_json_path', null);
+        $countriesJsonPath = config('laravel-countries.countries_json_path', null);
         if (is_null($countriesJsonPath)) {
             $this->data = CountriesDataSource::COUNTRIES_DATA;
         } else {

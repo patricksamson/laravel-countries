@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-![Build Status][ico-github-action]]
+![Build Status][ico-github-action]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 This package gives you access effortlessly to data from every country.
@@ -31,10 +31,10 @@ $countries = \Countries::getByCurrency('CAD'); /// A 3-letters currency code
 // Search by region
 $countries = \Countries::getByRegion(\Countries::$REGION_AFRICA);
 $countries = \Countries::getByRegion(\Countries::$REGION_AMERICAS);
+$countries = \Countries::getByRegion(\Countries::$REGION_ANTARCTICA);
 $countries = \Countries::getByRegion(\Countries::$REGION_ASIA);
 $countries = \Countries::getByRegion(\Countries::$REGION_EUROPE);
 $countries = \Countries::getByRegion(\Countries::$REGION_OCEANIA);
-$countries = \Countries::getByRegion(\Countries::$REGION_NONE); // Antarctica amongst others.
 ```
 
 Results will be returned as Country objects. These objects have the following helper methods :

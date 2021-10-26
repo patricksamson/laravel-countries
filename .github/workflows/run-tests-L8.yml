@@ -1,5 +1,5 @@
 
-name: "Run Tests - Current"
+name: "Run Tests - Laravel 8"
 
 on:
   push:

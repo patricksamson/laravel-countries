@@ -9,8 +9,7 @@ on:
     - cron: '58 3 * * 0'
 
 jobs:
-  test:
-
+  update-data-source:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,8 +19,17 @@ jobs:
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction
 
+      - name: Show data source package details
+        run: composer show mledoze/countries
+
       - name: Compile data source
-        run: php ./scripts/compile-data-source.php
+        run: composer compile-data-source
 
       - name: Execute tests
-        run: vendor/bin/phpunit
+        run: composer test
+
+      - name: Create PR for the release branch
+        run: gh pr create --base master --title "[$(date +%F)] Update data source" --body "Update data source to the latest version."
+
+      #- name: Set the newly created PR to auto merge
+      #  run: gh pr merge --auto --merge

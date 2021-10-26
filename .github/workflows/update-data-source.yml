@@ -53,7 +53,13 @@ jobs:
       - name: Show Git status
         run: git status
 
+      - name: Check if working directory is dirty
+        id: vars
+        shell: bash
+        run: echo "##[set-output name=git-dirty;]$(echo git diff HEAD)"
+
       - name: Create commit on a new branch
+        if: ${{ steps.vars.outputs.git-dirty != '' }}
         run: |
           # Stage the file, commit and push
           git add src/CountriesDataSource.php
@@ -61,6 +67,7 @@ jobs:
           git push origin data-source-updates/$(date +%F)
 
       - name: Create PR for the release branch
+        if: ${{ steps.vars.outputs.git-dirty != '' }}
         run: gh pr create --base master --head data-source-updates/$(date +%F) --label "DataSource Update" --title "[$(date +%F)] DataSource Update" --body "Update data source to the latest version."
 
       #- name: Set the newly created PR to auto merge

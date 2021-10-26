@@ -1,7 +1,12 @@
 
 name: "Run Tests - Current"
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+    # Every Sunday at 03:58
+    - cron: '58 3 * * 0'
 
 jobs:
   test:

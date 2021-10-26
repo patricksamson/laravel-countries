@@ -1,0 +1,67 @@
+
+name: "Update data source"
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+  schedule:
+    # Every Sunday at 03:58
+    - cron: '58 3 * * 0'
+
+jobs:
+  update-data-source:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.0'
+
+      - name: Install dependencies
+        run: composer update --prefer-dist --no-interaction
+
+      - name: Show data source package details
+        run: composer show mledoze/countries
+
+      - name: Compile data source
+        run: composer compile-data-source
+
+      - name: Execute tests
+        run: composer test
+
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Create new branch and switch
+        run: |
+          git branch data-source-updates/$(date +%F)
+          git switch data-source-updates/$(date +%F)
+
+      - name: Show Git status
+        run: git status
+
+      - name: Create commit on a new branch
+        run: |
+          # Stage the file, commit and push
+          git add src/CountriesDataSource.php
+          git commit -m "[$(date +%F)] DataSource Update"
+          git push origin data-source-updates/$(date +%F)
+
+      - name: Create PR for the release branch
+        run: gh pr create --base master --head data-source-updates/$(date +%F) --label "DataSource Update" --title "[$(date +%F)] DataSource Update" --body "Update data source to the latest version."
+
+      #- name: Set the newly created PR to auto merge
+      #  run: gh pr merge --auto --merge

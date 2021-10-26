@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - 'master'
-  pull_request:
   schedule:
     # Every Sunday at 03:58
     - cron: '58 3 * * 0'

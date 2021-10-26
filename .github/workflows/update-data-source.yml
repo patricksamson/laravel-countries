@@ -12,6 +12,9 @@ jobs:
   update-data-source:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

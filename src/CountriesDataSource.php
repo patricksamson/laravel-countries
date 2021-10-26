@@ -32,6 +32,7 @@ class CountriesDataSource
     'cioc' => 'ARU',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'AWG' => [
         'name' => 'Aruban florin',
@@ -65,11 +66,23 @@ class CountriesDataSource
         'official' => 'Aruba',
         'common' => 'Aruba',
       ],
+      'est' => [
+        'official' => 'Aruba',
+        'common' => 'Aruba',
+      ],
+      'fin' => [
+        'official' => 'Aruba',
+        'common' => 'Aruba',
+      ],
       'fra' => [
         'official' => 'Aruba',
         'common' => 'Aruba',
       ],
       'hrv' => [
+        'official' => 'Aruba',
+        'common' => 'Aruba',
+      ],
+      'hun' => [
         'official' => 'Aruba',
         'common' => 'Aruba',
       ],
@@ -81,7 +94,19 @@ class CountriesDataSource
         'official' => 'アルバ',
         'common' => 'アルバ',
       ],
+      'kor' => [
+        'official' => '아루바',
+        'common' => '아루바',
+      ],
       'nld' => [
+        'official' => 'Aruba',
+        'common' => 'Aruba',
+      ],
+      'per' => [
+        'official' => 'آروبا',
+        'common' => 'آروبا',
+      ],
+      'pol' => [
         'official' => 'Aruba',
         'common' => 'Aruba',
       ],
@@ -101,19 +126,7 @@ class CountriesDataSource
         'official' => 'Aruba',
         'common' => 'Aruba',
       ],
-      'fin' => [
-        'official' => 'Aruba',
-        'common' => 'Aruba',
-      ],
-      'est' => [
-        'official' => 'Aruba',
-        'common' => 'Aruba',
-      ],
-      'zho' => [
-        'official' => '阿鲁巴',
-        'common' => '阿鲁巴',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Aruba',
         'common' => 'Aruba',
       ],
@@ -121,13 +134,9 @@ class CountriesDataSource
         'official' => 'اروبا',
         'common' => 'اروبا',
       ],
-      'kor' => [
-        'official' => '아루바',
-        'common' => '아루바',
-      ],
-      'per' => [
-        'official' => 'آروبا',
-        'common' => 'آروبا',
+      'zho' => [
+        'official' => '阿鲁巴',
+        'common' => '阿鲁巴',
       ],
     ],
     'latlng' => [
@@ -148,6 +157,9 @@ class CountriesDataSource
         'f' => 'Arubaise',
         'm' => 'Arubais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+297',
     ],
   ],
   1 => [
@@ -178,6 +190,7 @@ class CountriesDataSource
     'cioc' => 'AFG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AFN' => [
         'name' => 'Afghan afghani',
@@ -217,6 +230,14 @@ class CountriesDataSource
         'official' => 'Islamische Republik Afghanistan',
         'common' => 'Afghanistan',
       ],
+      'est' => [
+        'official' => 'Afganistani Islamivabariik',
+        'common' => 'Afganistan',
+      ],
+      'fin' => [
+        'official' => 'Afganistanin islamilainen tasavalta',
+        'common' => 'Afganistan',
+      ],
       'fra' => [
         'official' => 'République islamique d\'Afghanistan',
         'common' => 'Afghanistan',
@@ -224,6 +245,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Islamska Republika Afganistan',
         'common' => 'Afganistan',
+      ],
+      'hun' => [
+        'official' => 'Afganisztáni Iszlám Köztársaság',
+        'common' => 'Afganisztán',
       ],
       'ita' => [
         'official' => 'Repubblica islamica dell\'Afghanistan',
@@ -233,9 +258,21 @@ class CountriesDataSource
         'official' => 'アフガニスタン·イスラム共和国',
         'common' => 'アフガニスタン',
       ],
+      'kor' => [
+        'official' => '아프가니스탄 이슬람 공화국',
+        'common' => '아프가니스탄',
+      ],
       'nld' => [
         'official' => 'Islamitische Republiek Afghanistan',
         'common' => 'Afghanistan',
+      ],
+      'per' => [
+        'official' => 'جمهوری اسلامی افغانستان',
+        'common' => 'افغانستان',
+      ],
+      'pol' => [
+        'official' => 'Islamska Republika Afganistanu',
+        'common' => 'Afganistan',
       ],
       'por' => [
         'official' => 'República Islâmica do Afeganistão',
@@ -253,33 +290,17 @@ class CountriesDataSource
         'official' => 'República Islámica de Afganistán',
         'common' => 'Afganistán',
       ],
-      'fin' => [
-        'official' => 'Afganistanin islamilainen tasavalta',
-        'common' => 'Afganistan',
-      ],
-      'est' => [
-        'official' => 'Afganistani Islamivabariik',
-        'common' => 'Afganistan',
-      ],
-      'zho' => [
-        'official' => '阿富汗伊斯兰共和国',
-        'common' => '阿富汗',
-      ],
-      'pol' => [
-        'official' => 'Islamska Republika Afganistanu',
-        'common' => 'Afganistan',
+      'swe' => [
+        'official' => 'Islamiska republiken Afghanistan',
+        'common' => 'Afghanistan',
       ],
       'urd' => [
         'official' => 'اسلامی جمہوریہ افغانستان',
         'common' => 'افغانستان',
       ],
-      'kor' => [
-        'official' => '아프가니스탄 이슬람 공화국',
-        'common' => '아프가니스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری اسلامی افغانستان',
-        'common' => 'افغانستان',
+      'zho' => [
+        'official' => '阿富汗伊斯兰共和国',
+        'common' => '阿富汗',
       ],
     ],
     'latlng' => [
@@ -307,6 +328,9 @@ class CountriesDataSource
         'm' => 'Afghan',
       ],
     ],
+    'callingCodes' => [
+      0 => '+93',
+    ],
   ],
   2 => [
     'name' => [
@@ -328,6 +352,7 @@ class CountriesDataSource
     'cioc' => 'ANG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AOA' => [
         'name' => 'Angolan kwanza',
@@ -366,12 +391,24 @@ class CountriesDataSource
         'official' => 'Republik Angola',
         'common' => 'Angola',
       ],
+      'est' => [
+        'official' => 'Angola Vabariik',
+        'common' => 'Angola',
+      ],
+      'fin' => [
+        'official' => 'Angolan tasavalta',
+        'common' => 'Angola',
+      ],
       'fra' => [
         'official' => 'République d\'Angola',
         'common' => 'Angola',
       ],
       'hrv' => [
         'official' => 'Republika Angola',
+        'common' => 'Angola',
+      ],
+      'hun' => [
+        'official' => 'Angola',
         'common' => 'Angola',
       ],
       'ita' => [
@@ -382,8 +419,20 @@ class CountriesDataSource
         'official' => 'アンゴラ共和国',
         'common' => 'アンゴラ',
       ],
+      'kor' => [
+        'official' => '앙골라 공화국',
+        'common' => '앙골라',
+      ],
       'nld' => [
         'official' => 'Republiek Angola',
+        'common' => 'Angola',
+      ],
+      'per' => [
+        'official' => 'جمهوری آنگولا',
+        'common' => 'آنگولا',
+      ],
+      'pol' => [
+        'official' => 'Republika Angoli',
         'common' => 'Angola',
       ],
       'por' => [
@@ -402,33 +451,17 @@ class CountriesDataSource
         'official' => 'República de Angola',
         'common' => 'Angola',
       ],
-      'fin' => [
-        'official' => 'Angolan tasavalta',
-        'common' => 'Angola',
-      ],
-      'est' => [
-        'official' => 'Angola Vabariik',
-        'common' => 'Angola',
-      ],
-      'zho' => [
-        'official' => '安哥拉共和国',
-        'common' => '安哥拉',
-      ],
-      'pol' => [
-        'official' => 'Republika Angoli',
+      'swe' => [
+        'official' => 'Republiken Angola',
         'common' => 'Angola',
       ],
       'urd' => [
         'official' => 'جمہوریہ انگولہ',
         'common' => 'انگولہ',
       ],
-      'kor' => [
-        'official' => '앙골라 공화국',
-        'common' => '앙골라',
-      ],
-      'per' => [
-        'official' => 'جمهوری آنگولا',
-        'common' => 'آنگولا',
+      'zho' => [
+        'official' => '安哥拉共和国',
+        'common' => '安哥拉',
       ],
     ],
     'latlng' => [
@@ -454,6 +487,9 @@ class CountriesDataSource
         'm' => 'Angolais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+244',
+    ],
   ],
   3 => [
     'name' => [
@@ -475,6 +511,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -507,6 +544,14 @@ class CountriesDataSource
         'official' => 'Anguilla',
         'common' => 'Anguilla',
       ],
+      'est' => [
+        'official' => 'Anguilla',
+        'common' => 'Anguilla',
+      ],
+      'fin' => [
+        'official' => 'Anguilla',
+        'common' => 'Anguilla',
+      ],
       'fra' => [
         'official' => 'Anguilla',
         'common' => 'Anguilla',
@@ -514,6 +559,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Anguilla',
         'common' => 'Angvila',
+      ],
+      'hun' => [
+        'official' => 'Anguilla',
+        'common' => 'Anguilla',
       ],
       'ita' => [
         'official' => 'Anguilla',
@@ -523,7 +572,19 @@ class CountriesDataSource
         'official' => 'アングィラ',
         'common' => 'アンギラ',
       ],
+      'kor' => [
+        'official' => '앵귈라',
+        'common' => '앵귈라',
+      ],
       'nld' => [
+        'official' => 'Anguilla',
+        'common' => 'Anguilla',
+      ],
+      'per' => [
+        'official' => 'آنگویلا',
+        'common' => 'آنگویلا',
+      ],
+      'pol' => [
         'official' => 'Anguilla',
         'common' => 'Anguilla',
       ],
@@ -543,19 +604,7 @@ class CountriesDataSource
         'official' => 'Anguila',
         'common' => 'Anguilla',
       ],
-      'fin' => [
-        'official' => 'Anguilla',
-        'common' => 'Anguilla',
-      ],
-      'est' => [
-        'official' => 'Anguilla',
-        'common' => 'Anguilla',
-      ],
-      'zho' => [
-        'official' => '安圭拉',
-        'common' => '安圭拉',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Anguilla',
         'common' => 'Anguilla',
       ],
@@ -563,13 +612,9 @@ class CountriesDataSource
         'official' => 'اینگویلا',
         'common' => 'اینگویلا',
       ],
-      'kor' => [
-        'official' => '앵귈라',
-        'common' => '앵귈라',
-      ],
-      'per' => [
-        'official' => 'آنگویلا',
-        'common' => 'آنگویلا',
+      'zho' => [
+        'official' => '安圭拉',
+        'common' => '安圭拉',
       ],
     ],
     'latlng' => [
@@ -590,6 +635,9 @@ class CountriesDataSource
         'f' => 'Anguillane',
         'm' => 'Anguillan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1264',
     ],
   ],
   4 => [
@@ -612,6 +660,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -647,6 +696,14 @@ class CountriesDataSource
         'official' => 'Åland-Inseln',
         'common' => 'Åland',
       ],
+      'est' => [
+        'official' => 'Ahvenamaa maakond',
+        'common' => 'Ahvenamaa',
+      ],
+      'fin' => [
+        'official' => 'Ahvenanmaan maakunta',
+        'common' => 'Ahvenanmaa',
+      ],
       'fra' => [
         'official' => 'Ahvenanmaa',
         'common' => 'Ahvenanmaa',
@@ -654,6 +711,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Aland Islands',
         'common' => 'Ålandski otoci',
+      ],
+      'hun' => [
+        'official' => 'Åland-szigetek',
+        'common' => 'Åland-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Åland',
@@ -663,9 +724,21 @@ class CountriesDataSource
         'official' => 'オーランド諸島',
         'common' => 'オーランド諸島',
       ],
+      'kor' => [
+        'official' => '올란드 제도',
+        'common' => '올란드 제도',
+      ],
       'nld' => [
         'official' => 'Åland eilanden',
         'common' => 'Ålandeilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر الند',
+        'common' => 'جزایر الند',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Alandzkie',
+        'common' => 'Wyspy Alandzkie',
       ],
       'por' => [
         'official' => 'Ilhas Åland',
@@ -683,33 +756,17 @@ class CountriesDataSource
         'official' => 'Islas Åland',
         'common' => 'Alandia',
       ],
-      'fin' => [
-        'official' => 'Ahvenanmaan maakunta',
-        'common' => 'Ahvenanmaa',
-      ],
-      'est' => [
-        'official' => 'Ahvenamaa maakond',
-        'common' => 'Ahvenamaa',
-      ],
-      'zho' => [
-        'official' => '奥兰群岛',
-        'common' => '奥兰群岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Alandzkie',
-        'common' => 'Wyspy Alandzkie',
+      'swe' => [
+        'official' => 'Åland',
+        'common' => 'Åland',
       ],
       'urd' => [
         'official' => 'جزائر اولند',
         'common' => 'جزائر اولند',
       ],
-      'kor' => [
-        'official' => '올란드 제도',
-        'common' => '올란드 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر الند',
-        'common' => 'جزایر الند',
+      'zho' => [
+        'official' => '奥兰群岛',
+        'common' => '奥兰群岛',
       ],
     ],
     'latlng' => [
@@ -730,6 +787,9 @@ class CountriesDataSource
         'f' => 'Ålandaise',
         'm' => 'Ålandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+35818',
     ],
   ],
   5 => [
@@ -752,6 +812,7 @@ class CountriesDataSource
     'cioc' => 'ALB',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ALL' => [
         'name' => 'Albanian lek',
@@ -774,7 +835,7 @@ class CountriesDataSource
       3 => 'Shqipnia',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'sqi' => 'Albanian',
     ],
@@ -791,6 +852,14 @@ class CountriesDataSource
         'official' => 'Republik Albanien',
         'common' => 'Albanien',
       ],
+      'est' => [
+        'official' => 'Albaania Vabariik',
+        'common' => 'Albaania',
+      ],
+      'fin' => [
+        'official' => 'Albanian tasavalta',
+        'common' => 'Albania',
+      ],
       'fra' => [
         'official' => 'République d\'Albanie',
         'common' => 'Albanie',
@@ -798,6 +867,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Albanija',
         'common' => 'Albanija',
+      ],
+      'hun' => [
+        'official' => 'Albán Köztársaság',
+        'common' => 'Albánia',
       ],
       'ita' => [
         'official' => 'Repubblica d\'Albania',
@@ -807,9 +880,21 @@ class CountriesDataSource
         'official' => 'アルバニア共和国',
         'common' => 'アルバニア',
       ],
+      'kor' => [
+        'official' => '알바니아 공화국',
+        'common' => '알바니아',
+      ],
       'nld' => [
         'official' => 'Republiek Albanië',
         'common' => 'Albanië',
+      ],
+      'per' => [
+        'official' => 'جمهوری آلبانی',
+        'common' => 'آلبانی',
+      ],
+      'pol' => [
+        'official' => 'Republika Albanii',
+        'common' => 'Albania',
       ],
       'por' => [
         'official' => 'República da Albânia',
@@ -827,33 +912,17 @@ class CountriesDataSource
         'official' => 'República de Albania',
         'common' => 'Albania',
       ],
-      'fin' => [
-        'official' => 'Albanian tasavalta',
-        'common' => 'Albania',
-      ],
-      'est' => [
-        'official' => 'Albaania Vabariik',
-        'common' => 'Albaania',
-      ],
-      'zho' => [
-        'official' => '阿尔巴尼亚共和国',
-        'common' => '阿尔巴尼亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Albanii',
-        'common' => 'Albania',
+      'swe' => [
+        'official' => 'Republiken Albanien',
+        'common' => 'Albanien',
       ],
       'urd' => [
         'official' => 'جمہوریہ البانیا',
         'common' => 'البانیا',
       ],
-      'kor' => [
-        'official' => '알바니아 공화국',
-        'common' => '알바니아',
-      ],
-      'per' => [
-        'official' => 'جمهوری آلبانی',
-        'common' => 'آلبانی',
+      'zho' => [
+        'official' => '阿尔巴尼亚共和国',
+        'common' => '阿尔巴尼亚',
       ],
     ],
     'latlng' => [
@@ -879,6 +948,9 @@ class CountriesDataSource
         'm' => 'Albanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+355',
+    ],
   ],
   6 => [
     'name' => [
@@ -900,6 +972,7 @@ class CountriesDataSource
     'cioc' => 'AND',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -938,6 +1011,14 @@ class CountriesDataSource
         'official' => 'Fürstentum Andorra',
         'common' => 'Andorra',
       ],
+      'est' => [
+        'official' => 'Andorra Vürstiriik',
+        'common' => 'Andorra',
+      ],
+      'fin' => [
+        'official' => 'Andorran ruhtinaskunta',
+        'common' => 'Andorra',
+      ],
       'fra' => [
         'official' => 'Principauté d\'Andorre',
         'common' => 'Andorre',
@@ -945,6 +1026,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kneževina Andora',
         'common' => 'Andora',
+      ],
+      'hun' => [
+        'official' => 'Andorra',
+        'common' => 'Andorra',
       ],
       'ita' => [
         'official' => 'Principato di Andorra',
@@ -954,9 +1039,21 @@ class CountriesDataSource
         'official' => 'アンドラ公国',
         'common' => 'アンドラ',
       ],
+      'kor' => [
+        'official' => '안도라 공국',
+        'common' => '안도라',
+      ],
       'nld' => [
         'official' => 'Prinsdom Andorra',
         'common' => 'Andorra',
+      ],
+      'per' => [
+        'official' => 'شاهزاده‌نشین آندورا',
+        'common' => 'آندورا',
+      ],
+      'pol' => [
+        'official' => 'Księstwo Andory',
+        'common' => 'Andora',
       ],
       'por' => [
         'official' => 'Principado de Andorra',
@@ -974,33 +1071,17 @@ class CountriesDataSource
         'official' => 'Principado de Andorra',
         'common' => 'Andorra',
       ],
-      'fin' => [
-        'official' => 'Andorran ruhtinaskunta',
+      'swe' => [
+        'official' => 'Furstendömet Andorra',
         'common' => 'Andorra',
-      ],
-      'est' => [
-        'official' => 'Andorra Vürstiriik',
-        'common' => 'Andorra',
-      ],
-      'zho' => [
-        'official' => '安道尔公国',
-        'common' => '安道尔',
-      ],
-      'pol' => [
-        'official' => 'Księstwo Andory',
-        'common' => 'Andora',
       ],
       'urd' => [
         'official' => 'اماراتِ انڈورا',
         'common' => 'انڈورا',
       ],
-      'kor' => [
-        'official' => '안도라 공국',
-        'common' => '안도라',
-      ],
-      'per' => [
-        'official' => 'شاهزاده‌نشین آندورا',
-        'common' => 'آندورا',
+      'zho' => [
+        'official' => '安道尔公国',
+        'common' => '安道尔',
       ],
     ],
     'latlng' => [
@@ -1024,6 +1105,9 @@ class CountriesDataSource
         'm' => 'Andorran',
       ],
     ],
+    'callingCodes' => [
+      0 => '+376',
+    ],
   ],
   7 => [
     'name' => [
@@ -1046,6 +1130,7 @@ class CountriesDataSource
     'cioc' => 'UAE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AED' => [
         'name' => 'United Arab Emirates dirham',
@@ -1080,6 +1165,14 @@ class CountriesDataSource
         'official' => 'Vereinigte Arabische Emirate',
         'common' => 'Vereinigte Arabische Emirate',
       ],
+      'est' => [
+        'official' => 'Araabia Ühendemiraadid',
+        'common' => 'Araabia Ühendemiraadid',
+      ],
+      'fin' => [
+        'official' => 'Yhdistyneet arabiemiirikunnat',
+        'common' => 'Arabiemiraatit',
+      ],
       'fra' => [
         'official' => 'Émirats arabes unis',
         'common' => 'Émirats arabes unis',
@@ -1087,6 +1180,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Ujedinjeni Arapski Emirati',
         'common' => 'Ujedinjeni Arapski Emirati',
+      ],
+      'hun' => [
+        'official' => 'Egyesült Arab Emírségek',
+        'common' => 'Egyesült Arab Emírségek',
       ],
       'ita' => [
         'official' => 'Emirati Arabi Uniti',
@@ -1096,9 +1193,21 @@ class CountriesDataSource
         'official' => 'アラブ首長国連邦',
         'common' => 'アラブ首長国連邦',
       ],
+      'kor' => [
+        'official' => '아랍 토후국 연방',
+        'common' => '아랍에미리트',
+      ],
       'nld' => [
         'official' => 'Verenigde Arabische Emiraten',
         'common' => 'Verenigde Arabische Emiraten',
+      ],
+      'per' => [
+        'official' => 'امارات متحده عربی',
+        'common' => 'امارات',
+      ],
+      'pol' => [
+        'official' => 'Zjednoczone Emiraty Arabskie',
+        'common' => 'Zjednoczone Emiraty Arabskie',
       ],
       'por' => [
         'official' => 'Emirados Árabes Unidos',
@@ -1116,33 +1225,17 @@ class CountriesDataSource
         'official' => 'Emiratos Árabes Unidos',
         'common' => 'Emiratos Árabes Unidos',
       ],
-      'fin' => [
-        'official' => 'Yhdistyneet arabiemiirikunnat',
-        'common' => 'Arabiemiraatit',
-      ],
-      'est' => [
-        'official' => 'Araabia Ühendemiraadid',
-        'common' => 'Araabia Ühendemiraadid',
-      ],
-      'zho' => [
-        'official' => '阿拉伯联合酋长国',
-        'common' => '阿拉伯联合酋长国',
-      ],
-      'pol' => [
-        'official' => 'Zjednoczone Emiraty Arabskie',
-        'common' => 'Zjednoczone Emiraty Arabskie',
+      'swe' => [
+        'official' => 'Förenade Arabemiraten',
+        'common' => 'Förenade Arabemiraten',
       ],
       'urd' => [
         'official' => 'متحدہ عرب امارات',
         'common' => 'متحدہ عرب امارات',
       ],
-      'kor' => [
-        'official' => '아랍 토후국 연방',
-        'common' => '아랍에미리트',
-      ],
-      'per' => [
-        'official' => 'امارات متحده عربی',
-        'common' => 'امارات',
+      'zho' => [
+        'official' => '阿拉伯联合酋长国',
+        'common' => '阿拉伯联合酋长国',
       ],
     ],
     'latlng' => [
@@ -1165,6 +1258,9 @@ class CountriesDataSource
         'f' => 'Emirienne',
         'm' => 'Emirien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+971',
     ],
   ],
   8 => [
@@ -1191,6 +1287,7 @@ class CountriesDataSource
     'cioc' => 'ARG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ARS' => [
         'name' => 'Argentine peso',
@@ -1230,6 +1327,14 @@ class CountriesDataSource
         'official' => 'Argentinische Republik',
         'common' => 'Argentinien',
       ],
+      'est' => [
+        'official' => 'Argentina Vabariik',
+        'common' => 'Argentina',
+      ],
+      'fin' => [
+        'official' => 'Argentiinan tasavalta',
+        'common' => 'Argentiina',
+      ],
       'fra' => [
         'official' => 'République argentine',
         'common' => 'Argentine',
@@ -1237,6 +1342,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Argentinski Republika',
         'common' => 'Argentina',
+      ],
+      'hun' => [
+        'official' => 'Argentin Köztársaság',
+        'common' => 'Argentína',
       ],
       'ita' => [
         'official' => 'Repubblica Argentina',
@@ -1246,9 +1355,21 @@ class CountriesDataSource
         'official' => 'アルゼンチン共和国',
         'common' => 'アルゼンチン',
       ],
+      'kor' => [
+        'official' => '아르헨티나 공화국',
+        'common' => '아르헨티나',
+      ],
       'nld' => [
         'official' => 'Argentijnse Republiek',
         'common' => 'Argentinië',
+      ],
+      'per' => [
+        'official' => 'جمهوری آرژانتین',
+        'common' => 'آرژانتین',
+      ],
+      'pol' => [
+        'official' => 'Republika Argentyńska',
+        'common' => 'Argentyna',
       ],
       'por' => [
         'official' => 'República Argentina',
@@ -1266,33 +1387,17 @@ class CountriesDataSource
         'official' => 'República Argentina',
         'common' => 'Argentina',
       ],
-      'fin' => [
-        'official' => 'Argentiinan tasavalta',
-        'common' => 'Argentiina',
-      ],
-      'est' => [
-        'official' => 'Argentina Vabariik',
+      'swe' => [
+        'official' => 'Republiken Argentina',
         'common' => 'Argentina',
-      ],
-      'zho' => [
-        'official' => '阿根廷共和国',
-        'common' => '阿根廷',
-      ],
-      'pol' => [
-        'official' => 'Republika Argentyńska',
-        'common' => 'Argentyna',
       ],
       'urd' => [
         'official' => 'جمہوریہ ارجنٹائن',
         'common' => 'ارجنٹائن',
       ],
-      'kor' => [
-        'official' => '아르헨티나 공화국',
-        'common' => '아르헨티나',
-      ],
-      'per' => [
-        'official' => 'جمهوری آرژانتین',
-        'common' => 'آرژانتین',
+      'zho' => [
+        'official' => '阿根廷共和国',
+        'common' => '阿根廷',
       ],
     ],
     'latlng' => [
@@ -1319,6 +1424,9 @@ class CountriesDataSource
         'm' => 'Argentin',
       ],
     ],
+    'callingCodes' => [
+      0 => '+54',
+    ],
   ],
   9 => [
     'name' => [
@@ -1340,6 +1448,7 @@ class CountriesDataSource
     'cioc' => 'ARM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AMD' => [
         'name' => 'Armenian dram',
@@ -1379,6 +1488,14 @@ class CountriesDataSource
         'official' => 'Republik Armenien',
         'common' => 'Armenien',
       ],
+      'est' => [
+        'official' => 'Armeenia Vabariik',
+        'common' => 'Armeenia',
+      ],
+      'fin' => [
+        'official' => 'Armenian tasavalta',
+        'common' => 'Armenia',
+      ],
       'fra' => [
         'official' => 'République d\'Arménie',
         'common' => 'Arménie',
@@ -1386,6 +1503,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Armenija',
         'common' => 'Armenija',
+      ],
+      'hun' => [
+        'official' => 'Örményország',
+        'common' => 'Örményország',
       ],
       'ita' => [
         'official' => 'Repubblica di Armenia',
@@ -1395,9 +1516,21 @@ class CountriesDataSource
         'official' => 'アルメニア共和国',
         'common' => 'アルメニア',
       ],
+      'kor' => [
+        'official' => '아르메니아 공화국',
+        'common' => '아르메니아',
+      ],
       'nld' => [
         'official' => 'Republiek Armenië',
         'common' => 'Armenië',
+      ],
+      'per' => [
+        'official' => 'جمهوری ارمنستان',
+        'common' => 'ارمنستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Armenii',
+        'common' => 'Armenia',
       ],
       'por' => [
         'official' => 'República da Arménia',
@@ -1415,33 +1548,17 @@ class CountriesDataSource
         'official' => 'República de Armenia',
         'common' => 'Armenia',
       ],
-      'fin' => [
-        'official' => 'Armenian tasavalta',
-        'common' => 'Armenia',
-      ],
-      'est' => [
-        'official' => 'Armeenia Vabariik',
-        'common' => 'Armeenia',
-      ],
-      'zho' => [
-        'official' => '亚美尼亚共和国',
-        'common' => '亚美尼亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Armenii',
-        'common' => 'Armenia',
+      'swe' => [
+        'official' => 'Republiken Armenien',
+        'common' => 'Armenien',
       ],
       'urd' => [
         'official' => 'جمہوریہ آرمینیا',
         'common' => 'آرمینیا',
       ],
-      'kor' => [
-        'official' => '아르메니아 공화국',
-        'common' => '아르메니아',
-      ],
-      'per' => [
-        'official' => 'جمهوری ارمنستان',
-        'common' => 'ارمنستان',
+      'zho' => [
+        'official' => '亚美尼亚共和国',
+        'common' => '亚美尼亚',
       ],
     ],
     'latlng' => [
@@ -1466,6 +1583,9 @@ class CountriesDataSource
         'f' => 'Arménienne',
         'm' => 'Arménien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+374',
     ],
   ],
   10 => [
@@ -1492,6 +1612,7 @@ class CountriesDataSource
     'cioc' => 'ASA',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -1528,6 +1649,14 @@ class CountriesDataSource
         'official' => 'Amerikanisch-Samoa',
         'common' => 'Amerikanisch-Samoa',
       ],
+      'est' => [
+        'official' => 'Ameerika Samoa',
+        'common' => 'Ameerika Samoa',
+      ],
+      'fin' => [
+        'official' => 'Amerikan Samoa',
+        'common' => 'Amerikan Samoa',
+      ],
       'fra' => [
         'official' => 'Samoa américaines',
         'common' => 'Samoa américaines',
@@ -1535,6 +1664,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'američka Samoa',
         'common' => 'Američka Samoa',
+      ],
+      'hun' => [
+        'official' => 'Szamoa',
+        'common' => 'Szamoa',
       ],
       'ita' => [
         'official' => 'Samoa americane',
@@ -1544,9 +1677,21 @@ class CountriesDataSource
         'official' => '米サモア',
         'common' => 'アメリカ領サモア',
       ],
+      'kor' => [
+        'official' => '아메리칸사모아',
+        'common' => '아메리칸사모아',
+      ],
       'nld' => [
         'official' => 'Amerikaans Samoa',
         'common' => 'Amerikaans Samoa',
+      ],
+      'per' => [
+        'official' => 'ساموآی آمریکا',
+        'common' => 'ساموآی آمریکا',
+      ],
+      'pol' => [
+        'official' => 'Samoa Amerykańskie',
+        'common' => 'Samoa Amerykańskie',
       ],
       'por' => [
         'official' => 'Samoa americana',
@@ -1564,33 +1709,17 @@ class CountriesDataSource
         'official' => 'Samoa Americana',
         'common' => 'Samoa Americana',
       ],
-      'fin' => [
-        'official' => 'Amerikan Samoa',
-        'common' => 'Amerikan Samoa',
-      ],
-      'est' => [
-        'official' => 'Ameerika Samoa',
-        'common' => 'Ameerika Samoa',
-      ],
-      'zho' => [
-        'official' => '美属萨摩亚',
-        'common' => '美属萨摩亚',
-      ],
-      'pol' => [
-        'official' => 'Samoa Amerykańskie',
-        'common' => 'Samoa Amerykańskie',
+      'swe' => [
+        'official' => 'Amerikanska Samoa',
+        'common' => 'Amerikanska Samoa',
       ],
       'urd' => [
         'official' => 'امریکی سمووا',
         'common' => 'امریکی سمووا',
       ],
-      'kor' => [
-        'official' => '아메리칸사모아',
-        'common' => '아메리칸사모아',
-      ],
-      'per' => [
-        'official' => 'ساموآی آمریکا',
-        'common' => 'ساموآی آمریکا',
+      'zho' => [
+        'official' => '美属萨摩亚',
+        'common' => '美属萨摩亚',
       ],
     ],
     'latlng' => [
@@ -1612,6 +1741,9 @@ class CountriesDataSource
         'm' => 'Samoan',
       ],
     ],
+    'callingCodes' => [
+      0 => '+1684',
+    ],
   ],
   11 => [
     'name' => [
@@ -1629,6 +1761,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
     ],
     'idd' => [
@@ -1659,6 +1792,14 @@ class CountriesDataSource
         'official' => 'Antarktika',
         'common' => 'Antarktis',
       ],
+      'est' => [
+        'official' => 'Antarktika',
+        'common' => 'Antarktika',
+      ],
+      'fin' => [
+        'official' => 'Etelämanner',
+        'common' => 'Etelämanner',
+      ],
       'fra' => [
         'official' => 'Antarctique',
         'common' => 'Antarctique',
@@ -1666,6 +1807,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Antarktika',
         'common' => 'Antarktika',
+      ],
+      'hun' => [
+        'official' => 'Antarktisz',
+        'common' => 'Antarktisz',
       ],
       'ita' => [
         'official' => 'Antartide',
@@ -1675,9 +1820,21 @@ class CountriesDataSource
         'official' => '南極大陸',
         'common' => '南極',
       ],
+      'kor' => [
+        'official' => '남극',
+        'common' => '남극',
+      ],
       'nld' => [
         'official' => 'Antarctica',
         'common' => 'Antarctica',
+      ],
+      'per' => [
+        'official' => 'جنوبگان',
+        'common' => 'جنوبگان',
+      ],
+      'pol' => [
+        'official' => 'Antarktyka',
+        'common' => 'Antarktyka',
       ],
       'por' => [
         'official' => 'Antártica',
@@ -1695,33 +1852,17 @@ class CountriesDataSource
         'official' => 'Antártida',
         'common' => 'Antártida',
       ],
-      'fin' => [
-        'official' => 'Etelämanner',
-        'common' => 'Etelämanner',
-      ],
-      'est' => [
-        'official' => 'Antarktika',
-        'common' => 'Antarktika',
-      ],
-      'zho' => [
-        'official' => '南极洲',
-        'common' => '南极洲',
-      ],
-      'pol' => [
-        'official' => 'Antarktyka',
-        'common' => 'Antarktyka',
+      'swe' => [
+        'official' => 'Antarktis',
+        'common' => 'Antarktis',
       ],
       'urd' => [
         'official' => 'انٹارکٹکا',
         'common' => 'انٹارکٹکا',
       ],
-      'kor' => [
-        'official' => '남극',
-        'common' => '남극',
-      ],
-      'per' => [
-        'official' => 'جنوبگان',
-        'common' => 'جنوبگان',
+      'zho' => [
+        'official' => '南极洲',
+        'common' => '南极洲',
       ],
     ],
     'latlng' => [
@@ -1742,6 +1883,8 @@ class CountriesDataSource
         'f' => 'Antarcticaine',
         'm' => 'Antarcticain',
       ],
+    ],
+    'callingCodes' => [
     ],
   ],
   12 => [
@@ -1764,6 +1907,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -1797,6 +1941,14 @@ class CountriesDataSource
         'official' => 'Gebiet der Französisch Süd- und Antarktisgebiete',
         'common' => 'Französische Süd- und Antarktisgebiete',
       ],
+      'est' => [
+        'official' => 'Prantsuse Lõunaalad',
+        'common' => 'Prantsuse Lõunaalad',
+      ],
+      'fin' => [
+        'official' => 'Ranskan eteläiset ja antarktiset alueet',
+        'common' => 'Ranskan eteläiset ja antarktiset alueet',
+      ],
       'fra' => [
         'official' => 'Territoire des Terres australes et antarctiques françaises',
         'common' => 'Terres australes et antarctiques françaises',
@@ -1804,6 +1956,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Teritoriju Francuski južni i antarktički teritoriji',
         'common' => 'Francuski južni i antarktički teritoriji',
+      ],
+      'hun' => [
+        'official' => 'Francia déli és antarktiszi területek',
+        'common' => 'Francia déli és antarktiszi területek',
       ],
       'ita' => [
         'official' => 'Territorio della australi e antartiche francesi Terre',
@@ -1813,9 +1969,21 @@ class CountriesDataSource
         'official' => 'フランス領南方·南極地域の領土',
         'common' => 'フランス領南方・南極地域',
       ],
+      'kor' => [
+        'official' => '프랑스령 남부와 남극 지역',
+        'common' => '프랑스령 남부와 남극 지역',
+      ],
       'nld' => [
         'official' => 'Grondgebied van de Franse Zuidelijke en Antarctische gebieden',
         'common' => 'Franse Gebieden in de zuidelijke Indische Oceaan',
+      ],
+      'per' => [
+        'official' => 'سرزمین‌های جنوبی و جنوبگانی فرانسه',
+        'common' => 'سرزمین‌های جنوبی و جنوبگانی فرانسه',
+      ],
+      'pol' => [
+        'official' => 'Francuskie Terytoria Południowe i Antarktyczne',
+        'common' => 'Francuskie Terytoria Południowe i Antarktyczne',
       ],
       'por' => [
         'official' => 'Território do Sul e Antártica Francesa',
@@ -1833,33 +2001,17 @@ class CountriesDataSource
         'official' => 'Territorio del Francés Tierras australes y antárticas',
         'common' => 'Tierras Australes y Antárticas Francesas',
       ],
-      'fin' => [
-        'official' => 'Ranskan eteläiset ja antarktiset alueet',
-        'common' => 'Ranskan eteläiset ja antarktiset alueet',
-      ],
-      'est' => [
-        'official' => 'Prantsuse Lõunaalad',
-        'common' => 'Prantsuse Lõunaalad',
-      ],
-      'zho' => [
-        'official' => '法国南部和南极土地',
-        'common' => '法国南部和南极土地',
-      ],
-      'pol' => [
-        'official' => 'Francuskie Terytoria Południowe i Antarktyczne',
-        'common' => 'Francuskie Terytoria Południowe i Antarktyczne',
+      'swe' => [
+        'official' => 'Franska syd- och Antarktisterritorierna',
+        'common' => 'Franska södra territorierna',
       ],
       'urd' => [
         'official' => 'سرزمینِ جنوبی فرانسیسیہ و انٹارکٹیکہ',
         'common' => 'سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا',
       ],
-      'kor' => [
-        'official' => '프랑스령 남부와 남극 지역',
-        'common' => '프랑스령 남부와 남극 지역',
-      ],
-      'per' => [
-        'official' => 'سرزمین‌های جنوبی و جنوبگانی فرانسه',
-        'common' => 'سرزمین‌های جنوبی و جنوبگانی فرانسه',
+      'zho' => [
+        'official' => '法国南部和南极土地',
+        'common' => '法国南部和南极土地',
       ],
     ],
     'latlng' => [
@@ -1880,6 +2032,9 @@ class CountriesDataSource
         'f' => 'Française',
         'm' => 'Français',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+262',
     ],
   ],
   13 => [
@@ -1902,6 +2057,7 @@ class CountriesDataSource
     'cioc' => 'ANT',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -1938,6 +2094,14 @@ class CountriesDataSource
         'official' => 'Antigua und Barbuda',
         'common' => 'Antigua und Barbuda',
       ],
+      'est' => [
+        'official' => 'Antigua ja Barbuda',
+        'common' => 'Antigua ja Barbuda',
+      ],
+      'fin' => [
+        'official' => 'Antigua ja Barbuda',
+        'common' => 'Antigua ja Barbuda',
+      ],
       'fra' => [
         'official' => 'Antigua -et-Barbuda',
         'common' => 'Antigua-et-Barbuda',
@@ -1945,6 +2109,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Antigva i Barbuda',
         'common' => 'Antigva i Barbuda',
+      ],
+      'hun' => [
+        'official' => 'Antigua és Barbuda',
+        'common' => 'Antigua és Barbuda',
       ],
       'ita' => [
         'official' => 'Antigua e Barbuda',
@@ -1954,9 +2122,21 @@ class CountriesDataSource
         'official' => 'アンチグアバーブーダ',
         'common' => 'アンティグア・バーブーダ',
       ],
+      'kor' => [
+        'official' => '앤티가 바부다',
+        'common' => '앤티가 바부다',
+      ],
       'nld' => [
         'official' => 'Antigua en Barbuda',
         'common' => 'Antigua en Barbuda',
+      ],
+      'per' => [
+        'official' => 'آنتیگوا و باربودا',
+        'common' => 'آنتیگوا و باربودا',
+      ],
+      'pol' => [
+        'official' => 'Antigua i Barbuda',
+        'common' => 'Antigua i Barbuda',
       ],
       'por' => [
         'official' => 'Antigua e Barbuda',
@@ -1974,33 +2154,17 @@ class CountriesDataSource
         'official' => 'Antigua y Barbuda',
         'common' => 'Antigua y Barbuda',
       ],
-      'fin' => [
-        'official' => 'Antigua ja Barbuda',
-        'common' => 'Antigua ja Barbuda',
-      ],
-      'est' => [
-        'official' => 'Antigua ja Barbuda',
-        'common' => 'Antigua ja Barbuda',
-      ],
-      'zho' => [
-        'official' => '安提瓜和巴布达',
-        'common' => '安提瓜和巴布达',
-      ],
-      'pol' => [
-        'official' => 'Antigua i Barbuda',
-        'common' => 'Antigua i Barbuda',
+      'swe' => [
+        'official' => 'Antigua och Barbuda',
+        'common' => 'Antigua och Barbuda',
       ],
       'urd' => [
         'official' => 'اینٹیگوا و باربوڈا',
         'common' => 'اینٹیگوا و باربوڈا',
       ],
-      'kor' => [
-        'official' => '앤티가 바부다',
-        'common' => '앤티가 바부다',
-      ],
-      'per' => [
-        'official' => 'آنتیگوا و باربودا',
-        'common' => 'آنتیگوا و باربودا',
+      'zho' => [
+        'official' => '安提瓜和巴布达',
+        'common' => '安提瓜和巴布达',
       ],
     ],
     'latlng' => [
@@ -2021,6 +2185,9 @@ class CountriesDataSource
         'f' => 'Antiguaise et barbudienne',
         'm' => 'Antiguaise et barbudien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1268',
     ],
   ],
   14 => [
@@ -2043,6 +2210,7 @@ class CountriesDataSource
     'cioc' => 'AUS',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -2079,6 +2247,14 @@ class CountriesDataSource
         'official' => 'Commonwealth Australien',
         'common' => 'Australien',
       ],
+      'est' => [
+        'official' => 'Austraalia Ühendus',
+        'common' => 'Austraalia',
+      ],
+      'fin' => [
+        'official' => 'Australian liittovaltio',
+        'common' => 'Australia',
+      ],
       'fra' => [
         'official' => 'Australie',
         'common' => 'Australie',
@@ -2086,6 +2262,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Commonwealth of Australia',
         'common' => 'Australija',
+      ],
+      'hun' => [
+        'official' => 'Ausztrál Államszövetség',
+        'common' => 'Ausztrália',
       ],
       'ita' => [
         'official' => 'Commonwealth dell\'Australia',
@@ -2095,9 +2275,21 @@ class CountriesDataSource
         'official' => 'オーストラリア連邦',
         'common' => 'オーストラリア',
       ],
+      'kor' => [
+        'official' => '오스트레일리아 연방',
+        'common' => '호주',
+      ],
       'nld' => [
         'official' => 'Gemenebest van Australië',
         'common' => 'Australië',
+      ],
+      'per' => [
+        'official' => 'قلمرو همسود استرالیا',
+        'common' => 'استرالیا',
+      ],
+      'pol' => [
+        'official' => 'Związek Australijski',
+        'common' => 'Australia',
       ],
       'por' => [
         'official' => 'Comunidade da Austrália',
@@ -2115,33 +2307,17 @@ class CountriesDataSource
         'official' => 'Mancomunidad de Australia',
         'common' => 'Australia',
       ],
-      'fin' => [
-        'official' => 'Australian liittovaltio',
-        'common' => 'Australia',
-      ],
-      'est' => [
-        'official' => 'Austraalia Ühendus',
-        'common' => 'Austraalia',
-      ],
-      'zho' => [
-        'official' => '澳大利亚联邦',
-        'common' => '澳大利亚',
-      ],
-      'pol' => [
-        'official' => 'Związek Australijski',
-        'common' => 'Australia',
+      'swe' => [
+        'official' => 'Australiska statsförbundet',
+        'common' => 'Australien',
       ],
       'urd' => [
         'official' => 'دولتِ مشترکہ آسٹریلیا',
         'common' => 'آسٹریلیا',
       ],
-      'kor' => [
-        'official' => '오스트레일리아 연방',
-        'common' => '호주',
-      ],
-      'per' => [
-        'official' => 'قلمرو همسود استرالیا',
-        'common' => 'استرالیا',
+      'zho' => [
+        'official' => '澳大利亚联邦',
+        'common' => '澳大利亚',
       ],
     ],
     'latlng' => [
@@ -2162,6 +2338,9 @@ class CountriesDataSource
         'f' => 'Australienne',
         'm' => 'Australien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+61',
     ],
   ],
   15 => [
@@ -2184,6 +2363,7 @@ class CountriesDataSource
     'cioc' => 'AUT',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -2205,7 +2385,7 @@ class CountriesDataSource
       2 => 'Oesterreich',
     ],
     'region' => 'Europe',
-    'subregion' => 'Western Europe',
+    'subregion' => 'Central Europe',
     'languages' => [
       'bar' => 'Austro-Bavarian German',
     ],
@@ -2222,6 +2402,14 @@ class CountriesDataSource
         'official' => 'Republik Österreich',
         'common' => 'Österreich',
       ],
+      'est' => [
+        'official' => 'Austria Vabariik',
+        'common' => 'Austria',
+      ],
+      'fin' => [
+        'official' => 'Itävallan tasavalta',
+        'common' => 'Itävalta',
+      ],
       'fra' => [
         'official' => 'République d\'Autriche',
         'common' => 'Autriche',
@@ -2229,6 +2417,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Austrija',
         'common' => 'Austrija',
+      ],
+      'hun' => [
+        'official' => 'Ausztria',
+        'common' => 'Ausztria',
       ],
       'ita' => [
         'official' => 'Repubblica d\'Austria',
@@ -2238,9 +2430,21 @@ class CountriesDataSource
         'official' => 'オーストリア共和国',
         'common' => 'オーストリア',
       ],
+      'kor' => [
+        'official' => '오스트리아 공화국',
+        'common' => '오스트리아',
+      ],
       'nld' => [
         'official' => 'Republiek Oostenrijk',
         'common' => 'Oostenrijk',
+      ],
+      'per' => [
+        'official' => 'جمهوری اتریش',
+        'common' => 'اتریش',
+      ],
+      'pol' => [
+        'official' => 'Republika Austrii',
+        'common' => 'Austria',
       ],
       'por' => [
         'official' => 'República da Áustria',
@@ -2258,33 +2462,17 @@ class CountriesDataSource
         'official' => 'República de Austria',
         'common' => 'Austria',
       ],
-      'fin' => [
-        'official' => 'Itävallan tasavalta',
-        'common' => 'Itävalta',
-      ],
-      'est' => [
-        'official' => 'Austria Vabariik',
-        'common' => 'Austria',
-      ],
-      'zho' => [
-        'official' => '奥地利共和国',
-        'common' => '奥地利',
-      ],
-      'pol' => [
-        'official' => 'Republika Austrii',
-        'common' => 'Austria',
+      'swe' => [
+        'official' => 'Republiken Österrike',
+        'common' => 'Österrike',
       ],
       'urd' => [
         'official' => 'جمہوریہ آسٹریا',
         'common' => 'آسٹریا',
       ],
-      'kor' => [
-        'official' => '오스트리아 공화국',
-        'common' => '오스트리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری اتریش',
-        'common' => 'اتریش',
+      'zho' => [
+        'official' => '奥地利共和国',
+        'common' => '奥地利',
       ],
     ],
     'latlng' => [
@@ -2314,6 +2502,9 @@ class CountriesDataSource
         'm' => 'Autrichien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+43',
+    ],
   ],
   16 => [
     'name' => [
@@ -2339,6 +2530,7 @@ class CountriesDataSource
     'cioc' => 'AZE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AZN' => [
         'name' => 'Azerbaijani manat',
@@ -2378,6 +2570,14 @@ class CountriesDataSource
         'official' => 'Republik Aserbaidschan',
         'common' => 'Aserbaidschan',
       ],
+      'est' => [
+        'official' => 'Aserbaidžaani Vabariik',
+        'common' => 'Aserbaidžaan',
+      ],
+      'fin' => [
+        'official' => 'Azerbaidzanin tasavalta',
+        'common' => 'Azerbaidzan',
+      ],
       'fra' => [
         'official' => 'République d\'Azerbaïdjan',
         'common' => 'Azerbaïdjan',
@@ -2385,6 +2585,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Azerbajdžan',
         'common' => 'Azerbajdžan',
+      ],
+      'hun' => [
+        'official' => 'Azerbajdzsán',
+        'common' => 'Azerbajdzsán',
       ],
       'ita' => [
         'official' => 'Repubblica dell\'Azerbaigian',
@@ -2394,9 +2598,21 @@ class CountriesDataSource
         'official' => 'アゼルバイジャン共和国',
         'common' => 'アゼルバイジャン',
       ],
+      'kor' => [
+        'official' => '아제르바이잔 공화국',
+        'common' => '아제르바이잔',
+      ],
       'nld' => [
         'official' => 'Republiek Azerbeidzjan',
         'common' => 'Azerbeidzjan',
+      ],
+      'per' => [
+        'official' => 'جمهوری آذربایجان',
+        'common' => 'جمهوری آذربایجان',
+      ],
+      'pol' => [
+        'official' => 'Republika Azerbejdżanu',
+        'common' => 'Azerbejdżan',
       ],
       'por' => [
         'official' => 'República do Azerbaijão',
@@ -2414,33 +2630,17 @@ class CountriesDataSource
         'official' => 'República de Azerbaiyán',
         'common' => 'Azerbaiyán',
       ],
-      'fin' => [
-        'official' => 'Azerbaidzanin tasavalta',
-        'common' => 'Azerbaidzan',
-      ],
-      'est' => [
-        'official' => 'Aserbaidžaani Vabariik',
-        'common' => 'Aserbaidžaan',
-      ],
-      'zho' => [
-        'official' => '阿塞拜疆共和国',
-        'common' => '阿塞拜疆',
-      ],
-      'pol' => [
-        'official' => 'Republika Azerbejdżanu',
-        'common' => 'Azerbejdżan',
+      'swe' => [
+        'official' => 'Republiken Azerbajdzjan',
+        'common' => 'Azerbajdzjan',
       ],
       'urd' => [
         'official' => 'جمہوریہ آذربائیجان',
         'common' => 'آذربائیجان',
       ],
-      'kor' => [
-        'official' => '아제르바이잔 공화국',
-        'common' => '아제르바이잔',
-      ],
-      'per' => [
-        'official' => 'جمهوری آذربایجان',
-        'common' => 'جمهوری آذربایجان',
+      'zho' => [
+        'official' => '阿塞拜疆共和国',
+        'common' => '阿塞拜疆',
       ],
     ],
     'latlng' => [
@@ -2467,6 +2667,9 @@ class CountriesDataSource
         'm' => 'Azerbaïdjanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+994',
+    ],
   ],
   17 => [
     'name' => [
@@ -2492,6 +2695,7 @@ class CountriesDataSource
     'cioc' => 'BDI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BIF' => [
         'name' => 'Burundian franc',
@@ -2505,7 +2709,7 @@ class CountriesDataSource
       ],
     ],
     'capital' => [
-      0 => 'Bujumbura',
+      0 => 'Gitega',
     ],
     'altSpellings' => [
       0 => 'BI',
@@ -2532,11 +2736,23 @@ class CountriesDataSource
         'official' => 'Republik Burundi',
         'common' => 'Burundi',
       ],
+      'est' => [
+        'official' => 'Burundi Vabariik',
+        'common' => 'Burundi',
+      ],
+      'fin' => [
+        'official' => 'Burundin tasavalta',
+        'common' => 'Burundi',
+      ],
       'fra' => [
         'official' => 'République du Burundi',
         'common' => 'Burundi',
       ],
       'hrv' => [
+        'official' => 'Burundi',
+        'common' => 'Burundi',
+      ],
+      'hun' => [
         'official' => 'Burundi',
         'common' => 'Burundi',
       ],
@@ -2548,8 +2764,20 @@ class CountriesDataSource
         'official' => 'ブルンジ共和国',
         'common' => 'ブルンジ',
       ],
+      'kor' => [
+        'official' => '부룬디',
+        'common' => '부룬디',
+      ],
       'nld' => [
         'official' => 'Republiek Burundi',
+        'common' => 'Burundi',
+      ],
+      'per' => [
+        'official' => 'جمهوری بوروندی',
+        'common' => 'بوروندی',
+      ],
+      'pol' => [
+        'official' => 'Republika Burundi',
         'common' => 'Burundi',
       ],
       'por' => [
@@ -2568,33 +2796,17 @@ class CountriesDataSource
         'official' => 'República de Burundi',
         'common' => 'Burundi',
       ],
-      'fin' => [
-        'official' => 'Burundin tasavalta',
-        'common' => 'Burundi',
-      ],
-      'est' => [
-        'official' => 'Burundi Vabariik',
-        'common' => 'Burundi',
-      ],
-      'zho' => [
-        'official' => '布隆迪共和国',
-        'common' => '布隆迪',
-      ],
-      'pol' => [
-        'official' => 'Republika Burundi',
+      'swe' => [
+        'official' => 'Republiken Burundi',
         'common' => 'Burundi',
       ],
       'urd' => [
         'official' => 'جمہوریہ برونڈی',
         'common' => 'برونڈی',
       ],
-      'kor' => [
-        'official' => '부룬디',
-        'common' => '부룬디',
-      ],
-      'per' => [
-        'official' => 'جمهوری بوروندی',
-        'common' => 'بوروندی',
+      'zho' => [
+        'official' => '布隆迪共和国',
+        'common' => '布隆迪',
       ],
     ],
     'latlng' => [
@@ -2618,6 +2830,9 @@ class CountriesDataSource
         'f' => 'Burundaise',
         'm' => 'Burundais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+257',
     ],
   ],
   18 => [
@@ -2648,6 +2863,7 @@ class CountriesDataSource
     'cioc' => 'BEL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -2694,6 +2910,14 @@ class CountriesDataSource
         'official' => 'Königreich Belgien',
         'common' => 'Belgien',
       ],
+      'est' => [
+        'official' => 'Belgia Kuningriik',
+        'common' => 'Belgia',
+      ],
+      'fin' => [
+        'official' => 'Belgian kuningaskunta',
+        'common' => 'Belgia',
+      ],
       'fra' => [
         'official' => 'Royaume de Belgique',
         'common' => 'Belgique',
@@ -2701,6 +2925,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Belgija',
         'common' => 'Belgija',
+      ],
+      'hun' => [
+        'official' => 'Belga Királyság',
+        'common' => 'Belgium',
       ],
       'ita' => [
         'official' => 'Regno del Belgio',
@@ -2710,9 +2938,21 @@ class CountriesDataSource
         'official' => 'ベルギー王国',
         'common' => 'ベルギー',
       ],
+      'kor' => [
+        'official' => '벨기에 왕국',
+        'common' => '벨기에',
+      ],
       'nld' => [
         'official' => 'Koninkrijk België',
         'common' => 'België',
+      ],
+      'per' => [
+        'official' => 'پادشاهی بلژیک',
+        'common' => 'بلژیک',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Belgii',
+        'common' => 'Belgia',
       ],
       'por' => [
         'official' => 'Reino da Bélgica',
@@ -2730,33 +2970,17 @@ class CountriesDataSource
         'official' => 'Reino de Bélgica',
         'common' => 'Bélgica',
       ],
-      'fin' => [
-        'official' => 'Belgian kuningaskunta',
-        'common' => 'Belgia',
-      ],
-      'est' => [
-        'official' => 'Belgia Kuningriik',
-        'common' => 'Belgia',
-      ],
-      'zho' => [
-        'official' => '比利时王国',
-        'common' => '比利时',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Belgii',
-        'common' => 'Belgia',
+      'swe' => [
+        'official' => 'Konungariket Belgien',
+        'common' => 'Belgien',
       ],
       'urd' => [
         'official' => 'مملکتِ بلجئیم',
         'common' => 'بلجئیم',
       ],
-      'kor' => [
-        'official' => '벨기에 왕국',
-        'common' => '벨기에',
-      ],
-      'per' => [
-        'official' => 'پادشاهی بلژیک',
-        'common' => 'بلژیک',
+      'zho' => [
+        'official' => '比利时王国',
+        'common' => '比利时',
       ],
     ],
     'latlng' => [
@@ -2782,6 +3006,9 @@ class CountriesDataSource
         'm' => 'Belge',
       ],
     ],
+    'callingCodes' => [
+      0 => '+32',
+    ],
   ],
   19 => [
     'name' => [
@@ -2803,6 +3030,7 @@ class CountriesDataSource
     'cioc' => 'BEN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -2841,12 +3069,24 @@ class CountriesDataSource
         'official' => 'Republik Benin',
         'common' => 'Benin',
       ],
+      'est' => [
+        'official' => 'Benini Vabariik',
+        'common' => 'Benin',
+      ],
+      'fin' => [
+        'official' => 'Beninin tasavalta',
+        'common' => 'Benin',
+      ],
       'fra' => [
         'official' => 'République du Bénin',
         'common' => 'Bénin',
       ],
       'hrv' => [
         'official' => 'Republika Benin',
+        'common' => 'Benin',
+      ],
+      'hun' => [
+        'official' => 'Benini Köztársaság',
         'common' => 'Benin',
       ],
       'ita' => [
@@ -2857,8 +3097,20 @@ class CountriesDataSource
         'official' => 'ベナン共和国',
         'common' => 'ベナン',
       ],
+      'kor' => [
+        'official' => '베냉 공화국',
+        'common' => '베냉',
+      ],
       'nld' => [
         'official' => 'Republiek Benin',
+        'common' => 'Benin',
+      ],
+      'per' => [
+        'official' => 'جمهوری بنین',
+        'common' => 'بنین',
+      ],
+      'pol' => [
+        'official' => 'Benin',
         'common' => 'Benin',
       ],
       'por' => [
@@ -2877,33 +3129,17 @@ class CountriesDataSource
         'official' => 'República de Benin',
         'common' => 'Benín',
       ],
-      'fin' => [
-        'official' => 'Beninin tasavalta',
-        'common' => 'Benin',
-      ],
-      'est' => [
-        'official' => 'Benini Vabariik',
-        'common' => 'Benin',
-      ],
-      'zho' => [
-        'official' => '贝宁共和国',
-        'common' => '贝宁',
-      ],
-      'pol' => [
-        'official' => 'Benin',
+      'swe' => [
+        'official' => 'Republiken Benin',
         'common' => 'Benin',
       ],
       'urd' => [
         'official' => 'جمہوریہ بینن',
         'common' => 'بینن',
       ],
-      'kor' => [
-        'official' => '베냉 공화국',
-        'common' => '베냉',
-      ],
-      'per' => [
-        'official' => 'جمهوری بنین',
-        'common' => 'بنین',
+      'zho' => [
+        'official' => '贝宁共和国',
+        'common' => '贝宁',
       ],
     ],
     'latlng' => [
@@ -2929,6 +3165,9 @@ class CountriesDataSource
         'm' => 'Béninois',
       ],
     ],
+    'callingCodes' => [
+      0 => '+229',
+    ],
   ],
   20 => [
     'name' => [
@@ -2950,6 +3189,7 @@ class CountriesDataSource
     'cioc' => 'BUR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -2986,6 +3226,14 @@ class CountriesDataSource
         'official' => 'Burkina Faso',
         'common' => 'Burkina Faso',
       ],
+      'est' => [
+        'official' => 'Burkina Faso',
+        'common' => 'Burkina Faso',
+      ],
+      'fin' => [
+        'official' => 'Burkina Faso',
+        'common' => 'Burkina Faso',
+      ],
       'fra' => [
         'official' => 'République du Burkina',
         'common' => 'Burkina Faso',
@@ -2993,6 +3241,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Burkina Faso',
         'common' => 'Burkina Faso',
+      ],
+      'hun' => [
+        'official' => 'Burkina Faso',
+        'common' => 'Burkina',
       ],
       'ita' => [
         'official' => 'Burkina Faso',
@@ -3002,7 +3254,19 @@ class CountriesDataSource
         'official' => 'ブルキナファソ',
         'common' => 'ブルキナファソ',
       ],
+      'kor' => [
+        'official' => '부르키나파소',
+        'common' => '부르키나파소',
+      ],
       'nld' => [
+        'official' => 'Burkina Faso',
+        'common' => 'Burkina Faso',
+      ],
+      'per' => [
+        'official' => 'بورکینافاسو',
+        'common' => 'بورکینافاسو',
+      ],
+      'pol' => [
         'official' => 'Burkina Faso',
         'common' => 'Burkina Faso',
       ],
@@ -3022,19 +3286,7 @@ class CountriesDataSource
         'official' => 'Burkina Faso',
         'common' => 'Burkina Faso',
       ],
-      'fin' => [
-        'official' => 'Burkina Faso',
-        'common' => 'Burkina Faso',
-      ],
-      'est' => [
-        'official' => 'Burkina Faso',
-        'common' => 'Burkina Faso',
-      ],
-      'zho' => [
-        'official' => '布基纳法索',
-        'common' => '布基纳法索',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Burkina Faso',
         'common' => 'Burkina Faso',
       ],
@@ -3042,13 +3294,9 @@ class CountriesDataSource
         'official' => 'برکینا فاسو',
         'common' => 'برکینا فاسو',
       ],
-      'kor' => [
-        'official' => '부르키나파소',
-        'common' => '부르키나파소',
-      ],
-      'per' => [
-        'official' => 'بورکینافاسو',
-        'common' => 'بورکینافاسو',
+      'zho' => [
+        'official' => '布基纳法索',
+        'common' => '布基纳法索',
       ],
     ],
     'latlng' => [
@@ -3076,6 +3324,9 @@ class CountriesDataSource
         'm' => 'Burkinabé',
       ],
     ],
+    'callingCodes' => [
+      0 => '+226',
+    ],
   ],
   21 => [
     'name' => [
@@ -3097,6 +3348,7 @@ class CountriesDataSource
     'cioc' => 'BAN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BDT' => [
         'name' => 'Bangladeshi taka',
@@ -3135,6 +3387,14 @@ class CountriesDataSource
         'official' => 'Volksrepublik Bangladesch',
         'common' => 'Bangladesch',
       ],
+      'est' => [
+        'official' => 'Bangladeshi Rahvavabariik',
+        'common' => 'Bangladesh',
+      ],
+      'fin' => [
+        'official' => 'Bangladeshin kansantasavalta',
+        'common' => 'Bangladesh',
+      ],
       'fra' => [
         'official' => 'La République populaire du Bangladesh',
         'common' => 'Bangladesh',
@@ -3142,6 +3402,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Narodna Republika Bangladeš',
         'common' => 'Bangladeš',
+      ],
+      'hun' => [
+        'official' => 'Banglades',
+        'common' => 'Banglades',
       ],
       'ita' => [
         'official' => 'Repubblica popolare del Bangladesh',
@@ -3151,9 +3415,21 @@ class CountriesDataSource
         'official' => 'バングラデシュ人民共和国',
         'common' => 'バングラデシュ',
       ],
+      'kor' => [
+        'official' => '방글라데시 인민 공화국',
+        'common' => '방글라데시',
+      ],
       'nld' => [
         'official' => 'Volksrepubliek Bangladesh',
         'common' => 'Bangladesh',
+      ],
+      'per' => [
+        'official' => 'جمهوری خلق بنگلادش',
+        'common' => 'بنگلادش',
+      ],
+      'pol' => [
+        'official' => 'Ludowa Republika Bangladeszu',
+        'common' => 'Bangladesz',
       ],
       'por' => [
         'official' => 'República Popular do Bangladesh',
@@ -3171,33 +3447,17 @@ class CountriesDataSource
         'official' => 'República Popular de Bangladesh',
         'common' => 'Bangladesh',
       ],
-      'fin' => [
-        'official' => 'Bangladeshin kansantasavalta',
+      'swe' => [
+        'official' => 'Folkrepubliken Bangladesh',
         'common' => 'Bangladesh',
-      ],
-      'est' => [
-        'official' => 'Bangladeshi Rahvavabariik',
-        'common' => 'Bangladesh',
-      ],
-      'zho' => [
-        'official' => '孟加拉人民共和国',
-        'common' => '孟加拉国',
-      ],
-      'pol' => [
-        'official' => 'Ludowa Republika Bangladeszu',
-        'common' => 'Bangladesz',
       ],
       'urd' => [
         'official' => 'عوامی جمہوریہ بنگلہ دیش',
         'common' => 'بنگلہ دیش',
       ],
-      'kor' => [
-        'official' => '방글라데시 인민 공화국',
-        'common' => '방글라데시',
-      ],
-      'per' => [
-        'official' => 'جمهوری خلق بنگلادش',
-        'common' => 'بنگلادش',
+      'zho' => [
+        'official' => '孟加拉人民共和国',
+        'common' => '孟加拉国',
       ],
     ],
     'latlng' => [
@@ -3221,6 +3481,9 @@ class CountriesDataSource
         'm' => 'Bangladais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+880',
+    ],
   ],
   22 => [
     'name' => [
@@ -3242,6 +3505,7 @@ class CountriesDataSource
     'cioc' => 'BUL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BGN' => [
         'name' => 'Bulgarian lev',
@@ -3263,7 +3527,7 @@ class CountriesDataSource
       2 => 'Република България',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'bul' => 'Bulgarian',
     ],
@@ -3280,6 +3544,14 @@ class CountriesDataSource
         'official' => 'Republik Bulgarien',
         'common' => 'Bulgarien',
       ],
+      'est' => [
+        'official' => 'Bulgaaria Vabariik',
+        'common' => 'Bulgaaria',
+      ],
+      'fin' => [
+        'official' => 'Bulgarian tasavalta',
+        'common' => 'Bulgaria',
+      ],
       'fra' => [
         'official' => 'République de Bulgarie',
         'common' => 'Bulgarie',
@@ -3287,6 +3559,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Bugarska',
         'common' => 'Bugarska',
+      ],
+      'hun' => [
+        'official' => 'Bolgár Köztársaság',
+        'common' => 'Bulgária',
       ],
       'ita' => [
         'official' => 'Repubblica di Bulgaria',
@@ -3296,9 +3572,21 @@ class CountriesDataSource
         'official' => 'ブルガリア共和国',
         'common' => 'ブルガリア',
       ],
+      'kor' => [
+        'official' => '불가리아 공화국',
+        'common' => '불가리아',
+      ],
       'nld' => [
         'official' => 'Republiek Bulgarije',
         'common' => 'Bulgarije',
+      ],
+      'per' => [
+        'official' => 'جمهوری بلغارستان',
+        'common' => 'بلغارستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Bułgarii',
+        'common' => 'Bułgaria',
       ],
       'por' => [
         'official' => 'República da Bulgária',
@@ -3316,33 +3604,17 @@ class CountriesDataSource
         'official' => 'República de Bulgaria',
         'common' => 'Bulgaria',
       ],
-      'fin' => [
-        'official' => 'Bulgarian tasavalta',
-        'common' => 'Bulgaria',
-      ],
-      'est' => [
-        'official' => 'Bulgaaria Vabariik',
-        'common' => 'Bulgaaria',
-      ],
-      'zho' => [
-        'official' => '保加利亚共和国',
-        'common' => '保加利亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Bułgarii',
-        'common' => 'Bułgaria',
+      'swe' => [
+        'official' => 'Republiken Bulgarien',
+        'common' => 'Bulgarien',
       ],
       'urd' => [
         'official' => 'جمہوریہ بلغاریہ',
         'common' => 'بلغاریہ',
       ],
-      'kor' => [
-        'official' => '불가리아 공화국',
-        'common' => '불가리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری بلغارستان',
-        'common' => 'بلغارستان',
+      'zho' => [
+        'official' => '保加利亚共和国',
+        'common' => '保加利亚',
       ],
     ],
     'latlng' => [
@@ -3369,6 +3641,9 @@ class CountriesDataSource
         'm' => 'Bulgare',
       ],
     ],
+    'callingCodes' => [
+      0 => '+359',
+    ],
   ],
   23 => [
     'name' => [
@@ -3390,6 +3665,7 @@ class CountriesDataSource
     'cioc' => 'BRN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BHD' => [
         'name' => 'Bahraini dinar',
@@ -3428,12 +3704,24 @@ class CountriesDataSource
         'official' => 'Königreich Bahrain',
         'common' => 'Bahrain',
       ],
+      'est' => [
+        'official' => 'Bahreini Kuningriik',
+        'common' => 'Bahrein',
+      ],
+      'fin' => [
+        'official' => 'Bahrainin kuningaskunta',
+        'common' => 'Bahrain',
+      ],
       'fra' => [
         'official' => 'Royaume de Bahreïn',
         'common' => 'Bahreïn',
       ],
       'hrv' => [
         'official' => 'Kraljevina Bahrein',
+        'common' => 'Bahrein',
+      ],
+      'hun' => [
+        'official' => 'Bahreini Királyság',
         'common' => 'Bahrein',
       ],
       'ita' => [
@@ -3444,9 +3732,21 @@ class CountriesDataSource
         'official' => 'バーレーン王国',
         'common' => 'バーレーン',
       ],
+      'kor' => [
+        'official' => '바레인 왕국',
+        'common' => '바레인',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Bahrein',
         'common' => 'Bahrein',
+      ],
+      'per' => [
+        'official' => 'پادشاهی بحرین',
+        'common' => 'بحرین',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Bahrajnu',
+        'common' => 'Bahrajn',
       ],
       'por' => [
         'official' => 'Reino do Bahrein',
@@ -3464,33 +3764,17 @@ class CountriesDataSource
         'official' => 'Reino de Bahrein',
         'common' => 'Bahrein',
       ],
-      'fin' => [
-        'official' => 'Bahrainin kuningaskunta',
+      'swe' => [
+        'official' => 'Konungariket Bahrain',
         'common' => 'Bahrain',
-      ],
-      'est' => [
-        'official' => 'Bahreini Kuningriik',
-        'common' => 'Bahrein',
-      ],
-      'zho' => [
-        'official' => '巴林王国',
-        'common' => '巴林',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Bahrajnu',
-        'common' => 'Bahrajn',
       ],
       'urd' => [
         'official' => 'مملکتِ بحرین',
         'common' => 'بحرین',
       ],
-      'kor' => [
-        'official' => '바레인 왕국',
-        'common' => '바레인',
-      ],
-      'per' => [
-        'official' => 'پادشاهی بحرین',
-        'common' => 'بحرین',
+      'zho' => [
+        'official' => '巴林王国',
+        'common' => '巴林',
       ],
     ],
     'latlng' => [
@@ -3511,6 +3795,9 @@ class CountriesDataSource
         'f' => 'Bahreïnienne',
         'm' => 'Bahreïnien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+973',
     ],
   ],
   24 => [
@@ -3533,6 +3820,7 @@ class CountriesDataSource
     'cioc' => 'BAH',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BSD' => [
         'name' => 'Bahamian dollar',
@@ -3574,6 +3862,14 @@ class CountriesDataSource
         'official' => 'Commonwealth der Bahamas',
         'common' => 'Bahamas',
       ],
+      'est' => [
+        'official' => 'Bahama Ühendus',
+        'common' => 'Bahama',
+      ],
+      'fin' => [
+        'official' => 'Bahaman liittovaltio',
+        'common' => 'Bahamasaaret',
+      ],
       'fra' => [
         'official' => 'Commonwealth des Bahamas',
         'common' => 'Bahamas',
@@ -3581,6 +3877,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Zajednica Bahama',
         'common' => 'Bahami',
+      ],
+      'hun' => [
+        'official' => 'Bahamai Közösség',
+        'common' => 'Bahama-szigetek',
       ],
       'ita' => [
         'official' => 'Commonwealth delle Bahamas',
@@ -3590,9 +3890,21 @@ class CountriesDataSource
         'official' => 'バハマ',
         'common' => 'バハマ',
       ],
+      'kor' => [
+        'official' => '바하마 연방',
+        'common' => '바하마',
+      ],
       'nld' => [
         'official' => 'Gemenebest van de Bahama\'s',
         'common' => 'Bahama’s',
+      ],
+      'per' => [
+        'official' => 'قلمرو همسود باهاما',
+        'common' => 'باهاما',
+      ],
+      'pol' => [
+        'official' => 'Bahamy',
+        'common' => 'Bahamy',
       ],
       'por' => [
         'official' => 'Comunidade das Bahamas',
@@ -3610,33 +3922,17 @@ class CountriesDataSource
         'official' => 'Commonwealth de las Bahamas',
         'common' => 'Bahamas',
       ],
-      'fin' => [
-        'official' => 'Bahaman liittovaltio',
-        'common' => 'Bahamasaaret',
-      ],
-      'est' => [
-        'official' => 'Bahama Ühendus',
-        'common' => 'Bahama',
-      ],
-      'zho' => [
-        'official' => '巴哈马联邦',
-        'common' => '巴哈马',
-      ],
-      'pol' => [
-        'official' => 'Bahamy',
-        'common' => 'Bahamy',
+      'swe' => [
+        'official' => 'Samväldet Bahamas',
+        'common' => 'Bahamas',
       ],
       'urd' => [
         'official' => 'دولتِ مشترکہ بہاماس',
         'common' => 'بہاماس',
       ],
-      'kor' => [
-        'official' => '바하마 연방',
-        'common' => '바하마',
-      ],
-      'per' => [
-        'official' => 'قلمرو همسود باهاما',
-        'common' => 'باهاما',
+      'zho' => [
+        'official' => '巴哈马联邦',
+        'common' => '巴哈马',
       ],
     ],
     'latlng' => [
@@ -3657,6 +3953,9 @@ class CountriesDataSource
         'f' => 'Bahamienne',
         'm' => 'Bahamien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1242',
     ],
   ],
   25 => [
@@ -3687,6 +3986,7 @@ class CountriesDataSource
     'cioc' => 'BIH',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BAM' => [
         'name' => 'Bosnia and Herzegovina convertible mark',
@@ -3708,7 +4008,7 @@ class CountriesDataSource
       2 => 'Босна и Херцеговина',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'bos' => 'Bosnian',
       'hrv' => 'Croatian',
@@ -3727,6 +4027,14 @@ class CountriesDataSource
         'official' => 'Bosnien und Herzegowina',
         'common' => 'Bosnien und Herzegowina',
       ],
+      'est' => [
+        'official' => 'Bosnia ja Hertsegoviina',
+        'common' => 'Bosnia ja Hertsegoviina',
+      ],
+      'fin' => [
+        'official' => 'Bosnia ja Hertsegovina',
+        'common' => 'Bosnia ja Hertsegovina',
+      ],
       'fra' => [
         'official' => 'Bosnie-et-Herzégovine',
         'common' => 'Bosnie-Herzégovine',
@@ -3734,6 +4042,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Bosna i Hercegovina',
         'common' => 'Bosna i Hercegovina',
+      ],
+      'hun' => [
+        'official' => 'Bosznia-Hercegovina',
+        'common' => 'Bosznia-Hercegovina',
       ],
       'ita' => [
         'official' => 'Bosnia-Erzegovina',
@@ -3743,9 +4055,21 @@ class CountriesDataSource
         'official' => 'ボスニア·ヘルツェゴビナ',
         'common' => 'ボスニア・ヘルツェゴビナ',
       ],
+      'kor' => [
+        'official' => '보스니아 헤르체고비나',
+        'common' => '보스니아 헤르체고비나',
+      ],
       'nld' => [
         'official' => 'Bosnië-Herzegovina',
         'common' => 'Bosnië en Herzegovina',
+      ],
+      'per' => [
+        'official' => 'بوسنی و هرزگوین',
+        'common' => 'بوسنی و هرزگوین',
+      ],
+      'pol' => [
+        'official' => 'Bośnia i Hercegowina',
+        'common' => 'Bośnia i Hercegowina',
       ],
       'por' => [
         'official' => 'Bósnia e Herzegovina',
@@ -3763,33 +4087,17 @@ class CountriesDataSource
         'official' => 'Bosnia y Herzegovina',
         'common' => 'Bosnia y Herzegovina',
       ],
-      'fin' => [
-        'official' => 'Bosnia ja Hertsegovina',
-        'common' => 'Bosnia ja Hertsegovina',
-      ],
-      'est' => [
-        'official' => 'Bosnia ja Hertsegoviina',
-        'common' => 'Bosnia ja Hertsegoviina',
-      ],
-      'zho' => [
-        'official' => '波斯尼亚和黑塞哥维那',
-        'common' => '波斯尼亚和黑塞哥维那',
-      ],
-      'pol' => [
-        'official' => 'Bośnia i Hercegowina',
-        'common' => 'Bośnia i Hercegowina',
+      'swe' => [
+        'official' => 'Bosnien och Hercegovina',
+        'common' => 'Bosnien och Hercegovina',
       ],
       'urd' => [
         'official' => 'بوسنیا و ہرزیگووینا',
         'common' => 'بوسنیا و ہرزیگووینا',
       ],
-      'kor' => [
-        'official' => '보스니아 헤르체고비나',
-        'common' => '보스니아 헤르체고비나',
-      ],
-      'per' => [
-        'official' => 'بوسنی و هرزگوین',
-        'common' => 'بوسنی و هرزگوین',
+      'zho' => [
+        'official' => '波斯尼亚和黑塞哥维那',
+        'common' => '波斯尼亚和黑塞哥维那',
       ],
     ],
     'latlng' => [
@@ -3814,6 +4122,9 @@ class CountriesDataSource
         'm' => 'Bosnien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+387',
+    ],
   ],
   26 => [
     'name' => [
@@ -3835,6 +4146,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -3870,6 +4182,14 @@ class CountriesDataSource
         'official' => 'Gebietskörperschaft Saint-Barthélemy',
         'common' => 'Saint-Barthélemy',
       ],
+      'est' => [
+        'official' => 'Saint-Barthélemy territoriaalühendus',
+        'common' => 'Saint-Barthélemy',
+      ],
+      'fin' => [
+        'official' => 'Saint-Barthélemyn yhteisö',
+        'common' => 'Saint-Barthélemy',
+      ],
       'fra' => [
         'official' => 'Collectivité de Saint-Barthélemy',
         'common' => 'Saint-Barthélemy',
@@ -3877,6 +4197,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kolektivnost sv Barthélemy',
         'common' => 'Saint Barthélemy',
+      ],
+      'hun' => [
+        'official' => 'Saint-Barthélemy',
+        'common' => 'Saint-Barthélemy',
       ],
       'ita' => [
         'official' => 'Collettività di Saint Barthélemy',
@@ -3886,9 +4210,21 @@ class CountriesDataSource
         'official' => 'サン·バルテルミー島の集合体',
         'common' => 'サン・バルテルミー',
       ],
+      'kor' => [
+        'official' => '생바르텔레미',
+        'common' => '생바르텔레미',
+      ],
       'nld' => [
         'official' => 'Gemeenschap Saint Barthélemy',
         'common' => 'Saint Barthélemy',
+      ],
+      'per' => [
+        'official' => 'سن بارتلمی',
+        'common' => 'سن بارتلمی',
+      ],
+      'pol' => [
+        'official' => 'Saint-Barthélemy',
+        'common' => 'Saint-Barthélemy',
       ],
       'por' => [
         'official' => 'Coletividade de Saint Barthélemy',
@@ -3906,19 +4242,7 @@ class CountriesDataSource
         'official' => 'Colectividad de San Barthélemy',
         'common' => 'San Bartolomé',
       ],
-      'fin' => [
-        'official' => 'Saint-Barthélemyn yhteisö',
-        'common' => 'Saint-Barthélemy',
-      ],
-      'est' => [
-        'official' => 'Saint-Barthélemy territoriaalühendus',
-        'common' => 'Saint-Barthélemy',
-      ],
-      'zho' => [
-        'official' => '圣巴泰勒米集体',
-        'common' => '圣巴泰勒米',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Saint-Barthélemy',
         'common' => 'Saint-Barthélemy',
       ],
@@ -3926,13 +4250,9 @@ class CountriesDataSource
         'official' => 'سینٹ بارتھیملے',
         'common' => 'سینٹ بارتھیملے',
       ],
-      'kor' => [
-        'official' => '생바르텔레미',
-        'common' => '생바르텔레미',
-      ],
-      'per' => [
-        'official' => 'سن بارتلمی',
-        'common' => 'سن بارتلمی',
+      'zho' => [
+        'official' => '圣巴泰勒米集体',
+        'common' => '圣巴泰勒米',
       ],
     ],
     'latlng' => [
@@ -3953,6 +4273,9 @@ class CountriesDataSource
         'f' => 'Barthéloméenne',
         'm' => 'Barthéloméen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+590',
     ],
   ],
   27 => [
@@ -3976,6 +4299,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'GBP' => [
         'name' => 'Pound sterling',
@@ -4014,6 +4338,14 @@ class CountriesDataSource
         'official' => 'Sankt Helena, Ascension und Tristan da Cunha',
         'common' => 'St. Helena, Ascension und Tristan da Cunha',
       ],
+      'est' => [
+        'official' => 'Saint Helena, Ascension ja Tristan da Cunha',
+        'common' => 'Saint Helena, Ascension ja Tristan da Cunha',
+      ],
+      'fin' => [
+        'official' => 'Saint Helena, Ascension ja Tristan da Cunha',
+        'common' => 'Saint Helena, Ascension ja Tristan da Cunha',
+      ],
       'fra' => [
         'official' => 'Sainte-Hélène, Ascension et Tristan da Cunha',
         'common' => 'Sainte-Hélène, Ascension et Tristan da Cunha',
@@ -4021,6 +4353,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sveta Helena',
         'common' => 'Sveta Helena',
+      ],
+      'hun' => [
+        'official' => 'Szent Ilona',
+        'common' => 'Szent Ilona-sziget',
       ],
       'ita' => [
         'official' => 'Sant\'Elena, Ascensione e Tristan da Cunha',
@@ -4030,9 +4366,21 @@ class CountriesDataSource
         'official' => 'セントヘレナ・アセンションおよびトリスタンダクーニャ',
         'common' => 'セントヘレナ・アセンションおよびトリスタンダクーニャ',
       ],
+      'kor' => [
+        'official' => '세인트헬레나',
+        'common' => '세인트헬레나',
+      ],
       'nld' => [
         'official' => 'Sint-Helena, Ascension en Tristan da Cunha',
         'common' => 'Sint-Helena, Ascension en Tristan da Cunha',
+      ],
+      'per' => [
+        'official' => 'سنت هلن',
+        'common' => 'سنت هلن',
+      ],
+      'pol' => [
+        'official' => 'Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha',
+        'common' => 'Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha',
       ],
       'por' => [
         'official' => 'Santa Helena, Ascensão e Tristão da Cunha',
@@ -4050,33 +4398,17 @@ class CountriesDataSource
         'official' => 'Santa Elena, Ascensión y Tristán de Acuña',
         'common' => 'Santa Elena, Ascensión y Tristán de Acuña',
       ],
-      'fin' => [
-        'official' => 'Saint Helena, Ascension ja Tristan da Cunha',
-        'common' => 'Saint Helena, Ascension ja Tristan da Cunha',
-      ],
-      'est' => [
-        'official' => 'Saint Helena, Ascension ja Tristan da Cunha',
-        'common' => 'Saint Helena, Ascension ja Tristan da Cunha',
-      ],
-      'zho' => [
-        'official' => '圣赫勒拿、阿森松和特里斯坦-达库尼亚',
-        'common' => '圣赫勒拿、阿森松和特里斯坦-达库尼亚',
-      ],
-      'pol' => [
-        'official' => 'Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha',
-        'common' => 'Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha',
+      'swe' => [
+        'official' => 'Sankta Helena',
+        'common' => 'Sankta Helena',
       ],
       'urd' => [
         'official' => 'سینٹ ہلینا، اسینشن و ترسٹان دا کونیا',
         'common' => 'سینٹ ہلینا، اسینشن و ترسٹان دا کونیا',
       ],
-      'kor' => [
-        'official' => '세인트헬레나',
-        'common' => '세인트헬레나',
-      ],
-      'per' => [
-        'official' => 'سنت هلن',
-        'common' => 'سنت هلن',
+      'zho' => [
+        'official' => '圣赫勒拿、阿森松和特里斯坦-达库尼亚',
+        'common' => '圣赫勒拿、阿森松和特里斯坦-达库尼亚',
       ],
     ],
     'latlng' => [
@@ -4097,6 +4429,10 @@ class CountriesDataSource
         'f' => 'Sainte-Hélénoise',
         'm' => 'Sainte-Hélènois',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+290',
+      1 => '+247',
     ],
   ],
   28 => [
@@ -4123,6 +4459,7 @@ class CountriesDataSource
     'cioc' => 'BLR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BYN' => [
         'name' => 'Belarusian ruble',
@@ -4164,6 +4501,14 @@ class CountriesDataSource
         'official' => 'Republik Belarus',
         'common' => 'Weißrussland',
       ],
+      'est' => [
+        'official' => 'Valgevene Vabariik',
+        'common' => 'Valgevene',
+      ],
+      'fin' => [
+        'official' => 'Valko-Venäjän tasavalta',
+        'common' => 'Valko-Venäjä',
+      ],
       'fra' => [
         'official' => 'République de Biélorussie',
         'common' => 'Biélorussie',
@@ -4171,6 +4516,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Bjelorusija',
         'common' => 'Bjelorusija',
+      ],
+      'hun' => [
+        'official' => 'Fehérorosz Köztársaság',
+        'common' => 'Fehéroroszország',
       ],
       'ita' => [
         'official' => 'Repubblica di Belarus',
@@ -4180,9 +4529,21 @@ class CountriesDataSource
         'official' => 'ベラルーシ共和国',
         'common' => 'ベラルーシ',
       ],
+      'kor' => [
+        'official' => '벨라루스 공화국',
+        'common' => '벨라루스',
+      ],
       'nld' => [
         'official' => 'Republiek Belarus',
         'common' => 'Wit-Rusland',
+      ],
+      'per' => [
+        'official' => 'جمهوری بلاروس',
+        'common' => 'بلاروس',
+      ],
+      'pol' => [
+        'official' => 'Republika Białorusi',
+        'common' => 'Białoruś',
       ],
       'por' => [
         'official' => 'República da Bielorrússia',
@@ -4200,33 +4561,17 @@ class CountriesDataSource
         'official' => 'República de Belarús',
         'common' => 'Bielorrusia',
       ],
-      'fin' => [
-        'official' => 'Valko-Venäjän tasavalta',
-        'common' => 'Valko-Venäjä',
-      ],
-      'est' => [
-        'official' => 'Valgevene Vabariik',
-        'common' => 'Valgevene',
-      ],
-      'zho' => [
-        'official' => '白俄罗斯共和国',
-        'common' => '白俄罗斯',
-      ],
-      'pol' => [
-        'official' => 'Republika Białorusi',
-        'common' => 'Białoruś',
+      'swe' => [
+        'official' => 'Republiken Vitryssland',
+        'common' => 'Belarus',
       ],
       'urd' => [
         'official' => 'جمہوریہ بیلاروس',
         'common' => 'بیلاروس',
       ],
-      'kor' => [
-        'official' => '벨라루스 공화국',
-        'common' => '벨라루스',
-      ],
-      'per' => [
-        'official' => 'جمهوری بلاروس',
-        'common' => 'بلاروس',
+      'zho' => [
+        'official' => '白俄罗斯共和国',
+        'common' => '白俄罗斯',
       ],
     ],
     'latlng' => [
@@ -4252,6 +4597,9 @@ class CountriesDataSource
         'f' => 'Biélorusse',
         'm' => 'Biélorusse',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+375',
     ],
   ],
   29 => [
@@ -4282,6 +4630,7 @@ class CountriesDataSource
     'cioc' => 'BIZ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BZD' => [
         'name' => 'Belize dollar',
@@ -4320,11 +4669,23 @@ class CountriesDataSource
         'official' => 'Belize',
         'common' => 'Belize',
       ],
+      'est' => [
+        'official' => 'Belize',
+        'common' => 'Belize',
+      ],
+      'fin' => [
+        'official' => 'Belize',
+        'common' => 'Belize',
+      ],
       'fra' => [
         'official' => 'Belize',
         'common' => 'Belize',
       ],
       'hrv' => [
+        'official' => 'Belize',
+        'common' => 'Belize',
+      ],
+      'hun' => [
         'official' => 'Belize',
         'common' => 'Belize',
       ],
@@ -4336,7 +4697,19 @@ class CountriesDataSource
         'official' => 'ベリーズ',
         'common' => 'ベリーズ',
       ],
+      'kor' => [
+        'official' => '벨리즈',
+        'common' => '벨리즈',
+      ],
       'nld' => [
+        'official' => 'Belize',
+        'common' => 'Belize',
+      ],
+      'per' => [
+        'official' => 'بلیز',
+        'common' => 'بلیز',
+      ],
+      'pol' => [
         'official' => 'Belize',
         'common' => 'Belize',
       ],
@@ -4356,19 +4729,7 @@ class CountriesDataSource
         'official' => 'Belice',
         'common' => 'Belice',
       ],
-      'fin' => [
-        'official' => 'Belize',
-        'common' => 'Belize',
-      ],
-      'est' => [
-        'official' => 'Belize',
-        'common' => 'Belize',
-      ],
-      'zho' => [
-        'official' => '伯利兹',
-        'common' => '伯利兹',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Belize',
         'common' => 'Belize',
       ],
@@ -4376,13 +4737,9 @@ class CountriesDataSource
         'official' => 'بیلیز',
         'common' => 'بیلیز',
       ],
-      'kor' => [
-        'official' => '벨리즈',
-        'common' => '벨리즈',
-      ],
-      'per' => [
-        'official' => 'بلیز',
-        'common' => 'بلیز',
+      'zho' => [
+        'official' => '伯利兹',
+        'common' => '伯利兹',
       ],
     ],
     'latlng' => [
@@ -4406,6 +4763,9 @@ class CountriesDataSource
         'm' => 'Bélizien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+501',
+    ],
   ],
   30 => [
     'name' => [
@@ -4427,6 +4787,7 @@ class CountriesDataSource
     'cioc' => 'BER',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'BMD' => [
         'name' => 'Bermudian dollar',
@@ -4466,6 +4827,14 @@ class CountriesDataSource
         'official' => 'Bermuda',
         'common' => 'Bermuda',
       ],
+      'est' => [
+        'official' => 'Bermuda',
+        'common' => 'Bermuda',
+      ],
+      'fin' => [
+        'official' => 'Bermuda',
+        'common' => 'Bermuda',
+      ],
       'fra' => [
         'official' => 'Bermudes',
         'common' => 'Bermudes',
@@ -4473,6 +4842,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Bermuda',
         'common' => 'Bermudi',
+      ],
+      'hun' => [
+        'official' => 'Bermuda',
+        'common' => 'Bermuda',
       ],
       'ita' => [
         'official' => 'Bermuda',
@@ -4482,9 +4855,21 @@ class CountriesDataSource
         'official' => 'バミューダ',
         'common' => 'バミューダ',
       ],
+      'kor' => [
+        'official' => '버뮤다',
+        'common' => '버뮤다',
+      ],
       'nld' => [
         'official' => 'Bermuda',
         'common' => 'Bermuda',
+      ],
+      'per' => [
+        'official' => 'جزایر برمودا',
+        'common' => 'برمودا',
+      ],
+      'pol' => [
+        'official' => 'Bermudy',
+        'common' => 'Bermudy',
       ],
       'por' => [
         'official' => 'Bermudas',
@@ -4502,33 +4887,17 @@ class CountriesDataSource
         'official' => 'Bermuda',
         'common' => 'Bermudas',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Bermuda',
         'common' => 'Bermuda',
-      ],
-      'est' => [
-        'official' => 'Bermuda',
-        'common' => 'Bermuda',
-      ],
-      'zho' => [
-        'official' => '百慕大',
-        'common' => '百慕大',
-      ],
-      'pol' => [
-        'official' => 'Bermudy',
-        'common' => 'Bermudy',
       ],
       'urd' => [
         'official' => 'برمودا',
         'common' => 'برمودا',
       ],
-      'kor' => [
-        'official' => '버뮤다',
-        'common' => '버뮤다',
-      ],
-      'per' => [
-        'official' => 'جزایر برمودا',
-        'common' => 'برمودا',
+      'zho' => [
+        'official' => '百慕大',
+        'common' => '百慕大',
       ],
     ],
     'latlng' => [
@@ -4549,6 +4918,9 @@ class CountriesDataSource
         'f' => 'Bermudienne',
         'm' => 'Bermudien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1441',
     ],
   ],
   31 => [
@@ -4583,6 +4955,7 @@ class CountriesDataSource
     'cioc' => 'BOL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BOB' => [
         'name' => 'Bolivian boliviano',
@@ -4630,6 +5003,14 @@ class CountriesDataSource
         'official' => 'Plurinationaler Staat Bolivien',
         'common' => 'Bolivien',
       ],
+      'est' => [
+        'official' => 'Boliivia Paljurahvuseline Riik',
+        'common' => 'Boliivia',
+      ],
+      'fin' => [
+        'official' => 'Bolivian monikansainen valtio',
+        'common' => 'Bolivia',
+      ],
       'fra' => [
         'official' => 'État plurinational de Bolivie',
         'common' => 'Bolivie',
@@ -4637,6 +5018,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Plurinational State of Bolivia',
         'common' => 'Bolivija',
+      ],
+      'hun' => [
+        'official' => 'Bolíviai Többnemzetiségű Állam',
+        'common' => 'Bolívia',
       ],
       'ita' => [
         'official' => 'Stato Plurinazionale della Bolivia',
@@ -4646,9 +5031,21 @@ class CountriesDataSource
         'official' => 'ボリビアの多民族国',
         'common' => 'ボリビア多民族国',
       ],
+      'kor' => [
+        'official' => '볼리비아 다민족국',
+        'common' => '볼리비아',
+      ],
       'nld' => [
         'official' => 'Plurinationale Staat van Bolivia',
         'common' => 'Bolivia',
+      ],
+      'per' => [
+        'official' => 'جمهوری بولیوی',
+        'common' => 'بولیوی',
+      ],
+      'pol' => [
+        'official' => 'Wielonarodowe Państwo Boliwia',
+        'common' => 'Boliwia',
       ],
       'por' => [
         'official' => 'Estado Plurinacional da Bolívia',
@@ -4666,33 +5063,17 @@ class CountriesDataSource
         'official' => 'Estado Plurinacional de Bolivia',
         'common' => 'Bolivia',
       ],
-      'fin' => [
-        'official' => 'Bolivian monikansainen valtio',
+      'swe' => [
+        'official' => 'Mångnationella staten Bolivia',
         'common' => 'Bolivia',
-      ],
-      'est' => [
-        'official' => 'Boliivia Paljurahvuseline Riik',
-        'common' => 'Boliivia',
-      ],
-      'zho' => [
-        'official' => '多民族玻利维亚国',
-        'common' => '玻利维亚',
-      ],
-      'pol' => [
-        'official' => 'Wielonarodowe Państwo Boliwia',
-        'common' => 'Boliwia',
       ],
       'urd' => [
         'official' => 'جمہوریہ بولیویا',
         'common' => 'بولیویا',
       ],
-      'kor' => [
-        'official' => '볼리비아 다민족국',
-        'common' => '볼리비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری بولیوی',
-        'common' => 'بولیوی',
+      'zho' => [
+        'official' => '多民族玻利维亚国',
+        'common' => '玻利维亚',
       ],
     ],
     'latlng' => [
@@ -4718,6 +5099,9 @@ class CountriesDataSource
         'f' => 'Bolivienne',
         'm' => 'Bolivien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+591',
     ],
   ],
   32 => [
@@ -4745,6 +5129,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -4778,6 +5163,14 @@ class CountriesDataSource
         'official' => 'Bonaire, Sint Eustatius und Saba',
         'common' => 'Karibische Niederlande',
       ],
+      'est' => [
+        'official' => 'Bonaire, Sint Eustatius ja Saba',
+        'common' => 'Bonaire, Sint Eustatius ja Saba',
+      ],
+      'fin' => [
+        'official' => 'Bonaire, Sint Eustatius ja Saba',
+        'common' => 'Bonaire, Sint Eustatius ja Saba',
+      ],
       'fra' => [
         'official' => 'Bonaire, Saint-Eustache et Saba',
         'common' => 'Pays-Bas caribéens',
@@ -4785,6 +5178,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Bonaire, Sint Eustatius i Saba',
         'common' => 'Bonaire, Sint Eustatius i Saba',
+      ],
+      'hun' => [
+        'official' => 'Bonaire',
+        'common' => 'Bonaire',
       ],
       'ita' => [
         'official' => 'Bonaire, Sint Eustatius e Saba',
@@ -4794,9 +5191,21 @@ class CountriesDataSource
         'official' => 'ボネール、シント・ユースタティウスおよびサバ',
         'common' => 'ボネール、シント・ユースタティウスおよびサバ',
       ],
+      'kor' => [
+        'official' => '보네르, 신트외스타티위스, 사바',
+        'common' => '카리브 네덜란드',
+      ],
       'nld' => [
         'official' => 'Bonaire, Sint Eustatius en Saba',
         'common' => 'Caribisch Nederland',
+      ],
+      'per' => [
+        'official' => 'جزایر کارائیب هلند',
+        'common' => 'جزایر کارائیب هلند',
+      ],
+      'pol' => [
+        'official' => 'Bonaire, Sint Eustatius i Saba',
+        'common' => 'Antyle Holenderskie',
       ],
       'por' => [
         'official' => 'Bonaire, Saba e Santo Eustáquio',
@@ -4814,33 +5223,17 @@ class CountriesDataSource
         'official' => 'Bonaire, San Eustaquio y Saba',
         'common' => 'Caribe Neerlandés',
       ],
-      'fin' => [
-        'official' => 'Bonaire, Sint Eustatius ja Saba',
-        'common' => 'Bonaire, Sint Eustatius ja Saba',
-      ],
-      'est' => [
-        'official' => 'Bonaire, Sint Eustatius ja Saba',
-        'common' => 'Bonaire, Sint Eustatius ja Saba',
-      ],
-      'zho' => [
-        'official' => '荷蘭加勒比區',
-        'common' => '荷蘭加勒比區',
-      ],
-      'pol' => [
-        'official' => 'Bonaire, Sint Eustatius i Saba',
-        'common' => 'Antyle Holenderskie',
+      'swe' => [
+        'official' => 'Bonaire, Sint Eustatius and Saba',
+        'common' => 'Karibiska Nederländerna',
       ],
       'urd' => [
         'official' => 'بونایر، سینٹ ایوسٹائیس اور سابا',
         'common' => 'کیریبین نیدرلینڈز',
       ],
-      'kor' => [
-        'official' => '보네르, 신트외스타티위스, 사바',
-        'common' => '카리브 네덜란드',
-      ],
-      'per' => [
-        'official' => 'جزایر کارائیب هلند',
-        'common' => 'جزایر کارائیب هلند',
+      'zho' => [
+        'official' => '荷蘭加勒比區',
+        'common' => '荷蘭加勒比區',
       ],
     ],
     'latlng' => [
@@ -4861,6 +5254,9 @@ class CountriesDataSource
         'f' => 'Néerlandaise',
         'm' => 'Néerlandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+599',
     ],
   ],
   33 => [
@@ -4883,6 +5279,7 @@ class CountriesDataSource
     'cioc' => 'BRA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BRL' => [
         'name' => 'Brazilian real',
@@ -4922,6 +5319,14 @@ class CountriesDataSource
         'official' => 'Föderative Republik Brasilien',
         'common' => 'Brasilien',
       ],
+      'est' => [
+        'official' => 'Brasiilia Liitvabariik',
+        'common' => 'Brasiilia',
+      ],
+      'fin' => [
+        'official' => 'Brasilian liittotasavalta',
+        'common' => 'Brasilia',
+      ],
       'fra' => [
         'official' => 'République fédérative du Brésil',
         'common' => 'Brésil',
@@ -4929,6 +5334,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savezne Republike Brazil',
         'common' => 'Brazil',
+      ],
+      'hun' => [
+        'official' => 'Brazil Szövetségi Köztársaság',
+        'common' => 'Brazília',
       ],
       'ita' => [
         'official' => 'Repubblica federativa del Brasile',
@@ -4938,9 +5347,21 @@ class CountriesDataSource
         'official' => 'ブラジル連邦共和国',
         'common' => 'ブラジル',
       ],
+      'kor' => [
+        'official' => '브라질 연방 공화국',
+        'common' => '브라질',
+      ],
       'nld' => [
         'official' => 'Federale Republiek Brazilië',
         'common' => 'Brazilië',
+      ],
+      'per' => [
+        'official' => 'جمهوری فدراتیو برزیل',
+        'common' => 'برزیل',
+      ],
+      'pol' => [
+        'official' => 'Federacyjna Republika Brazylii',
+        'common' => 'Brazylia',
       ],
       'por' => [
         'official' => 'República Federativa do Brasil',
@@ -4958,33 +5379,17 @@ class CountriesDataSource
         'official' => 'República Federativa del Brasil',
         'common' => 'Brasil',
       ],
-      'fin' => [
-        'official' => 'Brasilian liittotasavalta',
-        'common' => 'Brasilia',
-      ],
-      'est' => [
-        'official' => 'Brasiilia Liitvabariik',
-        'common' => 'Brasiilia',
-      ],
-      'zho' => [
-        'official' => '巴西联邦共和国',
-        'common' => '巴西',
-      ],
-      'pol' => [
-        'official' => 'Federacyjna Republika Brazylii',
-        'common' => 'Brazylia',
+      'swe' => [
+        'official' => 'Förbundsrepubliken Brasilien',
+        'common' => 'Brasilien',
       ],
       'urd' => [
         'official' => 'وفاقی جمہوریہ برازیل',
         'common' => 'برازیل',
       ],
-      'kor' => [
-        'official' => '브라질 연방 공화국',
-        'common' => '브라질',
-      ],
-      'per' => [
-        'official' => 'جمهوری فدراتیو برزیل',
-        'common' => 'برزیل',
+      'zho' => [
+        'official' => '巴西联邦共和国',
+        'common' => '巴西',
       ],
     ],
     'latlng' => [
@@ -5016,6 +5421,9 @@ class CountriesDataSource
         'm' => 'Brésilien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+55',
+    ],
   ],
   34 => [
     'name' => [
@@ -5037,6 +5445,7 @@ class CountriesDataSource
     'cioc' => 'BAR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BBD' => [
         'name' => 'Barbadian dollar',
@@ -5073,11 +5482,23 @@ class CountriesDataSource
         'official' => 'Barbados',
         'common' => 'Barbados',
       ],
+      'est' => [
+        'official' => 'Barbados',
+        'common' => 'Barbados',
+      ],
+      'fin' => [
+        'official' => 'Barbados',
+        'common' => 'Barbados',
+      ],
       'fra' => [
         'official' => 'Barbade',
         'common' => 'Barbade',
       ],
       'hrv' => [
+        'official' => 'Barbados',
+        'common' => 'Barbados',
+      ],
+      'hun' => [
         'official' => 'Barbados',
         'common' => 'Barbados',
       ],
@@ -5089,7 +5510,19 @@ class CountriesDataSource
         'official' => 'バルバドス',
         'common' => 'バルバドス',
       ],
+      'kor' => [
+        'official' => '바베이도스',
+        'common' => '바베이도스',
+      ],
       'nld' => [
+        'official' => 'Barbados',
+        'common' => 'Barbados',
+      ],
+      'per' => [
+        'official' => 'باربادوس',
+        'common' => 'باربادوس',
+      ],
+      'pol' => [
         'official' => 'Barbados',
         'common' => 'Barbados',
       ],
@@ -5109,19 +5542,7 @@ class CountriesDataSource
         'official' => 'Barbados',
         'common' => 'Barbados',
       ],
-      'fin' => [
-        'official' => 'Barbados',
-        'common' => 'Barbados',
-      ],
-      'est' => [
-        'official' => 'Barbados',
-        'common' => 'Barbados',
-      ],
-      'zho' => [
-        'official' => '巴巴多斯',
-        'common' => '巴巴多斯',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Barbados',
         'common' => 'Barbados',
       ],
@@ -5129,13 +5550,9 @@ class CountriesDataSource
         'official' => 'بارباڈوس',
         'common' => 'بارباڈوس',
       ],
-      'kor' => [
-        'official' => '바베이도스',
-        'common' => '바베이도스',
-      ],
-      'per' => [
-        'official' => 'باربادوس',
-        'common' => 'باربادوس',
+      'zho' => [
+        'official' => '巴巴多斯',
+        'common' => '巴巴多斯',
       ],
     ],
     'latlng' => [
@@ -5156,6 +5573,9 @@ class CountriesDataSource
         'f' => 'Barbadienne',
         'm' => 'Barbadien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1246',
     ],
   ],
   35 => [
@@ -5178,6 +5598,7 @@ class CountriesDataSource
     'cioc' => 'BRU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BND' => [
         'name' => 'Brunei dollar',
@@ -5221,6 +5642,14 @@ class CountriesDataSource
         'official' => 'Sultanat Brunei Darussalam',
         'common' => 'Brunei',
       ],
+      'est' => [
+        'official' => 'Brunei Darussalami Riik',
+        'common' => 'Brunei',
+      ],
+      'fin' => [
+        'official' => 'Brunei Darussalamin valtio',
+        'common' => 'Brunei',
+      ],
       'fra' => [
         'official' => 'État de Brunei Darussalam',
         'common' => 'Brunei',
@@ -5228,6 +5657,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Nacija od Bruneja, Kuću Mira',
         'common' => 'Brunej',
+      ],
+      'hun' => [
+        'official' => 'Brunei Szultanátus',
+        'common' => 'Brunei',
       ],
       'ita' => [
         'official' => 'Nazione di Brunei, Dimora della Pace',
@@ -5237,8 +5670,20 @@ class CountriesDataSource
         'official' => 'ブルネイ、平和の精舎の国家',
         'common' => 'ブルネイ・ダルサラーム',
       ],
+      'kor' => [
+        'official' => '브루나이 다루살람국',
+        'common' => '브루나이',
+      ],
       'nld' => [
         'official' => 'Natie van Brunei, de verblijfplaats van de Vrede',
+        'common' => 'Brunei',
+      ],
+      'per' => [
+        'official' => 'برونئی سرای صلح',
+        'common' => 'برونئی',
+      ],
+      'pol' => [
+        'official' => 'Państwo Brunei Darussalam',
         'common' => 'Brunei',
       ],
       'por' => [
@@ -5257,33 +5702,17 @@ class CountriesDataSource
         'official' => 'Nación de Brunei, Morada de la Paz',
         'common' => 'Brunei',
       ],
-      'fin' => [
-        'official' => 'Brunei Darussalamin valtio',
-        'common' => 'Brunei',
-      ],
-      'est' => [
-        'official' => 'Brunei Darussalami Riik',
-        'common' => 'Brunei',
-      ],
-      'zho' => [
-        'official' => '文莱和平之国',
-        'common' => '文莱',
-      ],
-      'pol' => [
-        'official' => 'Państwo Brunei Darussalam',
+      'swe' => [
+        'official' => 'Brunei Darussalam',
         'common' => 'Brunei',
       ],
       'urd' => [
         'official' => 'ریاستِ برونائی دارالسلام',
         'common' => 'برونائی',
       ],
-      'kor' => [
-        'official' => '브루나이 다루살람국',
-        'common' => '브루나이',
-      ],
-      'per' => [
-        'official' => 'برونئی سرای صلح',
-        'common' => 'برونئی',
+      'zho' => [
+        'official' => '文莱和平之国',
+        'common' => '文莱',
       ],
     ],
     'latlng' => [
@@ -5306,6 +5735,9 @@ class CountriesDataSource
         'm' => 'Brunéien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+673',
+    ],
   ],
   36 => [
     'name' => [
@@ -5327,6 +5759,7 @@ class CountriesDataSource
     'cioc' => 'BHU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BTN' => [
         'name' => 'Bhutanese ngultrum',
@@ -5368,6 +5801,14 @@ class CountriesDataSource
         'official' => 'Königreich Bhutan',
         'common' => 'Bhutan',
       ],
+      'est' => [
+        'official' => 'Bhutani Kuningriik',
+        'common' => 'Bhutan',
+      ],
+      'fin' => [
+        'official' => 'Bhutanin kuningaskunta',
+        'common' => 'Bhutan',
+      ],
       'fra' => [
         'official' => 'Royaume du Bhoutan',
         'common' => 'Bhoutan',
@@ -5375,6 +5816,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Butan',
         'common' => 'Butan',
+      ],
+      'hun' => [
+        'official' => 'Bhutáni Királyság',
+        'common' => 'Bhután',
       ],
       'ita' => [
         'official' => 'Regno del Bhutan',
@@ -5384,8 +5829,20 @@ class CountriesDataSource
         'official' => 'ブータン王国',
         'common' => 'ブータン',
       ],
+      'kor' => [
+        'official' => '부탄 왕국',
+        'common' => '부탄',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Bhutan',
+        'common' => 'Bhutan',
+      ],
+      'per' => [
+        'official' => 'پادشاهی بوتان',
+        'common' => 'بوتان',
+      ],
+      'pol' => [
+        'official' => 'Bhutan',
         'common' => 'Bhutan',
       ],
       'por' => [
@@ -5404,33 +5861,17 @@ class CountriesDataSource
         'official' => 'Reino de Bután',
         'common' => 'Bután',
       ],
-      'fin' => [
-        'official' => 'Bhutanin kuningaskunta',
-        'common' => 'Bhutan',
-      ],
-      'est' => [
-        'official' => 'Bhutani Kuningriik',
-        'common' => 'Bhutan',
-      ],
-      'zho' => [
-        'official' => '不丹王国',
-        'common' => '不丹',
-      ],
-      'pol' => [
-        'official' => 'Bhutan',
+      'swe' => [
+        'official' => 'Konungariket Bhutan',
         'common' => 'Bhutan',
       ],
       'urd' => [
         'official' => 'سلطنت بھوٹان',
         'common' => 'بھوٹان',
       ],
-      'kor' => [
-        'official' => '부탄 왕국',
-        'common' => '부탄',
-      ],
-      'per' => [
-        'official' => 'پادشاهی بوتان',
-        'common' => 'بوتان',
+      'zho' => [
+        'official' => '不丹王国',
+        'common' => '不丹',
       ],
     ],
     'latlng' => [
@@ -5454,6 +5895,9 @@ class CountriesDataSource
         'm' => 'Bhoutanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+975',
+    ],
   ],
   37 => [
     'name' => [
@@ -5475,6 +5919,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
     ],
     'idd' => [
@@ -5505,6 +5950,14 @@ class CountriesDataSource
         'official' => 'Bouvetinsel',
         'common' => 'Bouvetinsel',
       ],
+      'est' => [
+        'official' => 'Bouvet’ saar',
+        'common' => 'Bouvet’ saar',
+      ],
+      'fin' => [
+        'official' => 'Bouvet\'nsaari',
+        'common' => 'Bouvet\'nsaari',
+      ],
       'fra' => [
         'official' => 'Île Bouvet',
         'common' => 'Île Bouvet',
@@ -5512,6 +5965,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Bouvet Island',
         'common' => 'Otok Bouvet',
+      ],
+      'hun' => [
+        'official' => 'Bouvet-sziget',
+        'common' => 'Bouvet-sziget',
       ],
       'ita' => [
         'official' => 'Isola Bouvet',
@@ -5521,9 +5978,21 @@ class CountriesDataSource
         'official' => 'ブーヴェ島',
         'common' => 'ブーベ島',
       ],
+      'kor' => [
+        'official' => '부베 섬',
+        'common' => '부베 섬',
+      ],
       'nld' => [
         'official' => 'Bouvet Island',
         'common' => 'Bouveteiland',
+      ],
+      'per' => [
+        'official' => 'جزیرهٔ بووه',
+        'common' => 'جزیرهٔ بووه',
+      ],
+      'pol' => [
+        'official' => 'Wyspa Bouveta',
+        'common' => 'Wyspa Bouveta',
       ],
       'por' => [
         'official' => 'Ilha Bouvet',
@@ -5541,33 +6010,17 @@ class CountriesDataSource
         'official' => 'Isla Bouvet',
         'common' => 'Isla Bouvet',
       ],
-      'fin' => [
-        'official' => 'Bouvet\'nsaari',
-        'common' => 'Bouvet\'nsaari',
-      ],
-      'est' => [
-        'official' => 'Bouvet’ saar',
-        'common' => 'Bouvet’ saar',
-      ],
-      'zho' => [
-        'official' => '布维岛',
-        'common' => '布维岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspa Bouveta',
-        'common' => 'Wyspa Bouveta',
+      'swe' => [
+        'official' => 'Bouvetön',
+        'common' => 'Bouvetön',
       ],
       'urd' => [
         'official' => 'جزیرہ بووہ',
         'common' => 'جزیرہ بووہ',
       ],
-      'kor' => [
-        'official' => '부베 섬',
-        'common' => '부베 섬',
-      ],
-      'per' => [
-        'official' => 'جزیرهٔ بووه',
-        'common' => 'جزیرهٔ بووه',
+      'zho' => [
+        'official' => '布维岛',
+        'common' => '布维岛',
       ],
     ],
     'latlng' => [
@@ -5588,6 +6041,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+47',
     ],
   ],
   38 => [
@@ -5614,6 +6070,7 @@ class CountriesDataSource
     'cioc' => 'BOT',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BWP' => [
         'name' => 'Botswana pula',
@@ -5649,6 +6106,14 @@ class CountriesDataSource
         'official' => 'Republik Botsuana',
         'common' => 'Botswana',
       ],
+      'est' => [
+        'official' => 'Botswana Vabariik',
+        'common' => 'Botswana',
+      ],
+      'fin' => [
+        'official' => 'Botswanan tasavalta',
+        'common' => 'Botswana',
+      ],
       'fra' => [
         'official' => 'République du Botswana',
         'common' => 'Botswana',
@@ -5656,6 +6121,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Bocvana',
         'common' => 'Bocvana',
+      ],
+      'hun' => [
+        'official' => 'Botswanai Köztársaság',
+        'common' => 'Botswana',
       ],
       'ita' => [
         'official' => 'Repubblica del Botswana',
@@ -5665,8 +6134,20 @@ class CountriesDataSource
         'official' => 'ボツワナ共和国',
         'common' => 'ボツワナ',
       ],
+      'kor' => [
+        'official' => '보츠와나 공화국',
+        'common' => '보츠와나',
+      ],
       'nld' => [
         'official' => 'Republiek Botswana',
+        'common' => 'Botswana',
+      ],
+      'per' => [
+        'official' => 'جمهوری بوتسوانا',
+        'common' => 'بوتسوانا',
+      ],
+      'pol' => [
+        'official' => 'Republika Botswany',
         'common' => 'Botswana',
       ],
       'por' => [
@@ -5685,33 +6166,17 @@ class CountriesDataSource
         'official' => 'República de Botswana',
         'common' => 'Botswana',
       ],
-      'fin' => [
-        'official' => 'Botswanan tasavalta',
-        'common' => 'Botswana',
-      ],
-      'est' => [
-        'official' => 'Botswana Vabariik',
-        'common' => 'Botswana',
-      ],
-      'zho' => [
-        'official' => '博茨瓦纳共和国',
-        'common' => '博茨瓦纳',
-      ],
-      'pol' => [
-        'official' => 'Republika Botswany',
+      'swe' => [
+        'official' => 'Republiken Botswana',
         'common' => 'Botswana',
       ],
       'urd' => [
         'official' => 'جمہوریہ بوٹسوانا',
         'common' => 'بوٹسوانا',
       ],
-      'kor' => [
-        'official' => '보츠와나 공화국',
-        'common' => '보츠와나',
-      ],
-      'per' => [
-        'official' => 'جمهوری بوتسوانا',
-        'common' => 'بوتسوانا',
+      'zho' => [
+        'official' => '博茨瓦纳共和国',
+        'common' => '博茨瓦纳',
       ],
     ],
     'latlng' => [
@@ -5736,6 +6201,9 @@ class CountriesDataSource
         'f' => 'Botswanaise',
         'm' => 'Botswanais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+267',
     ],
   ],
   39 => [
@@ -5762,6 +6230,7 @@ class CountriesDataSource
     'cioc' => 'CAF',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XAF' => [
         'name' => 'Central African CFA franc',
@@ -5801,6 +6270,14 @@ class CountriesDataSource
         'official' => 'Zentralafrikanische Republik',
         'common' => 'Zentralafrikanische Republik',
       ],
+      'est' => [
+        'official' => 'Kesk-Aafrika Vabariik',
+        'common' => 'Kesk-Aafrika Vabariik',
+      ],
+      'fin' => [
+        'official' => 'Keski-Afrikan tasavalta',
+        'common' => 'Keski-Afrikan tasavalta',
+      ],
       'fra' => [
         'official' => 'République centrafricaine',
         'common' => 'République centrafricaine',
@@ -5808,6 +6285,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Centralna Afrička Republika',
         'common' => 'Srednjoafrička Republika',
+      ],
+      'hun' => [
+        'official' => 'Közép-afrikai Köztársaság',
+        'common' => 'Közép-afrikai Köztársaság',
       ],
       'ita' => [
         'official' => 'Repubblica Centrafricana',
@@ -5817,9 +6298,21 @@ class CountriesDataSource
         'official' => '中央アフリカ共和国',
         'common' => '中央アフリカ共和国',
       ],
+      'kor' => [
+        'official' => '중앙아프리카 공화국',
+        'common' => '중앙아프리카 공화국',
+      ],
       'nld' => [
         'official' => 'Centraal-Afrikaanse Republiek',
         'common' => 'Centraal-Afrikaanse Republiek',
+      ],
+      'per' => [
+        'official' => 'جمهوری آفریقای مرکزی',
+        'common' => 'جمهوری آفریقای مرکزی',
+      ],
+      'pol' => [
+        'official' => 'Republika Środkowoafrykańska',
+        'common' => 'Republika Środkowoafrykańska',
       ],
       'por' => [
         'official' => 'República Centro-Africano',
@@ -5837,33 +6330,17 @@ class CountriesDataSource
         'official' => 'República Centroafricana',
         'common' => 'República Centroafricana',
       ],
-      'fin' => [
-        'official' => 'Keski-Afrikan tasavalta',
-        'common' => 'Keski-Afrikan tasavalta',
-      ],
-      'est' => [
-        'official' => 'Kesk-Aafrika Vabariik',
-        'common' => 'Kesk-Aafrika Vabariik',
-      ],
-      'zho' => [
-        'official' => '中非共和国',
-        'common' => '中非共和国',
-      ],
-      'pol' => [
-        'official' => 'Republika Środkowoafrykańska',
-        'common' => 'Republika Środkowoafrykańska',
+      'swe' => [
+        'official' => 'Centralafrikanska republiken',
+        'common' => 'Centralafrikanska republiken',
       ],
       'urd' => [
         'official' => 'وسطی افریقی جمہوریہ',
         'common' => 'وسطی افریقی جمہوریہ',
       ],
-      'kor' => [
-        'official' => '중앙아프리카 공화국',
-        'common' => '중앙아프리카 공화국',
-      ],
-      'per' => [
-        'official' => 'جمهوری آفریقای مرکزی',
-        'common' => 'جمهوری آفریقای مرکزی',
+      'zho' => [
+        'official' => '中非共和国',
+        'common' => '中非共和国',
       ],
     ],
     'latlng' => [
@@ -5891,6 +6368,9 @@ class CountriesDataSource
         'm' => 'Centrafricain',
       ],
     ],
+    'callingCodes' => [
+      0 => '+236',
+    ],
   ],
   40 => [
     'name' => [
@@ -5916,6 +6396,7 @@ class CountriesDataSource
     'cioc' => 'CAN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CAD' => [
         'name' => 'Canadian dollar',
@@ -5953,11 +6434,23 @@ class CountriesDataSource
         'official' => 'Kanada',
         'common' => 'Kanada',
       ],
+      'est' => [
+        'official' => 'Kanada',
+        'common' => 'Kanada',
+      ],
+      'fin' => [
+        'official' => 'Kanada',
+        'common' => 'Kanada',
+      ],
       'fra' => [
         'official' => 'Canada',
         'common' => 'Canada',
       ],
       'hrv' => [
+        'official' => 'Kanada',
+        'common' => 'Kanada',
+      ],
+      'hun' => [
         'official' => 'Kanada',
         'common' => 'Kanada',
       ],
@@ -5969,9 +6462,21 @@ class CountriesDataSource
         'official' => 'カナダ',
         'common' => 'カナダ',
       ],
+      'kor' => [
+        'official' => '캐나다',
+        'common' => '캐나다',
+      ],
       'nld' => [
         'official' => 'Canada',
         'common' => 'Canada',
+      ],
+      'per' => [
+        'official' => 'کانادا',
+        'common' => 'کانادا',
+      ],
+      'pol' => [
+        'official' => 'Kanada',
+        'common' => 'Kanada',
       ],
       'por' => [
         'official' => 'Canadá',
@@ -5989,19 +6494,7 @@ class CountriesDataSource
         'official' => 'Canadá',
         'common' => 'Canadá',
       ],
-      'fin' => [
-        'official' => 'Kanada',
-        'common' => 'Kanada',
-      ],
-      'est' => [
-        'official' => 'Kanada',
-        'common' => 'Kanada',
-      ],
-      'zho' => [
-        'official' => '加拿大',
-        'common' => '加拿大',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Kanada',
         'common' => 'Kanada',
       ],
@@ -6009,13 +6502,9 @@ class CountriesDataSource
         'official' => 'کینیڈا',
         'common' => 'کینیڈا',
       ],
-      'kor' => [
-        'official' => '캐나다',
-        'common' => '캐나다',
-      ],
-      'per' => [
-        'official' => 'کانادا',
-        'common' => 'کانادا',
+      'zho' => [
+        'official' => '加拿大',
+        'common' => '加拿大',
       ],
     ],
     'latlng' => [
@@ -6038,6 +6527,9 @@ class CountriesDataSource
         'm' => 'Canadien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+1',
+    ],
   ],
   41 => [
     'name' => [
@@ -6059,6 +6551,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -6097,6 +6590,14 @@ class CountriesDataSource
         'official' => 'Gebiet der Kokos- (Keeling-) Inseln',
         'common' => 'Kokosinseln',
       ],
+      'est' => [
+        'official' => 'Kookossaarte ala',
+        'common' => 'Kookossaared',
+      ],
+      'fin' => [
+        'official' => 'Kookossaaret',
+        'common' => 'Kookossaaret',
+      ],
       'fra' => [
         'official' => 'Territoire des îles Cocos (Keeling)',
         'common' => 'Îles Cocos',
@@ -6104,6 +6605,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Teritoriju Kokosovi (Keeling) Islands',
         'common' => 'Kokosovi Otoci',
+      ],
+      'hun' => [
+        'official' => 'Kókusz-szigetek',
+        'common' => 'Kókusz-szigetek',
       ],
       'ita' => [
         'official' => 'Territorio della (Keeling) Isole Cocos',
@@ -6113,9 +6618,21 @@ class CountriesDataSource
         'official' => 'ココス諸島の領土',
         'common' => 'ココス（キーリング）諸島',
       ],
+      'kor' => [
+        'official' => '코코스 제도',
+        'common' => '코코스 제도',
+      ],
       'nld' => [
         'official' => 'Grondgebied van de Eilanden Cocos (Keeling )',
         'common' => 'Cocoseilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر کوکوس',
+        'common' => 'جزایر کوکوس',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Kokosowe',
+        'common' => 'Wyspy Kokosowe',
       ],
       'por' => [
         'official' => 'Território dos Cocos (Keeling)',
@@ -6133,33 +6650,17 @@ class CountriesDataSource
         'official' => 'Territorio de los (Keeling) Islas Cocos',
         'common' => 'Islas Cocos o Islas Keeling',
       ],
-      'fin' => [
-        'official' => 'Kookossaaret',
-        'common' => 'Kookossaaret',
-      ],
-      'est' => [
-        'official' => 'Kookossaarte ala',
-        'common' => 'Kookossaared',
-      ],
-      'zho' => [
-        'official' => '科科斯',
-        'common' => '科科斯',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Kokosowe',
-        'common' => 'Wyspy Kokosowe',
+      'swe' => [
+        'official' => 'Kokosöarna',
+        'common' => 'Kokosöarna',
       ],
       'urd' => [
         'official' => 'جزائر (کیلنگ) کوکوس',
         'common' => 'جزائر کوکوس',
       ],
-      'kor' => [
-        'official' => '코코스 제도',
-        'common' => '코코스 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر کوکوس',
-        'common' => 'جزایر کوکوس',
+      'zho' => [
+        'official' => '科科斯',
+        'common' => '科科斯',
       ],
     ],
     'latlng' => [
@@ -6180,6 +6681,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+61',
     ],
   ],
   42 => [
@@ -6214,6 +6718,7 @@ class CountriesDataSource
     'cioc' => 'SUI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CHF' => [
         'name' => 'Swiss franc',
@@ -6254,6 +6759,14 @@ class CountriesDataSource
         'official' => 'Schweizerische Eidgenossenschaft',
         'common' => 'Schweiz',
       ],
+      'est' => [
+        'official' => 'Šveitsi Konföderatsioon',
+        'common' => 'Šveits',
+      ],
+      'fin' => [
+        'official' => 'Sveitsin valaliitto',
+        'common' => 'Sveitsi',
+      ],
       'fra' => [
         'official' => 'Confédération suisse',
         'common' => 'Suisse',
@@ -6261,6 +6774,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'švicarska Konfederacija',
         'common' => 'Švicarska',
+      ],
+      'hun' => [
+        'official' => 'Svájc',
+        'common' => 'Svájc',
       ],
       'ita' => [
         'official' => 'Confederazione svizzera',
@@ -6270,9 +6787,21 @@ class CountriesDataSource
         'official' => 'スイス連邦',
         'common' => 'スイス',
       ],
+      'kor' => [
+        'official' => '스위스 연방',
+        'common' => '스위스',
+      ],
       'nld' => [
         'official' => 'Zwitserse Confederatie',
         'common' => 'Zwitserland',
+      ],
+      'per' => [
+        'official' => 'کنفدراسیون سوئیس',
+        'common' => 'سوئیس',
+      ],
+      'pol' => [
+        'official' => 'Konfederacja Szwajcarska',
+        'common' => 'Szwajcaria',
       ],
       'por' => [
         'official' => 'Confederação Suíça',
@@ -6290,33 +6819,17 @@ class CountriesDataSource
         'official' => 'Confederación Suiza',
         'common' => 'Suiza',
       ],
-      'fin' => [
-        'official' => 'Sveitsin valaliitto',
-        'common' => 'Sveitsi',
-      ],
-      'est' => [
-        'official' => 'Šveitsi Konföderatsioon',
-        'common' => 'Šveits',
-      ],
-      'zho' => [
-        'official' => '瑞士联邦',
-        'common' => '瑞士',
-      ],
-      'pol' => [
-        'official' => 'Konfederacja Szwajcarska',
-        'common' => 'Szwajcaria',
+      'swe' => [
+        'official' => 'Schweiziska edsförbundet',
+        'common' => 'Schweiz',
       ],
       'urd' => [
         'official' => 'سوئیس  متحدہ',
         'common' => 'سویٹذرلینڈ',
       ],
-      'kor' => [
-        'official' => '스위스 연방',
-        'common' => '스위스',
-      ],
-      'per' => [
-        'official' => 'کنفدراسیون سوئیس',
-        'common' => 'سوئیس',
+      'zho' => [
+        'official' => '瑞士联邦',
+        'common' => '瑞士',
       ],
     ],
     'latlng' => [
@@ -6343,6 +6856,9 @@ class CountriesDataSource
         'm' => 'Suisse',
       ],
     ],
+    'callingCodes' => [
+      0 => '+41',
+    ],
   ],
   43 => [
     'name' => [
@@ -6364,6 +6880,7 @@ class CountriesDataSource
     'cioc' => 'CHI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CLP' => [
         'name' => 'Chilean peso',
@@ -6402,6 +6919,14 @@ class CountriesDataSource
         'official' => 'Republik Chile',
         'common' => 'Chile',
       ],
+      'est' => [
+        'official' => 'Tšiili Vabariik',
+        'common' => 'Tšiili',
+      ],
+      'fin' => [
+        'official' => 'Chilen tasavalta',
+        'common' => 'Chile',
+      ],
       'fra' => [
         'official' => 'République du Chili',
         'common' => 'Chili',
@@ -6409,6 +6934,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Čile',
         'common' => 'Čile',
+      ],
+      'hun' => [
+        'official' => 'Chilei Köztársaság',
+        'common' => 'Chile',
       ],
       'ita' => [
         'official' => 'Repubblica del Cile',
@@ -6418,9 +6947,21 @@ class CountriesDataSource
         'official' => 'チリ共和国',
         'common' => 'チリ',
       ],
+      'kor' => [
+        'official' => '칠레 공화국',
+        'common' => '칠레',
+      ],
       'nld' => [
         'official' => 'Republiek Chili',
         'common' => 'Chili',
+      ],
+      'per' => [
+        'official' => 'جمهوری شیلی',
+        'common' => 'شیلی',
+      ],
+      'pol' => [
+        'official' => 'Republika Chile',
+        'common' => 'Chile',
       ],
       'por' => [
         'official' => 'República do Chile',
@@ -6438,33 +6979,17 @@ class CountriesDataSource
         'official' => 'República de Chile',
         'common' => 'Chile',
       ],
-      'fin' => [
-        'official' => 'Chilen tasavalta',
-        'common' => 'Chile',
-      ],
-      'est' => [
-        'official' => 'Tšiili Vabariik',
-        'common' => 'Tšiili',
-      ],
-      'zho' => [
-        'official' => '智利共和国',
-        'common' => '智利',
-      ],
-      'pol' => [
-        'official' => 'Republika Chile',
+      'swe' => [
+        'official' => 'Republiken Chile',
         'common' => 'Chile',
       ],
       'urd' => [
         'official' => 'جمہوریہ چلی',
         'common' => 'چلی',
       ],
-      'kor' => [
-        'official' => '칠레 공화국',
-        'common' => '칠레',
-      ],
-      'per' => [
-        'official' => 'جمهوری شیلی',
-        'common' => 'شیلی',
+      'zho' => [
+        'official' => '智利共和国',
+        'common' => '智利',
       ],
     ],
     'latlng' => [
@@ -6488,6 +7013,9 @@ class CountriesDataSource
         'f' => 'Chilienne',
         'm' => 'Chilien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+56',
     ],
   ],
   44 => [
@@ -6514,6 +7042,7 @@ class CountriesDataSource
     'cioc' => 'CHN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CNY' => [
         'name' => 'Chinese yuan',
@@ -6556,6 +7085,14 @@ class CountriesDataSource
         'official' => 'Volksrepublik China',
         'common' => 'China',
       ],
+      'est' => [
+        'official' => 'Hiina Rahvavabariik',
+        'common' => 'Hiina',
+      ],
+      'fin' => [
+        'official' => 'Kiinan kansantasavalta',
+        'common' => 'Kiina',
+      ],
       'fra' => [
         'official' => 'République populaire de Chine',
         'common' => 'Chine',
@@ -6563,6 +7100,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Narodna Republika Kina',
         'common' => 'Kina',
+      ],
+      'hun' => [
+        'official' => 'Kínai Népköztársaság',
+        'common' => 'Kína',
       ],
       'ita' => [
         'official' => 'Repubblica popolare cinese',
@@ -6572,9 +7113,21 @@ class CountriesDataSource
         'official' => '中華人民共和国',
         'common' => '中国',
       ],
+      'kor' => [
+        'official' => '중화인민공화국',
+        'common' => '중국',
+      ],
       'nld' => [
         'official' => 'Volksrepubliek China',
         'common' => 'China',
+      ],
+      'per' => [
+        'official' => 'جمهوری خلق چین',
+        'common' => 'چین',
+      ],
+      'pol' => [
+        'official' => 'Chińska Republika Ludowa',
+        'common' => 'Chiny',
       ],
       'por' => [
         'official' => 'República Popular da China',
@@ -6592,28 +7145,12 @@ class CountriesDataSource
         'official' => 'República Popular de China',
         'common' => 'China',
       ],
-      'fin' => [
-        'official' => 'Kiinan kansantasavalta',
-        'common' => 'Kiina',
-      ],
-      'est' => [
-        'official' => 'Hiina Rahvavabariik',
-        'common' => 'Hiina',
-      ],
-      'pol' => [
-        'official' => 'Chińska Republika Ludowa',
-        'common' => 'Chiny',
+      'swe' => [
+        'official' => 'Folkrepubliken Kina',
+        'common' => 'Kina',
       ],
       'urd' => [
         'official' => 'عوامی جمہوریہ چین',
-        'common' => 'چین',
-      ],
-      'kor' => [
-        'official' => '중화인민공화국',
-        'common' => '중국',
-      ],
-      'per' => [
-        'official' => 'جمهوری خلق چین',
         'common' => 'چین',
       ],
     ],
@@ -6652,6 +7189,9 @@ class CountriesDataSource
         'm' => 'Chinois',
       ],
     ],
+    'callingCodes' => [
+      0 => '+86',
+    ],
   ],
   45 => [
     'name' => [
@@ -6673,6 +7213,7 @@ class CountriesDataSource
     'cioc' => 'CIV',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -6709,6 +7250,14 @@ class CountriesDataSource
         'official' => 'Republik Côte d\'Ivoire',
         'common' => 'Elfenbeinküste',
       ],
+      'est' => [
+        'official' => 'Côte d’Ivoire’i Vabariik',
+        'common' => 'Elevandiluurannik',
+      ],
+      'fin' => [
+        'official' => 'Norsunluurannikon tasavalta',
+        'common' => 'Norsunluurannikko',
+      ],
       'fra' => [
         'official' => 'République de Côte d\' Ivoire',
         'common' => 'Côte d\'Ivoire',
@@ -6716,6 +7265,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Côte d\'Ivoire',
         'common' => 'Obala Bjelokosti',
+      ],
+      'hun' => [
+        'official' => 'Elefántcsontparti Köztársaság',
+        'common' => 'Elefántcsontpart',
       ],
       'ita' => [
         'official' => 'Repubblica della Costa d\'Avorio',
@@ -6725,9 +7278,21 @@ class CountriesDataSource
         'official' => 'コートジボワール共和国',
         'common' => 'コートジボワール',
       ],
+      'kor' => [
+        'official' => '코트디부아르 공화국',
+        'common' => '코트디부아르',
+      ],
       'nld' => [
         'official' => 'Republiek Ivoorkust',
         'common' => 'Ivoorkust',
+      ],
+      'per' => [
+        'official' => 'جمهوری ساحل عاج',
+        'common' => 'ساحل عاج',
+      ],
+      'pol' => [
+        'official' => 'Republika WybrzeŻa Kości Słoniowej',
+        'common' => 'WybrzeŻe Kości Słoniowej',
       ],
       'por' => [
         'official' => 'República da Côte d\'Ivoire',
@@ -6745,33 +7310,17 @@ class CountriesDataSource
         'official' => 'República de Côte d\'Ivoire',
         'common' => 'Costa de Marfil',
       ],
-      'fin' => [
-        'official' => 'Norsunluurannikon tasavalta',
-        'common' => 'Norsunluurannikko',
-      ],
-      'est' => [
-        'official' => 'Côte d’Ivoire’i Vabariik',
-        'common' => 'Elevandiluurannik',
-      ],
-      'zho' => [
-        'official' => '科特迪瓦共和国',
-        'common' => '科特迪瓦',
-      ],
-      'pol' => [
-        'official' => 'Republika WybrzeŻa Kości Słoniowej',
-        'common' => 'WybrzeŻe Kości Słoniowej',
+      'swe' => [
+        'official' => 'Republiken Elfenbenskusten',
+        'common' => 'Elfenbenskusten',
       ],
       'urd' => [
         'official' => 'جمہوریہ کوت دیواغ',
         'common' => 'آئیوری کوسٹ',
       ],
-      'kor' => [
-        'official' => '코트디부아르 공화국',
-        'common' => '코트디부아르',
-      ],
-      'per' => [
-        'official' => 'جمهوری ساحل عاج',
-        'common' => 'ساحل عاج',
+      'zho' => [
+        'official' => '科特迪瓦共和国',
+        'common' => '科特迪瓦',
       ],
     ],
     'latlng' => [
@@ -6798,6 +7347,9 @@ class CountriesDataSource
         'm' => 'Ivoirien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+225',
+    ],
   ],
   46 => [
     'name' => [
@@ -6823,6 +7375,7 @@ class CountriesDataSource
     'cioc' => 'CMR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XAF' => [
         'name' => 'Central African CFA franc',
@@ -6862,12 +7415,24 @@ class CountriesDataSource
         'official' => 'Republik Kamerun',
         'common' => 'Kamerun',
       ],
+      'est' => [
+        'official' => 'Kameruni Vabariik',
+        'common' => 'Kamerun',
+      ],
+      'fin' => [
+        'official' => 'Kamerunin tasavalta',
+        'common' => 'Kamerun',
+      ],
       'fra' => [
         'official' => 'République du Cameroun',
         'common' => 'Cameroun',
       ],
       'hrv' => [
         'official' => 'Republika Kamerun',
+        'common' => 'Kamerun',
+      ],
+      'hun' => [
+        'official' => 'Kameruni Köztársaság',
         'common' => 'Kamerun',
       ],
       'ita' => [
@@ -6878,9 +7443,21 @@ class CountriesDataSource
         'official' => 'カメルーン共和国',
         'common' => 'カメルーン',
       ],
+      'kor' => [
+        'official' => '카메룬 공화국',
+        'common' => '카메룬',
+      ],
       'nld' => [
         'official' => 'Republiek Kameroen',
         'common' => 'Kameroen',
+      ],
+      'per' => [
+        'official' => 'جمهوری کامِرون',
+        'common' => 'کامِرون',
+      ],
+      'pol' => [
+        'official' => 'Republika WybrzeŻa Kości Słoniowej',
+        'common' => 'WybrzeŻe Kości Słoniowej',
       ],
       'por' => [
         'official' => 'República dos Camarões',
@@ -6898,33 +7475,17 @@ class CountriesDataSource
         'official' => 'República de Camerún',
         'common' => 'Camerún',
       ],
-      'fin' => [
-        'official' => 'Kamerunin tasavalta',
+      'swe' => [
+        'official' => 'Republiken Kamerun',
         'common' => 'Kamerun',
-      ],
-      'est' => [
-        'official' => 'Kameruni Vabariik',
-        'common' => 'Kamerun',
-      ],
-      'zho' => [
-        'official' => '喀麦隆共和国',
-        'common' => '喀麦隆',
-      ],
-      'pol' => [
-        'official' => 'Republika WybrzeŻa Kości Słoniowej',
-        'common' => 'WybrzeŻe Kości Słoniowej',
       ],
       'urd' => [
         'official' => 'جمہوریہ کیمرون',
         'common' => 'کیمرون',
       ],
-      'kor' => [
-        'official' => '카메룬 공화국',
-        'common' => '카메룬',
-      ],
-      'per' => [
-        'official' => 'جمهوری کامِرون',
-        'common' => 'کامِرون',
+      'zho' => [
+        'official' => '喀麦隆共和国',
+        'common' => '喀麦隆',
       ],
     ],
     'latlng' => [
@@ -6951,6 +7512,9 @@ class CountriesDataSource
         'f' => 'Camerounaise',
         'm' => 'Camerounais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+237',
     ],
   ],
   47 => [
@@ -6989,6 +7553,7 @@ class CountriesDataSource
     'cioc' => 'COD',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CDF' => [
         'name' => 'Congolese franc',
@@ -7033,6 +7598,14 @@ class CountriesDataSource
         'official' => 'Demokratische Republik Kongo',
         'common' => 'Kongo (Dem. Rep.)',
       ],
+      'est' => [
+        'official' => 'Kongo Demokraatlik Vabariik',
+        'common' => 'Kongo DV',
+      ],
+      'fin' => [
+        'official' => 'Kongon demokraattinen tasavalta',
+        'common' => 'Kongon demokraattinen tasavalta',
+      ],
       'fra' => [
         'official' => 'République démocratique du Congo',
         'common' => 'Congo (Rép. dém.)',
@@ -7040,6 +7613,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Demokratska Republika Kongo',
         'common' => 'Kongo, Demokratska Republika',
+      ],
+      'hun' => [
+        'official' => 'Kongói Demokratikus Köztársaság',
+        'common' => 'Kongói Demokratikus Köztársaság',
       ],
       'ita' => [
         'official' => 'Repubblica Democratica del Congo',
@@ -7049,9 +7626,21 @@ class CountriesDataSource
         'official' => 'コンゴ民主共和国',
         'common' => 'コンゴ民主共和国',
       ],
+      'kor' => [
+        'official' => '콩고 민주 공화국',
+        'common' => '콩고 민주 공화국',
+      ],
       'nld' => [
         'official' => 'Democratische Republiek Congo',
         'common' => 'Congo (DRC)',
+      ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک کنگو',
+        'common' => 'کنگو دموکراتیک',
+      ],
+      'pol' => [
+        'official' => 'Demokratyczna Republika Konga',
+        'common' => 'Demokratyczna Republika Konga',
       ],
       'por' => [
         'official' => 'República Democrática do Congo',
@@ -7069,34 +7658,17 @@ class CountriesDataSource
         'official' => 'República Democrática del Congo',
         'common' => 'Congo (Rep. Dem.)',
       ],
-      'fin' => [
-        'official' => 'Kongon demokraattinen tasavalta',
-        'common' => 'Kongon demokraattinen tasavalta',
+      'swe' => [
+        'official' => 'Demokratiska republiken Kongo',
+        'common' => 'Kongo-Kinshasa',
       ],
-      'est' => [
-        'official' => 'Kongo Demokraatlik Vabariik',
-        'common' => 'Kongo DV',
+      'urd' => [
+        'official' => 'جمہوری جمہوریہ کانگو',
+        'common' => 'کانگو',
       ],
       'zho' => [
         'official' => '刚果民主共和国',
         'common' => '民主刚果',
-      ],
-      'pol' => [
-        'official' => 'Demokratyczna Republika Konga',
-        'common' => 'Demokratyczna Republika Konga',
-      ],
-      'urd' => [
-        'official' => 'جمہوری جمہوریہ کانگو',
-        'common' => '
-کانگو',
-      ],
-      'kor' => [
-        'official' => '콩고 민주 공화국',
-        'common' => '콩고 민주 공화국',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک کنگو',
-        'common' => 'کنگو دموکراتیک',
       ],
     ],
     'latlng' => [
@@ -7127,6 +7699,9 @@ class CountriesDataSource
         'm' => 'Congolais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+243',
+    ],
   ],
   48 => [
     'name' => [
@@ -7156,6 +7731,7 @@ class CountriesDataSource
     'cioc' => 'CGO',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XAF' => [
         'name' => 'Central African CFA franc',
@@ -7196,6 +7772,14 @@ class CountriesDataSource
         'official' => 'Republik Kongo',
         'common' => 'Kongo',
       ],
+      'est' => [
+        'official' => 'Kongo Vabariik',
+        'common' => 'Kongo Vabariik',
+      ],
+      'fin' => [
+        'official' => 'Kongon tasavalta',
+        'common' => 'Kongo-Brazzaville',
+      ],
       'fra' => [
         'official' => 'République du Congo',
         'common' => 'Congo',
@@ -7203,6 +7787,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Kongo',
         'common' => 'Kongo',
+      ],
+      'hun' => [
+        'official' => 'Kongói Köztársaság',
+        'common' => 'Kongói Köztársaság',
       ],
       'ita' => [
         'official' => 'Repubblica del Congo',
@@ -7212,9 +7800,21 @@ class CountriesDataSource
         'official' => 'コンゴ共和国',
         'common' => 'コンゴ共和国',
       ],
+      'kor' => [
+        'official' => '콩고',
+        'common' => '콩고',
+      ],
       'nld' => [
         'official' => 'Republiek Congo',
         'common' => 'Congo',
+      ],
+      'per' => [
+        'official' => 'جمهوری برازاویل کُنگو',
+        'common' => 'جمهوری کُنگو',
+      ],
+      'pol' => [
+        'official' => 'Republika Konga',
+        'common' => 'Kongo',
       ],
       'por' => [
         'official' => 'República do Congo',
@@ -7232,33 +7832,17 @@ class CountriesDataSource
         'official' => 'República del Congo',
         'common' => 'Congo',
       ],
-      'fin' => [
-        'official' => 'Kongon tasavalta',
+      'swe' => [
+        'official' => 'Republiken Kongo',
         'common' => 'Kongo-Brazzaville',
-      ],
-      'est' => [
-        'official' => 'Kongo Vabariik',
-        'common' => 'Kongo Vabariik',
-      ],
-      'zho' => [
-        'official' => '刚果共和国',
-        'common' => '刚果',
-      ],
-      'pol' => [
-        'official' => 'Republika Konga',
-        'common' => 'Kongo',
       ],
       'urd' => [
         'official' => 'جمہوریہ کانگو',
         'common' => 'جمہوریہ کانگو',
       ],
-      'kor' => [
-        'official' => '콩고',
-        'common' => '콩고',
-      ],
-      'per' => [
-        'official' => 'جمهوری برازاویل کُنگو',
-        'common' => 'جمهوری کُنگو',
+      'zho' => [
+        'official' => '刚果共和国',
+        'common' => '刚果',
       ],
     ],
     'latlng' => [
@@ -7285,6 +7869,9 @@ class CountriesDataSource
         'm' => 'Congolais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+242',
+    ],
   ],
   49 => [
     'name' => [
@@ -7310,6 +7897,7 @@ class CountriesDataSource
     'cioc' => 'COK',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'CKD' => [
         'name' => 'Cook Islands dollar',
@@ -7352,6 +7940,14 @@ class CountriesDataSource
         'official' => 'Cookinseln',
         'common' => 'Cookinseln',
       ],
+      'est' => [
+        'official' => 'Cooki saared',
+        'common' => 'Cooki saared',
+      ],
+      'fin' => [
+        'official' => 'Cookinsaaret',
+        'common' => 'Cookinsaaret',
+      ],
       'fra' => [
         'official' => 'Îles Cook',
         'common' => 'Îles Cook',
@@ -7359,6 +7955,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Cook Islands',
         'common' => 'Cookovo Otočje',
+      ],
+      'hun' => [
+        'official' => 'Cook-szigetek',
+        'common' => 'Cook-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Cook',
@@ -7368,9 +7968,21 @@ class CountriesDataSource
         'official' => 'クック諸島',
         'common' => 'クック諸島',
       ],
+      'kor' => [
+        'official' => '쿡 제도',
+        'common' => '쿡 제도',
+      ],
       'nld' => [
         'official' => 'Cook eilanden',
         'common' => 'Cookeilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر کوک',
+        'common' => 'جزایر کوک',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Cooka',
+        'common' => 'Wyspy Cooka',
       ],
       'por' => [
         'official' => 'Ilhas Cook',
@@ -7388,33 +8000,17 @@ class CountriesDataSource
         'official' => 'Islas Cook',
         'common' => 'Islas Cook',
       ],
-      'fin' => [
-        'official' => 'Cookinsaaret',
-        'common' => 'Cookinsaaret',
-      ],
-      'est' => [
-        'official' => 'Cooki saared',
-        'common' => 'Cooki saared',
-      ],
-      'zho' => [
-        'official' => '库克群岛',
-        'common' => '库克群岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Cooka',
-        'common' => 'Wyspy Cooka',
+      'swe' => [
+        'official' => 'Cooköarna',
+        'common' => 'Cooköarna',
       ],
       'urd' => [
         'official' => 'جزائر کک',
         'common' => 'جزائر کک',
       ],
-      'kor' => [
-        'official' => '쿡 제도',
-        'common' => '쿡 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر کوک',
-        'common' => 'جزایر کوک',
+      'zho' => [
+        'official' => '库克群岛',
+        'common' => '库克群岛',
       ],
     ],
     'latlng' => [
@@ -7435,6 +8031,9 @@ class CountriesDataSource
         'f' => 'Cookienne',
         'm' => 'Cookien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+682',
     ],
   ],
   50 => [
@@ -7457,6 +8056,7 @@ class CountriesDataSource
     'cioc' => 'COL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'COP' => [
         'name' => 'Colombian peso',
@@ -7495,6 +8095,14 @@ class CountriesDataSource
         'official' => 'Republik Kolumbien',
         'common' => 'Kolumbien',
       ],
+      'est' => [
+        'official' => 'Colombia Vabariik',
+        'common' => 'Colombia',
+      ],
+      'fin' => [
+        'official' => 'Kolumbian tasavalta',
+        'common' => 'Kolumbia',
+      ],
       'fra' => [
         'official' => 'République de Colombie',
         'common' => 'Colombie',
@@ -7502,6 +8110,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Kolumbija',
         'common' => 'Kolumbija',
+      ],
+      'hun' => [
+        'official' => 'Kolumbiai Köztársaság',
+        'common' => 'Kolumbia',
       ],
       'ita' => [
         'official' => 'Repubblica di Colombia',
@@ -7511,9 +8123,21 @@ class CountriesDataSource
         'official' => 'コロンビア共和国',
         'common' => 'コロンビア',
       ],
+      'kor' => [
+        'official' => '콜롬비아 공화국',
+        'common' => '콜롬비아',
+      ],
       'nld' => [
         'official' => 'Republiek Colombia',
         'common' => 'Colombia',
+      ],
+      'per' => [
+        'official' => 'جمهوری کلمبیا',
+        'common' => 'کلمبیا',
+      ],
+      'pol' => [
+        'official' => 'Republika Kolumbii',
+        'common' => 'Kolumbia',
       ],
       'por' => [
         'official' => 'República da Colômbia',
@@ -7531,33 +8155,17 @@ class CountriesDataSource
         'official' => 'República de Colombia',
         'common' => 'Colombia',
       ],
-      'fin' => [
-        'official' => 'Kolumbian tasavalta',
-        'common' => 'Kolumbia',
-      ],
-      'est' => [
-        'official' => 'Colombia Vabariik',
+      'swe' => [
+        'official' => 'Republiken Colombia',
         'common' => 'Colombia',
-      ],
-      'zho' => [
-        'official' => '哥伦比亚共和国',
-        'common' => '哥伦比亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Kolumbii',
-        'common' => 'Kolumbia',
       ],
       'urd' => [
         'official' => 'جمہوریہ کولمبیا',
         'common' => 'کولمبیا',
       ],
-      'kor' => [
-        'official' => '콜롬비아 공화국',
-        'common' => '콜롬비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری کلمبیا',
-        'common' => 'کلمبیا',
+      'zho' => [
+        'official' => '哥伦比亚共和国',
+        'common' => '哥伦比亚',
       ],
     ],
     'latlng' => [
@@ -7583,6 +8191,9 @@ class CountriesDataSource
         'f' => 'Colombienne',
         'm' => 'Colombien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+57',
     ],
   ],
   51 => [
@@ -7613,6 +8224,7 @@ class CountriesDataSource
     'cioc' => 'COM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KMF' => [
         'name' => 'Comorian franc',
@@ -7655,6 +8267,14 @@ class CountriesDataSource
         'official' => 'Union der Komoren',
         'common' => 'Komoren',
       ],
+      'est' => [
+        'official' => 'Komoori Liit',
+        'common' => 'Komoorid',
+      ],
+      'fin' => [
+        'official' => 'Komorien liitto',
+        'common' => 'Komorit',
+      ],
       'fra' => [
         'official' => 'Union des Comores',
         'common' => 'Comores',
@@ -7662,6 +8282,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savez Komori',
         'common' => 'Komori',
+      ],
+      'hun' => [
+        'official' => 'Comore-szigeteki Unió',
+        'common' => 'Comore-szigetek',
       ],
       'ita' => [
         'official' => 'Unione delle Comore',
@@ -7671,9 +8295,21 @@ class CountriesDataSource
         'official' => 'コモロ連合',
         'common' => 'コモロ',
       ],
+      'kor' => [
+        'official' => '코모로 연방',
+        'common' => '코모로',
+      ],
       'nld' => [
         'official' => 'Unie van de Comoren',
         'common' => 'Comoren',
+      ],
+      'per' => [
+        'official' => 'مجمع‌الجزایر قمر',
+        'common' => 'اتحاد قُمُر',
+      ],
+      'pol' => [
+        'official' => 'Związek Komorów',
+        'common' => 'Komory',
       ],
       'por' => [
         'official' => 'União das Comores',
@@ -7691,33 +8327,17 @@ class CountriesDataSource
         'official' => 'Unión de las Comoras',
         'common' => 'Comoras',
       ],
-      'fin' => [
-        'official' => 'Komorien liitto',
-        'common' => 'Komorit',
-      ],
-      'est' => [
-        'official' => 'Komoori Liit',
-        'common' => 'Komoorid',
-      ],
-      'zho' => [
-        'official' => '科摩罗联盟',
-        'common' => '科摩罗',
-      ],
-      'pol' => [
-        'official' => 'Związek Komorów',
-        'common' => 'Komory',
+      'swe' => [
+        'official' => 'Unionen Komorerna',
+        'common' => 'Komorerna',
       ],
       'urd' => [
         'official' => 'اتحاد القمری',
         'common' => 'القمری',
       ],
-      'kor' => [
-        'official' => '코모로 연방',
-        'common' => '코모로',
-      ],
-      'per' => [
-        'official' => 'مجمع‌الجزایر قمر',
-        'common' => 'اتحاد قُمُر',
+      'zho' => [
+        'official' => '科摩罗联盟',
+        'common' => '科摩罗',
       ],
     ],
     'latlng' => [
@@ -7738,6 +8358,9 @@ class CountriesDataSource
         'f' => 'Comorienne',
         'm' => 'Comorien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+269',
     ],
   ],
   52 => [
@@ -7760,6 +8383,7 @@ class CountriesDataSource
     'cioc' => 'CPV',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CVE' => [
         'name' => 'Cape Verdean escudo',
@@ -7798,6 +8422,14 @@ class CountriesDataSource
         'official' => 'Republik Cabo Verde',
         'common' => 'Kap Verde',
       ],
+      'est' => [
+        'official' => 'Cabo Verde Vabariik',
+        'common' => 'Roheneemesaared',
+      ],
+      'fin' => [
+        'official' => 'Kap Verden tasavalta',
+        'common' => 'Kap Verde',
+      ],
       'fra' => [
         'official' => 'République du Cap-Vert',
         'common' => 'Îles du Cap-Vert',
@@ -7805,6 +8437,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Cabo Verde',
         'common' => 'Zelenortska Republika',
+      ],
+      'hun' => [
+        'official' => 'Zöld-foki Köztársaság',
+        'common' => 'Zöld-foki Köztársaság',
       ],
       'ita' => [
         'official' => 'Repubblica di Capo Verde',
@@ -7814,9 +8450,21 @@ class CountriesDataSource
         'official' => 'カーボベルデ共和国',
         'common' => 'カーボベルデ',
       ],
+      'kor' => [
+        'official' => '카보베르데 공화국',
+        'common' => '카보베르데',
+      ],
       'nld' => [
         'official' => 'Republiek van Cabo Verde',
         'common' => 'Kaapverdië',
+      ],
+      'per' => [
+        'official' => 'جمهوری کبو ورد',
+        'common' => 'دماغهٔ سبز',
+      ],
+      'pol' => [
+        'official' => 'Republika Zielonego Przylądka',
+        'common' => 'Republika Zielonego Przylądka',
       ],
       'por' => [
         'official' => 'República de Cabo Verde',
@@ -7834,33 +8482,17 @@ class CountriesDataSource
         'official' => 'República de Cabo Verde',
         'common' => 'Cabo Verde',
       ],
-      'fin' => [
-        'official' => 'Kap Verden tasavalta',
+      'swe' => [
+        'official' => 'Republiken Kap Verde',
         'common' => 'Kap Verde',
-      ],
-      'est' => [
-        'official' => 'Cabo Verde Vabariik',
-        'common' => 'Roheneemesaared',
-      ],
-      'zho' => [
-        'official' => '佛得角共和国',
-        'common' => '佛得角',
-      ],
-      'pol' => [
-        'official' => 'Republika Zielonego Przylądka',
-        'common' => 'Republika Zielonego Przylądka',
       ],
       'urd' => [
         'official' => 'جمہوریہ کیپ ورڈی',
         'common' => 'کیپ ورڈی',
       ],
-      'kor' => [
-        'official' => '카보베르데 공화국',
-        'common' => '카보베르데',
-      ],
-      'per' => [
-        'official' => 'جمهوری کبو ورد',
-        'common' => 'دماغهٔ سبز',
+      'zho' => [
+        'official' => '佛得角共和国',
+        'common' => '佛得角',
       ],
     ],
     'latlng' => [
@@ -7881,6 +8513,9 @@ class CountriesDataSource
         'f' => 'Cap-verdienne',
         'm' => 'Cap-verdien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+238',
     ],
   ],
   53 => [
@@ -7903,6 +8538,7 @@ class CountriesDataSource
     'cioc' => 'CRC',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CRC' => [
         'name' => 'Costa Rican colón',
@@ -7941,6 +8577,14 @@ class CountriesDataSource
         'official' => 'Republik Costa Rica',
         'common' => 'Costa Rica',
       ],
+      'est' => [
+        'official' => 'Costa Rica Vabariik',
+        'common' => 'Costa Rica',
+      ],
+      'fin' => [
+        'official' => 'Costa Rican tasavalta',
+        'common' => 'Costa Rica',
+      ],
       'fra' => [
         'official' => 'République du Costa Rica',
         'common' => 'Costa Rica',
@@ -7948,6 +8592,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Kostarika',
         'common' => 'Kostarika',
+      ],
+      'hun' => [
+        'official' => 'Costa Rica-i Köztársaság',
+        'common' => 'Costa Rica',
       ],
       'ita' => [
         'official' => 'Repubblica di Costa Rica',
@@ -7957,9 +8605,21 @@ class CountriesDataSource
         'official' => 'コスタリカ共和国',
         'common' => 'コスタリカ',
       ],
+      'kor' => [
+        'official' => '코스타리카 공화국',
+        'common' => '코스타리카',
+      ],
       'nld' => [
         'official' => 'Republiek Costa Rica',
         'common' => 'Costa Rica',
+      ],
+      'per' => [
+        'official' => 'جمهوری کاستاریکا',
+        'common' => 'کاستاریکا',
+      ],
+      'pol' => [
+        'official' => 'Republika Kostaryki',
+        'common' => 'Kostaryka',
       ],
       'por' => [
         'official' => 'República da Costa Rica',
@@ -7977,33 +8637,17 @@ class CountriesDataSource
         'official' => 'República de Costa Rica',
         'common' => 'Costa Rica',
       ],
-      'fin' => [
-        'official' => 'Costa Rican tasavalta',
+      'swe' => [
+        'official' => 'Republiken Costa Rica',
         'common' => 'Costa Rica',
-      ],
-      'est' => [
-        'official' => 'Costa Rica Vabariik',
-        'common' => 'Costa Rica',
-      ],
-      'zho' => [
-        'official' => '哥斯达黎加共和国',
-        'common' => '哥斯达黎加',
-      ],
-      'pol' => [
-        'official' => 'Republika Kostaryki',
-        'common' => 'Kostaryka',
       ],
       'urd' => [
         'official' => 'جمہوریہ کوسٹاریکا',
         'common' => 'کوسٹاریکا',
       ],
-      'kor' => [
-        'official' => '코스타리카 공화국',
-        'common' => '코스타리카',
-      ],
-      'per' => [
-        'official' => 'جمهوری کاستاریکا',
-        'common' => 'کاستاریکا',
+      'zho' => [
+        'official' => '哥斯达黎加共和国',
+        'common' => '哥斯达黎加',
       ],
     ],
     'latlng' => [
@@ -8027,6 +8671,9 @@ class CountriesDataSource
         'm' => 'Costaricain',
       ],
     ],
+    'callingCodes' => [
+      0 => '+506',
+    ],
   ],
   54 => [
     'name' => [
@@ -8048,6 +8695,7 @@ class CountriesDataSource
     'cioc' => 'CUB',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CUC' => [
         'name' => 'Cuban convertible peso',
@@ -8090,12 +8738,24 @@ class CountriesDataSource
         'official' => 'Republik Kuba',
         'common' => 'Kuba',
       ],
+      'est' => [
+        'official' => 'Kuuba Vabariik',
+        'common' => 'Kuuba',
+      ],
+      'fin' => [
+        'official' => 'Kuuban tasavalta',
+        'common' => 'Kuuba',
+      ],
       'fra' => [
         'official' => 'République de Cuba',
         'common' => 'Cuba',
       ],
       'hrv' => [
         'official' => 'Republika Kuba',
+        'common' => 'Kuba',
+      ],
+      'hun' => [
+        'official' => 'Kubai Köztársaság',
         'common' => 'Kuba',
       ],
       'ita' => [
@@ -8106,9 +8766,21 @@ class CountriesDataSource
         'official' => 'キューバ共和国',
         'common' => 'キューバ',
       ],
+      'kor' => [
+        'official' => '쿠바 공화국',
+        'common' => '쿠바',
+      ],
       'nld' => [
         'official' => 'Republiek Cuba',
         'common' => 'Cuba',
+      ],
+      'per' => [
+        'official' => 'جمهوری کوبا',
+        'common' => 'کوبا',
+      ],
+      'pol' => [
+        'official' => 'Republika Kuby',
+        'common' => 'Kuba',
       ],
       'por' => [
         'official' => 'República de Cuba',
@@ -8126,33 +8798,17 @@ class CountriesDataSource
         'official' => 'República de Cuba',
         'common' => 'Cuba',
       ],
-      'fin' => [
-        'official' => 'Kuuban tasavalta',
-        'common' => 'Kuuba',
-      ],
-      'est' => [
-        'official' => 'Kuuba Vabariik',
-        'common' => 'Kuuba',
-      ],
-      'zho' => [
-        'official' => '古巴共和国',
-        'common' => '古巴',
-      ],
-      'pol' => [
-        'official' => 'Republika Kuby',
+      'swe' => [
+        'official' => 'Republiken Kuba',
         'common' => 'Kuba',
       ],
       'urd' => [
         'official' => 'جمہوریہ کیوبا',
         'common' => 'کیوبا',
       ],
-      'kor' => [
-        'official' => '쿠바 공화국',
-        'common' => '쿠바',
-      ],
-      'per' => [
-        'official' => 'جمهوری کوبا',
-        'common' => 'کوبا',
+      'zho' => [
+        'official' => '古巴共和国',
+        'common' => '古巴',
       ],
     ],
     'latlng' => [
@@ -8173,6 +8829,9 @@ class CountriesDataSource
         'f' => 'Cubaine',
         'm' => 'Cubain',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+53',
     ],
   ],
   55 => [
@@ -8203,6 +8862,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'ANG' => [
         'name' => 'Netherlands Antillean guilder',
@@ -8242,16 +8902,40 @@ class CountriesDataSource
         'official' => 'Land Curaçao',
         'common' => 'Curaçao',
       ],
+      'est' => [
+        'official' => 'Curaçao',
+        'common' => 'Curaçao',
+      ],
+      'fin' => [
+        'official' => 'Curaçao',
+        'common' => 'Curaçao',
+      ],
       'fra' => [
         'official' => 'Pays de Curaçao',
+        'common' => 'Curaçao',
+      ],
+      'hun' => [
+        'official' => 'Curaçao',
         'common' => 'Curaçao',
       ],
       'ita' => [
         'official' => 'Paese di Curaçao',
         'common' => 'Curaçao',
       ],
+      'kor' => [
+        'official' => '퀴라소',
+        'common' => '퀴라소',
+      ],
       'nld' => [
         'official' => 'Land Curaçao',
+        'common' => 'Curaçao',
+      ],
+      'per' => [
+        'official' => 'کوراسائو',
+        'common' => 'کوراسائو',
+      ],
+      'pol' => [
+        'official' => 'Curaçao',
         'common' => 'Curaçao',
       ],
       'por' => [
@@ -8270,19 +8954,7 @@ class CountriesDataSource
         'official' => 'País de Curazao',
         'common' => 'Curazao',
       ],
-      'fin' => [
-        'official' => 'Curaçao',
-        'common' => 'Curaçao',
-      ],
-      'est' => [
-        'official' => 'Curaçao',
-        'common' => 'Curaçao',
-      ],
-      'zho' => [
-        'official' => '库拉索',
-        'common' => '库拉索',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Curaçao',
         'common' => 'Curaçao',
       ],
@@ -8290,13 +8962,9 @@ class CountriesDataSource
         'official' => 'مملکتِ کیوراساؤ',
         'common' => 'کیوراساؤ',
       ],
-      'kor' => [
-        'official' => '퀴라소',
-        'common' => '퀴라소',
-      ],
-      'per' => [
-        'official' => 'کوراسائو',
-        'common' => 'کوراسائو',
+      'zho' => [
+        'official' => '库拉索',
+        'common' => '库拉索',
       ],
     ],
     'latlng' => [
@@ -8317,6 +8985,9 @@ class CountriesDataSource
         'f' => 'Curacienne',
         'm' => 'Curacien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+599',
     ],
   ],
   56 => [
@@ -8339,6 +9010,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -8376,6 +9048,14 @@ class CountriesDataSource
         'official' => 'Gebiet der Weihnachtsinsel',
         'common' => 'Weihnachtsinsel',
       ],
+      'est' => [
+        'official' => 'Jõulusaare ala',
+        'common' => 'Jõulusaar',
+      ],
+      'fin' => [
+        'official' => 'Joulusaaren alue',
+        'common' => 'Joulusaari',
+      ],
       'fra' => [
         'official' => 'Territoire de l\'île Christmas',
         'common' => 'Île Christmas',
@@ -8383,6 +9063,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Teritorij Božićni otok',
         'common' => 'Božićni otok',
+      ],
+      'hun' => [
+        'official' => 'Karácsony-sziget',
+        'common' => 'Karácsony-sziget',
       ],
       'ita' => [
         'official' => 'Territorio di Christmas Island',
@@ -8392,9 +9076,21 @@ class CountriesDataSource
         'official' => 'クリスマス島の領土',
         'common' => 'クリスマス島',
       ],
+      'kor' => [
+        'official' => '크리스마스 섬',
+        'common' => '크리스마스 섬',
+      ],
       'nld' => [
         'official' => 'Grondgebied van Christmas Island',
         'common' => 'Christmaseiland',
+      ],
+      'per' => [
+        'official' => 'جزیرهٔ کریسمس',
+        'common' => 'جزیرهٔ کریسمس',
+      ],
+      'pol' => [
+        'official' => 'Wyspa Bożego Narodzenia',
+        'common' => 'Wyspa Bożego Narodzenia',
       ],
       'por' => [
         'official' => 'Território da Ilha Christmas',
@@ -8412,33 +9108,17 @@ class CountriesDataSource
         'official' => 'Territorio de la Isla de Navidad',
         'common' => 'Isla de Navidad',
       ],
-      'fin' => [
-        'official' => 'Joulusaaren alue',
-        'common' => 'Joulusaari',
-      ],
-      'est' => [
-        'official' => 'Jõulusaare ala',
-        'common' => 'Jõulusaar',
-      ],
-      'zho' => [
-        'official' => '圣诞岛',
-        'common' => '圣诞岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspa Bożego Narodzenia',
-        'common' => 'Wyspa Bożego Narodzenia',
+      'swe' => [
+        'official' => 'Julön',
+        'common' => 'Julön',
       ],
       'urd' => [
         'official' => 'ریاستِ جزیرہ کرسمس',
         'common' => 'جزیرہ کرسمس',
       ],
-      'kor' => [
-        'official' => '크리스마스 섬',
-        'common' => '크리스마스 섬',
-      ],
-      'per' => [
-        'official' => 'جزیرهٔ کریسمس',
-        'common' => 'جزیرهٔ کریسمس',
+      'zho' => [
+        'official' => '圣诞岛',
+        'common' => '圣诞岛',
       ],
     ],
     'latlng' => [
@@ -8459,6 +9139,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+61',
     ],
   ],
   57 => [
@@ -8481,6 +9164,7 @@ class CountriesDataSource
     'cioc' => 'CAY',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'KYD' => [
         'name' => 'Cayman Islands dollar',
@@ -8517,6 +9201,14 @@ class CountriesDataSource
         'official' => 'Cayman-Inseln',
         'common' => 'Kaimaninseln',
       ],
+      'est' => [
+        'official' => 'Kaimanisaared',
+        'common' => 'Kaimanisaared',
+      ],
+      'fin' => [
+        'official' => 'Caymansaaret',
+        'common' => 'Caymansaaret',
+      ],
       'fra' => [
         'official' => 'Îles Caïmans',
         'common' => 'Îles Caïmans',
@@ -8524,6 +9216,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kajmanski otoci',
         'common' => 'Kajmanski otoci',
+      ],
+      'hun' => [
+        'official' => 'Kajmán-szigetek',
+        'common' => 'Kajmán-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Cayman',
@@ -8533,9 +9229,21 @@ class CountriesDataSource
         'official' => 'ケイマン諸島',
         'common' => 'ケイマン諸島',
       ],
+      'kor' => [
+        'official' => '케이맨 제도',
+        'common' => '케이맨 제도',
+      ],
       'nld' => [
         'official' => 'Caymaneilanden',
         'common' => 'Caymaneilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر کیمن',
+        'common' => 'جزایر کیمن',
+      ],
+      'pol' => [
+        'official' => 'Kajmany',
+        'common' => 'Kajmany',
       ],
       'por' => [
         'official' => 'Ilhas Cayman',
@@ -8553,33 +9261,17 @@ class CountriesDataSource
         'official' => 'Islas Caimán',
         'common' => 'Islas Caimán',
       ],
-      'fin' => [
-        'official' => 'Caymansaaret',
-        'common' => 'Caymansaaret',
-      ],
-      'est' => [
-        'official' => 'Kaimanisaared',
-        'common' => 'Kaimanisaared',
-      ],
-      'zho' => [
-        'official' => '开曼群岛',
-        'common' => '开曼群岛',
-      ],
-      'pol' => [
-        'official' => 'Kajmany',
-        'common' => 'Kajmany',
+      'swe' => [
+        'official' => 'Caymanöarna',
+        'common' => 'Caymanöarna',
       ],
       'urd' => [
         'official' => 'جزائر کیمین',
         'common' => 'جزائر کیمین',
       ],
-      'kor' => [
-        'official' => '케이맨 제도',
-        'common' => '케이맨 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر کیمن',
-        'common' => 'جزایر کیمن',
+      'zho' => [
+        'official' => '开曼群岛',
+        'common' => '开曼群岛',
       ],
     ],
     'latlng' => [
@@ -8600,6 +9292,9 @@ class CountriesDataSource
         'f' => 'Caïmanienne',
         'm' => 'Caïmanien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1345',
     ],
   ],
   58 => [
@@ -8626,6 +9321,7 @@ class CountriesDataSource
     'cioc' => 'CYP',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -8650,7 +9346,7 @@ class CountriesDataSource
       5 => 'Kıbrıs Cumhuriyeti',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Southern Europe',
     'languages' => [
       'ell' => 'Greek',
       'tur' => 'Turkish',
@@ -8668,6 +9364,14 @@ class CountriesDataSource
         'official' => 'Republik Zypern',
         'common' => 'Zypern',
       ],
+      'est' => [
+        'official' => 'Küprose Vabariik',
+        'common' => 'Küpros',
+      ],
+      'fin' => [
+        'official' => 'Kyproksen tasavalta',
+        'common' => 'Kypros',
+      ],
       'fra' => [
         'official' => 'République de Chypre',
         'common' => 'Chypre',
@@ -8675,6 +9379,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Cipar',
         'common' => 'Cipar',
+      ],
+      'hun' => [
+        'official' => 'Ciprusi Köztársaság',
+        'common' => 'Ciprus',
       ],
       'ita' => [
         'official' => 'Repubblica di Cipro',
@@ -8684,9 +9392,21 @@ class CountriesDataSource
         'official' => 'キプロス共和国',
         'common' => 'キプロス',
       ],
+      'kor' => [
+        'official' => '키프로스 공화국',
+        'common' => '키프로스',
+      ],
       'nld' => [
         'official' => 'Republiek Cyprus',
         'common' => 'Cyprus',
+      ],
+      'per' => [
+        'official' => 'جمهوری قبرس',
+        'common' => 'قِبرِس',
+      ],
+      'pol' => [
+        'official' => 'Republika Cypryjska',
+        'common' => 'Cypr',
       ],
       'por' => [
         'official' => 'República de Chipre',
@@ -8704,33 +9424,17 @@ class CountriesDataSource
         'official' => 'República de Chipre',
         'common' => 'Chipre',
       ],
-      'fin' => [
-        'official' => 'Kyproksen tasavalta',
-        'common' => 'Kypros',
-      ],
-      'est' => [
-        'official' => 'Küprose Vabariik',
-        'common' => 'Küpros',
-      ],
-      'zho' => [
-        'official' => '塞浦路斯共和国',
-        'common' => '塞浦路斯',
-      ],
-      'pol' => [
-        'official' => 'Republika Cypryjska',
-        'common' => 'Cypr',
+      'swe' => [
+        'official' => 'Republiken Cypern',
+        'common' => 'Cypern',
       ],
       'urd' => [
         'official' => 'جمہوریہ قبرص',
         'common' => 'قبرص',
       ],
-      'kor' => [
-        'official' => '키프로스 공화국',
-        'common' => '키프로스',
-      ],
-      'per' => [
-        'official' => 'جمهوری قبرس',
-        'common' => 'قِبرِس',
+      'zho' => [
+        'official' => '塞浦路斯共和国',
+        'common' => '塞浦路斯',
       ],
     ],
     'latlng' => [
@@ -8752,6 +9456,9 @@ class CountriesDataSource
         'm' => 'Chypriote',
       ],
     ],
+    'callingCodes' => [
+      0 => '+357',
+    ],
   ],
   59 => [
     'name' => [
@@ -8759,7 +9466,7 @@ class CountriesDataSource
       'official' => 'Czech Republic',
       'native' => [
         'ces' => [
-          'official' => 'česká republika',
+          'official' => 'Česká republika',
           'common' => 'Česko',
         ],
         'slk' => [
@@ -8777,6 +9484,7 @@ class CountriesDataSource
     'cioc' => 'CZE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CZK' => [
         'name' => 'Czech koruna',
@@ -8798,7 +9506,7 @@ class CountriesDataSource
       2 => 'Česko',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Central Europe',
     'languages' => [
       'ces' => 'Czech',
       'slk' => 'Slovak',
@@ -8816,6 +9524,14 @@ class CountriesDataSource
         'official' => 'Tschechische Republik',
         'common' => 'Tschechien',
       ],
+      'est' => [
+        'official' => 'Tšehhi Vabariik',
+        'common' => 'Tšehhi',
+      ],
+      'fin' => [
+        'official' => 'Tšekin tasavalta',
+        'common' => 'Tšekki',
+      ],
       'fra' => [
         'official' => 'République tchèque',
         'common' => 'Tchéquie',
@@ -8823,6 +9539,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Češka',
         'common' => 'Češka',
+      ],
+      'hun' => [
+        'official' => 'Cseh Köztársaság',
+        'common' => 'Csehország',
       ],
       'ita' => [
         'official' => 'Repubblica Ceca',
@@ -8832,9 +9552,21 @@ class CountriesDataSource
         'official' => 'チェコ共和国',
         'common' => 'チェコ',
       ],
+      'kor' => [
+        'official' => '체코',
+        'common' => '체코',
+      ],
       'nld' => [
         'official' => 'Tsjechische Republiek',
         'common' => 'Tsjechië',
+      ],
+      'per' => [
+        'official' => 'جمهوری چک',
+        'common' => 'جمهوری چک',
+      ],
+      'pol' => [
+        'official' => 'Republika Czeska',
+        'common' => 'Czechy',
       ],
       'por' => [
         'official' => 'República Checa',
@@ -8852,33 +9584,17 @@ class CountriesDataSource
         'official' => 'República Checa',
         'common' => 'Chequia',
       ],
-      'fin' => [
-        'official' => 'Tšekin tasavalta',
-        'common' => 'Tšekki',
-      ],
-      'est' => [
-        'official' => 'Tšehhi Vabariik',
-        'common' => 'Tšehhi',
-      ],
-      'zho' => [
-        'official' => '捷克共和国',
-        'common' => '捷克',
-      ],
-      'pol' => [
-        'official' => 'Republika Czeska',
-        'common' => 'Czechy',
+      'swe' => [
+        'official' => 'Republiken Tjeckien',
+        'common' => 'Tjeckien',
       ],
       'urd' => [
         'official' => 'چيک جمہوريہ',
         'common' => 'چيک',
       ],
-      'kor' => [
-        'official' => '체코',
-        'common' => '체코',
-      ],
-      'per' => [
-        'official' => 'جمهوری چک',
-        'common' => 'جمهوری چک',
+      'zho' => [
+        'official' => '捷克共和国',
+        'common' => '捷克',
       ],
     ],
     'latlng' => [
@@ -8904,6 +9620,9 @@ class CountriesDataSource
         'm' => 'Tchèque',
       ],
     ],
+    'callingCodes' => [
+      0 => '+420',
+    ],
   ],
   60 => [
     'name' => [
@@ -8925,6 +9644,7 @@ class CountriesDataSource
     'cioc' => 'GER',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -8959,6 +9679,14 @@ class CountriesDataSource
         'official' => 'Bundesrepublik Deutschland',
         'common' => 'Deutschland',
       ],
+      'est' => [
+        'official' => 'Saksamaa Liitvabariik',
+        'common' => 'Saksamaa',
+      ],
+      'fin' => [
+        'official' => 'Saksan liittotasavalta',
+        'common' => 'Saksa',
+      ],
       'fra' => [
         'official' => 'République fédérale d\'Allemagne',
         'common' => 'Allemagne',
@@ -8966,6 +9694,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Njemačka Federativna Republika',
         'common' => 'Njemačka',
+      ],
+      'hun' => [
+        'official' => 'Német Szövetségi Köztársaság',
+        'common' => 'Németország',
       ],
       'ita' => [
         'official' => 'Repubblica federale di Germania',
@@ -8975,9 +9707,21 @@ class CountriesDataSource
         'official' => 'ドイツ連邦共和国',
         'common' => 'ドイツ',
       ],
+      'kor' => [
+        'official' => '독일 연방 공화국',
+        'common' => '독일',
+      ],
       'nld' => [
         'official' => 'Bondsrepubliek Duitsland',
         'common' => 'Duitsland',
+      ],
+      'per' => [
+        'official' => 'جمهوری فدرال آلمان',
+        'common' => 'آلمان',
+      ],
+      'pol' => [
+        'official' => 'Republika Federalna Niemiec',
+        'common' => 'Niemcy',
       ],
       'por' => [
         'official' => 'República Federal da Alemanha',
@@ -8995,33 +9739,17 @@ class CountriesDataSource
         'official' => 'República Federal de Alemania',
         'common' => 'Alemania',
       ],
-      'fin' => [
-        'official' => 'Saksan liittotasavalta',
-        'common' => 'Saksa',
-      ],
-      'est' => [
-        'official' => 'Saksamaa Liitvabariik',
-        'common' => 'Saksamaa',
-      ],
-      'zho' => [
-        'official' => '德意志联邦共和国',
-        'common' => '德国',
-      ],
-      'pol' => [
-        'official' => 'Republika Federalna Niemiec',
-        'common' => 'Niemcy',
+      'swe' => [
+        'official' => 'Förbundsrepubliken Tyskland',
+        'common' => 'Tyskland',
       ],
       'urd' => [
         'official' => 'وفاقی جمہوریہ جرمنی',
         'common' => 'جرمنی',
       ],
-      'kor' => [
-        'official' => '독일 연방 공화국',
-        'common' => '독일',
-      ],
-      'per' => [
-        'official' => 'جمهوری فدرال آلمان',
-        'common' => 'آلمان',
+      'zho' => [
+        'official' => '德意志联邦共和国',
+        'common' => '德国',
       ],
     ],
     'latlng' => [
@@ -9052,6 +9780,9 @@ class CountriesDataSource
         'm' => 'Allemand',
       ],
     ],
+    'callingCodes' => [
+      0 => '+49',
+    ],
   ],
   61 => [
     'name' => [
@@ -9077,6 +9808,7 @@ class CountriesDataSource
     'cioc' => 'DJI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'DJF' => [
         'name' => 'Djiboutian franc',
@@ -9120,6 +9852,14 @@ class CountriesDataSource
         'official' => 'Republik Dschibuti',
         'common' => 'Dschibuti',
       ],
+      'est' => [
+        'official' => 'Djibouti Vabariik',
+        'common' => 'Djibouti',
+      ],
+      'fin' => [
+        'official' => 'Dijiboutin tasavalta',
+        'common' => 'Dijibouti',
+      ],
       'fra' => [
         'official' => 'République de Djibouti',
         'common' => 'Djibouti',
@@ -9127,6 +9867,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Džibuti',
         'common' => 'Džibuti',
+      ],
+      'hun' => [
+        'official' => 'Dzsibuti Köztársaság',
+        'common' => 'Dzsibuti',
       ],
       'ita' => [
         'official' => 'Repubblica di Gibuti',
@@ -9136,9 +9880,21 @@ class CountriesDataSource
         'official' => 'ジブチ共和国',
         'common' => 'ジブチ',
       ],
+      'kor' => [
+        'official' => '지부티 공화국',
+        'common' => '지부티',
+      ],
       'nld' => [
         'official' => 'Republiek Djibouti',
         'common' => 'Djibouti',
+      ],
+      'per' => [
+        'official' => 'جمهوری جیبوتی',
+        'common' => 'جیبوتی',
+      ],
+      'pol' => [
+        'official' => 'Republika Dżibuti',
+        'common' => 'Dżibuti',
       ],
       'por' => [
         'official' => 'República do Djibouti',
@@ -9156,33 +9912,17 @@ class CountriesDataSource
         'official' => 'República de Djibouti',
         'common' => 'Djibouti',
       ],
-      'fin' => [
-        'official' => 'Dijiboutin tasavalta',
-        'common' => 'Dijibouti',
-      ],
-      'est' => [
-        'official' => 'Djibouti Vabariik',
+      'swe' => [
+        'official' => 'Republiken Djibouti',
         'common' => 'Djibouti',
-      ],
-      'zho' => [
-        'official' => '吉布提共和国',
-        'common' => '吉布提',
-      ],
-      'pol' => [
-        'official' => 'Republika Dżibuti',
-        'common' => 'Dżibuti',
       ],
       'urd' => [
         'official' => 'جمہوریہ جبوتی',
         'common' => 'جبوتی',
       ],
-      'kor' => [
-        'official' => '지부티 공화국',
-        'common' => '지부티',
-      ],
-      'per' => [
-        'official' => 'جمهوری جیبوتی',
-        'common' => 'جیبوتی',
+      'zho' => [
+        'official' => '吉布提共和国',
+        'common' => '吉布提',
       ],
     ],
     'latlng' => [
@@ -9207,6 +9947,9 @@ class CountriesDataSource
         'm' => 'Djiboutien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+253',
+    ],
   ],
   62 => [
     'name' => [
@@ -9228,6 +9971,7 @@ class CountriesDataSource
     'cioc' => 'DMA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -9267,6 +10011,14 @@ class CountriesDataSource
         'official' => 'Commonwealth von Dominica',
         'common' => 'Dominica',
       ],
+      'est' => [
+        'official' => 'Dominica Ühendus',
+        'common' => 'Dominica',
+      ],
+      'fin' => [
+        'official' => 'Dominican liittovaltio',
+        'common' => 'Dominica',
+      ],
       'fra' => [
         'official' => 'Commonwealth de la Dominique',
         'common' => 'Dominique',
@@ -9274,6 +10026,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Zajednica Dominika',
         'common' => 'Dominika',
+      ],
+      'hun' => [
+        'official' => 'Dominikai Közösség',
+        'common' => 'Dominikai Közösség',
       ],
       'ita' => [
         'official' => 'Commonwealth di Dominica',
@@ -9283,9 +10039,21 @@ class CountriesDataSource
         'official' => 'ドミニカ国',
         'common' => 'ドミニカ国',
       ],
+      'kor' => [
+        'official' => '도미니카 공화국',
+        'common' => '도미니카 공화국',
+      ],
       'nld' => [
         'official' => 'Gemenebest Dominica',
         'common' => 'Dominica',
+      ],
+      'per' => [
+        'official' => 'قلمرو همسود دومینیکا',
+        'common' => 'دومینیکا',
+      ],
+      'pol' => [
+        'official' => 'Wspólnota Dominiki',
+        'common' => 'Dominika',
       ],
       'por' => [
         'official' => 'Comunidade da Dominica',
@@ -9303,33 +10071,17 @@ class CountriesDataSource
         'official' => 'Mancomunidad de Dominica',
         'common' => 'Dominica',
       ],
-      'fin' => [
-        'official' => 'Dominican liittovaltio',
+      'swe' => [
+        'official' => 'Samväldet Dominica',
         'common' => 'Dominica',
-      ],
-      'est' => [
-        'official' => 'Dominica Ühendus',
-        'common' => 'Dominica',
-      ],
-      'zho' => [
-        'official' => '多米尼加共和国',
-        'common' => '多米尼加',
-      ],
-      'pol' => [
-        'official' => 'Wspólnota Dominiki',
-        'common' => 'Dominika',
       ],
       'urd' => [
         'official' => 'دولتِ مشترکہ ڈومینیکا',
         'common' => 'ڈومینیکا',
       ],
-      'kor' => [
-        'official' => '도미니카 공화국',
-        'common' => '도미니카 공화국',
-      ],
-      'per' => [
-        'official' => 'قلمرو همسود دومینیکا',
-        'common' => 'دومینیکا',
+      'zho' => [
+        'official' => '多米尼加共和国',
+        'common' => '多米尼加',
       ],
     ],
     'latlng' => [
@@ -9350,6 +10102,9 @@ class CountriesDataSource
         'f' => 'Dominiquaise',
         'm' => 'Dominiquais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1767',
     ],
   ],
   63 => [
@@ -9372,6 +10127,7 @@ class CountriesDataSource
     'cioc' => 'DEN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'DKK' => [
         'name' => 'Danish krone',
@@ -9411,6 +10167,14 @@ class CountriesDataSource
         'official' => 'Königreich Dänemark',
         'common' => 'Dänemark',
       ],
+      'est' => [
+        'official' => 'Taani Kuningriik',
+        'common' => 'Taani',
+      ],
+      'fin' => [
+        'official' => 'Tanskan kuningaskunta',
+        'common' => 'Tanska',
+      ],
       'fra' => [
         'official' => 'Royaume du Danemark',
         'common' => 'Danemark',
@@ -9418,6 +10182,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Danska',
         'common' => 'Danska',
+      ],
+      'hun' => [
+        'official' => 'Dán Királyság',
+        'common' => 'Dánia',
       ],
       'ita' => [
         'official' => 'Regno di Danimarca',
@@ -9427,9 +10195,21 @@ class CountriesDataSource
         'official' => 'デンマーク王国',
         'common' => 'デンマーク',
       ],
+      'kor' => [
+        'official' => '덴마크 왕국',
+        'common' => '덴마크',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Denemarken',
         'common' => 'Denemarken',
+      ],
+      'per' => [
+        'official' => 'پادشاهی دانمارک',
+        'common' => 'دانمارک',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Danii',
+        'common' => 'Dania',
       ],
       'por' => [
         'official' => 'Reino da Dinamarca',
@@ -9447,33 +10227,17 @@ class CountriesDataSource
         'official' => 'Reino de Dinamarca',
         'common' => 'Dinamarca',
       ],
-      'fin' => [
-        'official' => 'Tanskan kuningaskunta',
-        'common' => 'Tanska',
-      ],
-      'est' => [
-        'official' => 'Taani Kuningriik',
-        'common' => 'Taani',
-      ],
-      'zho' => [
-        'official' => '丹麦王国',
-        'common' => '丹麦',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Danii',
-        'common' => 'Dania',
+      'swe' => [
+        'official' => 'Konungariket Danmark',
+        'common' => 'Danmark',
       ],
       'urd' => [
         'official' => 'مملکتِ ڈنمارک',
         'common' => 'ڈنمارک',
       ],
-      'kor' => [
-        'official' => '덴마크 왕국',
-        'common' => '덴마크',
-      ],
-      'per' => [
-        'official' => 'پادشاهی دانمارک',
-        'common' => 'دانمارک',
+      'zho' => [
+        'official' => '丹麦王国',
+        'common' => '丹麦',
       ],
     ],
     'latlng' => [
@@ -9496,6 +10260,9 @@ class CountriesDataSource
         'm' => 'Danois',
       ],
     ],
+    'callingCodes' => [
+      0 => '+45',
+    ],
   ],
   64 => [
     'name' => [
@@ -9517,6 +10284,7 @@ class CountriesDataSource
     'cioc' => 'DOM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'DOP' => [
         'name' => 'Dominican peso',
@@ -9555,6 +10323,14 @@ class CountriesDataSource
         'official' => 'Dominikanische Republik',
         'common' => 'Dominikanische Republik',
       ],
+      'est' => [
+        'official' => 'Dominikaani Vabariik',
+        'common' => 'Dominikaani Vabariik',
+      ],
+      'fin' => [
+        'official' => 'Dominikaaninen tasavalta',
+        'common' => 'Dominikaaninen tasavalta',
+      ],
       'fra' => [
         'official' => 'République Dominicaine',
         'common' => 'République dominicaine',
@@ -9562,6 +10338,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Dominikanska Republika',
         'common' => 'Dominikanska Republika',
+      ],
+      'hun' => [
+        'official' => 'Dominikai Köztársaság',
+        'common' => 'Dominikai Köztársaság',
       ],
       'ita' => [
         'official' => 'Repubblica Dominicana',
@@ -9571,9 +10351,21 @@ class CountriesDataSource
         'official' => 'ドミニカ共和国',
         'common' => 'ドミニカ共和国',
       ],
+      'kor' => [
+        'official' => '도미니카 공화국',
+        'common' => '도미니카 공화국',
+      ],
       'nld' => [
         'official' => 'Dominicaanse Republiek',
         'common' => 'Dominicaanse Republiek',
+      ],
+      'per' => [
+        'official' => 'جمهوری دومینیکن',
+        'common' => 'جمهوری دومینیکن',
+      ],
+      'pol' => [
+        'official' => 'Republika Dominikańska',
+        'common' => 'Dominikana',
       ],
       'por' => [
         'official' => 'República Dominicana',
@@ -9591,33 +10383,17 @@ class CountriesDataSource
         'official' => 'República Dominicana',
         'common' => 'República Dominicana',
       ],
-      'fin' => [
-        'official' => 'Dominikaaninen tasavalta',
-        'common' => 'Dominikaaninen tasavalta',
-      ],
-      'est' => [
-        'official' => 'Dominikaani Vabariik',
-        'common' => 'Dominikaani Vabariik',
-      ],
-      'zho' => [
-        'official' => '多明尼加共和国',
-        'common' => '多明尼加',
-      ],
-      'pol' => [
-        'official' => 'Republika Dominikańska',
-        'common' => 'Dominikana',
+      'swe' => [
+        'official' => 'Dominikanska republiken',
+        'common' => 'Dominikanska republiken',
       ],
       'urd' => [
         'official' => 'جمہوریہ ڈومینیکن',
         'common' => 'ڈومینیکن',
       ],
-      'kor' => [
-        'official' => '도미니카 공화국',
-        'common' => '도미니카 공화국',
-      ],
-      'per' => [
-        'official' => 'جمهوری دومینیکن',
-        'common' => 'جمهوری دومینیکن',
+      'zho' => [
+        'official' => '多明尼加共和国',
+        'common' => '多明尼加',
       ],
     ],
     'latlng' => [
@@ -9639,6 +10415,11 @@ class CountriesDataSource
         'f' => 'Dominicaine',
         'm' => 'Dominicain',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1809',
+      1 => '+1829',
+      2 => '+1849',
     ],
   ],
   65 => [
@@ -9662,6 +10443,7 @@ class CountriesDataSource
     'cioc' => 'ALG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'DZD' => [
         'name' => 'Algerian dinar',
@@ -9700,6 +10482,14 @@ class CountriesDataSource
         'official' => 'Demokratische Volksrepublik Algerien',
         'common' => 'Algerien',
       ],
+      'est' => [
+        'official' => 'Alžeeria Demokraatlik Rahvavabariik',
+        'common' => 'Alžeeria',
+      ],
+      'fin' => [
+        'official' => 'Algerian demokraattinen kansantasavalta',
+        'common' => 'Algeria',
+      ],
       'fra' => [
         'official' => 'République démocratique et populaire d\'Algérie',
         'common' => 'Algérie',
@@ -9707,6 +10497,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Narodna Demokratska Republika Alžir',
         'common' => 'Alžir',
+      ],
+      'hun' => [
+        'official' => 'Algériai Népi Demokratikus Köztársaság',
+        'common' => 'Algéria',
       ],
       'ita' => [
         'official' => 'Repubblica popolare democratica di Algeria',
@@ -9716,9 +10510,21 @@ class CountriesDataSource
         'official' => 'アルジェリア人民民主共和国',
         'common' => 'アルジェリア',
       ],
+      'kor' => [
+        'official' => '알제리 인민 민주 공화국',
+        'common' => '알제리',
+      ],
       'nld' => [
         'official' => 'Democratische Volksrepubliek Algerije',
         'common' => 'Algerije',
+      ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک خلق الجزایر',
+        'common' => 'الجزایر',
+      ],
+      'pol' => [
+        'official' => 'Algierska Republika Ludowo-Demokratyczna',
+        'common' => 'Algieria',
       ],
       'por' => [
         'official' => 'República Argelina Democrática e Popular',
@@ -9736,33 +10542,17 @@ class CountriesDataSource
         'official' => 'República Argelina Democrática y Popular',
         'common' => 'Argelia',
       ],
-      'fin' => [
-        'official' => 'Algerian demokraattinen kansantasavalta',
-        'common' => 'Algeria',
-      ],
-      'est' => [
-        'official' => 'Alžeeria Demokraatlik Rahvavabariik',
-        'common' => 'Alžeeria',
-      ],
-      'zho' => [
-        'official' => '阿尔及利亚人民民主共和国',
-        'common' => '阿尔及利亚',
-      ],
-      'pol' => [
-        'official' => 'Algierska Republika Ludowo-Demokratyczna',
-        'common' => 'Algieria',
+      'swe' => [
+        'official' => 'Demokratiska folkrepubliken Algeriet',
+        'common' => 'Algeriet',
       ],
       'urd' => [
         'official' => 'عوامی جمہوری جمہوریہ الجزائر',
         'common' => 'الجزائر',
       ],
-      'kor' => [
-        'official' => '알제리 인민 민주 공화국',
-        'common' => '알제리',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک خلق الجزایر',
-        'common' => 'الجزایر',
+      'zho' => [
+        'official' => '阿尔及利亚人民民主共和国',
+        'common' => '阿尔及利亚',
       ],
     ],
     'latlng' => [
@@ -9791,6 +10581,9 @@ class CountriesDataSource
         'm' => 'Algérien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+213',
+    ],
   ],
   66 => [
     'name' => [
@@ -9812,6 +10605,7 @@ class CountriesDataSource
     'cioc' => 'ECU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -9850,6 +10644,14 @@ class CountriesDataSource
         'official' => 'Republik Ecuador',
         'common' => 'Ecuador',
       ],
+      'est' => [
+        'official' => 'Ecuadori Vabariik',
+        'common' => 'Ecuador',
+      ],
+      'fin' => [
+        'official' => 'Ecuadorin tasavalta',
+        'common' => 'Ecuador',
+      ],
       'fra' => [
         'official' => 'République de l\'Équateur',
         'common' => 'Équateur',
@@ -9857,6 +10659,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Ekvador',
         'common' => 'Ekvador',
+      ],
+      'hun' => [
+        'official' => 'Ecuadori Köztársaság',
+        'common' => 'Ecuador',
       ],
       'ita' => [
         'official' => 'Repubblica dell\'Ecuador',
@@ -9866,9 +10672,21 @@ class CountriesDataSource
         'official' => 'エクアドル共和国',
         'common' => 'エクアドル',
       ],
+      'kor' => [
+        'official' => '에콰도르 공화국',
+        'common' => '에콰도르',
+      ],
       'nld' => [
         'official' => 'Republiek Ecuador',
         'common' => 'Ecuador',
+      ],
+      'per' => [
+        'official' => 'جمهوری اکوادور',
+        'common' => 'اکوادور',
+      ],
+      'pol' => [
+        'official' => 'Ekwador',
+        'common' => 'Ekwador',
       ],
       'por' => [
         'official' => 'República do Equador',
@@ -9886,33 +10704,17 @@ class CountriesDataSource
         'official' => 'República del Ecuador',
         'common' => 'Ecuador',
       ],
-      'fin' => [
-        'official' => 'Ecuadorin tasavalta',
+      'swe' => [
+        'official' => 'Republiken Ecuador',
         'common' => 'Ecuador',
-      ],
-      'est' => [
-        'official' => 'Ecuadori Vabariik',
-        'common' => 'Ecuador',
-      ],
-      'zho' => [
-        'official' => '厄瓜多尔共和国',
-        'common' => '厄瓜多尔',
-      ],
-      'pol' => [
-        'official' => 'Ekwador',
-        'common' => 'Ekwador',
       ],
       'urd' => [
         'official' => 'جمہوریہ ایکوڈور',
         'common' => 'ایکواڈور',
       ],
-      'kor' => [
-        'official' => '에콰도르 공화국',
-        'common' => '에콰도르',
-      ],
-      'per' => [
-        'official' => 'جمهوری اکوادور',
-        'common' => 'اکوادور',
+      'zho' => [
+        'official' => '厄瓜多尔共和国',
+        'common' => '厄瓜多尔',
       ],
     ],
     'latlng' => [
@@ -9936,6 +10738,9 @@ class CountriesDataSource
         'm' => 'Équatorien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+593',
+    ],
   ],
   67 => [
     'name' => [
@@ -9958,6 +10763,7 @@ class CountriesDataSource
     'cioc' => 'EGY',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EGP' => [
         'name' => 'Egyptian pound',
@@ -9995,6 +10801,14 @@ class CountriesDataSource
         'official' => 'Arabische Republik Ägypten',
         'common' => 'Ägypten',
       ],
+      'est' => [
+        'official' => 'Egiptuse Araabia Vabariik',
+        'common' => 'Egiptus',
+      ],
+      'fin' => [
+        'official' => 'Egyptin arabitasavalta',
+        'common' => 'Egypti',
+      ],
       'fra' => [
         'official' => 'République arabe d\'Égypte',
         'common' => 'Égypte',
@@ -10002,6 +10816,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Arapska Republika Egipat',
         'common' => 'Egipat',
+      ],
+      'hun' => [
+        'official' => 'Egyiptomi Arab Köztársaság',
+        'common' => 'Egyiptom',
       ],
       'ita' => [
         'official' => 'Repubblica araba d\'Egitto',
@@ -10011,9 +10829,21 @@ class CountriesDataSource
         'official' => 'エジプト·アラブ共和国',
         'common' => 'エジプト',
       ],
+      'kor' => [
+        'official' => '이집트 아랍 공화국',
+        'common' => '이집트',
+      ],
       'nld' => [
         'official' => 'Arabische Republiek Egypte',
         'common' => 'Egypte',
+      ],
+      'per' => [
+        'official' => 'جمهوری عربی مصر',
+        'common' => 'مصر',
+      ],
+      'pol' => [
+        'official' => 'Arabska Republika Egiptu',
+        'common' => 'Egipt',
       ],
       'por' => [
         'official' => 'República Árabe do Egipto',
@@ -10031,33 +10861,17 @@ class CountriesDataSource
         'official' => 'República Árabe de Egipto',
         'common' => 'Egipto',
       ],
-      'fin' => [
-        'official' => 'Egyptin arabitasavalta',
-        'common' => 'Egypti',
-      ],
-      'est' => [
-        'official' => 'Egiptuse Araabia Vabariik',
-        'common' => 'Egiptus',
-      ],
-      'zho' => [
-        'official' => '阿拉伯埃及共和国',
-        'common' => '埃及',
-      ],
-      'pol' => [
-        'official' => 'Arabska Republika Egiptu',
-        'common' => 'Egipt',
+      'swe' => [
+        'official' => 'Arabrepubliken Egypten',
+        'common' => 'Egypten',
       ],
       'urd' => [
         'official' => 'مصری عرب جمہوریہ',
         'common' => 'مصر',
       ],
-      'kor' => [
-        'official' => '이집트 아랍 공화국',
-        'common' => '이집트',
-      ],
-      'per' => [
-        'official' => 'جمهوری عربی مصر',
-        'common' => 'مصر',
+      'zho' => [
+        'official' => '阿拉伯埃及共和国',
+        'common' => '埃及',
       ],
     ],
     'latlng' => [
@@ -10082,6 +10896,9 @@ class CountriesDataSource
         'f' => 'Égyptienne',
         'm' => 'Égyptien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+20',
     ],
   ],
   68 => [
@@ -10112,6 +10929,7 @@ class CountriesDataSource
     'cioc' => 'ERI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ERN' => [
         'name' => 'Eritrean nakfa',
@@ -10155,6 +10973,14 @@ class CountriesDataSource
         'official' => 'Staat Eritrea',
         'common' => 'Eritrea',
       ],
+      'est' => [
+        'official' => 'Eritrea Riik',
+        'common' => 'Eritrea',
+      ],
+      'fin' => [
+        'official' => 'Eritrean valtio',
+        'common' => 'Eritrea',
+      ],
       'fra' => [
         'official' => 'État d\'Érythrée',
         'common' => 'Érythrée',
@@ -10162,6 +10988,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Država Eritreji',
         'common' => 'Eritreja',
+      ],
+      'hun' => [
+        'official' => 'Eritrea',
+        'common' => 'Eritrea',
       ],
       'ita' => [
         'official' => 'Stato di Eritrea',
@@ -10171,9 +11001,21 @@ class CountriesDataSource
         'official' => 'エリトリア国',
         'common' => 'エリトリア',
       ],
+      'kor' => [
+        'official' => '에리트레아국',
+        'common' => '에리트레아',
+      ],
       'nld' => [
         'official' => 'Staat Eritrea',
         'common' => 'Eritrea',
+      ],
+      'per' => [
+        'official' => 'جمهوری اریتره',
+        'common' => 'اریتره',
+      ],
+      'pol' => [
+        'official' => 'Państwo Erytrea',
+        'common' => 'Erytrea',
       ],
       'por' => [
         'official' => 'Estado da Eritreia',
@@ -10191,33 +11033,17 @@ class CountriesDataSource
         'official' => 'Estado de Eritrea',
         'common' => 'Eritrea',
       ],
-      'fin' => [
-        'official' => 'Eritrean valtio',
+      'swe' => [
+        'official' => 'Staten Eritrea',
         'common' => 'Eritrea',
-      ],
-      'est' => [
-        'official' => 'Eritrea Riik',
-        'common' => 'Eritrea',
-      ],
-      'zho' => [
-        'official' => '厄立特里亚',
-        'common' => '厄立特里亚',
-      ],
-      'pol' => [
-        'official' => 'Państwo Erytrea',
-        'common' => 'Erytrea',
       ],
       'urd' => [
         'official' => 'ریاستِ ارتریا',
         'common' => 'ارتریا',
       ],
-      'kor' => [
-        'official' => '에리트레아국',
-        'common' => '에리트레아',
-      ],
-      'per' => [
-        'official' => 'جمهوری اریتره',
-        'common' => 'اریتره',
+      'zho' => [
+        'official' => '厄立特里亚',
+        'common' => '厄立特里亚',
       ],
     ],
     'latlng' => [
@@ -10241,6 +11067,9 @@ class CountriesDataSource
         'f' => 'Érythréenne',
         'm' => 'Érythréen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+291',
     ],
   ],
   69 => [
@@ -10271,6 +11100,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'DZD' => [
         'name' => 'Algerian dinar',
@@ -10315,6 +11145,14 @@ class CountriesDataSource
         'official' => 'Demokratische Arabische Republik Sahara',
         'common' => 'Westsahara',
       ],
+      'est' => [
+        'official' => 'Lääne-Sahara',
+        'common' => 'Lääne-Sahara',
+      ],
+      'fin' => [
+        'official' => 'Länsi-Sahara',
+        'common' => 'Länsi-Sahara',
+      ],
       'fra' => [
         'official' => 'République arabe sahraouie démocratique',
         'common' => 'Sahara Occidental',
@@ -10322,6 +11160,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sahrawi Arab Demokratska Republika',
         'common' => 'Zapadna Sahara',
+      ],
+      'hun' => [
+        'official' => 'Nyugat-Szahara',
+        'common' => 'Nyugat-Szahara',
       ],
       'ita' => [
         'official' => 'Repubblica Araba Saharawi Democratica',
@@ -10331,9 +11173,21 @@ class CountriesDataSource
         'official' => 'サハラアラブ民主共和国',
         'common' => '西サハラ',
       ],
+      'kor' => [
+        'official' => '사하라 아랍 민주 공화국',
+        'common' => '서사하라',
+      ],
       'nld' => [
         'official' => 'Sahrawi Arabische Democratische Republiek',
         'common' => 'Westelijke Sahara',
+      ],
+      'per' => [
+        'official' => 'صحرای غربی',
+        'common' => 'صحرای غربی',
+      ],
+      'pol' => [
+        'official' => 'Saharyjska Arabska Republika Demokratyczna',
+        'common' => 'Sahara Zachodnia',
       ],
       'por' => [
         'official' => 'República Árabe Saharaui Democrática',
@@ -10351,33 +11205,17 @@ class CountriesDataSource
         'official' => 'República Árabe Saharaui Democrática',
         'common' => 'Sahara Occidental',
       ],
-      'fin' => [
-        'official' => 'Länsi-Sahara',
-        'common' => 'Länsi-Sahara',
-      ],
-      'est' => [
-        'official' => 'Lääne-Sahara',
-        'common' => 'Lääne-Sahara',
-      ],
-      'zho' => [
-        'official' => '阿拉伯撒哈拉民主共和国',
-        'common' => '西撒哈拉',
-      ],
-      'pol' => [
-        'official' => 'Saharyjska Arabska Republika Demokratyczna',
-        'common' => 'Sahara Zachodnia',
+      'swe' => [
+        'official' => 'Västsahara',
+        'common' => 'Västsahara',
       ],
       'urd' => [
         'official' => 'صحراوی عرب عوامی جمہوریہ',
         'common' => 'مغربی صحارا',
       ],
-      'kor' => [
-        'official' => '사하라 아랍 민주 공화국',
-        'common' => '서사하라',
-      ],
-      'per' => [
-        'official' => 'صحرای غربی',
-        'common' => 'صحرای غربی',
+      'zho' => [
+        'official' => '阿拉伯撒哈拉民主共和国',
+        'common' => '西撒哈拉',
       ],
     ],
     'latlng' => [
@@ -10402,6 +11240,10 @@ class CountriesDataSource
         'm' => '',
       ],
     ],
+    'callingCodes' => [
+      0 => '+2125288',
+      1 => '+2125289',
+    ],
   ],
   70 => [
     'name' => [
@@ -10423,6 +11265,7 @@ class CountriesDataSource
     'cioc' => 'ESP',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -10457,6 +11300,14 @@ class CountriesDataSource
         'official' => 'Königreich Spanien',
         'common' => 'Spanien',
       ],
+      'est' => [
+        'official' => 'Hispaania Kuningriik',
+        'common' => 'Hispaania',
+      ],
+      'fin' => [
+        'official' => 'Espanjan kuningaskunta',
+        'common' => 'Espanja',
+      ],
       'fra' => [
         'official' => 'Royaume d\'Espagne',
         'common' => 'Espagne',
@@ -10464,6 +11315,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Španjolska',
         'common' => 'Španjolska',
+      ],
+      'hun' => [
+        'official' => 'Spanyol Királyság',
+        'common' => 'Spanyolország',
       ],
       'ita' => [
         'official' => 'Regno di Spagna',
@@ -10473,9 +11328,21 @@ class CountriesDataSource
         'official' => 'スペイン王国',
         'common' => 'スペイン',
       ],
+      'kor' => [
+        'official' => '에스파냐 왕국',
+        'common' => '스페인',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Spanje',
         'common' => 'Spanje',
+      ],
+      'per' => [
+        'official' => 'پادشاهی اسپانیا',
+        'common' => 'اسپانیا',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Hiszpanii ',
+        'common' => 'Hiszpania',
       ],
       'por' => [
         'official' => 'Reino de Espanha',
@@ -10493,33 +11360,17 @@ class CountriesDataSource
         'official' => 'Reino de España',
         'common' => 'España',
       ],
-      'fin' => [
-        'official' => 'Espanjan kuningaskunta',
-        'common' => 'Espanja',
-      ],
-      'est' => [
-        'official' => 'Hispaania Kuningriik',
-        'common' => 'Hispaania',
-      ],
-      'zho' => [
-        'official' => '西班牙王国',
-        'common' => '西班牙',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Hiszpanii ',
-        'common' => 'Hiszpania',
+      'swe' => [
+        'official' => 'Konungariket Spanien',
+        'common' => 'Spanien',
       ],
       'urd' => [
         'official' => 'مملکتِ ہسپانیہ',
         'common' => 'ہسپانیہ',
       ],
-      'kor' => [
-        'official' => '에스파냐 왕국',
-        'common' => '스페인',
-      ],
-      'per' => [
-        'official' => 'پادشاهی اسپانیا',
-        'common' => 'اسپانیا',
+      'zho' => [
+        'official' => '西班牙王国',
+        'common' => '西班牙',
       ],
     ],
     'latlng' => [
@@ -10546,6 +11397,9 @@ class CountriesDataSource
         'm' => 'Espagnol',
       ],
     ],
+    'callingCodes' => [
+      0 => '+34',
+    ],
   ],
   71 => [
     'name' => [
@@ -10567,6 +11421,7 @@ class CountriesDataSource
     'cioc' => 'EST',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -10606,6 +11461,14 @@ class CountriesDataSource
         'official' => 'Republik Estland',
         'common' => 'Estland',
       ],
+      'est' => [
+        'official' => 'Eesti Vabariik',
+        'common' => 'Eesti',
+      ],
+      'fin' => [
+        'official' => 'Viron tasavalta',
+        'common' => 'Viro',
+      ],
       'fra' => [
         'official' => 'République d\'Estonie',
         'common' => 'Estonie',
@@ -10613,6 +11476,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Estonija',
         'common' => 'Estonija',
+      ],
+      'hun' => [
+        'official' => 'Észt Köztársaság',
+        'common' => 'Észtország',
       ],
       'ita' => [
         'official' => 'Repubblica di Estonia',
@@ -10622,9 +11489,21 @@ class CountriesDataSource
         'official' => 'エストニア共和国',
         'common' => 'エストニア',
       ],
+      'kor' => [
+        'official' => '에스토니아 공화국',
+        'common' => '에스토니아',
+      ],
       'nld' => [
         'official' => 'Republiek Estland',
         'common' => 'Estland',
+      ],
+      'per' => [
+        'official' => 'جمهوری استونی',
+        'common' => 'اِستونی',
+      ],
+      'pol' => [
+        'official' => 'Republika Estońska',
+        'common' => 'Estonia',
       ],
       'por' => [
         'official' => 'República da Estónia',
@@ -10642,33 +11521,17 @@ class CountriesDataSource
         'official' => 'República de Estonia',
         'common' => 'Estonia',
       ],
-      'fin' => [
-        'official' => 'Viron tasavalta',
-        'common' => 'Viro',
-      ],
-      'est' => [
-        'official' => 'Eesti Vabariik',
-        'common' => 'Eesti',
-      ],
-      'zho' => [
-        'official' => '爱沙尼亚共和国',
-        'common' => '爱沙尼亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Estońska',
-        'common' => 'Estonia',
+      'swe' => [
+        'official' => 'Republiken Estland',
+        'common' => 'Estland',
       ],
       'urd' => [
         'official' => 'جمہوریہ اسٹونیا',
         'common' => 'اسٹونیا',
       ],
-      'kor' => [
-        'official' => '에스토니아 공화국',
-        'common' => '에스토니아',
-      ],
-      'per' => [
-        'official' => 'جمهوری استونی',
-        'common' => 'اِستونی',
+      'zho' => [
+        'official' => '爱沙尼亚共和国',
+        'common' => '爱沙尼亚',
       ],
     ],
     'latlng' => [
@@ -10692,6 +11555,9 @@ class CountriesDataSource
         'm' => 'Estonien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+372',
+    ],
   ],
   72 => [
     'name' => [
@@ -10713,6 +11579,7 @@ class CountriesDataSource
     'cioc' => 'ETH',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ETB' => [
         'name' => 'Ethiopian birr',
@@ -10752,6 +11619,14 @@ class CountriesDataSource
         'official' => 'Demokratische Bundesrepublik Äthiopien',
         'common' => 'Äthiopien',
       ],
+      'est' => [
+        'official' => 'Etioopia Demokraatlik Liitvabariik',
+        'common' => 'Etioopia',
+      ],
+      'fin' => [
+        'official' => 'Etiopian demokraattinen liittotasavalta',
+        'common' => 'Etiopia',
+      ],
       'fra' => [
         'official' => 'République fédérale démocratique d\'Éthiopie',
         'common' => 'Éthiopie',
@@ -10759,6 +11634,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savezna Demokratska Republika Etiopija',
         'common' => 'Etiopija',
+      ],
+      'hun' => [
+        'official' => 'Etióp Szövetségi Demokratikus Köztársaság',
+        'common' => 'Etiópia',
       ],
       'ita' => [
         'official' => 'Repubblica federale democratica di Etiopia',
@@ -10768,9 +11647,21 @@ class CountriesDataSource
         'official' => 'エチオピア連邦民主共和国',
         'common' => 'エチオピア',
       ],
+      'kor' => [
+        'official' => '에티오피아 연방 민주 공화국',
+        'common' => '에티오피아',
+      ],
       'nld' => [
         'official' => 'Federale Democratische Republiek Ethiopië',
         'common' => 'Ethiopië',
+      ],
+      'per' => [
+        'official' => 'جمهوری فدرال دموکراتیک اتیوپی',
+        'common' => 'اِتیوپی',
+      ],
+      'pol' => [
+        'official' => 'Federalna Demokratyczna Republika Etiopii',
+        'common' => 'Etiopia',
       ],
       'por' => [
         'official' => 'República Federal Democrática da Etiópia',
@@ -10788,33 +11679,17 @@ class CountriesDataSource
         'official' => 'República Democrática Federal de Etiopía',
         'common' => 'Etiopía',
       ],
-      'fin' => [
-        'official' => 'Etiopian demokraattinen liittotasavalta',
-        'common' => 'Etiopia',
-      ],
-      'est' => [
-        'official' => 'Etioopia Demokraatlik Liitvabariik',
-        'common' => 'Etioopia',
-      ],
-      'zho' => [
-        'official' => '埃塞俄比亚联邦民主共和国',
-        'common' => '埃塞俄比亚',
-      ],
-      'pol' => [
-        'official' => 'Federalna Demokratyczna Republika Etiopii',
-        'common' => 'Etiopia',
+      'swe' => [
+        'official' => 'Demokratiska förbundsrepubliken Etiopien',
+        'common' => 'Etiopien',
       ],
       'urd' => [
         'official' => 'وفاقی جمہوری جمہوریہ ایتھوپیا',
         'common' => 'ایتھوپیا',
       ],
-      'kor' => [
-        'official' => '에티오피아 연방 민주 공화국',
-        'common' => '에티오피아',
-      ],
-      'per' => [
-        'official' => 'جمهوری فدرال دموکراتیک اتیوپی',
-        'common' => 'اِتیوپی',
+      'zho' => [
+        'official' => '埃塞俄比亚联邦民主共和国',
+        'common' => '埃塞俄比亚',
       ],
     ],
     'latlng' => [
@@ -10842,6 +11717,9 @@ class CountriesDataSource
         'm' => 'Éthiopien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+251',
+    ],
   ],
   73 => [
     'name' => [
@@ -10867,6 +11745,7 @@ class CountriesDataSource
     'cioc' => 'FIN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -10904,6 +11783,14 @@ class CountriesDataSource
         'official' => 'Republik Finnland',
         'common' => 'Finnland',
       ],
+      'est' => [
+        'official' => 'Soome Vabariik',
+        'common' => 'Soome',
+      ],
+      'fin' => [
+        'official' => 'Suomen tasavalta',
+        'common' => 'Suomi',
+      ],
       'fra' => [
         'official' => 'République de Finlande',
         'common' => 'Finlande',
@@ -10911,6 +11798,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Finska',
         'common' => 'Finska',
+      ],
+      'hun' => [
+        'official' => 'Finn Köztársaság',
+        'common' => 'Finnország',
       ],
       'ita' => [
         'official' => 'Repubblica di Finlandia',
@@ -10920,9 +11811,21 @@ class CountriesDataSource
         'official' => 'フィンランド共和国',
         'common' => 'フィンランド',
       ],
+      'kor' => [
+        'official' => '핀란드 공화국',
+        'common' => '핀란드',
+      ],
       'nld' => [
         'official' => 'Republiek Finland',
         'common' => 'Finland',
+      ],
+      'per' => [
+        'official' => 'جمهوری فنلاند',
+        'common' => 'فنلاند',
+      ],
+      'pol' => [
+        'official' => 'Republika Finlandii',
+        'common' => 'Finlandia',
       ],
       'por' => [
         'official' => 'República da Finlândia',
@@ -10940,33 +11843,17 @@ class CountriesDataSource
         'official' => 'República de Finlandia',
         'common' => 'Finlandia',
       ],
-      'fin' => [
-        'official' => 'Suomen tasavalta',
-        'common' => 'Suomi',
-      ],
-      'est' => [
-        'official' => 'Soome Vabariik',
-        'common' => 'Soome',
-      ],
-      'zho' => [
-        'official' => '芬兰共和国',
-        'common' => '芬兰',
-      ],
-      'pol' => [
-        'official' => 'Republika Finlandii',
-        'common' => 'Finlandia',
+      'swe' => [
+        'official' => 'Republiken Finland',
+        'common' => 'Finland',
       ],
       'urd' => [
         'official' => 'جمہوریہ فن لینڈ',
         'common' => 'فن لینڈ',
       ],
-      'kor' => [
-        'official' => '핀란드 공화국',
-        'common' => '핀란드',
-      ],
-      'per' => [
-        'official' => 'جمهوری فنلاند',
-        'common' => 'فنلاند',
+      'zho' => [
+        'official' => '芬兰共和国',
+        'common' => '芬兰',
       ],
     ],
     'latlng' => [
@@ -10990,6 +11877,9 @@ class CountriesDataSource
         'f' => 'Finlandaise',
         'm' => 'Finlandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+358',
     ],
   ],
   74 => [
@@ -11020,6 +11910,7 @@ class CountriesDataSource
     'cioc' => 'FIJ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'FJD' => [
         'name' => 'Fijian dollar',
@@ -11058,6 +11949,14 @@ class CountriesDataSource
         'official' => 'Republik Fidschi',
         'common' => 'Fidschi',
       ],
+      'est' => [
+        'official' => 'Fidži Vabariik',
+        'common' => 'Fidži',
+      ],
+      'fin' => [
+        'official' => 'Fidžin tasavalta',
+        'common' => 'Fidži',
+      ],
       'fra' => [
         'official' => 'République des Fidji',
         'common' => 'Fidji',
@@ -11065,6 +11964,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Fidži',
         'common' => 'Fiđi',
+      ],
+      'hun' => [
+        'official' => 'Fidzsi-szigeteki Köztársaság',
+        'common' => 'Fidzsi-szigetek',
       ],
       'ita' => [
         'official' => 'Repubblica di Figi',
@@ -11074,9 +11977,21 @@ class CountriesDataSource
         'official' => 'フィジー共和国',
         'common' => 'フィジー',
       ],
+      'kor' => [
+        'official' => '피지 공화국',
+        'common' => '피지',
+      ],
       'nld' => [
         'official' => 'Republiek Fiji',
         'common' => 'Fiji',
+      ],
+      'per' => [
+        'official' => 'جمهوری جزایر فیجی',
+        'common' => 'فیجی',
+      ],
+      'pol' => [
+        'official' => 'Republika Fidżi',
+        'common' => 'Fidżi',
       ],
       'por' => [
         'official' => 'República de Fiji',
@@ -11094,33 +12009,17 @@ class CountriesDataSource
         'official' => 'República de Fiji',
         'common' => 'Fiyi',
       ],
-      'fin' => [
-        'official' => 'Fidžin tasavalta',
-        'common' => 'Fidži',
-      ],
-      'est' => [
-        'official' => 'Fidži Vabariik',
-        'common' => 'Fidži',
-      ],
-      'zho' => [
-        'official' => '斐济共和国',
-        'common' => '斐济',
-      ],
-      'pol' => [
-        'official' => 'Republika Fidżi',
-        'common' => 'Fidżi',
+      'swe' => [
+        'official' => 'Republiken Fiji',
+        'common' => 'Fiji',
       ],
       'urd' => [
         'official' => 'جمہوریہ فجی',
         'common' => 'فجی',
       ],
-      'kor' => [
-        'official' => '피지 공화국',
-        'common' => '피지',
-      ],
-      'per' => [
-        'official' => 'جمهوری جزایر فیجی',
-        'common' => 'فیجی',
+      'zho' => [
+        'official' => '斐济共和国',
+        'common' => '斐济',
       ],
     ],
     'latlng' => [
@@ -11141,6 +12040,9 @@ class CountriesDataSource
         'f' => 'Fidjienne',
         'm' => 'Fidjien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+679',
     ],
   ],
   75 => [
@@ -11163,6 +12065,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'FKP' => [
         'name' => 'Falkland Islands pound',
@@ -11197,6 +12100,14 @@ class CountriesDataSource
         'official' => 'Falklandinseln',
         'common' => 'Falklandinseln',
       ],
+      'est' => [
+        'official' => 'Falklandi saared',
+        'common' => 'Falklandi saared',
+      ],
+      'fin' => [
+        'official' => 'Falkandinsaaret',
+        'common' => 'Falkandinsaaret',
+      ],
       'fra' => [
         'official' => 'Îles Malouines',
         'common' => 'Îles Malouines',
@@ -11204,6 +12115,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Falklandski otoci',
         'common' => 'Falklandski Otoci',
+      ],
+      'hun' => [
+        'official' => 'Falkland-szigetek',
+        'common' => 'Falkland-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Falkland',
@@ -11213,9 +12128,21 @@ class CountriesDataSource
         'official' => 'フォークランド',
         'common' => 'フォークランド（マルビナス）諸島',
       ],
+      'kor' => [
+        'official' => '포클랜드 제도',
+        'common' => '포클랜드 제도',
+      ],
       'nld' => [
         'official' => 'Falkland eilanden',
         'common' => 'Falklandeilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر فالکلند',
+        'common' => 'جزایر فالکلند',
+      ],
+      'pol' => [
+        'official' => 'Falklandy',
+        'common' => 'Falklandy',
       ],
       'por' => [
         'official' => 'Ilhas Malvinas',
@@ -11233,33 +12160,17 @@ class CountriesDataSource
         'official' => 'islas Malvinas',
         'common' => 'Islas Malvinas',
       ],
-      'fin' => [
-        'official' => 'Falkandinsaaret',
-        'common' => 'Falkandinsaaret',
-      ],
-      'est' => [
-        'official' => 'Falklandi saared',
-        'common' => 'Falklandi saared',
-      ],
-      'zho' => [
-        'official' => '福克兰群岛',
-        'common' => '福克兰群岛',
-      ],
-      'pol' => [
-        'official' => 'Falklandy',
-        'common' => 'Falklandy',
+      'swe' => [
+        'official' => 'Falklandsöarna',
+        'common' => 'Falklandsöarna',
       ],
       'urd' => [
         'official' => 'جزائر فاکلینڈ',
         'common' => 'جزائر فاکلینڈ',
       ],
-      'kor' => [
-        'official' => '포클랜드 제도',
-        'common' => '포클랜드 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر فالکلند',
-        'common' => 'جزایر فالکلند',
+      'zho' => [
+        'official' => '福克兰群岛',
+        'common' => '福克兰群岛',
       ],
     ],
     'latlng' => [
@@ -11280,6 +12191,9 @@ class CountriesDataSource
         'f' => 'Malouinne',
         'm' => 'Malouin',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+500',
     ],
   ],
   76 => [
@@ -11302,6 +12216,7 @@ class CountriesDataSource
     'cioc' => 'FRA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -11336,6 +12251,14 @@ class CountriesDataSource
         'official' => 'Französische Republik',
         'common' => 'Frankreich',
       ],
+      'est' => [
+        'official' => 'Prantsuse Vabariik',
+        'common' => 'Prantsusmaa',
+      ],
+      'fin' => [
+        'official' => 'Ranskan tasavalta',
+        'common' => 'Ranska',
+      ],
       'fra' => [
         'official' => 'République française',
         'common' => 'France',
@@ -11343,6 +12266,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Francuska Republika',
         'common' => 'Francuska',
+      ],
+      'hun' => [
+        'official' => 'Francia Köztársaság',
+        'common' => 'Franciaország',
       ],
       'ita' => [
         'official' => 'Repubblica francese',
@@ -11352,9 +12279,21 @@ class CountriesDataSource
         'official' => 'フランス共和国',
         'common' => 'フランス',
       ],
+      'kor' => [
+        'official' => '프랑스 공화국',
+        'common' => '프랑스',
+      ],
       'nld' => [
         'official' => 'Franse Republiek',
         'common' => 'Frankrijk',
+      ],
+      'per' => [
+        'official' => 'جمهوری فرانسه',
+        'common' => 'فرانسه',
+      ],
+      'pol' => [
+        'official' => 'Republika Francuska',
+        'common' => 'Francja',
       ],
       'por' => [
         'official' => 'República Francesa',
@@ -11372,33 +12311,17 @@ class CountriesDataSource
         'official' => 'República francés',
         'common' => 'Francia',
       ],
-      'fin' => [
-        'official' => 'Ranskan tasavalta',
-        'common' => 'Ranska',
-      ],
-      'est' => [
-        'official' => 'Prantsuse Vabariik',
-        'common' => 'Prantsusmaa',
-      ],
-      'zho' => [
-        'official' => '法兰西共和国',
-        'common' => '法国',
-      ],
-      'pol' => [
-        'official' => 'Republika Francuska',
-        'common' => 'Francja',
+      'swe' => [
+        'official' => 'Republiken Frankrike',
+        'common' => 'Frankrike',
       ],
       'urd' => [
         'official' => 'جمہوریہ فرانس',
         'common' => 'فرانس',
       ],
-      'kor' => [
-        'official' => '프랑스 공화국',
-        'common' => '프랑스',
-      ],
-      'per' => [
-        'official' => 'جمهوری فرانسه',
-        'common' => 'فرانسه',
+      'zho' => [
+        'official' => '法兰西共和国',
+        'common' => '法国',
       ],
     ],
     'latlng' => [
@@ -11428,6 +12351,9 @@ class CountriesDataSource
         'm' => 'Français',
       ],
     ],
+    'callingCodes' => [
+      0 => '+33',
+    ],
   ],
   77 => [
     'name' => [
@@ -11453,6 +12379,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'DKK' => [
         'name' => 'Danish krone',
@@ -11492,6 +12419,14 @@ class CountriesDataSource
         'official' => 'Färöer',
         'common' => 'Färöer-Inseln',
       ],
+      'est' => [
+        'official' => 'Fääri saared',
+        'common' => 'Fääri saared',
+      ],
+      'fin' => [
+        'official' => 'Färsaaret',
+        'common' => 'Färsaaret',
+      ],
       'fra' => [
         'official' => 'Îles Féroé',
         'common' => 'Îles Féroé',
@@ -11499,6 +12434,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Farski Otoci',
         'common' => 'Farski Otoci',
+      ],
+      'hun' => [
+        'official' => 'Feröer',
+        'common' => 'Feröer',
       ],
       'ita' => [
         'official' => 'Isole Faroe',
@@ -11508,9 +12447,21 @@ class CountriesDataSource
         'official' => 'フェロー諸島',
         'common' => 'フェロー諸島',
       ],
+      'kor' => [
+        'official' => '페로 제도',
+        'common' => '페로 제도',
+      ],
       'nld' => [
         'official' => 'Faeröer',
         'common' => 'Faeröer',
+      ],
+      'per' => [
+        'official' => 'جزایر فاروئه',
+        'common' => 'جزایر فاروئه',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Owcze',
+        'common' => 'Wyspy Owcze',
       ],
       'por' => [
         'official' => 'Ilhas Faroe',
@@ -11528,33 +12479,17 @@ class CountriesDataSource
         'official' => 'Islas Feroe',
         'common' => 'Islas Faroe',
       ],
-      'fin' => [
-        'official' => 'Färsaaret',
-        'common' => 'Färsaaret',
-      ],
-      'est' => [
-        'official' => 'Fääri saared',
-        'common' => 'Fääri saared',
-      ],
-      'zho' => [
-        'official' => '法罗群岛',
-        'common' => '法罗群岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Owcze',
-        'common' => 'Wyspy Owcze',
+      'swe' => [
+        'official' => 'Färöarna',
+        'common' => 'Färöarna',
       ],
       'urd' => [
         'official' => 'جزائر فارو',
         'common' => 'جزائر فارو',
       ],
-      'kor' => [
-        'official' => '페로 제도',
-        'common' => '페로 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر فاروئه',
-        'common' => 'جزایر فاروئه',
+      'zho' => [
+        'official' => '法罗群岛',
+        'common' => '法罗群岛',
       ],
     ],
     'latlng' => [
@@ -11575,6 +12510,9 @@ class CountriesDataSource
         'f' => 'Féroïenne',
         'm' => 'Féroïen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+298',
     ],
   ],
   78 => [
@@ -11597,6 +12535,7 @@ class CountriesDataSource
     'cioc' => 'FSM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
     ],
     'idd' => [
@@ -11627,6 +12566,14 @@ class CountriesDataSource
         'official' => 'Föderierte Staaten von Mikronesien',
         'common' => 'Mikronesien',
       ],
+      'est' => [
+        'official' => 'Mikroneesia Liiduriigid',
+        'common' => 'Mikroneesia',
+      ],
+      'fin' => [
+        'official' => 'Mikronesian liittovaltio',
+        'common' => 'Mikronesia',
+      ],
       'fra' => [
         'official' => 'États fédérés de Micronésie',
         'common' => 'Micronésie',
@@ -11634,6 +12581,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savezne Države Mikronezije',
         'common' => 'Mikronezija',
+      ],
+      'hun' => [
+        'official' => 'Mikronéziai Szövetségi Államok',
+        'common' => 'Mikronéziai Szövetségi Államok',
       ],
       'ita' => [
         'official' => 'Stati federati di Micronesia',
@@ -11643,9 +12594,21 @@ class CountriesDataSource
         'official' => 'ミクロネシア連邦',
         'common' => 'ミクロネシア連邦',
       ],
+      'kor' => [
+        'official' => '미크로네시아 연방',
+        'common' => '미크로네시아',
+      ],
       'nld' => [
         'official' => 'Federale Staten van Micronesia',
         'common' => 'Micronesië',
+      ],
+      'per' => [
+        'official' => 'ایالات فدرال میکرونزی',
+        'common' => 'میکرونزی',
+      ],
+      'pol' => [
+        'official' => 'Sfederowane Stany Mikronezji',
+        'common' => 'Mikronezja',
       ],
       'por' => [
         'official' => 'Estados Federados da Micronésia',
@@ -11663,33 +12626,17 @@ class CountriesDataSource
         'official' => 'Estados Federados de Micronesia',
         'common' => 'Micronesia',
       ],
-      'fin' => [
-        'official' => 'Mikronesian liittovaltio',
-        'common' => 'Mikronesia',
-      ],
-      'est' => [
-        'official' => 'Mikroneesia Liiduriigid',
-        'common' => 'Mikroneesia',
-      ],
-      'zho' => [
-        'official' => '密克罗尼西亚联邦',
-        'common' => '密克罗尼西亚',
-      ],
-      'pol' => [
-        'official' => 'Sfederowane Stany Mikronezji',
-        'common' => 'Mikronezja',
+      'swe' => [
+        'official' => 'Mikronesiska federationen',
+        'common' => 'Mikronesiska federationen',
       ],
       'urd' => [
         'official' => 'ریاستہائے وفاقیہ مائکرونیشیا',
         'common' => 'مائکرونیشیا',
       ],
-      'kor' => [
-        'official' => '미크로네시아 연방',
-        'common' => '미크로네시아',
-      ],
-      'per' => [
-        'official' => 'ایالات فدرال میکرونزی',
-        'common' => 'میکرونزی',
+      'zho' => [
+        'official' => '密克罗尼西亚联邦',
+        'common' => '密克罗尼西亚',
       ],
     ],
     'latlng' => [
@@ -11710,6 +12657,9 @@ class CountriesDataSource
         'f' => 'Micronésienne',
         'm' => 'Micronésien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+691',
     ],
   ],
   79 => [
@@ -11732,6 +12682,7 @@ class CountriesDataSource
     'cioc' => 'GAB',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XAF' => [
         'name' => 'Central African CFA franc',
@@ -11766,12 +12717,24 @@ class CountriesDataSource
         'official' => 'Gabunische Republik',
         'common' => 'Gabun',
       ],
+      'est' => [
+        'official' => 'Gaboni Vabariik',
+        'common' => 'Gabon',
+      ],
+      'fin' => [
+        'official' => 'Gabonin tasavalta',
+        'common' => 'Gabon',
+      ],
       'fra' => [
         'official' => 'République gabonaise',
         'common' => 'Gabon',
       ],
       'hrv' => [
         'official' => 'Gabon Republika',
+        'common' => 'Gabon',
+      ],
+      'hun' => [
+        'official' => 'Gaboni Köztársaság',
         'common' => 'Gabon',
       ],
       'ita' => [
@@ -11782,8 +12745,20 @@ class CountriesDataSource
         'official' => 'ガボン共和国',
         'common' => 'ガボン',
       ],
+      'kor' => [
+        'official' => '가봉 공화국',
+        'common' => '가봉',
+      ],
       'nld' => [
         'official' => 'Republiek Gabon',
+        'common' => 'Gabon',
+      ],
+      'per' => [
+        'official' => 'جمهوری گابُن',
+        'common' => 'گابن',
+      ],
+      'pol' => [
+        'official' => 'Republika Gabońska',
         'common' => 'Gabon',
       ],
       'por' => [
@@ -11802,33 +12777,17 @@ class CountriesDataSource
         'official' => 'República de Gabón',
         'common' => 'Gabón',
       ],
-      'fin' => [
-        'official' => 'Gabonin tasavalta',
-        'common' => 'Gabon',
-      ],
-      'est' => [
-        'official' => 'Gaboni Vabariik',
-        'common' => 'Gabon',
-      ],
-      'zho' => [
-        'official' => '加蓬共和国',
-        'common' => '加蓬',
-      ],
-      'pol' => [
-        'official' => 'Republika Gabońska',
+      'swe' => [
+        'official' => 'Republiken Gabon',
         'common' => 'Gabon',
       ],
       'urd' => [
         'official' => 'جمہوریہ گیبون',
         'common' => 'گیبون',
       ],
-      'kor' => [
-        'official' => '가봉 공화국',
-        'common' => '가봉',
-      ],
-      'per' => [
-        'official' => 'جمهوری گابُن',
-        'common' => 'گابن',
+      'zho' => [
+        'official' => '加蓬共和国',
+        'common' => '加蓬',
       ],
     ],
     'latlng' => [
@@ -11853,6 +12812,9 @@ class CountriesDataSource
         'm' => 'Gabonais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+241',
+    ],
   ],
   80 => [
     'name' => [
@@ -11874,6 +12836,7 @@ class CountriesDataSource
     'cioc' => 'GBR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GBP' => [
         'name' => 'British pound',
@@ -11908,6 +12871,14 @@ class CountriesDataSource
         'official' => 'Vereinigtes Königreich Großbritannien und Nordirland',
         'common' => 'Vereinigtes Königreich',
       ],
+      'est' => [
+        'official' => 'Suurbritannia ja Põhja-Iiri Ühendkuningriik',
+        'common' => 'Suurbritannia',
+      ],
+      'fin' => [
+        'official' => 'Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta',
+        'common' => 'Yhdistynyt kuningaskunta',
+      ],
       'fra' => [
         'official' => 'Royaume-Uni de Grande-Bretagne et d\'Irlande du Nord',
         'common' => 'Royaume-Uni',
@@ -11915,6 +12886,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske',
         'common' => 'Ujedinjeno Kraljevstvo',
+      ],
+      'hun' => [
+        'official' => 'Nagy-Britannia és Észak-Írország Egyesült Királysága',
+        'common' => 'Egyesült Királyság',
       ],
       'ita' => [
         'official' => 'Regno Unito di Gran Bretagna e Irlanda del Nord',
@@ -11924,9 +12899,21 @@ class CountriesDataSource
         'official' => 'グレート·ブリテンおよび北アイルランド連合王国',
         'common' => 'イギリス',
       ],
+      'kor' => [
+        'official' => '그레이트브리튼 북아일랜드 연합 왕국',
+        'common' => '영국',
+      ],
       'nld' => [
         'official' => 'Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland',
         'common' => 'Verenigd Koninkrijk',
+      ],
+      'per' => [
+        'official' => 'پادشاهی متحد بریتانیای کبیر و ایرلند شمالی',
+        'common' => 'انگلیس',
+      ],
+      'pol' => [
+        'official' => 'Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej',
+        'common' => 'Zjednoczone Krłlestwo',
       ],
       'por' => [
         'official' => 'Reino Unido da Grã-Bretanha e Irlanda do Norte',
@@ -11944,33 +12931,17 @@ class CountriesDataSource
         'official' => 'Reino Unido de Gran Bretaña e Irlanda del Norte',
         'common' => 'Reino Unido',
       ],
-      'fin' => [
-        'official' => 'Ison-Britannian ja Pohjois-Irlannin yhdistynyt kuningaskunta',
-        'common' => 'Yhdistynyt kuningaskunta',
-      ],
-      'est' => [
-        'official' => 'Suurbritannia ja Põhja-Iiri Ühendkuningriik',
-        'common' => 'Suurbritannia',
-      ],
-      'zho' => [
-        'official' => '大不列颠及北爱尔兰联合王国',
-        'common' => '英国',
-      ],
-      'pol' => [
-        'official' => 'Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej',
-        'common' => 'Zjednoczone Krłlestwo',
+      'swe' => [
+        'official' => 'Förenade konungariket Storbritannien och Nordirland',
+        'common' => 'Storbritannien',
       ],
       'urd' => [
         'official' => 'مملکتِ متحدہ برطانیہ عظمی و شمالی آئرلینڈ',
         'common' => 'مملکتِ متحدہ',
       ],
-      'kor' => [
-        'official' => '그레이트브리튼 북아일랜드 연합 왕국',
-        'common' => '영국',
-      ],
-      'per' => [
-        'official' => 'پادشاهی متحد بریتانیای کبیر و ایرلند شمالی',
-        'common' => 'انگلیس',
+      'zho' => [
+        'official' => '大不列颠及北爱尔兰联合王国',
+        'common' => '英国',
       ],
     ],
     'latlng' => [
@@ -11993,6 +12964,9 @@ class CountriesDataSource
         'm' => 'Britannique',
       ],
     ],
+    'callingCodes' => [
+      0 => '+44',
+    ],
   ],
   81 => [
     'name' => [
@@ -12014,6 +12988,7 @@ class CountriesDataSource
     'cioc' => 'GEO',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GEL' => [
         'name' => 'lari',
@@ -12047,6 +13022,14 @@ class CountriesDataSource
         'official' => 'Georgien',
         'common' => 'Georgien',
       ],
+      'est' => [
+        'official' => 'Gruusia',
+        'common' => 'Gruusia',
+      ],
+      'fin' => [
+        'official' => 'Georgia',
+        'common' => 'Georgia',
+      ],
       'fra' => [
         'official' => 'République de Géorgie',
         'common' => 'Géorgie',
@@ -12054,6 +13037,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Gruzija',
         'common' => 'Gruzija',
+      ],
+      'hun' => [
+        'official' => 'Grúzia',
+        'common' => 'Grúzia',
       ],
       'ita' => [
         'official' => 'Georgia',
@@ -12063,9 +13050,21 @@ class CountriesDataSource
         'official' => 'グルジア',
         'common' => 'グルジア',
       ],
+      'kor' => [
+        'official' => '조지아',
+        'common' => '조지아',
+      ],
       'nld' => [
         'official' => 'Georgia',
         'common' => 'Georgië',
+      ],
+      'per' => [
+        'official' => 'گرجستان',
+        'common' => 'گرجستان',
+      ],
+      'pol' => [
+        'official' => 'Gruzja',
+        'common' => 'Gruzja',
       ],
       'por' => [
         'official' => 'Georgia',
@@ -12083,33 +13082,17 @@ class CountriesDataSource
         'official' => 'Georgia',
         'common' => 'Georgia',
       ],
-      'fin' => [
-        'official' => 'Georgia',
-        'common' => 'Georgia',
-      ],
-      'est' => [
-        'official' => 'Gruusia',
-        'common' => 'Gruusia',
-      ],
-      'zho' => [
-        'official' => '格鲁吉亚',
-        'common' => '格鲁吉亚',
-      ],
-      'pol' => [
-        'official' => 'Gruzja',
-        'common' => 'Gruzja',
+      'swe' => [
+        'official' => 'Georgien',
+        'common' => 'Georgien',
       ],
       'urd' => [
         'official' => 'جارجیا',
         'common' => 'جارجیا',
       ],
-      'kor' => [
-        'official' => '조지아',
-        'common' => '조지아',
-      ],
-      'per' => [
-        'official' => 'گرجستان',
-        'common' => 'گرجستان',
+      'zho' => [
+        'official' => '格鲁吉亚',
+        'common' => '格鲁吉亚',
       ],
     ],
     'latlng' => [
@@ -12134,6 +13117,9 @@ class CountriesDataSource
         'f' => 'Géorgienne',
         'm' => 'Géorgien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+995',
     ],
   ],
   82 => [
@@ -12164,6 +13150,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'GBP' => [
         'name' => 'British pound',
@@ -12204,12 +13191,24 @@ class CountriesDataSource
         'official' => 'Vogtei Guernsey',
         'common' => 'Guernsey',
       ],
+      'est' => [
+        'official' => 'Guernsey foogtkond',
+        'common' => 'Guernsey',
+      ],
+      'fin' => [
+        'official' => 'Guernsey',
+        'common' => 'Guernsey',
+      ],
       'fra' => [
         'official' => 'Bailliage de Guernesey',
         'common' => 'Guernesey',
       ],
       'hrv' => [
         'official' => 'Struka Guernsey',
+        'common' => 'Guernsey',
+      ],
+      'hun' => [
+        'official' => 'Guernsey',
         'common' => 'Guernsey',
       ],
       'ita' => [
@@ -12220,8 +13219,20 @@ class CountriesDataSource
         'official' => 'ガーンジーの得意分野',
         'common' => 'ガーンジー',
       ],
+      'kor' => [
+        'official' => '건지 섬',
+        'common' => '건지 섬',
+      ],
       'nld' => [
         'official' => 'Baljuwschap Guernsey',
+        'common' => 'Guernsey',
+      ],
+      'per' => [
+        'official' => 'گرنزی',
+        'common' => 'گرنزی',
+      ],
+      'pol' => [
+        'official' => 'Baliwat Guernsey',
         'common' => 'Guernsey',
       ],
       'por' => [
@@ -12240,33 +13251,17 @@ class CountriesDataSource
         'official' => 'Bailía de Guernsey',
         'common' => 'Guernsey',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Guernsey',
-        'common' => 'Guernsey',
-      ],
-      'est' => [
-        'official' => 'Guernsey foogtkond',
-        'common' => 'Guernsey',
-      ],
-      'zho' => [
-        'official' => '根西岛',
-        'common' => '根西岛',
-      ],
-      'pol' => [
-        'official' => 'Baliwat Guernsey',
         'common' => 'Guernsey',
       ],
       'urd' => [
         'official' => 'گرنزی رودبار',
         'common' => 'گرنزی',
       ],
-      'kor' => [
-        'official' => '건지 섬',
-        'common' => '건지 섬',
-      ],
-      'per' => [
-        'official' => 'گرنزی',
-        'common' => 'گرنزی',
+      'zho' => [
+        'official' => '根西岛',
+        'common' => '根西岛',
       ],
     ],
     'latlng' => [
@@ -12287,6 +13282,9 @@ class CountriesDataSource
         'f' => 'Guernesiaise',
         'm' => 'Guernesiais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+44',
     ],
   ],
   83 => [
@@ -12309,6 +13307,7 @@ class CountriesDataSource
     'cioc' => 'GHA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GHS' => [
         'name' => 'Ghanaian cedi',
@@ -12341,6 +13340,14 @@ class CountriesDataSource
         'official' => 'Republik Ghana',
         'common' => 'Ghana',
       ],
+      'est' => [
+        'official' => 'Ghana Vabariik',
+        'common' => 'Ghana',
+      ],
+      'fin' => [
+        'official' => 'Ghanan tasavalta',
+        'common' => 'Ghana',
+      ],
       'fra' => [
         'official' => 'République du Ghana',
         'common' => 'Ghana',
@@ -12348,6 +13355,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Gana',
         'common' => 'Gana',
+      ],
+      'hun' => [
+        'official' => 'Ghánai Köztársaság',
+        'common' => 'Ghána',
       ],
       'ita' => [
         'official' => 'Repubblica del Ghana',
@@ -12357,8 +13368,20 @@ class CountriesDataSource
         'official' => 'ガーナ共和国',
         'common' => 'ガーナ',
       ],
+      'kor' => [
+        'official' => '가나 공화국',
+        'common' => '가나',
+      ],
       'nld' => [
         'official' => 'Republiek Ghana',
+        'common' => 'Ghana',
+      ],
+      'per' => [
+        'official' => 'جمهوری غنا',
+        'common' => 'غنا',
+      ],
+      'pol' => [
+        'official' => 'Republika Ghany',
         'common' => 'Ghana',
       ],
       'por' => [
@@ -12377,33 +13400,17 @@ class CountriesDataSource
         'official' => 'República de Ghana',
         'common' => 'Ghana',
       ],
-      'fin' => [
-        'official' => 'Ghanan tasavalta',
-        'common' => 'Ghana',
-      ],
-      'est' => [
-        'official' => 'Ghana Vabariik',
-        'common' => 'Ghana',
-      ],
-      'zho' => [
-        'official' => '加纳共和国',
-        'common' => '加纳',
-      ],
-      'pol' => [
-        'official' => 'Republika Ghany',
+      'swe' => [
+        'official' => 'Republiken Ghana',
         'common' => 'Ghana',
       ],
       'urd' => [
         'official' => 'جمہوریہ گھانا',
         'common' => 'گھانا',
       ],
-      'kor' => [
-        'official' => '가나 공화국',
-        'common' => '가나',
-      ],
-      'per' => [
-        'official' => 'جمهوری غنا',
-        'common' => 'غنا',
+      'zho' => [
+        'official' => '加纳共和国',
+        'common' => '加纳',
       ],
     ],
     'latlng' => [
@@ -12428,6 +13435,9 @@ class CountriesDataSource
         'm' => 'Ghanéen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+233',
+    ],
   ],
   84 => [
     'name' => [
@@ -12449,6 +13459,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'GIP' => [
         'name' => 'Gibraltar pound',
@@ -12481,6 +13492,14 @@ class CountriesDataSource
         'official' => 'Gibraltar',
         'common' => 'Gibraltar',
       ],
+      'est' => [
+        'official' => 'Gibraltar',
+        'common' => 'Gibraltar',
+      ],
+      'fin' => [
+        'official' => 'Gibraltar',
+        'common' => 'Gibraltar',
+      ],
       'fra' => [
         'official' => 'Gibraltar',
         'common' => 'Gibraltar',
@@ -12488,6 +13507,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Gibraltar',
         'common' => 'Gibraltar',
+      ],
+      'hun' => [
+        'official' => 'Gibraltár',
+        'common' => 'Gibraltár',
       ],
       'ita' => [
         'official' => 'Gibilterra',
@@ -12497,7 +13520,19 @@ class CountriesDataSource
         'official' => 'ジブラルタル',
         'common' => 'ジブラルタル',
       ],
+      'kor' => [
+        'official' => '지브롤터',
+        'common' => '지브롤터',
+      ],
       'nld' => [
+        'official' => 'Gibraltar',
+        'common' => 'Gibraltar',
+      ],
+      'per' => [
+        'official' => 'جبل طارق',
+        'common' => 'جبل طارق',
+      ],
+      'pol' => [
         'official' => 'Gibraltar',
         'common' => 'Gibraltar',
       ],
@@ -12517,19 +13552,7 @@ class CountriesDataSource
         'official' => 'Gibraltar',
         'common' => 'Gibraltar',
       ],
-      'fin' => [
-        'official' => 'Gibraltar',
-        'common' => 'Gibraltar',
-      ],
-      'est' => [
-        'official' => 'Gibraltar',
-        'common' => 'Gibraltar',
-      ],
-      'zho' => [
-        'official' => '直布罗陀',
-        'common' => '直布罗陀',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Gibraltar',
         'common' => 'Gibraltar',
       ],
@@ -12537,13 +13560,9 @@ class CountriesDataSource
         'official' => 'جبل الطارق',
         'common' => 'جبل الطارق',
       ],
-      'kor' => [
-        'official' => '지브롤터',
-        'common' => '지브롤터',
-      ],
-      'per' => [
-        'official' => 'جبل طارق',
-        'common' => 'جبل طارق',
+      'zho' => [
+        'official' => '直布罗陀',
+        'common' => '直布罗陀',
       ],
     ],
     'latlng' => [
@@ -12566,6 +13585,9 @@ class CountriesDataSource
         'm' => 'Gibraltarien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+350',
+    ],
   ],
   85 => [
     'name' => [
@@ -12587,6 +13609,7 @@ class CountriesDataSource
     'cioc' => 'GUI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GNF' => [
         'name' => 'Guinean franc',
@@ -12621,6 +13644,14 @@ class CountriesDataSource
         'official' => 'Republik Guinea',
         'common' => 'Guinea',
       ],
+      'est' => [
+        'official' => 'Guinea Vabariik',
+        'common' => 'Guinea',
+      ],
+      'fin' => [
+        'official' => 'Guinean tasavalta',
+        'common' => 'Guinea',
+      ],
       'fra' => [
         'official' => 'République de Guinée',
         'common' => 'Guinée',
@@ -12628,6 +13659,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Gvineja',
         'common' => 'Gvineja',
+      ],
+      'hun' => [
+        'official' => 'Guineai Köztársaság',
+        'common' => 'Guinea',
       ],
       'ita' => [
         'official' => 'Repubblica di Guinea',
@@ -12637,9 +13672,21 @@ class CountriesDataSource
         'official' => 'ギニア共和国',
         'common' => 'ギニア',
       ],
+      'kor' => [
+        'official' => '기니 공화국',
+        'common' => '기니',
+      ],
       'nld' => [
         'official' => 'Republiek Guinee',
         'common' => 'Guinee',
+      ],
+      'per' => [
+        'official' => 'مملکت مستقل پاپوآ گینه نو',
+        'common' => 'پاپوآ گینه نو',
+      ],
+      'pol' => [
+        'official' => 'Republika Gwinei',
+        'common' => 'Gwinea',
       ],
       'por' => [
         'official' => 'República da Guiné',
@@ -12657,33 +13704,17 @@ class CountriesDataSource
         'official' => 'República de Guinea',
         'common' => 'Guinea',
       ],
-      'fin' => [
-        'official' => 'Guinean tasavalta',
+      'swe' => [
+        'official' => 'Republiken Guinea',
         'common' => 'Guinea',
-      ],
-      'est' => [
-        'official' => 'Guinea Vabariik',
-        'common' => 'Guinea',
-      ],
-      'zho' => [
-        'official' => '几内亚共和国',
-        'common' => '几内亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Gwinei',
-        'common' => 'Gwinea',
       ],
       'urd' => [
         'official' => 'جمہوریہ گنی',
         'common' => 'گنی',
       ],
-      'kor' => [
-        'official' => '기니 공화국',
-        'common' => '기니',
-      ],
-      'per' => [
-        'official' => 'مملکت مستقل پاپوآ گینه نو',
-        'common' => 'پاپوآ گینه نو',
+      'zho' => [
+        'official' => '几内亚共和国',
+        'common' => '几内亚',
       ],
     ],
     'latlng' => [
@@ -12711,6 +13742,9 @@ class CountriesDataSource
         'm' => 'Guinéen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+224',
+    ],
   ],
   86 => [
     'name' => [
@@ -12732,6 +13766,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -12765,6 +13800,14 @@ class CountriesDataSource
         'official' => 'Guadeloupe',
         'common' => 'Guadeloupe',
       ],
+      'est' => [
+        'official' => 'Guadeloupe’i ja sõltkondade departemang',
+        'common' => 'Guadeloupe',
+      ],
+      'fin' => [
+        'official' => 'Guadeloupen departmentti',
+        'common' => 'Guadeloupe',
+      ],
       'fra' => [
         'official' => 'Guadeloupe',
         'common' => 'Guadeloupe',
@@ -12772,6 +13815,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Gvadalupa',
         'common' => 'Gvadalupa',
+      ],
+      'hun' => [
+        'official' => 'Guadeloupe',
+        'common' => 'Guadeloupe',
       ],
       'ita' => [
         'official' => 'Guadeloupe',
@@ -12781,9 +13828,21 @@ class CountriesDataSource
         'official' => 'グアドループ島',
         'common' => 'グアドループ',
       ],
+      'kor' => [
+        'official' => '과들루프',
+        'common' => '과들루프',
+      ],
       'nld' => [
         'official' => 'Guadeloupe',
         'common' => 'Guadeloupe',
+      ],
+      'per' => [
+        'official' => 'گوادلوپ',
+        'common' => 'گوادلوپ',
+      ],
+      'pol' => [
+        'official' => 'Gwadelupa',
+        'common' => 'Gwadelupa',
       ],
       'por' => [
         'official' => 'Guadalupe',
@@ -12801,33 +13860,17 @@ class CountriesDataSource
         'official' => 'Guadalupe',
         'common' => 'Guadalupe',
       ],
-      'fin' => [
-        'official' => 'Guadeloupen departmentti',
+      'swe' => [
+        'official' => 'Guadeloupe',
         'common' => 'Guadeloupe',
-      ],
-      'est' => [
-        'official' => 'Guadeloupe’i ja sõltkondade departemang',
-        'common' => 'Guadeloupe',
-      ],
-      'zho' => [
-        'official' => '瓜德罗普岛',
-        'common' => '瓜德罗普岛',
-      ],
-      'pol' => [
-        'official' => 'Gwadelupa',
-        'common' => 'Gwadelupa',
       ],
       'urd' => [
         'official' => 'گواڈیلوپ',
         'common' => 'گواڈیلوپ',
       ],
-      'kor' => [
-        'official' => '과들루프',
-        'common' => '과들루프',
-      ],
-      'per' => [
-        'official' => 'گوادلوپ',
-        'common' => 'گوادلوپ',
+      'zho' => [
+        'official' => '瓜德罗普岛',
+        'common' => '瓜德罗普岛',
       ],
     ],
     'latlng' => [
@@ -12848,6 +13891,9 @@ class CountriesDataSource
         'f' => 'Guadeloupéenne',
         'm' => 'Guadeloupéen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+590',
     ],
   ],
   87 => [
@@ -12870,6 +13916,7 @@ class CountriesDataSource
     'cioc' => 'GAM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GMD' => [
         'name' => 'dalasi',
@@ -12903,6 +13950,14 @@ class CountriesDataSource
         'official' => 'Republik Gambia',
         'common' => 'Gambia',
       ],
+      'est' => [
+        'official' => 'Gambia Vabariik',
+        'common' => 'Gambia',
+      ],
+      'fin' => [
+        'official' => 'Gambian tasavalta',
+        'common' => 'Gambia',
+      ],
       'fra' => [
         'official' => 'République de Gambie',
         'common' => 'Gambie',
@@ -12910,6 +13965,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Gambija',
         'common' => 'Gambija',
+      ],
+      'hun' => [
+        'official' => 'Gambiai Köztársaság',
+        'common' => 'Gambia',
       ],
       'ita' => [
         'official' => 'Repubblica del Gambia',
@@ -12919,8 +13978,20 @@ class CountriesDataSource
         'official' => 'ガンビア共和国',
         'common' => 'ガンビア',
       ],
+      'kor' => [
+        'official' => '감비아 공화국',
+        'common' => '감비아',
+      ],
       'nld' => [
         'official' => 'Republiek Gambia',
+        'common' => 'Gambia',
+      ],
+      'per' => [
+        'official' => 'جمهوری گامبیا',
+        'common' => 'گامبیا',
+      ],
+      'pol' => [
+        'official' => 'Republika Gambii',
         'common' => 'Gambia',
       ],
       'por' => [
@@ -12939,33 +14010,17 @@ class CountriesDataSource
         'official' => 'República de Gambia',
         'common' => 'Gambia',
       ],
-      'fin' => [
-        'official' => 'Gambian tasavalta',
-        'common' => 'Gambia',
-      ],
-      'est' => [
-        'official' => 'Gambia Vabariik',
-        'common' => 'Gambia',
-      ],
-      'zho' => [
-        'official' => '冈比亚共和国',
-        'common' => '冈比亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Gambii',
+      'swe' => [
+        'official' => 'Republiken Gambia',
         'common' => 'Gambia',
       ],
       'urd' => [
         'official' => 'جمہوریہ گیمبیا',
         'common' => 'گیمبیا',
       ],
-      'kor' => [
-        'official' => '감비아 공화국',
-        'common' => '감비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری گامبیا',
-        'common' => 'گامبیا',
+      'zho' => [
+        'official' => '冈比亚共和国',
+        'common' => '冈比亚',
       ],
     ],
     'latlng' => [
@@ -12987,6 +14042,9 @@ class CountriesDataSource
         'f' => 'Gambienne',
         'm' => 'Gambien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+220',
     ],
   ],
   88 => [
@@ -13013,6 +14071,7 @@ class CountriesDataSource
     'cioc' => 'GBS',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -13048,6 +14107,14 @@ class CountriesDataSource
         'official' => 'Republik Guinea-Bissau',
         'common' => 'Guinea-Bissau',
       ],
+      'est' => [
+        'official' => 'Guinea-Bissau Vabariik',
+        'common' => 'Guinea-Bissau',
+      ],
+      'fin' => [
+        'official' => 'Guinea-Bissaun tasavalta',
+        'common' => 'Guinea-Bissau',
+      ],
       'fra' => [
         'official' => 'République de Guinée-Bissau',
         'common' => 'Guinée-Bissau',
@@ -13055,6 +14122,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Gvineja Bisau',
         'common' => 'Gvineja Bisau',
+      ],
+      'hun' => [
+        'official' => 'Bissau-Guineai Köztársaság',
+        'common' => 'Bissau-Guinea',
       ],
       'ita' => [
         'official' => 'Repubblica di Guinea-Bissau',
@@ -13064,9 +14135,21 @@ class CountriesDataSource
         'official' => 'ギニアビサウ共和国',
         'common' => 'ギニアビサウ',
       ],
+      'kor' => [
+        'official' => '기니비사우 공화국',
+        'common' => '기니비사우',
+      ],
       'nld' => [
         'official' => 'Republiek Guinee-Bissau',
         'common' => 'Guinee-Bissau',
+      ],
+      'per' => [
+        'official' => 'جمهوری گینه بیسائو',
+        'common' => 'گینه بیسائو',
+      ],
+      'pol' => [
+        'official' => 'Republika Gwinei Bissau',
+        'common' => 'Gwinea Bissau',
       ],
       'por' => [
         'official' => 'República da Guiné-Bissau',
@@ -13084,33 +14167,17 @@ class CountriesDataSource
         'official' => 'República de Guinea-Bissau',
         'common' => 'Guinea-Bisáu',
       ],
-      'fin' => [
-        'official' => 'Guinea-Bissaun tasavalta',
+      'swe' => [
+        'official' => 'Republiken Guinea-Bissau',
         'common' => 'Guinea-Bissau',
-      ],
-      'est' => [
-        'official' => 'Guinea-Bissau Vabariik',
-        'common' => 'Guinea-Bissau',
-      ],
-      'zho' => [
-        'official' => '几内亚比绍共和国',
-        'common' => '几内亚比绍',
-      ],
-      'pol' => [
-        'official' => 'Republika Gwinei Bissau',
-        'common' => 'Gwinea Bissau',
       ],
       'urd' => [
         'official' => 'جمہوریہ گنی بساؤ',
         'common' => 'گنی بساؤ',
       ],
-      'kor' => [
-        'official' => '기니비사우 공화국',
-        'common' => '기니비사우',
-      ],
-      'per' => [
-        'official' => 'جمهوری گینه بیسائو',
-        'common' => 'گینه بیسائو',
+      'zho' => [
+        'official' => '几内亚比绍共和国',
+        'common' => '几内亚比绍',
       ],
     ],
     'latlng' => [
@@ -13133,6 +14200,9 @@ class CountriesDataSource
         'f' => 'Bissau-Guinéenne',
         'm' => 'Bissau-Guinéen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+245',
     ],
   ],
   89 => [
@@ -13163,6 +14233,7 @@ class CountriesDataSource
     'cioc' => 'GEQ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XAF' => [
         'name' => 'Central African CFA franc',
@@ -13205,6 +14276,14 @@ class CountriesDataSource
         'official' => 'Republik Äquatorialguinea',
         'common' => 'Äquatorialguinea',
       ],
+      'est' => [
+        'official' => 'Ekvatoriaal-Guinea Vabariik',
+        'common' => 'Ekvatoriaal-Guinea',
+      ],
+      'fin' => [
+        'official' => 'Päiväntasaajan Guinean tasavalta',
+        'common' => 'Päiväntasaajan Guinea',
+      ],
       'fra' => [
         'official' => 'République de Guinée équatoriale',
         'common' => 'Guinée équatoriale',
@@ -13212,6 +14291,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Ekvatorska Gvineja',
         'common' => 'Ekvatorijalna Gvineja',
+      ],
+      'hun' => [
+        'official' => 'Egyenlítői-Guinea-i Köztársaság',
+        'common' => 'Egyenlítői-Guinea',
       ],
       'ita' => [
         'official' => 'Repubblica della Guinea Equatoriale',
@@ -13221,9 +14304,21 @@ class CountriesDataSource
         'official' => '赤道ギニア共和国',
         'common' => '赤道ギニア',
       ],
+      'kor' => [
+        'official' => '적도 기니 공화국',
+        'common' => '적도 기니',
+      ],
       'nld' => [
         'official' => 'Republiek Equatoriaal-Guinea',
         'common' => 'Equatoriaal-Guinea',
+      ],
+      'per' => [
+        'official' => 'جمهوری گینه استوایی',
+        'common' => 'گینه استوایی',
+      ],
+      'pol' => [
+        'official' => 'Republika Gwinei Równikowej',
+        'common' => 'Gwinea Równikowa',
       ],
       'por' => [
         'official' => 'República da Guiné Equatorial',
@@ -13241,33 +14336,17 @@ class CountriesDataSource
         'official' => 'República de Guinea Ecuatorial',
         'common' => 'Guinea Ecuatorial',
       ],
-      'fin' => [
-        'official' => 'Päiväntasaajan Guinean tasavalta',
-        'common' => 'Päiväntasaajan Guinea',
-      ],
-      'est' => [
-        'official' => 'Ekvatoriaal-Guinea Vabariik',
-        'common' => 'Ekvatoriaal-Guinea',
-      ],
-      'zho' => [
-        'official' => '赤道几内亚共和国',
-        'common' => '赤道几内亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Gwinei Równikowej',
-        'common' => 'Gwinea Równikowa',
+      'swe' => [
+        'official' => 'Republiken Ekvatorialguinea',
+        'common' => 'Ekvatorialguinea',
       ],
       'urd' => [
         'official' => 'جمہوریہ استوائی گنی',
         'common' => 'استوائی گنی',
       ],
-      'kor' => [
-        'official' => '적도 기니 공화국',
-        'common' => '적도 기니',
-      ],
-      'per' => [
-        'official' => 'جمهوری گینه استوایی',
-        'common' => 'گینه استوایی',
+      'zho' => [
+        'official' => '赤道几内亚共和国',
+        'common' => '赤道几内亚',
       ],
     ],
     'latlng' => [
@@ -13291,6 +14370,9 @@ class CountriesDataSource
         'm' => 'Équato-guinéen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+240',
+    ],
   ],
   90 => [
     'name' => [
@@ -13312,6 +14394,7 @@ class CountriesDataSource
     'cioc' => 'GRE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -13347,6 +14430,14 @@ class CountriesDataSource
         'official' => 'Hellenische Republik',
         'common' => 'Griechenland',
       ],
+      'est' => [
+        'official' => 'Kreeka Vabariik',
+        'common' => 'Kreeka',
+      ],
+      'fin' => [
+        'official' => 'Helleenien tasavalta',
+        'common' => 'Kreikka',
+      ],
       'fra' => [
         'official' => 'République hellénique',
         'common' => 'Grèce',
@@ -13354,6 +14445,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Helenska Republika',
         'common' => 'Grčka',
+      ],
+      'hun' => [
+        'official' => 'Görög Köztársaság',
+        'common' => 'Görögország',
       ],
       'ita' => [
         'official' => 'Repubblica ellenica',
@@ -13363,9 +14458,21 @@ class CountriesDataSource
         'official' => 'ギリシャ共和国',
         'common' => 'ギリシャ',
       ],
+      'kor' => [
+        'official' => '그리스 공화국',
+        'common' => '그리스',
+      ],
       'nld' => [
         'official' => 'Helleense Republiek',
         'common' => 'Griekenland',
+      ],
+      'per' => [
+        'official' => 'جمهوری یونان',
+        'common' => 'یونان',
+      ],
+      'pol' => [
+        'official' => 'Republika Grecka',
+        'common' => 'Grecja',
       ],
       'por' => [
         'official' => 'República Helénica',
@@ -13383,33 +14490,17 @@ class CountriesDataSource
         'official' => 'República Helénica',
         'common' => 'Grecia',
       ],
-      'fin' => [
-        'official' => 'Helleenien tasavalta',
-        'common' => 'Kreikka',
-      ],
-      'est' => [
-        'official' => 'Kreeka Vabariik',
-        'common' => 'Kreeka',
-      ],
-      'zho' => [
-        'official' => '希腊共和国',
-        'common' => '希腊',
-      ],
-      'pol' => [
-        'official' => 'Republika Grecka',
-        'common' => 'Grecja',
+      'swe' => [
+        'official' => 'Republiken Grekland',
+        'common' => 'Grekland',
       ],
       'urd' => [
         'official' => 'جمہوریہ ہیلینیہ',
         'common' => 'یونان',
       ],
-      'kor' => [
-        'official' => '그리스 공화국',
-        'common' => '그리스',
-      ],
-      'per' => [
-        'official' => 'جمهوری یونان',
-        'common' => 'یونان',
+      'zho' => [
+        'official' => '希腊共和国',
+        'common' => '希腊',
       ],
     ],
     'latlng' => [
@@ -13435,6 +14526,9 @@ class CountriesDataSource
         'm' => 'Grec',
       ],
     ],
+    'callingCodes' => [
+      0 => '+30',
+    ],
   ],
   91 => [
     'name' => [
@@ -13456,6 +14550,7 @@ class CountriesDataSource
     'cioc' => 'GRN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -13488,11 +14583,23 @@ class CountriesDataSource
         'official' => 'Grenada',
         'common' => 'Grenada',
       ],
+      'est' => [
+        'official' => 'Grenada',
+        'common' => 'Grenada',
+      ],
+      'fin' => [
+        'official' => 'Grenada',
+        'common' => 'Grenada',
+      ],
       'fra' => [
         'official' => 'Grenade',
         'common' => 'Grenade',
       ],
       'hrv' => [
+        'official' => 'Grenada',
+        'common' => 'Grenada',
+      ],
+      'hun' => [
         'official' => 'Grenada',
         'common' => 'Grenada',
       ],
@@ -13504,7 +14611,19 @@ class CountriesDataSource
         'official' => 'グレナダ',
         'common' => 'グレナダ',
       ],
+      'kor' => [
+        'official' => '그레나다',
+        'common' => '그레나다',
+      ],
       'nld' => [
+        'official' => 'Grenada',
+        'common' => 'Grenada',
+      ],
+      'per' => [
+        'official' => 'گرنادا',
+        'common' => 'گرنادا',
+      ],
+      'pol' => [
         'official' => 'Grenada',
         'common' => 'Grenada',
       ],
@@ -13524,19 +14643,7 @@ class CountriesDataSource
         'official' => 'Granada',
         'common' => 'Grenada',
       ],
-      'fin' => [
-        'official' => 'Grenada',
-        'common' => 'Grenada',
-      ],
-      'est' => [
-        'official' => 'Grenada',
-        'common' => 'Grenada',
-      ],
-      'zho' => [
-        'official' => '格林纳达',
-        'common' => '格林纳达',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Grenada',
         'common' => 'Grenada',
       ],
@@ -13544,13 +14651,9 @@ class CountriesDataSource
         'official' => 'گریناڈا',
         'common' => 'گریناڈا',
       ],
-      'kor' => [
-        'official' => '그레나다',
-        'common' => '그레나다',
-      ],
-      'per' => [
-        'official' => 'گرنادا',
-        'common' => 'گرنادا',
+      'zho' => [
+        'official' => '格林纳达',
+        'common' => '格林纳达',
       ],
     ],
     'latlng' => [
@@ -13571,6 +14674,9 @@ class CountriesDataSource
         'f' => 'Grenadienne',
         'm' => 'Grenadien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1473',
     ],
   ],
   92 => [
@@ -13593,6 +14699,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'DKK' => [
         'name' => 'krone',
@@ -13626,6 +14733,14 @@ class CountriesDataSource
         'official' => 'Grönland',
         'common' => 'Grönland',
       ],
+      'est' => [
+        'official' => 'Gröönimaa',
+        'common' => 'Gröönimaa',
+      ],
+      'fin' => [
+        'official' => 'Groönlanti',
+        'common' => 'Groönlanti',
+      ],
       'fra' => [
         'official' => 'Groenland',
         'common' => 'Groenland',
@@ -13633,6 +14748,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Grenland',
         'common' => 'Grenland',
+      ],
+      'hun' => [
+        'official' => 'Grönland',
+        'common' => 'Grönland',
       ],
       'ita' => [
         'official' => 'Groenlandia',
@@ -13642,9 +14761,21 @@ class CountriesDataSource
         'official' => 'グリーンランド',
         'common' => 'グリーンランド',
       ],
+      'kor' => [
+        'official' => '그린란드',
+        'common' => '그린란드',
+      ],
       'nld' => [
         'official' => 'Groenland',
         'common' => 'Groenland',
+      ],
+      'per' => [
+        'official' => 'گروئنلند',
+        'common' => 'گرینلند',
+      ],
+      'pol' => [
+        'official' => 'Grenlandia',
+        'common' => 'Grenlandia',
       ],
       'por' => [
         'official' => 'Groenlândia',
@@ -13662,33 +14793,17 @@ class CountriesDataSource
         'official' => 'Groenlandia',
         'common' => 'Groenlandia',
       ],
-      'fin' => [
-        'official' => 'Groönlanti',
-        'common' => 'Groönlanti',
-      ],
-      'est' => [
-        'official' => 'Gröönimaa',
-        'common' => 'Gröönimaa',
-      ],
-      'zho' => [
-        'official' => '格陵兰',
-        'common' => '格陵兰',
-      ],
-      'pol' => [
-        'official' => 'Grenlandia',
-        'common' => 'Grenlandia',
+      'swe' => [
+        'official' => 'Grönland',
+        'common' => 'Grönland',
       ],
       'urd' => [
         'official' => 'گرین لینڈ',
         'common' => 'گرین لینڈ',
       ],
-      'kor' => [
-        'official' => '그린란드',
-        'common' => '그린란드',
-      ],
-      'per' => [
-        'official' => 'گروئنلند',
-        'common' => 'گرینلند',
+      'zho' => [
+        'official' => '格陵兰',
+        'common' => '格陵兰',
       ],
     ],
     'latlng' => [
@@ -13709,6 +14824,9 @@ class CountriesDataSource
         'f' => 'Groenlandaise',
         'm' => 'Groenlandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+299',
     ],
   ],
   93 => [
@@ -13731,6 +14849,7 @@ class CountriesDataSource
     'cioc' => 'GUA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GTQ' => [
         'name' => 'Guatemalan quetzal',
@@ -13763,6 +14882,14 @@ class CountriesDataSource
         'official' => 'Republik Guatemala',
         'common' => 'Guatemala',
       ],
+      'est' => [
+        'official' => 'Guatemala Vabariik',
+        'common' => 'Guatemala',
+      ],
+      'fin' => [
+        'official' => 'Guatemalan tasavalta',
+        'common' => 'Guatemala',
+      ],
       'fra' => [
         'official' => 'République du Guatemala',
         'common' => 'Guatemala',
@@ -13770,6 +14897,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Gvatemala',
         'common' => 'Gvatemala',
+      ],
+      'hun' => [
+        'official' => 'Guatemalai Köztársaság',
+        'common' => 'Guatemala',
       ],
       'ita' => [
         'official' => 'Repubblica del Guatemala',
@@ -13779,9 +14910,21 @@ class CountriesDataSource
         'official' => 'グアテマラ共和国',
         'common' => 'グアテマラ',
       ],
+      'kor' => [
+        'official' => '과테말라 공화국',
+        'common' => '과테말라',
+      ],
       'nld' => [
         'official' => 'Republiek Guatemala',
         'common' => 'Guatemala',
+      ],
+      'per' => [
+        'official' => 'جمهوری گواتِمالا',
+        'common' => 'گواتِمالا',
+      ],
+      'pol' => [
+        'official' => 'Republika Gwatemali',
+        'common' => 'Gwatemala',
       ],
       'por' => [
         'official' => 'República da Guatemala',
@@ -13799,33 +14942,17 @@ class CountriesDataSource
         'official' => 'República de Guatemala',
         'common' => 'Guatemala',
       ],
-      'fin' => [
-        'official' => 'Guatemalan tasavalta',
+      'swe' => [
+        'official' => 'Republiken Guatemala',
         'common' => 'Guatemala',
-      ],
-      'est' => [
-        'official' => 'Guatemala Vabariik',
-        'common' => 'Guatemala',
-      ],
-      'zho' => [
-        'official' => '危地马拉共和国',
-        'common' => '危地马拉',
-      ],
-      'pol' => [
-        'official' => 'Republika Gwatemali',
-        'common' => 'Gwatemala',
       ],
       'urd' => [
         'official' => 'جمہوریہ گواتیمالا',
         'common' => 'گواتیمالا',
       ],
-      'kor' => [
-        'official' => '과테말라 공화국',
-        'common' => '과테말라',
-      ],
-      'per' => [
-        'official' => 'جمهوری گواتِمالا',
-        'common' => 'گواتِمالا',
+      'zho' => [
+        'official' => '危地马拉共和国',
+        'common' => '危地马拉',
       ],
     ],
     'latlng' => [
@@ -13851,6 +14978,9 @@ class CountriesDataSource
         'm' => 'Guatémaltèque',
       ],
     ],
+    'callingCodes' => [
+      0 => '+502',
+    ],
   ],
   94 => [
     'name' => [
@@ -13872,6 +15002,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -13906,6 +15037,14 @@ class CountriesDataSource
         'official' => 'Französisch-Guayana',
         'common' => 'Französisch-Guayana',
       ],
+      'est' => [
+        'official' => 'Guajaana departemang',
+        'common' => 'Prantsuse Guajaana',
+      ],
+      'fin' => [
+        'official' => 'Ranskan Guayana',
+        'common' => 'Ranskan Guayana',
+      ],
       'fra' => [
         'official' => 'Guyane',
         'common' => 'Guyane',
@@ -13913,6 +15052,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Gijana',
         'common' => 'Francuska Gvajana',
+      ],
+      'hun' => [
+        'official' => 'Francia Guyana',
+        'common' => 'Francia Guyana',
       ],
       'ita' => [
         'official' => 'Guiana',
@@ -13922,9 +15065,21 @@ class CountriesDataSource
         'official' => 'ギアナ',
         'common' => 'フランス領ギアナ',
       ],
+      'kor' => [
+        'official' => '프랑스령 기아나',
+        'common' => '프랑스령 기아나',
+      ],
       'nld' => [
         'official' => 'Guyana',
         'common' => 'Frans-Guyana',
+      ],
+      'per' => [
+        'official' => 'گویان فرانسه',
+        'common' => 'گویان فرانسه',
+      ],
+      'pol' => [
+        'official' => 'Gujana Francuska',
+        'common' => 'Gujana Francuska',
       ],
       'por' => [
         'official' => 'Guiana',
@@ -13942,33 +15097,17 @@ class CountriesDataSource
         'official' => 'Guayana',
         'common' => 'Guayana Francesa',
       ],
-      'fin' => [
-        'official' => 'Ranskan Guayana',
-        'common' => 'Ranskan Guayana',
-      ],
-      'est' => [
-        'official' => 'Guajaana departemang',
-        'common' => 'Prantsuse Guajaana',
-      ],
-      'zho' => [
-        'official' => '法属圭亚那',
-        'common' => '法属圭亚那',
-      ],
-      'pol' => [
-        'official' => 'Gujana Francuska',
-        'common' => 'Gujana Francuska',
+      'swe' => [
+        'official' => 'Franska Guyana',
+        'common' => 'Franska Guyana',
       ],
       'urd' => [
         'official' => 'گیانا',
         'common' => 'فرانسیسی گیانا',
       ],
-      'kor' => [
-        'official' => '프랑스령 기아나',
-        'common' => '프랑스령 기아나',
-      ],
-      'per' => [
-        'official' => 'گویان فرانسه',
-        'common' => 'گویان فرانسه',
+      'zho' => [
+        'official' => '法属圭亚那',
+        'common' => '法属圭亚那',
       ],
     ],
     'latlng' => [
@@ -13991,6 +15130,9 @@ class CountriesDataSource
         'f' => 'Guyanaise',
         'm' => 'Guyanais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+594',
     ],
   ],
   95 => [
@@ -14021,6 +15163,7 @@ class CountriesDataSource
     'cioc' => 'GUM',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -14056,11 +15199,23 @@ class CountriesDataSource
         'official' => 'Guam',
         'common' => 'Guam',
       ],
+      'est' => [
+        'official' => 'Guami ala',
+        'common' => 'Guam',
+      ],
+      'fin' => [
+        'official' => 'Guam',
+        'common' => 'Guam',
+      ],
       'fra' => [
         'official' => 'Guam',
         'common' => 'Guam',
       ],
       'hrv' => [
+        'official' => 'Guam',
+        'common' => 'Guam',
+      ],
+      'hun' => [
         'official' => 'Guam',
         'common' => 'Guam',
       ],
@@ -14072,8 +15227,20 @@ class CountriesDataSource
         'official' => 'グアム',
         'common' => 'グアム',
       ],
+      'kor' => [
+        'official' => '괌',
+        'common' => '괌',
+      ],
       'nld' => [
         'official' => 'Guam',
+        'common' => 'Guam',
+      ],
+      'per' => [
+        'official' => 'گوآم',
+        'common' => 'گوآم',
+      ],
+      'pol' => [
+        'official' => 'Terytorium Guamu',
         'common' => 'Guam',
       ],
       'por' => [
@@ -14092,33 +15259,17 @@ class CountriesDataSource
         'official' => 'Guam',
         'common' => 'Guam',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Guam',
-        'common' => 'Guam',
-      ],
-      'est' => [
-        'official' => 'Guami ala',
-        'common' => 'Guam',
-      ],
-      'zho' => [
-        'official' => '关岛',
-        'common' => '关岛',
-      ],
-      'pol' => [
-        'official' => 'Terytorium Guamu',
         'common' => 'Guam',
       ],
       'urd' => [
         'official' => 'گوام',
         'common' => 'گوام',
       ],
-      'kor' => [
-        'official' => '괌',
-        'common' => '괌',
-      ],
-      'per' => [
-        'official' => 'گوآم',
-        'common' => 'گوآم',
+      'zho' => [
+        'official' => '关岛',
+        'common' => '关岛',
       ],
     ],
     'latlng' => [
@@ -14139,6 +15290,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1671',
     ],
   ],
   96 => [
@@ -14161,6 +15315,7 @@ class CountriesDataSource
     'cioc' => 'GUY',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'GYD' => [
         'name' => 'Guyanese dollar',
@@ -14194,6 +15349,14 @@ class CountriesDataSource
         'official' => 'Kooperative Republik Guyana',
         'common' => 'Guyana',
       ],
+      'est' => [
+        'official' => 'Guyana Vabariik',
+        'common' => 'Guyana',
+      ],
+      'fin' => [
+        'official' => 'Guayanan osuustoiminnallinen tasavalta',
+        'common' => 'Guayana',
+      ],
       'fra' => [
         'official' => 'République coopérative de Guyana',
         'common' => 'Guyana',
@@ -14201,6 +15364,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Zadruga Republika Gvajana',
         'common' => 'Gvajana',
+      ],
+      'hun' => [
+        'official' => 'Guyanai Szövetkezeti Köztársaság',
+        'common' => 'Guyana',
       ],
       'ita' => [
         'official' => 'Co -operative Republic of Guyana',
@@ -14210,9 +15377,21 @@ class CountriesDataSource
         'official' => 'ガイアナの協同共和国',
         'common' => 'ガイアナ',
       ],
+      'kor' => [
+        'official' => '가이아나 협동 공화국',
+        'common' => '가이아나',
+      ],
       'nld' => [
         'official' => 'Coöperatieve Republiek Guyana',
         'common' => 'Guyana',
+      ],
+      'per' => [
+        'official' => 'جمهوری تعاونی گویان',
+        'common' => 'گویان',
+      ],
+      'pol' => [
+        'official' => 'Kooperacyjna Republika Gujany',
+        'common' => 'Gujana',
       ],
       'por' => [
         'official' => 'Co -operative República da Guiana',
@@ -14230,33 +15409,17 @@ class CountriesDataSource
         'official' => 'República Cooperativa de Guyana',
         'common' => 'Guyana',
       ],
-      'fin' => [
-        'official' => 'Guayanan osuustoiminnallinen tasavalta',
-        'common' => 'Guayana',
-      ],
-      'est' => [
-        'official' => 'Guyana Vabariik',
+      'swe' => [
+        'official' => 'Kooperativa republiken Guyana',
         'common' => 'Guyana',
-      ],
-      'zho' => [
-        'official' => '圭亚那共和国',
-        'common' => '圭亚那',
-      ],
-      'pol' => [
-        'official' => 'Kooperacyjna Republika Gujany',
-        'common' => 'Gujana',
       ],
       'urd' => [
         'official' => 'تعاونی جمہوریہ گیانا',
         'common' => 'گیانا',
       ],
-      'kor' => [
-        'official' => '가이아나 협동 공화국',
-        'common' => '가이아나',
-      ],
-      'per' => [
-        'official' => 'جمهوری تعاونی گویان',
-        'common' => 'گویان',
+      'zho' => [
+        'official' => '圭亚那共和国',
+        'common' => '圭亚那',
       ],
     ],
     'latlng' => [
@@ -14280,6 +15443,9 @@ class CountriesDataSource
         'f' => 'Guyanienne',
         'm' => 'Guyanien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+592',
     ],
   ],
   97 => [
@@ -14307,6 +15473,7 @@ class CountriesDataSource
     'cioc' => 'HKG',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'HKD' => [
         'name' => 'Hong Kong dollar',
@@ -14340,6 +15507,14 @@ class CountriesDataSource
         'official' => 'Sonderverwaltungszone Hongkong der Volksrepublik China',
         'common' => 'Hongkong',
       ],
+      'est' => [
+        'official' => 'Hongkongi erihalduspiirkond',
+        'common' => 'Hongkong',
+      ],
+      'fin' => [
+        'official' => 'Hong Kongin erityishallintoalue',
+        'common' => 'Hongkong',
+      ],
       'fra' => [
         'official' => 'Région administrative spéciale de Hong Kong de la République populaire de Chine',
         'common' => 'Hong Kong',
@@ -14347,6 +15522,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Hong Kong Posebnog upravnog područjaNarodne Republike Kine',
         'common' => 'Hong Kong',
+      ],
+      'hun' => [
+        'official' => 'Hongkong',
+        'common' => 'Hongkong',
       ],
       'ita' => [
         'official' => 'Hong Kong Regione amministrativa speciale della Repubblica Popolare Cinese',
@@ -14356,8 +15535,20 @@ class CountriesDataSource
         'official' => '中華人民共和国香港特別行政区',
         'common' => '香港',
       ],
+      'kor' => [
+        'official' => '중화인민공화국 홍콩 특별행정구',
+        'common' => '홍콩',
+      ],
       'nld' => [
         'official' => 'Hong Kong Speciale Administratieve Regio van de Volksrepubliek China',
+        'common' => 'Hongkong',
+      ],
+      'per' => [
+        'official' => 'هُنگ کُنگ',
+        'common' => 'هُنگ کُنگ',
+      ],
+      'pol' => [
+        'official' => 'Specjalny Region Administracyjny Chińskiej Republiki Ludowej Hongkong',
         'common' => 'Hongkong',
       ],
       'por' => [
@@ -14376,29 +15567,13 @@ class CountriesDataSource
         'official' => 'Hong Kong Región Administrativa Especial de la República Popular China',
         'common' => 'Hong Kong',
       ],
-      'fin' => [
-        'official' => 'Hong Kongin erityishallintoalue',
-        'common' => 'Hongkong',
-      ],
-      'est' => [
-        'official' => 'Hongkongi erihalduspiirkond',
-        'common' => 'Hongkong',
-      ],
-      'pol' => [
-        'official' => 'Specjalny Region Administracyjny Chińskiej Republiki Ludowej Hongkong',
+      'swe' => [
+        'official' => 'Hongkong',
         'common' => 'Hongkong',
       ],
       'urd' => [
         'official' => 'ہانگ کانگ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ',
         'common' => 'ہانگ کانگ',
-      ],
-      'kor' => [
-        'official' => '중화인민공화국 홍콩 특별행정구',
-        'common' => '홍콩',
-      ],
-      'per' => [
-        'official' => 'هُنگ کُنگ',
-        'common' => 'هُنگ کُنگ',
       ],
     ],
     'latlng' => [
@@ -14420,6 +15595,9 @@ class CountriesDataSource
         'f' => 'Hongkongaise',
         'm' => 'Hongkongais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+852',
     ],
   ],
   98 => [
@@ -14443,6 +15621,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
     ],
     'idd' => [
@@ -14472,6 +15651,14 @@ class CountriesDataSource
         'official' => 'Heard und McDonaldinseln',
         'common' => 'Heard und die McDonaldinseln',
       ],
+      'est' => [
+        'official' => 'Heardi ja McDonaldi saarte ala',
+        'common' => 'Heard ja McDonald',
+      ],
+      'fin' => [
+        'official' => 'Heard ja McDonaldinsaaret',
+        'common' => 'Heard ja McDonaldinsaaret',
+      ],
       'fra' => [
         'official' => 'Des îles Heard et McDonald',
         'common' => 'Îles Heard-et-MacDonald',
@@ -14479,6 +15666,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Otok Heard i otočje McDonald',
         'common' => 'Otok Heard i otočje McDonald',
+      ],
+      'hun' => [
+        'official' => 'Heard-sziget és McDonald-szigetek',
+        'common' => 'Heard-sziget és McDonald-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Heard e McDonald',
@@ -14488,9 +15679,21 @@ class CountriesDataSource
         'official' => 'ハード島とマクドナルド諸島',
         'common' => 'ハード島とマクドナルド諸島',
       ],
+      'kor' => [
+        'official' => '허드 맥도널드 제도',
+        'common' => '허드 맥도널드 제도',
+      ],
       'nld' => [
         'official' => 'Heard en McDonaldeilanden',
         'common' => 'Heard-en McDonaldeilanden',
+      ],
+      'per' => [
+        'official' => 'جزیره هرد و جزایر مک‌دونالد',
+        'common' => 'جزیره هرد و جزایر مک‌دونالد',
+      ],
+      'pol' => [
+        'official' => 'Terytorium Wysp Heard i McDonalda',
+        'common' => 'Wyspy Heard i McDonalda',
       ],
       'por' => [
         'official' => 'Ilha Heard e Ilhas McDonald',
@@ -14508,33 +15711,17 @@ class CountriesDataSource
         'official' => 'Islas Heard y McDonald',
         'common' => 'Islas Heard y McDonald',
       ],
-      'fin' => [
-        'official' => 'Heard ja McDonaldinsaaret',
-        'common' => 'Heard ja McDonaldinsaaret',
-      ],
-      'est' => [
-        'official' => 'Heardi ja McDonaldi saarte ala',
-        'common' => 'Heard ja McDonald',
-      ],
-      'zho' => [
-        'official' => '赫德岛和麦当劳群岛',
-        'common' => '赫德岛和麦当劳群岛',
-      ],
-      'pol' => [
-        'official' => 'Terytorium Wysp Heard i McDonalda',
-        'common' => 'Wyspy Heard i McDonalda',
+      'swe' => [
+        'official' => 'Heard- och McDonaldöarna',
+        'common' => 'Heard- och McDonaldöarna',
       ],
       'urd' => [
         'official' => 'جزیرہ ہرڈ و جزائر مکڈونلڈ',
         'common' => 'جزیرہ ہرڈ و جزائر مکڈونلڈ',
       ],
-      'kor' => [
-        'official' => '허드 맥도널드 제도',
-        'common' => '허드 맥도널드 제도',
-      ],
-      'per' => [
-        'official' => 'جزیره هرد و جزایر مک‌دونالد',
-        'common' => 'جزیره هرد و جزایر مک‌دونالد',
+      'zho' => [
+        'official' => '赫德岛和麦当劳群岛',
+        'common' => '赫德岛和麦当劳群岛',
       ],
     ],
     'latlng' => [
@@ -14555,6 +15742,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '',
     ],
   ],
   99 => [
@@ -14577,6 +15767,7 @@ class CountriesDataSource
     'cioc' => 'HON',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'HNL' => [
         'name' => 'Honduran lempira',
@@ -14611,12 +15802,24 @@ class CountriesDataSource
         'official' => 'Republik Honduras',
         'common' => 'Honduras',
       ],
+      'est' => [
+        'official' => 'Hondurase Vabariik',
+        'common' => 'Honduras',
+      ],
+      'fin' => [
+        'official' => 'Hondurasin tasavalta',
+        'common' => 'Honduras',
+      ],
       'fra' => [
         'official' => 'République du Honduras',
         'common' => 'Honduras',
       ],
       'hrv' => [
         'official' => 'Republika Honduras',
+        'common' => 'Honduras',
+      ],
+      'hun' => [
+        'official' => 'Hondurasi Köztársaság',
         'common' => 'Honduras',
       ],
       'ita' => [
@@ -14627,8 +15830,20 @@ class CountriesDataSource
         'official' => 'ホンジュラス共和国',
         'common' => 'ホンジュラス',
       ],
+      'kor' => [
+        'official' => '온두라스 공화국',
+        'common' => '온두라스',
+      ],
       'nld' => [
         'official' => 'Republiek Honduras',
+        'common' => 'Honduras',
+      ],
+      'per' => [
+        'official' => 'جمهوری هندوراس',
+        'common' => 'هُندوراس',
+      ],
+      'pol' => [
+        'official' => 'Republika Hondurasu',
         'common' => 'Honduras',
       ],
       'por' => [
@@ -14647,33 +15862,17 @@ class CountriesDataSource
         'official' => 'República de Honduras',
         'common' => 'Honduras',
       ],
-      'fin' => [
-        'official' => 'Hondurasin tasavalta',
-        'common' => 'Honduras',
-      ],
-      'est' => [
-        'official' => 'Hondurase Vabariik',
-        'common' => 'Honduras',
-      ],
-      'zho' => [
-        'official' => '洪都拉斯共和国',
-        'common' => '洪都拉斯',
-      ],
-      'pol' => [
-        'official' => 'Republika Hondurasu',
+      'swe' => [
+        'official' => 'Republiken Honduras',
         'common' => 'Honduras',
       ],
       'urd' => [
         'official' => 'جمہوریہ ہونڈوراس',
         'common' => 'ہونڈوراس',
       ],
-      'kor' => [
-        'official' => '온두라스 공화국',
-        'common' => '온두라스',
-      ],
-      'per' => [
-        'official' => 'جمهوری هندوراس',
-        'common' => 'هُندوراس',
+      'zho' => [
+        'official' => '洪都拉斯共和国',
+        'common' => '洪都拉斯',
       ],
     ],
     'latlng' => [
@@ -14698,6 +15897,9 @@ class CountriesDataSource
         'm' => 'Hondurien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+504',
+    ],
   ],
   100 => [
     'name' => [
@@ -14719,6 +15921,7 @@ class CountriesDataSource
     'cioc' => 'CRO',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'HRK' => [
         'name' => 'Croatian kuna',
@@ -14741,7 +15944,7 @@ class CountriesDataSource
       3 => 'Republika Hrvatska',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'hrv' => 'Croatian',
     ],
@@ -14758,6 +15961,14 @@ class CountriesDataSource
         'official' => 'Republik Kroatien',
         'common' => 'Kroatien',
       ],
+      'est' => [
+        'official' => 'Horvaatia Vabariik',
+        'common' => 'Horvaatia',
+      ],
+      'fin' => [
+        'official' => 'Kroatian tasavalta',
+        'common' => 'Kroatia',
+      ],
       'fra' => [
         'official' => 'République de Croatie',
         'common' => 'Croatie',
@@ -14765,6 +15976,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Hrvatska',
         'common' => 'Hrvatska',
+      ],
+      'hun' => [
+        'official' => 'Horvát Köztársaság',
+        'common' => 'Horvátország',
       ],
       'ita' => [
         'official' => 'Repubblica di Croazia',
@@ -14774,9 +15989,21 @@ class CountriesDataSource
         'official' => 'クロアチア共和国',
         'common' => 'クロアチア',
       ],
+      'kor' => [
+        'official' => '크로아티아 공화국',
+        'common' => '크로아티아',
+      ],
       'nld' => [
         'official' => 'Republiek Kroatië',
         'common' => 'Kroatië',
+      ],
+      'per' => [
+        'official' => 'جمهوری کرواسی',
+        'common' => 'کرُواسی',
+      ],
+      'pol' => [
+        'official' => 'Republika Chorwacji',
+        'common' => 'Chorwacja',
       ],
       'por' => [
         'official' => 'República da Croácia',
@@ -14794,33 +16021,17 @@ class CountriesDataSource
         'official' => 'República de Croacia',
         'common' => 'Croacia',
       ],
-      'fin' => [
-        'official' => 'Kroatian tasavalta',
-        'common' => 'Kroatia',
-      ],
-      'est' => [
-        'official' => 'Horvaatia Vabariik',
-        'common' => 'Horvaatia',
-      ],
-      'zho' => [
-        'official' => '克罗地亚共和国',
-        'common' => '克罗地亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Chorwacji',
-        'common' => 'Chorwacja',
+      'swe' => [
+        'official' => 'Republiken Kroatien',
+        'common' => 'Kroatien',
       ],
       'urd' => [
         'official' => 'جمہوریہ کرویئشا',
         'common' => 'کرویئشا',
       ],
-      'kor' => [
-        'official' => '크로아티아 공화국',
-        'common' => '크로아티아',
-      ],
-      'per' => [
-        'official' => 'جمهوری کرواسی',
-        'common' => 'کرُواسی',
+      'zho' => [
+        'official' => '克罗地亚共和国',
+        'common' => '克罗地亚',
       ],
     ],
     'latlng' => [
@@ -14847,6 +16058,9 @@ class CountriesDataSource
         'm' => 'Croate',
       ],
     ],
+    'callingCodes' => [
+      0 => '+385',
+    ],
   ],
   101 => [
     'name' => [
@@ -14872,6 +16086,7 @@ class CountriesDataSource
     'cioc' => 'HAI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'HTG' => [
         'name' => 'Haitian gourde',
@@ -14908,12 +16123,24 @@ class CountriesDataSource
         'official' => 'Republik Haiti',
         'common' => 'Haiti',
       ],
+      'est' => [
+        'official' => 'Haiti Vabariik',
+        'common' => 'Haiti',
+      ],
+      'fin' => [
+        'official' => 'Haitin tasavalta',
+        'common' => 'Haiti',
+      ],
       'fra' => [
         'official' => 'République d\'Haïti',
         'common' => 'Haïti',
       ],
       'hrv' => [
         'official' => 'Republika Haiti',
+        'common' => 'Haiti',
+      ],
+      'hun' => [
+        'official' => 'Haiti Köztársaság',
         'common' => 'Haiti',
       ],
       'ita' => [
@@ -14924,9 +16151,21 @@ class CountriesDataSource
         'official' => 'ハイチ共和国',
         'common' => 'ハイチ',
       ],
+      'kor' => [
+        'official' => '아이티 공화국',
+        'common' => '아이티',
+      ],
       'nld' => [
         'official' => 'Republiek Haïti',
         'common' => 'Haïti',
+      ],
+      'per' => [
+        'official' => 'جمهوری هائیتی',
+        'common' => 'هائیتی',
+      ],
+      'pol' => [
+        'official' => 'Republika Haiti',
+        'common' => 'Haiti',
       ],
       'por' => [
         'official' => 'República do Haiti',
@@ -14944,33 +16183,17 @@ class CountriesDataSource
         'official' => 'República de Haití',
         'common' => 'Haití',
       ],
-      'fin' => [
-        'official' => 'Haitin tasavalta',
-        'common' => 'Haiti',
-      ],
-      'est' => [
-        'official' => 'Haiti Vabariik',
-        'common' => 'Haiti',
-      ],
-      'zho' => [
-        'official' => '海地共和国',
-        'common' => '海地',
-      ],
-      'pol' => [
-        'official' => 'Republika Haiti',
+      'swe' => [
+        'official' => 'Republiken Haiti',
         'common' => 'Haiti',
       ],
       'urd' => [
         'official' => 'جمہوریہ ہیٹی',
         'common' => 'ہیٹی',
       ],
-      'kor' => [
-        'official' => '아이티 공화국',
-        'common' => '아이티',
-      ],
-      'per' => [
-        'official' => 'جمهوری هائیتی',
-        'common' => 'هائیتی',
+      'zho' => [
+        'official' => '海地共和国',
+        'common' => '海地',
       ],
     ],
     'latlng' => [
@@ -14993,6 +16216,9 @@ class CountriesDataSource
         'm' => 'Haïtien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+509',
+    ],
   ],
   102 => [
     'name' => [
@@ -15014,6 +16240,7 @@ class CountriesDataSource
     'cioc' => 'HUN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'HUF' => [
         'name' => 'Hungarian forint',
@@ -15033,7 +16260,7 @@ class CountriesDataSource
       0 => 'HU',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Central Europe',
     'languages' => [
       'hun' => 'Hungarian',
     ],
@@ -15046,6 +16273,14 @@ class CountriesDataSource
         'official' => 'Ungarn',
         'common' => 'Ungarn',
       ],
+      'est' => [
+        'official' => 'Ungari',
+        'common' => 'Ungari',
+      ],
+      'fin' => [
+        'official' => 'Unkari',
+        'common' => 'Unkari',
+      ],
       'fra' => [
         'official' => 'Hongrie',
         'common' => 'Hongrie',
@@ -15053,6 +16288,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Madžarska',
         'common' => 'Mađarska',
+      ],
+      'hun' => [
+        'official' => 'Magyarország',
+        'common' => 'Magyarország',
       ],
       'ita' => [
         'official' => 'Ungheria',
@@ -15062,9 +16301,21 @@ class CountriesDataSource
         'official' => 'ハンガリー',
         'common' => 'ハンガリー',
       ],
+      'kor' => [
+        'official' => '헝가리',
+        'common' => '헝가리',
+      ],
       'nld' => [
         'official' => 'Hongarije',
         'common' => 'Hongarije',
+      ],
+      'per' => [
+        'official' => 'مجارستان',
+        'common' => 'مجارستان',
+      ],
+      'pol' => [
+        'official' => 'Węgry',
+        'common' => 'Węgry',
       ],
       'por' => [
         'official' => 'Hungria',
@@ -15082,33 +16333,17 @@ class CountriesDataSource
         'official' => 'Hungría',
         'common' => 'Hungría',
       ],
-      'fin' => [
-        'official' => 'Unkari',
-        'common' => 'Unkari',
-      ],
-      'est' => [
-        'official' => 'Ungari',
-        'common' => 'Ungari',
-      ],
-      'zho' => [
-        'official' => '匈牙利',
-        'common' => '匈牙利',
-      ],
-      'pol' => [
-        'official' => 'Węgry',
-        'common' => 'Węgry',
+      'swe' => [
+        'official' => 'Ungern',
+        'common' => 'Ungern',
       ],
       'urd' => [
         'official' => 'مجارستان',
         'common' => 'مجارستان',
       ],
-      'kor' => [
-        'official' => '헝가리',
-        'common' => '헝가리',
-      ],
-      'per' => [
-        'official' => 'مجارستان',
-        'common' => 'مجارستان',
+      'zho' => [
+        'official' => '匈牙利',
+        'common' => '匈牙利',
       ],
     ],
     'latlng' => [
@@ -15137,6 +16372,9 @@ class CountriesDataSource
         'm' => 'Hongrois',
       ],
     ],
+    'callingCodes' => [
+      0 => '+36',
+    ],
   ],
   103 => [
     'name' => [
@@ -15158,6 +16396,7 @@ class CountriesDataSource
     'cioc' => 'INA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'IDR' => [
         'name' => 'Indonesian rupiah',
@@ -15192,6 +16431,14 @@ class CountriesDataSource
         'official' => 'Republik Indonesien',
         'common' => 'Indonesien',
       ],
+      'est' => [
+        'official' => 'Indoneesia Vabariik',
+        'common' => 'Indoneesia',
+      ],
+      'fin' => [
+        'official' => 'Indonesian tasavalta',
+        'common' => 'Indonesia',
+      ],
       'fra' => [
         'official' => 'République d\'Indonésie',
         'common' => 'Indonésie',
@@ -15199,6 +16446,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Indonezija',
         'common' => 'Indonezija',
+      ],
+      'hun' => [
+        'official' => 'Indonéz Köztársaság',
+        'common' => 'Indonézia',
       ],
       'ita' => [
         'official' => 'Repubblica di Indonesia',
@@ -15208,9 +16459,21 @@ class CountriesDataSource
         'official' => 'インドネシア共和国',
         'common' => 'インドネシア',
       ],
+      'kor' => [
+        'official' => '인도네시아 공화국',
+        'common' => '인도네시아',
+      ],
       'nld' => [
         'official' => 'Republiek Indonesië',
         'common' => 'Indonesië',
+      ],
+      'per' => [
+        'official' => 'جمهوری اندونزی',
+        'common' => 'اندونزی',
+      ],
+      'pol' => [
+        'official' => 'Republika Indonezji',
+        'common' => 'Indonezja',
       ],
       'por' => [
         'official' => 'República da Indonésia',
@@ -15228,33 +16491,17 @@ class CountriesDataSource
         'official' => 'República de Indonesia',
         'common' => 'Indonesia',
       ],
-      'fin' => [
-        'official' => 'Indonesian tasavalta',
-        'common' => 'Indonesia',
-      ],
-      'est' => [
-        'official' => 'Indoneesia Vabariik',
-        'common' => 'Indoneesia',
-      ],
-      'zho' => [
-        'official' => '印度尼西亚共和国',
-        'common' => '印度尼西亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Indonezji',
-        'common' => 'Indonezja',
+      'swe' => [
+        'official' => 'Republiken Indonesien',
+        'common' => 'Indonesien',
       ],
       'urd' => [
         'official' => 'جمہوریہ انڈونیشیا',
         'common' => 'انڈونیشیا',
       ],
-      'kor' => [
-        'official' => '인도네시아 공화국',
-        'common' => '인도네시아',
-      ],
-      'per' => [
-        'official' => 'جمهوری اندونزی',
-        'common' => 'اندونزی',
+      'zho' => [
+        'official' => '印度尼西亚共和国',
+        'common' => '印度尼西亚',
       ],
     ],
     'latlng' => [
@@ -15278,6 +16525,9 @@ class CountriesDataSource
         'f' => 'Indonésienne',
         'm' => 'Indonésien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+62',
     ],
   ],
   104 => [
@@ -15304,6 +16554,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'GBP' => [
         'name' => 'British pound',
@@ -15344,6 +16595,14 @@ class CountriesDataSource
         'official' => 'Isle of Man',
         'common' => 'Insel Man',
       ],
+      'est' => [
+        'official' => 'Mani saar',
+        'common' => 'Mani saar',
+      ],
+      'fin' => [
+        'official' => 'Mansaari',
+        'common' => 'Mansaari',
+      ],
       'fra' => [
         'official' => 'Isle of Man',
         'common' => 'Île de Man',
@@ -15351,6 +16610,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Mana ostrvo',
         'common' => 'Otok Man',
+      ],
+      'hun' => [
+        'official' => 'Man',
+        'common' => 'Man',
       ],
       'ita' => [
         'official' => 'Isola di Man',
@@ -15360,9 +16623,21 @@ class CountriesDataSource
         'official' => 'マン島',
         'common' => 'マン島',
       ],
+      'kor' => [
+        'official' => '맨섬',
+        'common' => '맨섬',
+      ],
       'nld' => [
         'official' => 'Isle of Man',
         'common' => 'Isle of Man',
+      ],
+      'per' => [
+        'official' => 'جزیرهٔ مَن',
+        'common' => 'جزیرهٔ مَن',
+      ],
+      'pol' => [
+        'official' => 'Wyspa Man',
+        'common' => 'Wyspa Man',
       ],
       'por' => [
         'official' => 'Isle of Man',
@@ -15380,33 +16655,17 @@ class CountriesDataSource
         'official' => 'Isla de Man',
         'common' => 'Isla de Man',
       ],
-      'fin' => [
-        'official' => 'Mansaari',
-        'common' => 'Mansaari',
-      ],
-      'est' => [
-        'official' => 'Mani saar',
-        'common' => 'Mani saar',
-      ],
-      'zho' => [
-        'official' => '马恩岛',
-        'common' => '马恩岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspa Man',
-        'common' => 'Wyspa Man',
+      'swe' => [
+        'official' => 'Isle of Man',
+        'common' => 'Isle of Man',
       ],
       'urd' => [
         'official' => 'آئل آف مین',
         'common' => 'آئل آف مین',
       ],
-      'kor' => [
-        'official' => '맨섬',
-        'common' => '맨섬',
-      ],
-      'per' => [
-        'official' => 'جزیرهٔ مَن',
-        'common' => 'جزیرهٔ مَن',
+      'zho' => [
+        'official' => '马恩岛',
+        'common' => '马恩岛',
       ],
     ],
     'latlng' => [
@@ -15427,6 +16686,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+44',
     ],
   ],
   105 => [
@@ -15457,6 +16719,7 @@ class CountriesDataSource
     'cioc' => 'IND',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'INR' => [
         'name' => 'Indian rupee',
@@ -15495,6 +16758,14 @@ class CountriesDataSource
         'official' => 'Republik Indien',
         'common' => 'Indien',
       ],
+      'est' => [
+        'official' => 'India Vabariik',
+        'common' => 'India',
+      ],
+      'fin' => [
+        'official' => 'Intian tasavalta',
+        'common' => 'Intia',
+      ],
       'fra' => [
         'official' => 'République de l\'Inde',
         'common' => 'Inde',
@@ -15502,6 +16773,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Indija',
         'common' => 'Indija',
+      ],
+      'hun' => [
+        'official' => 'Indiai Köztársaság',
+        'common' => 'India',
       ],
       'ita' => [
         'official' => 'Repubblica dell\'India',
@@ -15511,9 +16786,21 @@ class CountriesDataSource
         'official' => 'インド共和国',
         'common' => 'インド',
       ],
+      'kor' => [
+        'official' => '인도 공화국',
+        'common' => '인도',
+      ],
       'nld' => [
         'official' => 'Republiek India',
         'common' => 'India',
+      ],
+      'per' => [
+        'official' => 'جمهوری هندوستان',
+        'common' => 'هند',
+      ],
+      'pol' => [
+        'official' => 'Republika Indii',
+        'common' => 'Indie',
       ],
       'por' => [
         'official' => 'República da Índia',
@@ -15531,33 +16818,17 @@ class CountriesDataSource
         'official' => 'República de la India',
         'common' => 'India',
       ],
-      'fin' => [
-        'official' => 'Intian tasavalta',
-        'common' => 'Intia',
-      ],
-      'est' => [
-        'official' => 'India Vabariik',
-        'common' => 'India',
-      ],
-      'zho' => [
-        'official' => '印度共和国',
-        'common' => '印度',
-      ],
-      'pol' => [
-        'official' => 'Republika Indii',
-        'common' => 'Indie',
+      'swe' => [
+        'official' => 'Republiken Indien',
+        'common' => 'Indien',
       ],
       'urd' => [
         'official' => 'جمہوریہ بھارت',
         'common' => 'بھارت',
       ],
-      'kor' => [
-        'official' => '인도 공화국',
-        'common' => '인도',
-      ],
-      'per' => [
-        'official' => 'جمهوری هندوستان',
-        'common' => 'هند',
+      'zho' => [
+        'official' => '印度共和国',
+        'common' => '印度',
       ],
     ],
     'latlng' => [
@@ -15585,6 +16856,9 @@ class CountriesDataSource
         'm' => 'Indien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+91',
+    ],
   ],
   106 => [
     'name' => [
@@ -15606,6 +16880,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -15642,6 +16917,14 @@ class CountriesDataSource
         'official' => 'Britisches Territorium im Indischen Ozean',
         'common' => 'Britisches Territorium im Indischen Ozean',
       ],
+      'est' => [
+        'official' => 'Briti India ookeani ala',
+        'common' => 'Briti India ookeani ala',
+      ],
+      'fin' => [
+        'official' => 'Brittiläinen Intian valtameren alue',
+        'common' => 'Brittiläinen Intian valtameren alue',
+      ],
       'fra' => [
         'official' => 'Territoire britannique de l\' océan Indien',
         'common' => 'Territoire britannique de l\'océan Indien',
@@ -15649,6 +16932,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'British Indian Ocean Territory',
         'common' => 'Britanski Indijskooceanski teritorij',
+      ],
+      'hun' => [
+        'official' => 'Brit Indiai-óceáni Terület',
+        'common' => 'Brit Indiai-óceáni Terület',
       ],
       'ita' => [
         'official' => 'Territorio britannico dell\'Oceano Indiano',
@@ -15658,9 +16945,21 @@ class CountriesDataSource
         'official' => 'イギリス領インド洋地域',
         'common' => 'イギリス領インド洋地域',
       ],
+      'kor' => [
+        'official' => '인도 공화국',
+        'common' => '인도',
+      ],
       'nld' => [
         'official' => 'Brits Indische Oceaan Territorium',
         'common' => 'Britse Gebieden in de Indische Oceaan',
+      ],
+      'per' => [
+        'official' => 'قلمرو بریتانیا در اقیانوس هند',
+        'common' => 'قلمرو بریتانیا در اقیانوس هند',
+      ],
+      'pol' => [
+        'official' => 'Brytyjskie Terytorium Oceanu Indyjskiego',
+        'common' => 'Brytyjskie Terytorium Oceanu Indyjskiego',
       ],
       'por' => [
         'official' => 'British Indian Ocean Territory',
@@ -15678,33 +16977,17 @@ class CountriesDataSource
         'official' => 'Territorio Británico del Océano Índico',
         'common' => 'Territorio Británico del Océano Índico',
       ],
-      'fin' => [
-        'official' => 'Brittiläinen Intian valtameren alue',
-        'common' => 'Brittiläinen Intian valtameren alue',
-      ],
-      'est' => [
-        'official' => 'Briti India ookeani ala',
-        'common' => 'Briti India ookeani ala',
-      ],
-      'zho' => [
-        'official' => '英属印度洋领地',
-        'common' => '英属印度洋领地',
-      ],
-      'pol' => [
-        'official' => 'Brytyjskie Terytorium Oceanu Indyjskiego',
-        'common' => 'Brytyjskie Terytorium Oceanu Indyjskiego',
+      'swe' => [
+        'official' => 'Brittiska territoriet i Indiska Oceanen',
+        'common' => 'Brittiska territoriet i Indiska Oceanen',
       ],
       'urd' => [
         'official' => 'برطانوی بحرہند خطہ',
         'common' => 'برطانوی بحرہند خطہ',
       ],
-      'kor' => [
-        'official' => '인도 공화국',
-        'common' => '인도',
-      ],
-      'per' => [
-        'official' => 'قلمرو بریتانیا در اقیانوس هند',
-        'common' => 'قلمرو بریتانیا در اقیانوس هند',
+      'zho' => [
+        'official' => '英属印度洋领地',
+        'common' => '英属印度洋领地',
       ],
     ],
     'latlng' => [
@@ -15725,6 +17008,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+246',
     ],
   ],
   107 => [
@@ -15751,6 +17037,7 @@ class CountriesDataSource
     'cioc' => 'IRL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -15787,6 +17074,14 @@ class CountriesDataSource
         'official' => 'Republik Irland',
         'common' => 'Irland',
       ],
+      'est' => [
+        'official' => 'Iirimaa',
+        'common' => 'Iirimaa',
+      ],
+      'fin' => [
+        'official' => 'Irlannin tasavalta',
+        'common' => 'Irlanti',
+      ],
       'fra' => [
         'official' => 'République d\'Irlande',
         'common' => 'Irlande',
@@ -15794,6 +17089,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Irska',
         'common' => 'Irska',
+      ],
+      'hun' => [
+        'official' => 'Ír Köztársaság',
+        'common' => 'Írország',
       ],
       'ita' => [
         'official' => 'Repubblica d\'Irlanda',
@@ -15803,9 +17102,21 @@ class CountriesDataSource
         'official' => 'アイルランド共和国',
         'common' => 'アイルランド',
       ],
+      'kor' => [
+        'official' => '아일랜드 공화국',
+        'common' => '아일랜드',
+      ],
       'nld' => [
         'official' => 'Republic of Ireland',
         'common' => 'Ierland',
+      ],
+      'per' => [
+        'official' => 'ایرلند',
+        'common' => 'ایرلند',
+      ],
+      'pol' => [
+        'official' => 'Republika Irlandii',
+        'common' => 'Irlandia',
       ],
       'por' => [
         'official' => 'República da Irlanda',
@@ -15823,33 +17134,17 @@ class CountriesDataSource
         'official' => 'República de Irlanda',
         'common' => 'Irlanda',
       ],
-      'fin' => [
-        'official' => 'Irlannin tasavalta',
-        'common' => 'Irlanti',
-      ],
-      'est' => [
-        'official' => 'Iirimaa',
-        'common' => 'Iirimaa',
-      ],
-      'zho' => [
-        'official' => '爱尔兰共和国',
-        'common' => '爱尔兰',
-      ],
-      'pol' => [
-        'official' => 'Republika Irlandii',
-        'common' => 'Irlandia',
+      'swe' => [
+        'official' => 'Irland',
+        'common' => 'Irland',
       ],
       'urd' => [
         'official' => 'جمہوریہ جزیرہ آئرلینڈ',
         'common' => 'جزیرہ آئرلینڈ',
       ],
-      'kor' => [
-        'official' => '아일랜드 공화국',
-        'common' => '아일랜드',
-      ],
-      'per' => [
-        'official' => 'ایرلند',
-        'common' => 'ایرلند',
+      'zho' => [
+        'official' => '爱尔兰共和国',
+        'common' => '爱尔兰',
       ],
     ],
     'latlng' => [
@@ -15871,6 +17166,9 @@ class CountriesDataSource
         'f' => 'Irlandaise',
         'm' => 'Irlandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+353',
     ],
   ],
   108 => [
@@ -15894,6 +17192,7 @@ class CountriesDataSource
     'cioc' => 'IRI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'IRR' => [
         'name' => 'Iranian rial',
@@ -15929,6 +17228,14 @@ class CountriesDataSource
         'official' => 'Islamische Republik Iran',
         'common' => 'Iran',
       ],
+      'est' => [
+        'official' => 'Iraani Islamivabariik',
+        'common' => 'Iraan',
+      ],
+      'fin' => [
+        'official' => 'Iranin islamilainen tasavalta',
+        'common' => 'Iran',
+      ],
       'fra' => [
         'official' => 'République islamique d\'Iran',
         'common' => 'Iran',
@@ -15936,6 +17243,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Islamska Republika Iran',
         'common' => 'Iran',
+      ],
+      'hun' => [
+        'official' => 'Iráni Iszlám Köztársaság',
+        'common' => 'Irán',
       ],
       'ita' => [
         'official' => 'Repubblica islamica dell\'Iran',
@@ -15945,8 +17256,16 @@ class CountriesDataSource
         'official' => 'イラン·イスラム共和国',
         'common' => 'イラン・イスラム共和国',
       ],
+      'kor' => [
+        'official' => '이란 이슬람 공화국',
+        'common' => '이란',
+      ],
       'nld' => [
         'official' => 'Islamitische Republiek Iran',
+        'common' => 'Iran',
+      ],
+      'pol' => [
+        'official' => 'Islamska Republika Iranu',
         'common' => 'Iran',
       ],
       'por' => [
@@ -15965,29 +17284,17 @@ class CountriesDataSource
         'official' => 'República Islámica de Irán',
         'common' => 'Iran',
       ],
-      'fin' => [
-        'official' => 'Iranin islamilainen tasavalta',
-        'common' => 'Iran',
-      ],
-      'est' => [
-        'official' => 'Iraani Islamivabariik',
-        'common' => 'Iraan',
-      ],
-      'zho' => [
-        'official' => '伊朗伊斯兰共和国',
-        'common' => '伊朗',
-      ],
-      'pol' => [
-        'official' => 'Islamska Republika Iranu',
+      'swe' => [
+        'official' => 'Islamiska republiken Iran',
         'common' => 'Iran',
       ],
       'urd' => [
         'official' => 'جمہوریہ ایران',
         'common' => 'ایران',
       ],
-      'kor' => [
-        'official' => '이란 이슬람 공화국',
-        'common' => '이란',
+      'zho' => [
+        'official' => '伊朗伊斯兰共和国',
+        'common' => '伊朗',
       ],
     ],
     'latlng' => [
@@ -16015,6 +17322,9 @@ class CountriesDataSource
         'f' => 'Iranienne',
         'm' => 'Iranien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+98',
     ],
   ],
   109 => [
@@ -16045,6 +17355,7 @@ class CountriesDataSource
     'cioc' => 'IRQ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'IQD' => [
         'name' => 'Iraqi dinar',
@@ -16081,12 +17392,24 @@ class CountriesDataSource
         'official' => 'Republik Irak',
         'common' => 'Irak',
       ],
+      'est' => [
+        'official' => 'Iraagi Vabariik',
+        'common' => 'Iraak',
+      ],
+      'fin' => [
+        'official' => 'Irakin tasavalta',
+        'common' => 'Irak',
+      ],
       'fra' => [
         'official' => 'République d\'Irak',
         'common' => 'Irak',
       ],
       'hrv' => [
         'official' => 'Republika Irak',
+        'common' => 'Irak',
+      ],
+      'hun' => [
+        'official' => 'Iraki Köztársaság',
         'common' => 'Irak',
       ],
       'ita' => [
@@ -16097,8 +17420,20 @@ class CountriesDataSource
         'official' => 'イラク共和国',
         'common' => 'イラク',
       ],
+      'kor' => [
+        'official' => '이라크 공화국',
+        'common' => '이라크',
+      ],
       'nld' => [
         'official' => 'Republiek Irak',
+        'common' => 'Irak',
+      ],
+      'per' => [
+        'official' => 'جمهوری عراق',
+        'common' => 'عراق',
+      ],
+      'pol' => [
+        'official' => 'Republika Iraku',
         'common' => 'Irak',
       ],
       'por' => [
@@ -16117,33 +17452,17 @@ class CountriesDataSource
         'official' => 'República de Irak',
         'common' => 'Irak',
       ],
-      'fin' => [
-        'official' => 'Irakin tasavalta',
-        'common' => 'Irak',
-      ],
-      'est' => [
-        'official' => 'Iraagi Vabariik',
-        'common' => 'Iraak',
-      ],
-      'zho' => [
-        'official' => '伊拉克共和国',
-        'common' => '伊拉克',
-      ],
-      'pol' => [
-        'official' => 'Republika Iraku',
+      'swe' => [
+        'official' => 'Republiken Irak',
         'common' => 'Irak',
       ],
       'urd' => [
         'official' => 'جمہوریہ عراق',
         'common' => 'عراق',
       ],
-      'kor' => [
-        'official' => '이라크 공화국',
-        'common' => '이라크',
-      ],
-      'per' => [
-        'official' => 'جمهوری عراق',
-        'common' => 'عراق',
+      'zho' => [
+        'official' => '伊拉克共和国',
+        'common' => '伊拉克',
       ],
     ],
     'latlng' => [
@@ -16171,6 +17490,9 @@ class CountriesDataSource
         'm' => 'Irakien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+964',
+    ],
   ],
   110 => [
     'name' => [
@@ -16192,6 +17514,7 @@ class CountriesDataSource
     'cioc' => 'ISL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ISK' => [
         'name' => 'Icelandic króna',
@@ -16227,6 +17550,14 @@ class CountriesDataSource
         'official' => 'Island',
         'common' => 'Island',
       ],
+      'est' => [
+        'official' => 'Islandi Vabariik',
+        'common' => 'Island',
+      ],
+      'fin' => [
+        'official' => 'Islanti',
+        'common' => 'Islanti',
+      ],
       'fra' => [
         'official' => 'République d\'Islande',
         'common' => 'Islande',
@@ -16234,6 +17565,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Island',
         'common' => 'Island',
+      ],
+      'hun' => [
+        'official' => 'Izland',
+        'common' => 'Izland',
       ],
       'ita' => [
         'official' => 'Islanda',
@@ -16243,9 +17578,21 @@ class CountriesDataSource
         'official' => 'アイスランド',
         'common' => 'アイスランド',
       ],
+      'kor' => [
+        'official' => '아이슬란드 공화국',
+        'common' => '아이슬란드',
+      ],
       'nld' => [
         'official' => 'IJsland',
         'common' => 'IJsland',
+      ],
+      'per' => [
+        'official' => 'جمهوری ایسلند',
+        'common' => 'ایسلند',
+      ],
+      'pol' => [
+        'official' => 'Republika Islandii',
+        'common' => 'Islandia',
       ],
       'por' => [
         'official' => 'Islândia',
@@ -16263,33 +17610,17 @@ class CountriesDataSource
         'official' => 'Islandia',
         'common' => 'Islandia',
       ],
-      'fin' => [
-        'official' => 'Islanti',
-        'common' => 'Islanti',
-      ],
-      'est' => [
-        'official' => 'Islandi Vabariik',
+      'swe' => [
+        'official' => 'Island',
         'common' => 'Island',
-      ],
-      'zho' => [
-        'official' => '冰岛',
-        'common' => '冰岛',
-      ],
-      'pol' => [
-        'official' => 'Republika Islandii',
-        'common' => 'Islandia',
       ],
       'urd' => [
         'official' => 'آئس لینڈ',
         'common' => 'آئس لینڈ',
       ],
-      'kor' => [
-        'official' => '아이슬란드 공화국',
-        'common' => '아이슬란드',
-      ],
-      'per' => [
-        'official' => 'جمهوری ایسلند',
-        'common' => 'ایسلند',
+      'zho' => [
+        'official' => '冰岛',
+        'common' => '冰岛',
       ],
     ],
     'latlng' => [
@@ -16310,6 +17641,9 @@ class CountriesDataSource
         'f' => 'Islandaise',
         'm' => 'Islandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+354',
     ],
   ],
   111 => [
@@ -16336,6 +17670,7 @@ class CountriesDataSource
     'cioc' => 'ISR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ILS' => [
         'name' => 'Israeli new shekel',
@@ -16371,12 +17706,24 @@ class CountriesDataSource
         'official' => 'Staat Israel',
         'common' => 'Israel',
       ],
+      'est' => [
+        'official' => 'Iisraeli Riik',
+        'common' => 'Iisrael',
+      ],
+      'fin' => [
+        'official' => 'Israelin valtio',
+        'common' => 'Israel',
+      ],
       'fra' => [
         'official' => 'État d\'Israël',
         'common' => 'Israël',
       ],
       'hrv' => [
         'official' => 'Država Izrael',
+        'common' => 'Izrael',
+      ],
+      'hun' => [
+        'official' => 'Izrael',
         'common' => 'Izrael',
       ],
       'ita' => [
@@ -16387,9 +17734,21 @@ class CountriesDataSource
         'official' => 'イスラエル国',
         'common' => 'イスラエル',
       ],
+      'kor' => [
+        'official' => '이스라엘국',
+        'common' => '이스라엘',
+      ],
       'nld' => [
         'official' => 'Staat Israël',
         'common' => 'Israël',
+      ],
+      'per' => [
+        'official' => 'فلسطين اشغالی',
+        'common' => 'فلسطين اشغالی',
+      ],
+      'pol' => [
+        'official' => 'Państwo Izrael',
+        'common' => 'Izrael',
       ],
       'por' => [
         'official' => 'Estado de Israel',
@@ -16407,33 +17766,17 @@ class CountriesDataSource
         'official' => 'Estado de Israel',
         'common' => 'Israel',
       ],
-      'fin' => [
-        'official' => 'Israelin valtio',
+      'swe' => [
+        'official' => 'Staten Israel',
         'common' => 'Israel',
-      ],
-      'est' => [
-        'official' => 'Iisraeli Riik',
-        'common' => 'Iisrael',
-      ],
-      'zho' => [
-        'official' => '以色列国',
-        'common' => '以色列',
-      ],
-      'pol' => [
-        'official' => 'Państwo Izrael',
-        'common' => 'Izrael',
       ],
       'urd' => [
         'official' => 'ریاستِ اسرائیل',
         'common' => 'اسرائیل',
       ],
-      'kor' => [
-        'official' => '이스라엘국',
-        'common' => '이스라엘',
-      ],
-      'per' => [
-        'official' => 'فلسطين اشغالی',
-        'common' => 'فلسطين اشغالی',
+      'zho' => [
+        'official' => '以色列国',
+        'common' => '以色列',
       ],
     ],
     'latlng' => [
@@ -16460,6 +17803,9 @@ class CountriesDataSource
         'm' => 'Israélien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+972',
+    ],
   ],
   112 => [
     'name' => [
@@ -16481,6 +17827,7 @@ class CountriesDataSource
     'cioc' => 'ITA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -16515,6 +17862,14 @@ class CountriesDataSource
         'official' => 'Italienische Republik',
         'common' => 'Italien',
       ],
+      'est' => [
+        'official' => 'Itaalia Vabariik',
+        'common' => 'Itaalia',
+      ],
+      'fin' => [
+        'official' => 'Italian tasavalta',
+        'common' => 'Italia',
+      ],
       'fra' => [
         'official' => 'République italienne',
         'common' => 'Italie',
@@ -16522,6 +17877,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'talijanska Republika',
         'common' => 'Italija',
+      ],
+      'hun' => [
+        'official' => 'Olasz Köztársaság',
+        'common' => 'Olaszország',
       ],
       'ita' => [
         'official' => 'Repubblica italiana',
@@ -16531,9 +17890,21 @@ class CountriesDataSource
         'official' => 'イタリア共和国',
         'common' => 'イタリア',
       ],
+      'kor' => [
+        'official' => '이탈리아 공화국',
+        'common' => '이탈리아',
+      ],
       'nld' => [
         'official' => 'Italiaanse Republiek',
         'common' => 'Italië',
+      ],
+      'per' => [
+        'official' => 'جمهوری ایتالیا',
+        'common' => 'ایتالیا',
+      ],
+      'pol' => [
+        'official' => 'Republika Włoska',
+        'common' => 'Włochy',
       ],
       'por' => [
         'official' => 'República Italiana',
@@ -16551,33 +17922,17 @@ class CountriesDataSource
         'official' => 'República Italiana',
         'common' => 'Italia',
       ],
-      'fin' => [
-        'official' => 'Italian tasavalta',
-        'common' => 'Italia',
-      ],
-      'est' => [
-        'official' => 'Itaalia Vabariik',
-        'common' => 'Itaalia',
-      ],
-      'zho' => [
-        'official' => '意大利共和国',
-        'common' => '意大利',
-      ],
-      'pol' => [
-        'official' => 'Republika Włoska',
-        'common' => 'Włochy',
+      'swe' => [
+        'official' => 'Republiken Italien',
+        'common' => 'Italien',
       ],
       'urd' => [
         'official' => 'جمہوریہ اطالیہ',
         'common' => 'اطالیہ',
       ],
-      'kor' => [
-        'official' => '이탈리아 공화국',
-        'common' => '이탈리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری ایتالیا',
-        'common' => 'ایتالیا',
+      'zho' => [
+        'official' => '意大利共和国',
+        'common' => '意大利',
       ],
     ],
     'latlng' => [
@@ -16605,6 +17960,9 @@ class CountriesDataSource
         'm' => 'Italien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+39',
+    ],
   ],
   113 => [
     'name' => [
@@ -16630,6 +17988,7 @@ class CountriesDataSource
     'cioc' => 'JAM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'JMD' => [
         'name' => 'Jamaican dollar',
@@ -16663,6 +18022,14 @@ class CountriesDataSource
         'official' => 'Jamaika',
         'common' => 'Jamaika',
       ],
+      'est' => [
+        'official' => 'Jamaica',
+        'common' => 'Jamaica',
+      ],
+      'fin' => [
+        'official' => 'Jamaika',
+        'common' => 'Jamaika',
+      ],
       'fra' => [
         'official' => 'Jamaïque',
         'common' => 'Jamaïque',
@@ -16670,6 +18037,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Jamajka',
         'common' => 'Jamajka',
+      ],
+      'hun' => [
+        'official' => 'Jamaica',
+        'common' => 'Jamaica',
       ],
       'ita' => [
         'official' => 'Giamaica',
@@ -16679,9 +18050,21 @@ class CountriesDataSource
         'official' => 'ジャマイカ',
         'common' => 'ジャマイカ',
       ],
+      'kor' => [
+        'official' => '자메이카',
+        'common' => '자메이카',
+      ],
       'nld' => [
         'official' => 'Jamaica',
         'common' => 'Jamaica',
+      ],
+      'per' => [
+        'official' => 'جامائیکا',
+        'common' => 'جامائیکا',
+      ],
+      'pol' => [
+        'official' => 'Jamajka',
+        'common' => 'Jamajka',
       ],
       'por' => [
         'official' => 'Jamaica',
@@ -16699,33 +18082,17 @@ class CountriesDataSource
         'official' => 'Jamaica',
         'common' => 'Jamaica',
       ],
-      'fin' => [
-        'official' => 'Jamaika',
-        'common' => 'Jamaika',
-      ],
-      'est' => [
+      'swe' => [
         'official' => 'Jamaica',
         'common' => 'Jamaica',
-      ],
-      'zho' => [
-        'official' => '牙买加',
-        'common' => '牙买加',
-      ],
-      'pol' => [
-        'official' => 'Jamajka',
-        'common' => 'Jamajka',
       ],
       'urd' => [
         'official' => 'جمیکا',
         'common' => 'جمیکا',
       ],
-      'kor' => [
-        'official' => '자메이카',
-        'common' => '자메이카',
-      ],
-      'per' => [
-        'official' => 'جامائیکا',
-        'common' => 'جامائیکا',
+      'zho' => [
+        'official' => '牙买加',
+        'common' => '牙买加',
       ],
     ],
     'latlng' => [
@@ -16746,6 +18113,9 @@ class CountriesDataSource
         'f' => 'Jamaïcaine',
         'm' => 'Jamaïcain',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1876',
     ],
   ],
   114 => [
@@ -16776,6 +18146,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'GBP' => [
         'name' => 'British pound',
@@ -16817,12 +18188,24 @@ class CountriesDataSource
         'official' => 'Vogtei Jersey',
         'common' => 'Jersey',
       ],
+      'est' => [
+        'official' => 'Jersey foogtkond',
+        'common' => 'Jersey',
+      ],
+      'fin' => [
+        'official' => 'Jersey',
+        'common' => 'Jersey',
+      ],
       'fra' => [
         'official' => 'Bailliage de Jersey',
         'common' => 'Jersey',
       ],
       'hrv' => [
         'official' => 'Struka od Jersey',
+        'common' => 'Jersey',
+      ],
+      'hun' => [
+        'official' => 'Jersey',
         'common' => 'Jersey',
       ],
       'ita' => [
@@ -16833,8 +18216,20 @@ class CountriesDataSource
         'official' => 'ジャージの得意分野',
         'common' => 'ジャージー',
       ],
+      'kor' => [
+        'official' => '저지 섬',
+        'common' => '저지 섬',
+      ],
       'nld' => [
         'official' => 'Baljuwschap Jersey',
+        'common' => 'Jersey',
+      ],
+      'per' => [
+        'official' => 'جرزی',
+        'common' => 'جرزی',
+      ],
+      'pol' => [
+        'official' => 'Jersey',
         'common' => 'Jersey',
       ],
       'por' => [
@@ -16853,19 +18248,7 @@ class CountriesDataSource
         'official' => 'Bailía de Jersey',
         'common' => 'Jersey',
       ],
-      'fin' => [
-        'official' => 'Jersey',
-        'common' => 'Jersey',
-      ],
-      'est' => [
-        'official' => 'Jersey foogtkond',
-        'common' => 'Jersey',
-      ],
-      'zho' => [
-        'official' => '泽西岛',
-        'common' => '泽西岛',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Jersey',
         'common' => 'Jersey',
       ],
@@ -16873,13 +18256,9 @@ class CountriesDataSource
         'official' => 'جرزی',
         'common' => 'جرزی',
       ],
-      'kor' => [
-        'official' => '저지 섬',
-        'common' => '저지 섬',
-      ],
-      'per' => [
-        'official' => 'جرزی',
-        'common' => 'جرزی',
+      'zho' => [
+        'official' => '泽西岛',
+        'common' => '泽西岛',
       ],
     ],
     'latlng' => [
@@ -16900,6 +18279,9 @@ class CountriesDataSource
         'f' => 'Jersiaise',
         'm' => 'Jersiais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+44',
     ],
   ],
   115 => [
@@ -16923,6 +18305,7 @@ class CountriesDataSource
     'cioc' => 'JOR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'JOD' => [
         'name' => 'Jordanian dinar',
@@ -16957,6 +18340,14 @@ class CountriesDataSource
         'official' => 'Haschemitisches Königreich Jordanien',
         'common' => 'Jordanien',
       ],
+      'est' => [
+        'official' => 'Jordaania Hašimiidi Kuningriik',
+        'common' => 'Jordaania',
+      ],
+      'fin' => [
+        'official' => 'Jordanian hašemiittinen kunigaskunta',
+        'common' => 'Jordania',
+      ],
       'fra' => [
         'official' => 'Royaume hachémite de Jordanie',
         'common' => 'Jordanie',
@@ -16964,6 +18355,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Hašemitske Kraljevine Jordan',
         'common' => 'Jordan',
+      ],
+      'hun' => [
+        'official' => 'Jordánia',
+        'common' => 'Jordánia',
       ],
       'ita' => [
         'official' => 'Regno hascemita di Giordania',
@@ -16973,9 +18368,21 @@ class CountriesDataSource
         'official' => 'ヨルダン·ハシミテ王国',
         'common' => 'ヨルダン',
       ],
+      'kor' => [
+        'official' => '요르단 하심 왕국',
+        'common' => '요르단',
+      ],
       'nld' => [
         'official' => 'Hasjemitisch Koninkrijk Jordanië',
         'common' => 'Jordanië',
+      ],
+      'per' => [
+        'official' => 'پادشاهی اُردُن هاشمی',
+        'common' => 'اردن',
+      ],
+      'pol' => [
+        'official' => 'Jordańskie Królestwo Haszymidzkie',
+        'common' => 'Jordania',
       ],
       'por' => [
         'official' => 'Reino Hachemita da Jordânia',
@@ -16993,33 +18400,17 @@ class CountriesDataSource
         'official' => 'Reino Hachemita de Jordania',
         'common' => 'Jordania',
       ],
-      'fin' => [
-        'official' => 'Jordanian hašemiittinen kunigaskunta',
-        'common' => 'Jordania',
-      ],
-      'est' => [
-        'official' => 'Jordaania Hašimiidi Kuningriik',
-        'common' => 'Jordaania',
-      ],
-      'zho' => [
-        'official' => '约旦哈希姆王国',
-        'common' => '约旦',
-      ],
-      'pol' => [
-        'official' => 'Jordańskie Królestwo Haszymidzkie',
-        'common' => 'Jordania',
+      'swe' => [
+        'official' => 'Hashimitiska kungadömet Jordanien',
+        'common' => 'Jordanien',
       ],
       'urd' => [
         'official' => 'ھاشمی مملکتِ اردن',
         'common' => 'اردن',
       ],
-      'kor' => [
-        'official' => '요르단 하심 왕국',
-        'common' => '요르단',
-      ],
-      'per' => [
-        'official' => 'پادشاهی اُردُن هاشمی',
-        'common' => 'اردن',
+      'zho' => [
+        'official' => '约旦哈希姆王国',
+        'common' => '约旦',
       ],
     ],
     'latlng' => [
@@ -17046,6 +18437,9 @@ class CountriesDataSource
         'm' => 'Jordanien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+962',
+    ],
   ],
   116 => [
     'name' => [
@@ -17068,6 +18462,7 @@ class CountriesDataSource
     'cioc' => 'JPN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'JPY' => [
         'name' => 'Japanese yen',
@@ -17102,6 +18497,14 @@ class CountriesDataSource
         'official' => 'Japan',
         'common' => 'Japan',
       ],
+      'est' => [
+        'official' => 'Jaapan',
+        'common' => 'Jaapan',
+      ],
+      'fin' => [
+        'official' => 'Japani',
+        'common' => 'Japani',
+      ],
       'fra' => [
         'official' => 'Japon',
         'common' => 'Japon',
@@ -17109,6 +18512,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Japan',
         'common' => 'Japan',
+      ],
+      'hun' => [
+        'official' => 'Japán',
+        'common' => 'Japán',
       ],
       'ita' => [
         'official' => 'Giappone',
@@ -17118,9 +18525,21 @@ class CountriesDataSource
         'official' => '日本',
         'common' => '日本',
       ],
+      'kor' => [
+        'official' => '일본국',
+        'common' => '일본',
+      ],
       'nld' => [
         'official' => 'Japan',
         'common' => 'Japan',
+      ],
+      'per' => [
+        'official' => 'ژاپن',
+        'common' => 'ژاپن',
+      ],
+      'pol' => [
+        'official' => 'Japonia',
+        'common' => 'Japonia',
       ],
       'por' => [
         'official' => 'Japão',
@@ -17138,33 +18557,17 @@ class CountriesDataSource
         'official' => 'Japón',
         'common' => 'Japón',
       ],
-      'fin' => [
-        'official' => 'Japani',
-        'common' => 'Japani',
-      ],
-      'est' => [
-        'official' => 'Jaapan',
-        'common' => 'Jaapan',
-      ],
-      'zho' => [
-        'official' => '日本国',
-        'common' => '日本',
-      ],
-      'pol' => [
-        'official' => 'Japonia',
-        'common' => 'Japonia',
+      'swe' => [
+        'official' => 'Japan',
+        'common' => 'Japan',
       ],
       'urd' => [
         'official' => 'جاپان',
         'common' => 'جاپان',
       ],
-      'kor' => [
-        'official' => '일본국',
-        'common' => '일본',
-      ],
-      'per' => [
-        'official' => 'ژاپن',
-        'common' => 'ژاپن',
+      'zho' => [
+        'official' => '日本国',
+        'common' => '日本',
       ],
     ],
     'latlng' => [
@@ -17185,6 +18588,9 @@ class CountriesDataSource
         'f' => 'Japonaise',
         'm' => 'Japonais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+81',
     ],
   ],
   117 => [
@@ -17212,6 +18618,7 @@ class CountriesDataSource
     'cioc' => 'KAZ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KZT' => [
         'name' => 'Kazakhstani tenge',
@@ -17221,12 +18628,12 @@ class CountriesDataSource
     'idd' => [
       'root' => '+7',
       'suffixes' => [
-        0 => '6XX',
-        1 => '7XX',
+        0 => '6',
+        1 => '7',
       ],
     ],
     'capital' => [
-      0 => 'Astana',
+      0 => 'Nur-Sultan',
     ],
     'altSpellings' => [
       0 => 'KZ',
@@ -17253,6 +18660,14 @@ class CountriesDataSource
         'official' => 'Republik Kasachstan',
         'common' => 'Kasachstan',
       ],
+      'est' => [
+        'official' => 'Kasahstani Vabariik',
+        'common' => 'Kasahstan',
+      ],
+      'fin' => [
+        'official' => 'Kazakstanin tasavalta',
+        'common' => 'Kazakstan',
+      ],
       'fra' => [
         'official' => 'République du Kazakhstan',
         'common' => 'Kazakhstan',
@@ -17260,6 +18675,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Kazahstan',
         'common' => 'Kazahstan',
+      ],
+      'hun' => [
+        'official' => 'Kazah Köztársaság',
+        'common' => 'Kazahsztán',
       ],
       'ita' => [
         'official' => 'Repubblica del Kazakhstan',
@@ -17269,8 +18688,20 @@ class CountriesDataSource
         'official' => 'カザフスタン共和国',
         'common' => 'カザフスタン',
       ],
+      'kor' => [
+        'official' => '카자흐스탄 공화국',
+        'common' => '카자흐스탄',
+      ],
       'nld' => [
         'official' => 'Republiek Kazachstan',
+        'common' => 'Kazachstan',
+      ],
+      'per' => [
+        'official' => 'جمهوری قزاقستان',
+        'common' => 'قزاقستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Kazachstanu',
         'common' => 'Kazachstan',
       ],
       'por' => [
@@ -17289,33 +18720,17 @@ class CountriesDataSource
         'official' => 'República de Kazajstán',
         'common' => 'Kazajistán',
       ],
-      'fin' => [
-        'official' => 'Kazakstanin tasavalta',
+      'swe' => [
+        'official' => 'Republiken Kazakstan',
         'common' => 'Kazakstan',
-      ],
-      'est' => [
-        'official' => 'Kasahstani Vabariik',
-        'common' => 'Kasahstan',
-      ],
-      'zho' => [
-        'official' => '哈萨克斯坦共和国',
-        'common' => '哈萨克斯坦',
-      ],
-      'pol' => [
-        'official' => 'Republika Kazachstanu',
-        'common' => 'Kazachstan',
       ],
       'urd' => [
         'official' => 'جمہوریہ قازقستان',
         'common' => 'قازقستان',
       ],
-      'kor' => [
-        'official' => '카자흐스탄 공화국',
-        'common' => '카자흐스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری قزاقستان',
-        'common' => 'قزاقستان',
+      'zho' => [
+        'official' => '哈萨克斯坦共和国',
+        'common' => '哈萨克斯坦',
       ],
     ],
     'latlng' => [
@@ -17342,6 +18757,10 @@ class CountriesDataSource
         'm' => 'Kazakhstanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+76',
+      1 => '+77',
+    ],
   ],
   118 => [
     'name' => [
@@ -17367,6 +18786,7 @@ class CountriesDataSource
     'cioc' => 'KEN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KES' => [
         'name' => 'Kenyan shilling',
@@ -17402,6 +18822,14 @@ class CountriesDataSource
         'official' => 'Republik Kenia',
         'common' => 'Kenia',
       ],
+      'est' => [
+        'official' => 'Keenia Vabariik',
+        'common' => 'Keenia',
+      ],
+      'fin' => [
+        'official' => 'Kenian tasavalta',
+        'common' => 'Kenia',
+      ],
       'fra' => [
         'official' => 'République du Kenya',
         'common' => 'Kenya',
@@ -17409,6 +18837,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Kenija',
         'common' => 'Kenija',
+      ],
+      'hun' => [
+        'official' => 'Kenyai Köztársaság',
+        'common' => 'Kenya',
       ],
       'ita' => [
         'official' => 'Repubblica del Kenya',
@@ -17418,8 +18850,20 @@ class CountriesDataSource
         'official' => 'ケニア共和国',
         'common' => 'ケニア',
       ],
+      'kor' => [
+        'official' => '케냐 공화국',
+        'common' => '케냐',
+      ],
       'nld' => [
         'official' => 'Republiek Kenia',
+        'common' => 'Kenia',
+      ],
+      'per' => [
+        'official' => 'جمهوری کنیا',
+        'common' => 'کنیا',
+      ],
+      'pol' => [
+        'official' => 'Republika Kenii',
         'common' => 'Kenia',
       ],
       'por' => [
@@ -17438,33 +18882,17 @@ class CountriesDataSource
         'official' => 'República de Kenya',
         'common' => 'Kenia',
       ],
-      'fin' => [
-        'official' => 'Kenian tasavalta',
-        'common' => 'Kenia',
-      ],
-      'est' => [
-        'official' => 'Keenia Vabariik',
-        'common' => 'Keenia',
-      ],
-      'zho' => [
-        'official' => '肯尼亚共和国',
-        'common' => '肯尼亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Kenii',
-        'common' => 'Kenia',
+      'swe' => [
+        'official' => 'Republiken Kenya',
+        'common' => 'Kenya',
       ],
       'urd' => [
         'official' => 'جمہوریہ کینیا',
         'common' => 'کینیا',
       ],
-      'kor' => [
-        'official' => '케냐 공화국',
-        'common' => '케냐',
-      ],
-      'per' => [
-        'official' => 'جمهوری کنیا',
-        'common' => 'کنیا',
+      'zho' => [
+        'official' => '肯尼亚共和国',
+        'common' => '肯尼亚',
       ],
     ],
     'latlng' => [
@@ -17491,6 +18919,9 @@ class CountriesDataSource
         'm' => 'Kényan',
       ],
     ],
+    'callingCodes' => [
+      0 => '+254',
+    ],
   ],
   119 => [
     'name' => [
@@ -17516,6 +18947,7 @@ class CountriesDataSource
     'cioc' => 'KGZ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KGS' => [
         'name' => 'Kyrgyzstani som',
@@ -17553,6 +18985,14 @@ class CountriesDataSource
         'official' => 'Kirgisische Republik',
         'common' => 'Kirgisistan',
       ],
+      'est' => [
+        'official' => 'Kirgiisi Vabariik',
+        'common' => 'Kõrgõzstan',
+      ],
+      'fin' => [
+        'official' => 'Kirgisian tasavalta',
+        'common' => 'Kirgisia',
+      ],
       'fra' => [
         'official' => 'République kirghize',
         'common' => 'Kirghizistan',
@@ -17560,6 +19000,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kirgistanu',
         'common' => 'Kirgistan',
+      ],
+      'hun' => [
+        'official' => 'Kirgiz Köztársaság',
+        'common' => 'Kirgizisztán',
       ],
       'ita' => [
         'official' => 'Kirghizistan',
@@ -17569,9 +19013,21 @@ class CountriesDataSource
         'official' => 'キルギス共和国',
         'common' => 'キルギス',
       ],
+      'kor' => [
+        'official' => '키르기스 공화국',
+        'common' => '키르기스스탄',
+      ],
       'nld' => [
         'official' => 'Kirgizische Republiek',
         'common' => 'Kirgizië',
+      ],
+      'per' => [
+        'official' => 'جمهوری قِرقیزستان',
+        'common' => 'قرقیزستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Kirgiska',
+        'common' => 'Kirgistan',
       ],
       'por' => [
         'official' => 'República do Quirguistão',
@@ -17589,33 +19045,17 @@ class CountriesDataSource
         'official' => 'República Kirguisa',
         'common' => 'Kirguizistán',
       ],
-      'fin' => [
-        'official' => 'Kirgisian tasavalta',
-        'common' => 'Kirgisia',
-      ],
-      'est' => [
-        'official' => 'Kirgiisi Vabariik',
-        'common' => 'Kõrgõzstan',
-      ],
-      'zho' => [
-        'official' => '吉尔吉斯斯坦共和国',
-        'common' => '吉尔吉斯斯坦',
-      ],
-      'pol' => [
-        'official' => 'Republika Kirgiska',
-        'common' => 'Kirgistan',
+      'swe' => [
+        'official' => 'Republiken Kirgizistan',
+        'common' => 'Kirgizistan',
       ],
       'urd' => [
         'official' => 'جمہوریہ کرغیزستان',
         'common' => 'کرغیزستان',
       ],
-      'kor' => [
-        'official' => '키르기스 공화국',
-        'common' => '키르기스스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری قِرقیزستان',
-        'common' => 'قرقیزستان',
+      'zho' => [
+        'official' => '吉尔吉斯斯坦共和国',
+        'common' => '吉尔吉斯斯坦',
       ],
     ],
     'latlng' => [
@@ -17641,6 +19081,9 @@ class CountriesDataSource
         'm' => 'Kirghize',
       ],
     ],
+    'callingCodes' => [
+      0 => '+996',
+    ],
   ],
   120 => [
     'name' => [
@@ -17662,6 +19105,7 @@ class CountriesDataSource
     'cioc' => 'CAM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KHR' => [
         'name' => 'Cambodian riel',
@@ -17703,6 +19147,14 @@ class CountriesDataSource
         'official' => 'Königreich Kambodscha',
         'common' => 'Kambodscha',
       ],
+      'est' => [
+        'official' => 'Kambodža Kuningriik',
+        'common' => 'Kambodža',
+      ],
+      'fin' => [
+        'official' => 'Kambodžan kuningaskunta',
+        'common' => 'Kambodža',
+      ],
       'fra' => [
         'official' => 'Royaume du Cambodge',
         'common' => 'Cambodge',
@@ -17710,6 +19162,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Kambodža',
         'common' => 'Kambodža',
+      ],
+      'hun' => [
+        'official' => 'Kambodzsai Királyság',
+        'common' => 'Kambodzsa',
       ],
       'ita' => [
         'official' => 'Regno di Cambogia',
@@ -17719,9 +19175,21 @@ class CountriesDataSource
         'official' => 'カンボジア王国',
         'common' => 'カンボジア',
       ],
+      'kor' => [
+        'official' => '캄보디아 왕국',
+        'common' => '캄보디아',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Cambodja',
         'common' => 'Cambodja',
+      ],
+      'per' => [
+        'official' => 'پادشاهی کامبوج',
+        'common' => 'کامبوج',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Kambodży',
+        'common' => 'Kambodża',
       ],
       'por' => [
         'official' => 'Reino do Camboja',
@@ -17739,33 +19207,17 @@ class CountriesDataSource
         'official' => 'Reino de Camboya',
         'common' => 'Camboya',
       ],
-      'fin' => [
-        'official' => 'Kambodžan kuningaskunta',
-        'common' => 'Kambodža',
-      ],
-      'est' => [
-        'official' => 'Kambodža Kuningriik',
-        'common' => 'Kambodža',
-      ],
-      'zho' => [
-        'official' => '柬埔寨王国',
-        'common' => '柬埔寨',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Kambodży',
-        'common' => 'Kambodża',
+      'swe' => [
+        'official' => 'Konungariket Kambodja',
+        'common' => 'Kambodja',
       ],
       'urd' => [
         'official' => 'مملکتِ کمبوڈیا',
         'common' => 'کمبوڈیا',
       ],
-      'kor' => [
-        'official' => '캄보디아 왕국',
-        'common' => '캄보디아',
-      ],
-      'per' => [
-        'official' => 'پادشاهی کامبوج',
-        'common' => 'کامبوج',
+      'zho' => [
+        'official' => '柬埔寨王国',
+        'common' => '柬埔寨',
       ],
     ],
     'latlng' => [
@@ -17789,6 +19241,9 @@ class CountriesDataSource
         'f' => 'Cambodgienne',
         'm' => 'Cambodgien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+855',
     ],
   ],
   121 => [
@@ -17815,6 +19270,7 @@ class CountriesDataSource
     'cioc' => 'KIR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -17854,12 +19310,24 @@ class CountriesDataSource
         'official' => 'Republik Kiribati',
         'common' => 'Kiribati',
       ],
+      'est' => [
+        'official' => 'Kiribati Vabariik',
+        'common' => 'Kiribati',
+      ],
+      'fin' => [
+        'official' => 'Kiribatin tasavalta',
+        'common' => 'Kiribati',
+      ],
       'fra' => [
         'official' => 'République de Kiribati',
         'common' => 'Kiribati',
       ],
       'hrv' => [
         'official' => 'Samostalne i suverene Republike Kiribati',
+        'common' => 'Kiribati',
+      ],
+      'hun' => [
+        'official' => 'Kiribati Köztársaság',
         'common' => 'Kiribati',
       ],
       'ita' => [
@@ -17870,8 +19338,20 @@ class CountriesDataSource
         'official' => 'キリバスの独立と主権共和国',
         'common' => 'キリバス',
       ],
+      'kor' => [
+        'official' => '키리바시 공화국',
+        'common' => '키리바시',
+      ],
       'nld' => [
         'official' => 'Onafhankelijke en soevereine republiek Kiribati',
+        'common' => 'Kiribati',
+      ],
+      'per' => [
+        'official' => 'جمهوری کیریباتی',
+        'common' => 'کیریباتی',
+      ],
+      'pol' => [
+        'official' => 'Republika Kiribati',
         'common' => 'Kiribati',
       ],
       'por' => [
@@ -17890,33 +19370,17 @@ class CountriesDataSource
         'official' => 'República Independiente y Soberano de Kiribati',
         'common' => 'Kiribati',
       ],
-      'fin' => [
-        'official' => 'Kiribatin tasavalta',
-        'common' => 'Kiribati',
-      ],
-      'est' => [
-        'official' => 'Kiribati Vabariik',
-        'common' => 'Kiribati',
-      ],
-      'zho' => [
-        'official' => '基里巴斯共和国',
-        'common' => '基里巴斯',
-      ],
-      'pol' => [
-        'official' => 'Republika Kiribati',
+      'swe' => [
+        'official' => 'Republiken Kiribati',
         'common' => 'Kiribati',
       ],
       'urd' => [
         'official' => 'سلطنت آزاد جمہوریہ کیریباتی',
         'common' => 'کیریباتی',
       ],
-      'kor' => [
-        'official' => '키리바시 공화국',
-        'common' => '키리바시',
-      ],
-      'per' => [
-        'official' => 'جمهوری کیریباتی',
-        'common' => 'کیریباتی',
+      'zho' => [
+        'official' => '基里巴斯共和国',
+        'common' => '基里巴斯',
       ],
     ],
     'latlng' => [
@@ -17937,6 +19401,9 @@ class CountriesDataSource
         'f' => 'Kiribatienne',
         'm' => 'Kiribatien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+686',
     ],
   ],
   122 => [
@@ -17959,6 +19426,7 @@ class CountriesDataSource
     'cioc' => 'SKN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -17992,6 +19460,14 @@ class CountriesDataSource
         'official' => 'Föderation von St. Kitts und Nevis',
         'common' => 'St. Kitts und Nevis',
       ],
+      'est' => [
+        'official' => 'Saint Kittsi ja Nevise Föderatsioon',
+        'common' => 'Saint Kitts ja Nevis',
+      ],
+      'fin' => [
+        'official' => 'Saint Christopherin ja Nevisin federaatio',
+        'common' => 'Saint Kitts ja Nevis',
+      ],
       'fra' => [
         'official' => 'Fédération de Saint-Christophe-et-Niévès',
         'common' => 'Saint-Christophe-et-Niévès',
@@ -17999,6 +19475,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Federacija Sv.Kristofora i Nevisa',
         'common' => 'Sveti Kristof i Nevis',
+      ],
+      'hun' => [
+        'official' => 'Saint Christopher és Nevis Államszövetség',
+        'common' => 'Saint Kitts és Nevis',
       ],
       'ita' => [
         'official' => 'Federazione di Saint Christopher e Nevis',
@@ -18008,9 +19488,21 @@ class CountriesDataSource
         'official' => 'セントクリストファーNevis連盟',
         'common' => 'セントクリストファー・ネイビス',
       ],
+      'kor' => [
+        'official' => '세인트키츠 네비스 연방',
+        'common' => '세인트키츠 네비스',
+      ],
       'nld' => [
         'official' => 'Federatie van Saint Kitts en Nevis',
         'common' => 'Saint Kitts en Nevis',
+      ],
+      'per' => [
+        'official' => 'فدراسیون سنت کیتس و نویس',
+        'common' => 'سنت کیتس و نویس',
+      ],
+      'pol' => [
+        'official' => 'Federacja Saint Kitts i Nevis',
+        'common' => 'Saint Kitts i Nevis',
       ],
       'por' => [
         'official' => 'Federação de São Cristóvão e Nevis',
@@ -18028,33 +19520,17 @@ class CountriesDataSource
         'official' => 'Federación de San Cristóbal y Nevis',
         'common' => 'San Cristóbal y Nieves',
       ],
-      'fin' => [
-        'official' => 'Saint Christopherin ja Nevisin federaatio',
-        'common' => 'Saint Kitts ja Nevis',
-      ],
-      'est' => [
-        'official' => 'Saint Kittsi ja Nevise Föderatsioon',
-        'common' => 'Saint Kitts ja Nevis',
-      ],
-      'zho' => [
-        'official' => '圣克里斯托弗和尼维斯联邦',
-        'common' => '圣基茨和尼维斯',
-      ],
-      'pol' => [
-        'official' => 'Federacja Saint Kitts i Nevis',
-        'common' => 'Saint Kitts i Nevis',
+      'swe' => [
+        'official' => 'Federationen Saint Kitts och Nevis',
+        'common' => 'Saint Kitts och Nevis',
       ],
       'urd' => [
         'official' => 'وفاقِ سینٹ کیٹز و ناویس',
         'common' => 'سینٹ کیٹز و ناویس',
       ],
-      'kor' => [
-        'official' => '세인트키츠 네비스 연방',
-        'common' => '세인트키츠 네비스',
-      ],
-      'per' => [
-        'official' => 'فدراسیون سنت کیتس و نویس',
-        'common' => 'سنت کیتس و نویس',
+      'zho' => [
+        'official' => '圣克里斯托弗和尼维斯联邦',
+        'common' => '圣基茨和尼维斯',
       ],
     ],
     'latlng' => [
@@ -18075,6 +19551,9 @@ class CountriesDataSource
         'f' => 'Kittitienne-et-nevicienne',
         'm' => 'Kittitien-et-nevicien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1869',
     ],
   ],
   123 => [
@@ -18098,6 +19577,7 @@ class CountriesDataSource
     'cioc' => 'KOR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KRW' => [
         'name' => 'South Korean won',
@@ -18134,6 +19614,14 @@ class CountriesDataSource
         'official' => 'Republik Korea',
         'common' => 'Südkorea',
       ],
+      'est' => [
+        'official' => 'Korea Vabariik',
+        'common' => 'Lõuna-Korea',
+      ],
+      'fin' => [
+        'official' => 'Korean tasavalta',
+        'common' => 'Etelä-Korea',
+      ],
       'fra' => [
         'official' => 'République de Corée',
         'common' => 'Corée du Sud',
@@ -18141,6 +19629,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Koreja',
         'common' => 'Južna Koreja',
+      ],
+      'hun' => [
+        'official' => 'Koreai Köztársaság',
+        'common' => 'Dél-Korea',
       ],
       'ita' => [
         'official' => 'Repubblica di Corea',
@@ -18150,9 +19642,21 @@ class CountriesDataSource
         'official' => '大韓民国',
         'common' => '韓国',
       ],
+      'kor' => [
+        'official' => '대한민국',
+        'common' => '한국',
+      ],
       'nld' => [
         'official' => 'Republiek Korea',
         'common' => 'Zuid-Korea',
+      ],
+      'per' => [
+        'official' => 'جمهوری کره',
+        'common' => 'کرهٔ جنوبی',
+      ],
+      'pol' => [
+        'official' => 'Republika Korei',
+        'common' => 'Korea Południowa',
       ],
       'por' => [
         'official' => 'República da Coreia',
@@ -18170,33 +19674,17 @@ class CountriesDataSource
         'official' => 'República de Corea',
         'common' => 'Corea del Sur',
       ],
-      'fin' => [
-        'official' => 'Korean tasavalta',
-        'common' => 'Etelä-Korea',
-      ],
-      'est' => [
-        'official' => 'Korea Vabariik',
-        'common' => 'Lõuna-Korea',
-      ],
-      'zho' => [
-        'official' => '大韩民国',
-        'common' => '韩国',
-      ],
-      'pol' => [
-        'official' => 'Republika Korei',
-        'common' => 'Korea Południowa',
+      'swe' => [
+        'official' => 'Republiken Korea',
+        'common' => 'Sydkorea',
       ],
       'urd' => [
         'official' => 'جمہوریہ کوریا ',
         'common' => 'جنوبی کوریا',
       ],
-      'kor' => [
-        'official' => '대한민국',
-        'common' => '한국',
-      ],
-      'per' => [
-        'official' => 'جمهوری کره',
-        'common' => 'کرهٔ جنوبی',
+      'zho' => [
+        'official' => '大韩民国',
+        'common' => '韩国',
       ],
     ],
     'latlng' => [
@@ -18218,6 +19706,9 @@ class CountriesDataSource
         'f' => 'Sud-coréenne',
         'm' => 'Sud-coréen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+82',
     ],
   ],
   124 => [
@@ -18243,6 +19734,7 @@ class CountriesDataSource
     'cioc' => 'KOS',
     'independent' => NULL,
     'status' => 'user-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -18263,7 +19755,7 @@ class CountriesDataSource
       1 => 'Република Косово',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'sqi' => 'Albanian',
       'srp' => 'Serbian',
@@ -18277,6 +19769,14 @@ class CountriesDataSource
         'official' => 'Republik Kosovo',
         'common' => 'Kosovo',
       ],
+      'est' => [
+        'official' => 'Kosovo Vabariik',
+        'common' => 'Kosovo',
+      ],
+      'fin' => [
+        'official' => 'Kosovon tasavalta',
+        'common' => 'Kosovo',
+      ],
       'fra' => [
         'official' => 'République du Kosovo',
         'common' => 'Kosovo',
@@ -18285,13 +19785,29 @@ class CountriesDataSource
         'official' => 'Republika Kosovo',
         'common' => 'Kosovo',
       ],
+      'hun' => [
+        'official' => 'Koszovó',
+        'common' => 'Koszovó',
+      ],
       'ita' => [
         'official' => 'Repubblica del Kosovo',
         'common' => 'Kosovo',
       ],
+      'kor' => [
+        'official' => '코소보 공화국',
+        'common' => '코소보',
+      ],
       'nld' => [
         'official' => 'Republiek Kosovo',
         'common' => 'Kosovo',
+      ],
+      'per' => [
+        'official' => 'جمهوری کوزوو',
+        'common' => 'کوزوو',
+      ],
+      'pol' => [
+        'official' => 'Republika Kosowa',
+        'common' => 'Kosowo',
       ],
       'por' => [
         'official' => 'República do Kosovo',
@@ -18309,33 +19825,17 @@ class CountriesDataSource
         'official' => 'República de Kosovo',
         'common' => 'Kosovo',
       ],
-      'fin' => [
-        'official' => 'Kosovon tasavalta',
+      'swe' => [
+        'official' => 'Republiken Kosovo',
         'common' => 'Kosovo',
-      ],
-      'est' => [
-        'official' => 'Kosovo Vabariik',
-        'common' => 'Kosovo',
-      ],
-      'zho' => [
-        'official' => '科索沃共和国',
-        'common' => '科索沃',
-      ],
-      'pol' => [
-        'official' => 'Republika Kosowa',
-        'common' => 'Kosowo',
       ],
       'urd' => [
         'official' => 'جمہوریہ کوسووہ',
         'common' => 'کوسووہ',
       ],
-      'kor' => [
-        'official' => '코소보 공화국',
-        'common' => '코소보',
-      ],
-      'per' => [
-        'official' => 'جمهوری کوزوو',
-        'common' => 'کوزوو',
+      'zho' => [
+        'official' => '科索沃共和国',
+        'common' => '科索沃',
       ],
     ],
     'latlng' => [
@@ -18361,6 +19861,9 @@ class CountriesDataSource
         'm' => 'Kosovar',
       ],
     ],
+    'callingCodes' => [
+      0 => '+383',
+    ],
   ],
   125 => [
     'name' => [
@@ -18382,6 +19885,7 @@ class CountriesDataSource
     'cioc' => 'KUW',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KWD' => [
         'name' => 'Kuwaiti dinar',
@@ -18416,6 +19920,14 @@ class CountriesDataSource
         'official' => 'Staat Kuwait',
         'common' => 'Kuwait',
       ],
+      'est' => [
+        'official' => 'Kuveidi Riik',
+        'common' => 'Kuveit',
+      ],
+      'fin' => [
+        'official' => 'Kuwaitin valtio',
+        'common' => 'Kuwait',
+      ],
       'fra' => [
         'official' => 'État du Koweït',
         'common' => 'Koweït',
@@ -18423,6 +19935,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Država Kuvajt',
         'common' => 'Kuvajt',
+      ],
+      'hun' => [
+        'official' => 'Kuvaiti Állam',
+        'common' => 'Kuvait',
       ],
       'ita' => [
         'official' => 'Stato del Kuwait',
@@ -18432,9 +19948,21 @@ class CountriesDataSource
         'official' => 'クウェート国',
         'common' => 'クウェート',
       ],
+      'kor' => [
+        'official' => '쿠웨이트국',
+        'common' => '쿠웨이트',
+      ],
       'nld' => [
         'official' => 'Staat Koeweit',
         'common' => 'Koeweit',
+      ],
+      'per' => [
+        'official' => 'دولت کویت',
+        'common' => 'کُویت',
+      ],
+      'pol' => [
+        'official' => 'Państwo Kuwejt',
+        'common' => 'Kuwejt',
       ],
       'por' => [
         'official' => 'Estado do Kuwait',
@@ -18452,33 +19980,17 @@ class CountriesDataSource
         'official' => 'Estado de Kuwait',
         'common' => 'Kuwait',
       ],
-      'fin' => [
-        'official' => 'Kuwaitin valtio',
+      'swe' => [
+        'official' => 'Staten Kuwait',
         'common' => 'Kuwait',
-      ],
-      'est' => [
-        'official' => 'Kuveidi Riik',
-        'common' => 'Kuveit',
-      ],
-      'zho' => [
-        'official' => '科威特国',
-        'common' => '科威特',
-      ],
-      'pol' => [
-        'official' => 'Państwo Kuwejt',
-        'common' => 'Kuwejt',
       ],
       'urd' => [
         'official' => 'دولتِ کویت',
         'common' => 'کویت',
       ],
-      'kor' => [
-        'official' => '쿠웨이트국',
-        'common' => '쿠웨이트',
-      ],
-      'per' => [
-        'official' => 'دولت کویت',
-        'common' => 'کُویت',
+      'zho' => [
+        'official' => '科威特国',
+        'common' => '科威特',
       ],
     ],
     'latlng' => [
@@ -18502,6 +20014,9 @@ class CountriesDataSource
         'm' => 'Koweïtien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+965',
+    ],
   ],
   126 => [
     'name' => [
@@ -18523,6 +20038,7 @@ class CountriesDataSource
     'cioc' => 'LAO',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'LAK' => [
         'name' => 'Lao kip',
@@ -18558,6 +20074,14 @@ class CountriesDataSource
         'official' => 'Demokratische Volksrepublik Laos',
         'common' => 'Laos',
       ],
+      'est' => [
+        'official' => 'Laose Demokraatlik Rahvavabariik',
+        'common' => 'Laos',
+      ],
+      'fin' => [
+        'official' => 'Laosin demokraattinen kansantasavalta',
+        'common' => 'Laos',
+      ],
       'fra' => [
         'official' => 'République démocratique populaire lao',
         'common' => 'Laos',
@@ -18565,6 +20089,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Narodna Demokratska Republika',
         'common' => 'Laos',
+      ],
+      'hun' => [
+        'official' => 'Laoszi Népi Demokratikus Köztársaság',
+        'common' => 'Laosz',
       ],
       'ita' => [
         'official' => 'Repubblica democratica popolare del Laos',
@@ -18574,8 +20102,20 @@ class CountriesDataSource
         'official' => 'ラオス人民民主共和国',
         'common' => 'ラオス人民民主共和国',
       ],
+      'kor' => [
+        'official' => '라오 인민 민주 공화국',
+        'common' => '라오스',
+      ],
       'nld' => [
         'official' => 'Lao Democratische Volksrepubliek',
+        'common' => 'Laos',
+      ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک خلق لائوس',
+        'common' => 'لائوس',
+      ],
+      'pol' => [
+        'official' => 'Laotańska Republika Ludowo-Demokratyczna',
         'common' => 'Laos',
       ],
       'por' => [
@@ -18594,33 +20134,17 @@ class CountriesDataSource
         'official' => 'República Democrática Popular Lao',
         'common' => 'Laos',
       ],
-      'fin' => [
-        'official' => 'Laosin demokraattinen kansantasavalta',
-        'common' => 'Laos',
-      ],
-      'est' => [
-        'official' => 'Laose Demokraatlik Rahvavabariik',
-        'common' => 'Laos',
-      ],
-      'zho' => [
-        'official' => '老挝人民民主共和国',
-        'common' => '老挝',
-      ],
-      'pol' => [
-        'official' => 'Laotańska Republika Ludowo-Demokratyczna',
+      'swe' => [
+        'official' => 'Demokratiska folkrepubliken Laos',
         'common' => 'Laos',
       ],
       'urd' => [
         'official' => 'عوامی جمہوری جمہوریہ لاؤ',
         'common' => 'لاؤس',
       ],
-      'kor' => [
-        'official' => '라오 인민 민주 공화국',
-        'common' => '라오스',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک خلق لائوس',
-        'common' => 'لائوس',
+      'zho' => [
+        'official' => '老挝人民民主共和国',
+        'common' => '老挝',
       ],
     ],
     'latlng' => [
@@ -18647,6 +20171,9 @@ class CountriesDataSource
         'm' => 'Laotien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+856',
+    ],
   ],
   127 => [
     'name' => [
@@ -18672,6 +20199,7 @@ class CountriesDataSource
     'cioc' => 'LIB',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'LBP' => [
         'name' => 'Lebanese pound',
@@ -18707,12 +20235,24 @@ class CountriesDataSource
         'official' => 'Libanesische Republik',
         'common' => 'Libanon',
       ],
+      'est' => [
+        'official' => 'Liibanoni Vabariik',
+        'common' => 'Liibanon',
+      ],
+      'fin' => [
+        'official' => 'Libanonin tasavalta',
+        'common' => 'Libanon',
+      ],
       'fra' => [
         'official' => 'République libanaise',
         'common' => 'Liban',
       ],
       'hrv' => [
         'official' => 'Libanonska Republika',
+        'common' => 'Libanon',
+      ],
+      'hun' => [
+        'official' => 'Libanoni Köztársaság',
         'common' => 'Libanon',
       ],
       'ita' => [
@@ -18723,9 +20263,21 @@ class CountriesDataSource
         'official' => 'レバノン共和国',
         'common' => 'レバノン',
       ],
+      'kor' => [
+        'official' => '레바논 공화국',
+        'common' => '레바논',
+      ],
       'nld' => [
         'official' => 'Libanese Republiek',
         'common' => 'Libanon',
+      ],
+      'per' => [
+        'official' => 'جمهوری لبنان',
+        'common' => 'لبنان',
+      ],
+      'pol' => [
+        'official' => 'Republika Libańska',
+        'common' => 'Liban',
       ],
       'por' => [
         'official' => 'República Libanesa',
@@ -18743,33 +20295,17 @@ class CountriesDataSource
         'official' => 'República Libanesa',
         'common' => 'Líbano',
       ],
-      'fin' => [
-        'official' => 'Libanonin tasavalta',
+      'swe' => [
+        'official' => 'Republiken Libanon',
         'common' => 'Libanon',
-      ],
-      'est' => [
-        'official' => 'Liibanoni Vabariik',
-        'common' => 'Liibanon',
-      ],
-      'zho' => [
-        'official' => '黎巴嫩共和国',
-        'common' => '黎巴嫩',
-      ],
-      'pol' => [
-        'official' => 'Republika Libańska',
-        'common' => 'Liban',
       ],
       'urd' => [
         'official' => 'جمہوریہ لبنان',
         'common' => 'لبنان',
       ],
-      'kor' => [
-        'official' => '레바논 공화국',
-        'common' => '레바논',
-      ],
-      'per' => [
-        'official' => 'جمهوری لبنان',
-        'common' => 'لبنان',
+      'zho' => [
+        'official' => '黎巴嫩共和国',
+        'common' => '黎巴嫩',
       ],
     ],
     'latlng' => [
@@ -18793,6 +20329,9 @@ class CountriesDataSource
         'm' => 'Libanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+961',
+    ],
   ],
   128 => [
     'name' => [
@@ -18814,6 +20353,7 @@ class CountriesDataSource
     'cioc' => 'LBR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'LRD' => [
         'name' => 'Liberian dollar',
@@ -18847,6 +20387,14 @@ class CountriesDataSource
         'official' => 'Republik Liberia',
         'common' => 'Liberia',
       ],
+      'est' => [
+        'official' => 'Libeeria Vabariik',
+        'common' => 'Libeeria',
+      ],
+      'fin' => [
+        'official' => 'Liberian tasavalta',
+        'common' => 'Liberia',
+      ],
       'fra' => [
         'official' => 'République du Libéria',
         'common' => 'Liberia',
@@ -18854,6 +20402,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Liberija',
         'common' => 'Liberija',
+      ],
+      'hun' => [
+        'official' => 'Libériai Köztársaság',
+        'common' => 'Libéria',
       ],
       'ita' => [
         'official' => 'Repubblica di Liberia',
@@ -18863,8 +20415,20 @@ class CountriesDataSource
         'official' => 'リベリア共和国',
         'common' => 'リベリア',
       ],
+      'kor' => [
+        'official' => '라이베리아 공화국',
+        'common' => '라이베리아',
+      ],
       'nld' => [
         'official' => 'Republiek Liberia',
+        'common' => 'Liberia',
+      ],
+      'per' => [
+        'official' => 'جمهوری لیبریا',
+        'common' => 'لیبـِریا',
+      ],
+      'pol' => [
+        'official' => 'Republika Liberii',
         'common' => 'Liberia',
       ],
       'por' => [
@@ -18883,33 +20447,17 @@ class CountriesDataSource
         'official' => 'República de Liberia',
         'common' => 'Liberia',
       ],
-      'fin' => [
-        'official' => 'Liberian tasavalta',
-        'common' => 'Liberia',
-      ],
-      'est' => [
-        'official' => 'Libeeria Vabariik',
-        'common' => 'Libeeria',
-      ],
-      'zho' => [
-        'official' => '利比里亚共和国',
-        'common' => '利比里亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Liberii',
+      'swe' => [
+        'official' => 'Republiken Liberia',
         'common' => 'Liberia',
       ],
       'urd' => [
         'official' => 'جمہوریہ لائبیریا',
         'common' => 'لائبیریا',
       ],
-      'kor' => [
-        'official' => '라이베리아 공화국',
-        'common' => '라이베리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری لیبریا',
-        'common' => 'لیبـِریا',
+      'zho' => [
+        'official' => '利比里亚共和国',
+        'common' => '利比里亚',
       ],
     ],
     'latlng' => [
@@ -18934,6 +20482,9 @@ class CountriesDataSource
         'm' => 'Libérien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+231',
+    ],
   ],
   129 => [
     'name' => [
@@ -18955,6 +20506,7 @@ class CountriesDataSource
     'cioc' => 'LBA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'LYD' => [
         'name' => 'Libyan dinar',
@@ -18989,6 +20541,14 @@ class CountriesDataSource
         'official' => 'Staat Libyen',
         'common' => 'Libyen',
       ],
+      'est' => [
+        'official' => 'Liibüa',
+        'common' => 'Liibüa',
+      ],
+      'fin' => [
+        'official' => 'Libyan valtio',
+        'common' => 'Libya',
+      ],
       'fra' => [
         'official' => 'Grande République arabe libyenne populaire et socialiste',
         'common' => 'Libye',
@@ -18996,6 +20556,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Država Libiji',
         'common' => 'Libija',
+      ],
+      'hun' => [
+        'official' => 'Líbia Állam',
+        'common' => 'Líbia',
       ],
       'ita' => [
         'official' => 'Stato della Libia',
@@ -19005,9 +20569,21 @@ class CountriesDataSource
         'official' => 'リビアの国家',
         'common' => 'リビア',
       ],
+      'kor' => [
+        'official' => '리비아',
+        'common' => '리비아',
+      ],
       'nld' => [
         'official' => 'Staat van Libië',
         'common' => 'Libië',
+      ],
+      'per' => [
+        'official' => 'دولت لیبی',
+        'common' => 'لیبی',
+      ],
+      'pol' => [
+        'official' => 'Państwo Libia',
+        'common' => 'Libia',
       ],
       'por' => [
         'official' => 'Estado da Líbia',
@@ -19025,33 +20601,17 @@ class CountriesDataSource
         'official' => 'Estado de Libia',
         'common' => 'Libia',
       ],
-      'fin' => [
-        'official' => 'Libyan valtio',
-        'common' => 'Libya',
-      ],
-      'est' => [
-        'official' => 'Liibüa',
-        'common' => 'Liibüa',
-      ],
-      'zho' => [
-        'official' => '利比亚国',
-        'common' => '利比亚',
-      ],
-      'pol' => [
-        'official' => 'Państwo Libia',
-        'common' => 'Libia',
+      'swe' => [
+        'official' => 'Staten Libyen',
+        'common' => 'Libyen',
       ],
       'urd' => [
         'official' => 'ریاستِ لیبیا',
         'common' => 'لیبیا',
       ],
-      'kor' => [
-        'official' => '리비아',
-        'common' => '리비아',
-      ],
-      'per' => [
-        'official' => 'دولت لیبی',
-        'common' => 'لیبی',
+      'zho' => [
+        'official' => '利比亚国',
+        'common' => '利比亚',
       ],
     ],
     'latlng' => [
@@ -19079,6 +20639,9 @@ class CountriesDataSource
         'm' => 'Libyen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+218',
+    ],
   ],
   130 => [
     'name' => [
@@ -19100,6 +20663,7 @@ class CountriesDataSource
     'cioc' => 'LCA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -19132,6 +20696,14 @@ class CountriesDataSource
         'official' => 'St. Lucia',
         'common' => 'St. Lucia',
       ],
+      'est' => [
+        'official' => 'Saint Lucia',
+        'common' => 'Saint Lucia',
+      ],
+      'fin' => [
+        'official' => 'Saint Lucia',
+        'common' => 'Saint Lucia',
+      ],
       'fra' => [
         'official' => 'Sainte-Lucie',
         'common' => 'Sainte-Lucie',
@@ -19139,6 +20711,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sveta Lucija',
         'common' => 'Sveta Lucija',
+      ],
+      'hun' => [
+        'official' => 'Saint Lucia',
+        'common' => 'Saint Lucia',
       ],
       'ita' => [
         'official' => 'Santa Lucia',
@@ -19148,7 +20724,19 @@ class CountriesDataSource
         'official' => 'セントルシア',
         'common' => 'セントルシア',
       ],
+      'kor' => [
+        'official' => '세인트루시아',
+        'common' => '세인트루시아',
+      ],
       'nld' => [
+        'official' => 'Saint Lucia',
+        'common' => 'Saint Lucia',
+      ],
+      'per' => [
+        'official' => 'سنت لوسیا',
+        'common' => 'سنت لوسیا',
+      ],
+      'pol' => [
         'official' => 'Saint Lucia',
         'common' => 'Saint Lucia',
       ],
@@ -19168,19 +20756,7 @@ class CountriesDataSource
         'official' => 'Santa Lucía',
         'common' => 'Santa Lucía',
       ],
-      'fin' => [
-        'official' => 'Saint Lucia',
-        'common' => 'Saint Lucia',
-      ],
-      'est' => [
-        'official' => 'Saint Lucia',
-        'common' => 'Saint Lucia',
-      ],
-      'zho' => [
-        'official' => '圣卢西亚',
-        'common' => '圣卢西亚',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Saint Lucia',
         'common' => 'Saint Lucia',
       ],
@@ -19188,13 +20764,9 @@ class CountriesDataSource
         'official' => 'سینٹ لوسیا',
         'common' => 'سینٹ لوسیا',
       ],
-      'kor' => [
-        'official' => '세인트루시아',
-        'common' => '세인트루시아',
-      ],
-      'per' => [
-        'official' => 'سنت لوسیا',
-        'common' => 'سنت لوسیا',
+      'zho' => [
+        'official' => '圣卢西亚',
+        'common' => '圣卢西亚',
       ],
     ],
     'latlng' => [
@@ -19215,6 +20787,9 @@ class CountriesDataSource
         'f' => 'Saint-Lucienne',
         'm' => 'Saint-Lucien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1758',
     ],
   ],
   131 => [
@@ -19237,6 +20812,7 @@ class CountriesDataSource
     'cioc' => 'LIE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'CHF' => [
         'name' => 'Swiss franc',
@@ -19271,6 +20847,14 @@ class CountriesDataSource
         'official' => 'Fürstentum Liechtenstein',
         'common' => 'Liechtenstein',
       ],
+      'est' => [
+        'official' => 'Liechtensteini Vürstiriik',
+        'common' => 'Liechtenstein',
+      ],
+      'fin' => [
+        'official' => 'Liechensteinin ruhtinaskunta',
+        'common' => 'Liechenstein',
+      ],
       'fra' => [
         'official' => 'Principauté du Liechtenstein',
         'common' => 'Liechtenstein',
@@ -19278,6 +20862,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kneževina Lihtenštajn',
         'common' => 'Lihtenštajn',
+      ],
+      'hun' => [
+        'official' => 'Liechtensteini Hercegség',
+        'common' => 'Liechtenstein',
       ],
       'ita' => [
         'official' => 'Principato del Liechtenstein',
@@ -19287,8 +20875,20 @@ class CountriesDataSource
         'official' => 'リヒテンシュタイン公国',
         'common' => 'リヒテンシュタイン',
       ],
+      'kor' => [
+        'official' => '리히텐슈타인 공국',
+        'common' => '리히텐슈타인',
+      ],
       'nld' => [
         'official' => 'Vorstendom Liechtenstein',
+        'common' => 'Liechtenstein',
+      ],
+      'per' => [
+        'official' => 'شاهزاده‌نشین لیختن‌اشتاین',
+        'common' => 'لیختن‌اشتاین',
+      ],
+      'pol' => [
+        'official' => 'Księstwo Liechtensteinu',
         'common' => 'Liechtenstein',
       ],
       'por' => [
@@ -19307,33 +20907,17 @@ class CountriesDataSource
         'official' => 'Principado de Liechtenstein',
         'common' => 'Liechtenstein',
       ],
-      'fin' => [
-        'official' => 'Liechensteinin ruhtinaskunta',
-        'common' => 'Liechenstein',
-      ],
-      'est' => [
-        'official' => 'Liechtensteini Vürstiriik',
-        'common' => 'Liechtenstein',
-      ],
-      'zho' => [
-        'official' => '列支敦士登公国',
-        'common' => '列支敦士登',
-      ],
-      'pol' => [
-        'official' => 'Księstwo Liechtensteinu',
+      'swe' => [
+        'official' => 'Furstendömet Liechtenstein',
         'common' => 'Liechtenstein',
       ],
       'urd' => [
         'official' => 'امارات لیختینستائن',
         'common' => 'لیختینستائن',
       ],
-      'kor' => [
-        'official' => '리히텐슈타인 공국',
-        'common' => '리히텐슈타인',
-      ],
-      'per' => [
-        'official' => 'شاهزاده‌نشین لیختن‌اشتاین',
-        'common' => 'لیختن‌اشتاین',
+      'zho' => [
+        'official' => '列支敦士登公国',
+        'common' => '列支敦士登',
       ],
     ],
     'latlng' => [
@@ -19356,6 +20940,9 @@ class CountriesDataSource
         'f' => 'Liechtensteinoise',
         'm' => 'Liechtensteinois',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+423',
     ],
   ],
   132 => [
@@ -19384,6 +20971,7 @@ class CountriesDataSource
     'cioc' => 'SRI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'LKR' => [
         'name' => 'Sri Lankan rupee',
@@ -19419,6 +21007,14 @@ class CountriesDataSource
         'official' => 'Demokratische Sozialistische Republik Sri Lanka',
         'common' => 'Sri Lanka',
       ],
+      'est' => [
+        'official' => 'Sri Lanka Demokraatlik Sotsialistlik Vabariik',
+        'common' => 'Sri Lanka',
+      ],
+      'fin' => [
+        'official' => 'Sri Lankan demokraattinen sosialistinen tasavalta',
+        'common' => 'Sri Lanka',
+      ],
       'fra' => [
         'official' => 'République démocratique socialiste du Sri Lanka',
         'common' => 'Sri Lanka',
@@ -19426,6 +21022,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Demokratska Socijalističke Republike Šri Lanke',
         'common' => 'Šri Lanka',
+      ],
+      'hun' => [
+        'official' => 'Srí Lanka-i Demokratikus Szocialista Köztársaság',
+        'common' => 'Srí Lanka',
       ],
       'ita' => [
         'official' => 'Repubblica democratica socialista dello Sri Lanka',
@@ -19435,8 +21035,20 @@ class CountriesDataSource
         'official' => 'スリランカ民主社会主義共和国',
         'common' => 'スリランカ',
       ],
+      'kor' => [
+        'official' => '스리랑카 민주 사회주의 공화국',
+        'common' => '스리랑카',
+      ],
       'nld' => [
         'official' => 'Democratische Socialistische Republiek Sri Lanka',
+        'common' => 'Sri Lanka',
+      ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک سوسیالیستی سری‌لانکا',
+        'common' => 'سری‌لانکا',
+      ],
+      'pol' => [
+        'official' => 'Demokratyczno-Socjalistyczna Republika Sri Lanki',
         'common' => 'Sri Lanka',
       ],
       'por' => [
@@ -19455,33 +21067,17 @@ class CountriesDataSource
         'official' => 'República Democrática Socialista de Sri Lanka',
         'common' => 'Sri Lanka',
       ],
-      'fin' => [
-        'official' => 'Sri Lankan demokraattinen sosialistinen tasavalta',
-        'common' => 'Sri Lanka',
-      ],
-      'est' => [
-        'official' => 'Sri Lanka Demokraatlik Sotsialistlik Vabariik',
-        'common' => 'Sri Lanka',
-      ],
-      'zho' => [
-        'official' => '斯里兰卡民主社会主义共和国',
-        'common' => '斯里兰卡',
-      ],
-      'pol' => [
-        'official' => 'Demokratyczno-Socjalistyczna Republika Sri Lanki',
+      'swe' => [
+        'official' => 'Demokratiska socialistiska republiken Sri Lanka',
         'common' => 'Sri Lanka',
       ],
       'urd' => [
         'official' => 'جمہوری و اشتراکی جمہوریہ سری لنکا',
         'common' => 'سری لنکا',
       ],
-      'kor' => [
-        'official' => '스리랑카 민주 사회주의 공화국',
-        'common' => '스리랑카',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک سوسیالیستی سری‌لانکا',
-        'common' => 'سری‌لانکا',
+      'zho' => [
+        'official' => '斯里兰卡民主社会主义共和国',
+        'common' => '斯里兰卡',
       ],
     ],
     'latlng' => [
@@ -19503,6 +21099,9 @@ class CountriesDataSource
         'f' => 'Sri-lankaise',
         'm' => 'Sri-lankais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+94',
     ],
   ],
   133 => [
@@ -19529,6 +21128,7 @@ class CountriesDataSource
     'cioc' => 'LES',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'LSL' => [
         'name' => 'Lesotho loti',
@@ -19568,6 +21168,14 @@ class CountriesDataSource
         'official' => 'Königreich Lesotho',
         'common' => 'Lesotho',
       ],
+      'est' => [
+        'official' => 'Lesotho Kuningriik',
+        'common' => 'Lesotho',
+      ],
+      'fin' => [
+        'official' => 'Lesothon kuningaskunta',
+        'common' => 'Lesotho',
+      ],
       'fra' => [
         'official' => 'Royaume du Lesotho',
         'common' => 'Lesotho',
@@ -19575,6 +21183,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Lesoto',
         'common' => 'Lesoto',
+      ],
+      'hun' => [
+        'official' => 'Lesothói Királyság',
+        'common' => 'Lesotho',
       ],
       'ita' => [
         'official' => 'Regno del Lesotho',
@@ -19584,8 +21196,20 @@ class CountriesDataSource
         'official' => 'レソト王国',
         'common' => 'レソト',
       ],
+      'kor' => [
+        'official' => '레소토 왕국',
+        'common' => '레소토',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Lesotho',
+        'common' => 'Lesotho',
+      ],
+      'per' => [
+        'official' => 'پادشاهی لسوتو',
+        'common' => 'لسوتو',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Lesotho',
         'common' => 'Lesotho',
       ],
       'por' => [
@@ -19604,33 +21228,17 @@ class CountriesDataSource
         'official' => 'Reino de Lesotho',
         'common' => 'Lesotho',
       ],
-      'fin' => [
-        'official' => 'Lesothon kuningaskunta',
-        'common' => 'Lesotho',
-      ],
-      'est' => [
-        'official' => 'Lesotho Kuningriik',
-        'common' => 'Lesotho',
-      ],
-      'zho' => [
-        'official' => '莱索托王国',
-        'common' => '莱索托',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Lesotho',
+      'swe' => [
+        'official' => 'Konungariket Lesotho',
         'common' => 'Lesotho',
       ],
       'urd' => [
         'official' => 'مملکتِ لیسوتھو',
         'common' => 'لیسوتھو',
       ],
-      'kor' => [
-        'official' => '레소토 왕국',
-        'common' => '레소토',
-      ],
-      'per' => [
-        'official' => 'پادشاهی لسوتو',
-        'common' => 'لسوتو',
+      'zho' => [
+        'official' => '莱索托王国',
+        'common' => '莱索托',
       ],
     ],
     'latlng' => [
@@ -19653,6 +21261,9 @@ class CountriesDataSource
         'm' => 'Lésothien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+266',
+    ],
   ],
   134 => [
     'name' => [
@@ -19674,6 +21285,7 @@ class CountriesDataSource
     'cioc' => 'LTU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -19708,6 +21320,14 @@ class CountriesDataSource
         'official' => 'Republik Litauen',
         'common' => 'Litauen',
       ],
+      'est' => [
+        'official' => 'Leedu Vabariik',
+        'common' => 'Leedu',
+      ],
+      'fin' => [
+        'official' => 'Liettuan tasavalta',
+        'common' => 'Liettua',
+      ],
       'fra' => [
         'official' => 'République de Lituanie',
         'common' => 'Lituanie',
@@ -19715,6 +21335,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Litva',
         'common' => 'Litva',
+      ],
+      'hun' => [
+        'official' => 'Litván Köztársaság',
+        'common' => 'Litvánia',
       ],
       'ita' => [
         'official' => 'Repubblica di Lituania',
@@ -19724,9 +21348,21 @@ class CountriesDataSource
         'official' => 'リトアニア共和国',
         'common' => 'リトアニア',
       ],
+      'kor' => [
+        'official' => '리투아니아 공화국',
+        'common' => '리투아니아',
+      ],
       'nld' => [
         'official' => 'Republiek Litouwen',
         'common' => 'Litouwen',
+      ],
+      'per' => [
+        'official' => 'لیتوانیایی‌ها',
+        'common' => 'لیتوانیایی‌ها',
+      ],
+      'pol' => [
+        'official' => 'Republika Litewska',
+        'common' => 'Litwa',
       ],
       'por' => [
         'official' => 'República da Lituânia',
@@ -19744,33 +21380,17 @@ class CountriesDataSource
         'official' => 'República de Lituania',
         'common' => 'Lituania',
       ],
-      'fin' => [
-        'official' => 'Liettuan tasavalta',
-        'common' => 'Liettua',
-      ],
-      'est' => [
-        'official' => 'Leedu Vabariik',
-        'common' => 'Leedu',
-      ],
-      'zho' => [
-        'official' => '立陶宛共和国',
-        'common' => '立陶宛',
-      ],
-      'pol' => [
-        'official' => 'Republika Litewska',
-        'common' => 'Litwa',
+      'swe' => [
+        'official' => 'Republiken Litauen',
+        'common' => 'Litauen',
       ],
       'urd' => [
         'official' => 'جمہوریہ لتھووینیا',
         'common' => 'لتھووینیا',
       ],
-      'kor' => [
-        'official' => '리투아니아 공화국',
-        'common' => '리투아니아',
-      ],
-      'per' => [
-        'official' => 'لیتوانیایی‌ها',
-        'common' => 'لیتوانیایی‌ها',
+      'zho' => [
+        'official' => '立陶宛共和国',
+        'common' => '立陶宛',
       ],
     ],
     'latlng' => [
@@ -19795,6 +21415,9 @@ class CountriesDataSource
         'f' => 'Lituanienne',
         'm' => 'Lituanien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+370',
     ],
   ],
   135 => [
@@ -19825,6 +21448,7 @@ class CountriesDataSource
     'cioc' => 'LUX',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -19863,6 +21487,14 @@ class CountriesDataSource
         'official' => 'Großherzogtum Luxemburg,',
         'common' => 'Luxemburg',
       ],
+      'est' => [
+        'official' => 'Luksemburgi Suurhertsogiriik',
+        'common' => 'Luksemburg',
+      ],
+      'fin' => [
+        'official' => 'Luxemburgin suurherttuakunta',
+        'common' => 'Luxemburg',
+      ],
       'fra' => [
         'official' => 'Grand-Duché de Luxembourg',
         'common' => 'Luxembourg',
@@ -19870,6 +21502,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Veliko Vojvodstvo Luksemburg',
         'common' => 'Luksemburg',
+      ],
+      'hun' => [
+        'official' => 'Luxemburgi Nagyhercegség',
+        'common' => 'Luxemburg',
       ],
       'ita' => [
         'official' => 'Granducato di Lussemburgo',
@@ -19879,9 +21515,21 @@ class CountriesDataSource
         'official' => 'ルクセンブルク大公国',
         'common' => 'ルクセンブルク',
       ],
+      'kor' => [
+        'official' => '룩셈부르크 대공국',
+        'common' => '룩셈부르크',
+      ],
       'nld' => [
         'official' => 'Groothertogdom Luxemburg',
         'common' => 'Luxemburg',
+      ],
+      'per' => [
+        'official' => 'دوک‌نشین لوکزامبورگ',
+        'common' => 'لوکزامبورگ',
+      ],
+      'pol' => [
+        'official' => 'Wielkie Księstwo Luksemburga',
+        'common' => 'Luksemburg',
       ],
       'por' => [
         'official' => 'Grão-Ducado do Luxemburgo',
@@ -19899,33 +21547,17 @@ class CountriesDataSource
         'official' => 'Gran Ducado de Luxemburgo',
         'common' => 'Luxemburgo',
       ],
-      'fin' => [
-        'official' => 'Luxemburgin suurherttuakunta',
+      'swe' => [
+        'official' => 'Storhertigdömet Luxemburg',
         'common' => 'Luxemburg',
-      ],
-      'est' => [
-        'official' => 'Luksemburgi Suurhertsogiriik',
-        'common' => 'Luksemburg',
-      ],
-      'zho' => [
-        'official' => '卢森堡大公国',
-        'common' => '卢森堡',
-      ],
-      'pol' => [
-        'official' => 'Wielkie Księstwo Luksemburga',
-        'common' => 'Luksemburg',
       ],
       'urd' => [
         'official' => 'دوقیہ کبیرلکسمبرگ',
         'common' => 'لکسمبرگ',
       ],
-      'kor' => [
-        'official' => '룩셈부르크 대공국',
-        'common' => '룩셈부르크',
-      ],
-      'per' => [
-        'official' => 'دوک‌نشین لوکزامبورگ',
-        'common' => 'لوکزامبورگ',
+      'zho' => [
+        'official' => '卢森堡大公国',
+        'common' => '卢森堡',
       ],
     ],
     'latlng' => [
@@ -19950,6 +21582,9 @@ class CountriesDataSource
         'm' => 'Luxembourgeois',
       ],
     ],
+    'callingCodes' => [
+      0 => '+352',
+    ],
   ],
   136 => [
     'name' => [
@@ -19971,6 +21606,7 @@ class CountriesDataSource
     'cioc' => 'LAT',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -20005,6 +21641,14 @@ class CountriesDataSource
         'official' => 'Republik Lettland',
         'common' => 'Lettland',
       ],
+      'est' => [
+        'official' => 'Läti Vabariik',
+        'common' => 'Läti',
+      ],
+      'fin' => [
+        'official' => 'Latvian tasavalta',
+        'common' => 'Latvia',
+      ],
       'fra' => [
         'official' => 'République de Lettonie',
         'common' => 'Lettonie',
@@ -20012,6 +21656,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Latvija',
         'common' => 'Latvija',
+      ],
+      'hun' => [
+        'official' => 'Lett Köztársaság',
+        'common' => 'Lettország',
       ],
       'ita' => [
         'official' => 'Repubblica di Lettonia',
@@ -20021,9 +21669,21 @@ class CountriesDataSource
         'official' => 'ラトビア共和国',
         'common' => 'ラトビア',
       ],
+      'kor' => [
+        'official' => '라트비아 공화국',
+        'common' => '라트비아',
+      ],
       'nld' => [
         'official' => 'Republiek Letland',
         'common' => 'Letland',
+      ],
+      'per' => [
+        'official' => 'جمهوری لتونی',
+        'common' => 'لتونی',
+      ],
+      'pol' => [
+        'official' => 'Republika Łotewska',
+        'common' => 'Łotwa',
       ],
       'por' => [
         'official' => 'República da Letónia',
@@ -20041,33 +21701,17 @@ class CountriesDataSource
         'official' => 'República de Letonia',
         'common' => 'Letonia',
       ],
-      'fin' => [
-        'official' => 'Latvian tasavalta',
-        'common' => 'Latvia',
-      ],
-      'est' => [
-        'official' => 'Läti Vabariik',
-        'common' => 'Läti',
-      ],
-      'zho' => [
-        'official' => '拉脱维亚共和国',
-        'common' => '拉脱维亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Łotewska',
-        'common' => 'Łotwa',
+      'swe' => [
+        'official' => 'Republiken Lettland',
+        'common' => 'Lettland',
       ],
       'urd' => [
         'official' => 'جمہوریہ لٹویا',
         'common' => 'لٹویا',
       ],
-      'kor' => [
-        'official' => '라트비아 공화국',
-        'common' => '라트비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری لتونی',
-        'common' => 'لتونی',
+      'zho' => [
+        'official' => '拉脱维亚共和国',
+        'common' => '拉脱维亚',
       ],
     ],
     'latlng' => [
@@ -20092,6 +21736,9 @@ class CountriesDataSource
         'f' => 'Lettone',
         'm' => 'Letton',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+371',
     ],
   ],
   137 => [
@@ -20118,6 +21765,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'MOP' => [
         'name' => 'Macanese pataca',
@@ -20156,6 +21804,14 @@ class CountriesDataSource
         'official' => 'Sonderverwaltungsregion Macau der Volksrepublik China',
         'common' => 'Macao',
       ],
+      'est' => [
+        'official' => 'Macau erihalduspiirkond',
+        'common' => 'Macau',
+      ],
+      'fin' => [
+        'official' => 'Macaon Kiinan kansantasavallan erityishallintoalue',
+        'common' => 'Macao',
+      ],
       'fra' => [
         'official' => 'Région administrative spéciale de Macao de la République populaire de Chine',
         'common' => 'Macao',
@@ -20163,6 +21819,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Makao Posebnog upravnog područjaNarodne Republike Kine',
         'common' => 'Makao',
+      ],
+      'hun' => [
+        'official' => 'Makaó',
+        'common' => 'Makaó',
       ],
       'ita' => [
         'official' => 'Macao Regione amministrativa speciale della Repubblica Popolare Cinese',
@@ -20172,9 +21832,21 @@ class CountriesDataSource
         'official' => '中華人民共和国マカオ特別行政区',
         'common' => 'マカオ',
       ],
+      'kor' => [
+        'official' => '중화인민공화국 마카오 특별행정구',
+        'common' => '마카오',
+      ],
       'nld' => [
         'official' => 'Speciale Administratieve Regio Macau van de Volksrepubliek China',
         'common' => 'Macao',
+      ],
+      'per' => [
+        'official' => 'ماکائو',
+        'common' => 'ماکائو',
+      ],
+      'pol' => [
+        'official' => 'Specjalny Region Administracyjny Chińskiej Republiki Ludowej Makau',
+        'common' => 'Makau',
       ],
       'por' => [
         'official' => 'Macau Região Administrativa Especial da República Popular da China',
@@ -20192,29 +21864,13 @@ class CountriesDataSource
         'official' => 'Macao, Región Administrativa Especial de la República Popular China',
         'common' => 'Macao',
       ],
-      'fin' => [
-        'official' => 'Macaon Kiinan kansantasavallan erityishallintoalue',
+      'swe' => [
+        'official' => 'Macao',
         'common' => 'Macao',
-      ],
-      'est' => [
-        'official' => 'Macau erihalduspiirkond',
-        'common' => 'Macau',
-      ],
-      'pol' => [
-        'official' => 'Specjalny Region Administracyjny Chińskiej Republiki Ludowej Makau',
-        'common' => 'Makau',
       ],
       'urd' => [
         'official' => 'مکاؤ عوامی جمہوریہ چین کا خصوصی انتظامی علاقہ',
         'common' => 'مکاؤ',
-      ],
-      'kor' => [
-        'official' => '중화인민공화국 마카오 특별행정구',
-        'common' => '마카오',
-      ],
-      'per' => [
-        'official' => 'ماکائو',
-        'common' => 'ماکائو',
       ],
     ],
     'latlng' => [
@@ -20236,6 +21892,9 @@ class CountriesDataSource
         'f' => 'Macanaise',
         'm' => 'Macanais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+853',
     ],
   ],
   138 => [
@@ -20259,6 +21918,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -20294,6 +21954,14 @@ class CountriesDataSource
         'official' => 'Saint-Martin',
         'common' => 'Saint-Martin',
       ],
+      'est' => [
+        'official' => 'Saint-Martini ühendus',
+        'common' => 'Saint-Martin',
+      ],
+      'fin' => [
+        'official' => 'Saint-Martin',
+        'common' => 'Saint-Martin',
+      ],
       'fra' => [
         'official' => 'Saint-Martin',
         'common' => 'Saint-Martin',
@@ -20301,6 +21969,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Saint Martin',
         'common' => 'Sveti Martin',
+      ],
+      'hun' => [
+        'official' => 'Saint-Martin Közösség',
+        'common' => 'Saint-Martin',
       ],
       'ita' => [
         'official' => 'saint Martin',
@@ -20310,8 +21982,20 @@ class CountriesDataSource
         'official' => 'サンマルタン島',
         'common' => 'サン・マルタン（フランス領）',
       ],
+      'kor' => [
+        'official' => '생마르탱',
+        'common' => '생마르탱',
+      ],
       'nld' => [
         'official' => 'Saint Martin',
+        'common' => 'Saint-Martin',
+      ],
+      'per' => [
+        'official' => 'سن مارتن',
+        'common' => 'سن مارتن',
+      ],
+      'pol' => [
+        'official' => 'Wspólnota Saint-Martin',
         'common' => 'Saint-Martin',
       ],
       'por' => [
@@ -20330,33 +22014,17 @@ class CountriesDataSource
         'official' => 'Saint Martin',
         'common' => 'Saint Martin',
       ],
-      'fin' => [
-        'official' => 'Saint-Martin',
-        'common' => 'Saint-Martin',
-      ],
-      'est' => [
-        'official' => 'Saint-Martini ühendus',
-        'common' => 'Saint-Martin',
-      ],
-      'zho' => [
-        'official' => '圣马丁',
-        'common' => '圣马丁',
-      ],
-      'pol' => [
-        'official' => 'Wspólnota Saint-Martin',
+      'swe' => [
+        'official' => 'Förvaltningsområdet Saint-Martin',
         'common' => 'Saint-Martin',
       ],
       'urd' => [
         'official' => 'سینٹ مارٹن',
         'common' => 'سینٹ مارٹن',
       ],
-      'kor' => [
-        'official' => '생마르탱',
-        'common' => '생마르탱',
-      ],
-      'per' => [
-        'official' => 'سن مارتن',
-        'common' => 'سن مارتن',
+      'zho' => [
+        'official' => '圣马丁',
+        'common' => '圣马丁',
       ],
     ],
     'latlng' => [
@@ -20378,6 +22046,9 @@ class CountriesDataSource
         'f' => 'Saint-Martinoise',
         'm' => 'Saint-Martinois',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+590',
     ],
   ],
   139 => [
@@ -20405,6 +22076,7 @@ class CountriesDataSource
     'cioc' => 'MAR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MAD' => [
         'name' => 'Moroccan dirham',
@@ -20440,6 +22112,14 @@ class CountriesDataSource
         'official' => 'Königreich Marokko',
         'common' => 'Marokko',
       ],
+      'est' => [
+        'official' => 'Maroko Kuningriik',
+        'common' => 'Maroko',
+      ],
+      'fin' => [
+        'official' => 'Marokon kuningaskunta',
+        'common' => 'Marokko',
+      ],
       'fra' => [
         'official' => 'Royaume du Maroc',
         'common' => 'Maroc',
@@ -20447,6 +22127,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Maroko',
         'common' => 'Maroko',
+      ],
+      'hun' => [
+        'official' => 'Marokkói Királyság',
+        'common' => 'Marokkó',
       ],
       'ita' => [
         'official' => 'Regno del Marocco',
@@ -20456,9 +22140,21 @@ class CountriesDataSource
         'official' => 'モロッコ王国',
         'common' => 'モロッコ',
       ],
+      'kor' => [
+        'official' => '모로코 왕국',
+        'common' => '모로코',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Marokko',
         'common' => 'Marokko',
+      ],
+      'per' => [
+        'official' => 'پادشاهی مراکش',
+        'common' => 'مراکش',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Marokańskie',
+        'common' => 'Maroko',
       ],
       'por' => [
         'official' => 'Reino de Marrocos',
@@ -20476,33 +22172,17 @@ class CountriesDataSource
         'official' => 'Reino de Marruecos',
         'common' => 'Marruecos',
       ],
-      'fin' => [
-        'official' => 'Marokon kuningaskunta',
-        'common' => 'Marokko',
-      ],
-      'est' => [
-        'official' => 'Maroko Kuningriik',
-        'common' => 'Maroko',
-      ],
-      'zho' => [
-        'official' => '摩洛哥王国',
-        'common' => '摩洛哥',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Marokańskie',
-        'common' => 'Maroko',
+      'swe' => [
+        'official' => 'Konungariket Marocko',
+        'common' => 'Marocko',
       ],
       'urd' => [
         'official' => 'مملکتِ مراکش',
         'common' => 'مراکش',
       ],
-      'kor' => [
-        'official' => '모로코 왕국',
-        'common' => '모로코',
-      ],
-      'per' => [
-        'official' => 'پادشاهی مراکش',
-        'common' => 'مراکش',
+      'zho' => [
+        'official' => '摩洛哥王国',
+        'common' => '摩洛哥',
       ],
     ],
     'latlng' => [
@@ -20527,6 +22207,9 @@ class CountriesDataSource
         'm' => 'Marocain',
       ],
     ],
+    'callingCodes' => [
+      0 => '+212',
+    ],
   ],
   140 => [
     'name' => [
@@ -20548,6 +22231,7 @@ class CountriesDataSource
     'cioc' => 'MON',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -20582,6 +22266,14 @@ class CountriesDataSource
         'official' => 'Fürstentum Monaco',
         'common' => 'Monaco',
       ],
+      'est' => [
+        'official' => 'Monaco Vürstiriik',
+        'common' => 'Monaco',
+      ],
+      'fin' => [
+        'official' => 'Monacon ruhtinaskunta',
+        'common' => 'Monaco',
+      ],
       'fra' => [
         'official' => 'Principauté de Monaco',
         'common' => 'Monaco',
@@ -20589,6 +22281,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kneževina Monako',
         'common' => 'Monako',
+      ],
+      'hun' => [
+        'official' => 'Monacói Hercegség',
+        'common' => 'Monaco',
       ],
       'ita' => [
         'official' => 'Principato di Monaco',
@@ -20598,9 +22294,21 @@ class CountriesDataSource
         'official' => 'モナコ公国',
         'common' => 'モナコ',
       ],
+      'kor' => [
+        'official' => '모나코 공국',
+        'common' => '모나코',
+      ],
       'nld' => [
         'official' => 'Vorstendom Monaco',
         'common' => 'Monaco',
+      ],
+      'per' => [
+        'official' => 'شاهزاده‌نشین موناکو',
+        'common' => 'موناکو',
+      ],
+      'pol' => [
+        'official' => 'Księstwo Monako',
+        'common' => 'Monako',
       ],
       'por' => [
         'official' => 'Principado do Mónaco',
@@ -20618,33 +22326,17 @@ class CountriesDataSource
         'official' => 'Principado de Mónaco',
         'common' => 'Mónaco',
       ],
-      'fin' => [
-        'official' => 'Monacon ruhtinaskunta',
+      'swe' => [
+        'official' => 'Furstendömet Monaco',
         'common' => 'Monaco',
-      ],
-      'est' => [
-        'official' => 'Monaco Vürstiriik',
-        'common' => 'Monaco',
-      ],
-      'zho' => [
-        'official' => '摩纳哥公国',
-        'common' => '摩纳哥',
-      ],
-      'pol' => [
-        'official' => 'Księstwo Monako',
-        'common' => 'Monako',
       ],
       'urd' => [
         'official' => 'جمہوریہ مناکو',
         'common' => 'موناکو',
       ],
-      'kor' => [
-        'official' => '모나코 공국',
-        'common' => '모나코',
-      ],
-      'per' => [
-        'official' => 'شاهزاده‌نشین موناکو',
-        'common' => 'موناکو',
+      'zho' => [
+        'official' => '摩纳哥公国',
+        'common' => '摩纳哥',
       ],
     ],
     'latlng' => [
@@ -20667,6 +22359,9 @@ class CountriesDataSource
         'm' => 'Monégasque',
       ],
     ],
+    'callingCodes' => [
+      0 => '+377',
+    ],
   ],
   141 => [
     'name' => [
@@ -20688,6 +22383,7 @@ class CountriesDataSource
     'cioc' => 'MDA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MDL' => [
         'name' => 'Moldovan leu',
@@ -20723,12 +22419,24 @@ class CountriesDataSource
         'official' => 'Republik Moldau',
         'common' => 'Moldawien',
       ],
+      'est' => [
+        'official' => 'Moldova Vabariik',
+        'common' => 'Moldova',
+      ],
+      'fin' => [
+        'official' => 'Moldovan tasavalta',
+        'common' => 'Moldova',
+      ],
       'fra' => [
         'official' => 'République de Moldavie',
         'common' => 'Moldavie',
       ],
       'hrv' => [
         'official' => 'Moldavija',
+        'common' => 'Moldova',
+      ],
+      'hun' => [
+        'official' => 'Moldovai Köztársaság',
         'common' => 'Moldova',
       ],
       'ita' => [
@@ -20739,9 +22447,21 @@ class CountriesDataSource
         'official' => 'モルドバ共和国',
         'common' => 'モルドバ共和国',
       ],
+      'kor' => [
+        'official' => '몰도바 공화국',
+        'common' => '몰도바',
+      ],
       'nld' => [
         'official' => 'Republiek Moldavië',
         'common' => 'Moldavië',
+      ],
+      'per' => [
+        'official' => 'جمهوری مولداوی',
+        'common' => 'مولداوی',
+      ],
+      'pol' => [
+        'official' => 'Republika Mołdawii',
+        'common' => 'Mołdawia',
       ],
       'por' => [
         'official' => 'República da Moldávia',
@@ -20759,33 +22479,17 @@ class CountriesDataSource
         'official' => 'República de Moldova',
         'common' => 'Moldavia',
       ],
-      'fin' => [
-        'official' => 'Moldovan tasavalta',
-        'common' => 'Moldova',
-      ],
-      'est' => [
-        'official' => 'Moldova Vabariik',
-        'common' => 'Moldova',
-      ],
-      'zho' => [
-        'official' => '摩尔多瓦共和国',
-        'common' => '摩尔多瓦',
-      ],
-      'pol' => [
-        'official' => 'Republika Mołdawii',
-        'common' => 'Mołdawia',
+      'swe' => [
+        'official' => 'Republiken Moldavien',
+        'common' => 'Moldavien',
       ],
       'urd' => [
         'official' => 'جمہوریہ مالدووا',
         'common' => 'مالدووا',
       ],
-      'kor' => [
-        'official' => '몰도바 공화국',
-        'common' => '몰도바',
-      ],
-      'per' => [
-        'official' => 'جمهوری مولداوی',
-        'common' => 'مولداوی',
+      'zho' => [
+        'official' => '摩尔多瓦共和国',
+        'common' => '摩尔多瓦',
       ],
     ],
     'latlng' => [
@@ -20808,6 +22512,9 @@ class CountriesDataSource
         'f' => 'Moldave',
         'm' => 'Moldave',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+373',
     ],
   ],
   142 => [
@@ -20834,6 +22541,7 @@ class CountriesDataSource
     'cioc' => 'MAD',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MGA' => [
         'name' => 'Malagasy ariary',
@@ -20870,6 +22578,14 @@ class CountriesDataSource
         'official' => 'Republik Madagaskar',
         'common' => 'Madagaskar',
       ],
+      'est' => [
+        'official' => 'Madagaskari Vabariik',
+        'common' => 'Madagaskar',
+      ],
+      'fin' => [
+        'official' => 'Madagaskarin tasavalta',
+        'common' => 'Madagaskar',
+      ],
       'fra' => [
         'official' => 'République de Madagascar',
         'common' => 'Madagascar',
@@ -20877,6 +22593,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Madagaskar',
         'common' => 'Madagaskar',
+      ],
+      'hun' => [
+        'official' => 'Madagaszkári Köztársaság',
+        'common' => 'Madagaszkár',
       ],
       'ita' => [
         'official' => 'Repubblica del Madagascar',
@@ -20886,8 +22606,20 @@ class CountriesDataSource
         'official' => 'マダガスカル共和国',
         'common' => 'マダガスカル',
       ],
+      'kor' => [
+        'official' => '마다가스카르 공화국',
+        'common' => '마다가스카르',
+      ],
       'nld' => [
         'official' => 'Republiek Madagaskar',
+        'common' => 'Madagaskar',
+      ],
+      'per' => [
+        'official' => 'جمهوری ماداگاسکار',
+        'common' => 'ماداگاسکار',
+      ],
+      'pol' => [
+        'official' => 'Republika Madagaskaru',
         'common' => 'Madagaskar',
       ],
       'por' => [
@@ -20906,33 +22638,17 @@ class CountriesDataSource
         'official' => 'República de Madagascar',
         'common' => 'Madagascar',
       ],
-      'fin' => [
-        'official' => 'Madagaskarin tasavalta',
-        'common' => 'Madagaskar',
-      ],
-      'est' => [
-        'official' => 'Madagaskari Vabariik',
-        'common' => 'Madagaskar',
-      ],
-      'zho' => [
-        'official' => '马达加斯加共和国',
-        'common' => '马达加斯加',
-      ],
-      'pol' => [
-        'official' => 'Republika Madagaskaru',
+      'swe' => [
+        'official' => 'Republiken Madagaskar',
         'common' => 'Madagaskar',
       ],
       'urd' => [
         'official' => 'جمہوریہ مڈغاسکر',
         'common' => 'مڈغاسکر',
       ],
-      'kor' => [
-        'official' => '마다가스카르 공화국',
-        'common' => '마다가스카르',
-      ],
-      'per' => [
-        'official' => 'جمهوری ماداگاسکار',
-        'common' => 'ماداگاسکار',
+      'zho' => [
+        'official' => '马达加斯加共和国',
+        'common' => '马达加斯加',
       ],
     ],
     'latlng' => [
@@ -20953,6 +22669,9 @@ class CountriesDataSource
         'f' => 'Malgache',
         'm' => 'Malgache',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+261',
     ],
   ],
   143 => [
@@ -20975,6 +22694,7 @@ class CountriesDataSource
     'cioc' => 'MDV',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MVR' => [
         'name' => 'Maldivian rufiyaa',
@@ -21010,6 +22730,14 @@ class CountriesDataSource
         'official' => 'Republik Malediven',
         'common' => 'Malediven',
       ],
+      'est' => [
+        'official' => 'Maldiivi Vabariik',
+        'common' => 'Maldiivid',
+      ],
+      'fin' => [
+        'official' => 'Malediivien tasavalta',
+        'common' => 'Malediivit',
+      ],
       'fra' => [
         'official' => 'République des Maldives',
         'common' => 'Maldives',
@@ -21017,6 +22745,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Maldivi',
         'common' => 'Maldivi',
+      ],
+      'hun' => [
+        'official' => 'Maldív-szigetek',
+        'common' => 'Maldív-szigetek',
       ],
       'ita' => [
         'official' => 'Repubblica delle Maldive',
@@ -21026,16 +22758,24 @@ class CountriesDataSource
         'official' => 'モルディブ共和国',
         'common' => 'モルディブ',
       ],
+      'kor' => [
+        'official' => '몰디브 공화국',
+        'common' => '몰디브',
+      ],
       'nld' => [
         'official' => 'Republiek van de Malediven',
         'common' => 'Maldiven',
       ],
+      'per' => [
+        'official' => 'جمهوری مالدیو',
+        'common' => 'مالدیو',
+      ],
+      'pol' => [
+        'official' => 'Republika Malediwów',
+        'common' => 'Malediwy',
+      ],
       'por' => [
         'official' => 'República das Maldivas',
-        'common' => 'Maldivas',
-      ],
-      'spa' => [
-        'official' => 'República de las Maldivas',
         'common' => 'Maldivas',
       ],
       'rus' => [
@@ -21046,33 +22786,21 @@ class CountriesDataSource
         'official' => 'Maldivská republika',
         'common' => 'Maldivy',
       ],
-      'fin' => [
-        'official' => 'Malediivien tasavalta',
-        'common' => 'Malediivit',
+      'spa' => [
+        'official' => 'República de las Maldivas',
+        'common' => 'Maldivas',
       ],
-      'est' => [
-        'official' => 'Maldiivi Vabariik',
-        'common' => 'Maldiivid',
-      ],
-      'zho' => [
-        'official' => '马尔代夫共和国',
-        'common' => '马尔代夫',
-      ],
-      'pol' => [
-        'official' => 'Republika Malediwów',
-        'common' => 'Malediwy',
+      'swe' => [
+        'official' => 'Republiken Maldiverna',
+        'common' => 'Maldiverna',
       ],
       'urd' => [
         'official' => 'جمہوریہ مالدیپ',
         'common' => 'مالدیپ',
       ],
-      'kor' => [
-        'official' => '몰디브 공화국',
-        'common' => '몰디브',
-      ],
-      'per' => [
-        'official' => 'جمهوری مالدیو',
-        'common' => 'مالدیو',
+      'zho' => [
+        'official' => '马尔代夫共和国',
+        'common' => '马尔代夫',
       ],
     ],
     'latlng' => [
@@ -21093,6 +22821,9 @@ class CountriesDataSource
         'f' => 'Maldivienne',
         'm' => 'Maldivien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+960',
     ],
   ],
   144 => [
@@ -21115,6 +22846,7 @@ class CountriesDataSource
     'cioc' => 'MEX',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MXN' => [
         'name' => 'Mexican peso',
@@ -21150,6 +22882,14 @@ class CountriesDataSource
         'official' => 'Vereinigte Mexikanische Staaten',
         'common' => 'Mexiko',
       ],
+      'est' => [
+        'official' => 'Mehhiko Ühendriigid',
+        'common' => 'Mehhiko',
+      ],
+      'fin' => [
+        'official' => 'Meksikon yhdysvallat',
+        'common' => 'Meksiko',
+      ],
       'fra' => [
         'official' => 'États-Unis du Mexique',
         'common' => 'Mexique',
@@ -21157,6 +22897,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sjedinjene Meksičke Države',
         'common' => 'Meksiko',
+      ],
+      'hun' => [
+        'official' => 'Mexikói Egyesült Államok',
+        'common' => 'Mexikó',
       ],
       'ita' => [
         'official' => 'Stati Uniti del Messico',
@@ -21166,9 +22910,21 @@ class CountriesDataSource
         'official' => 'メキシコ合衆国',
         'common' => 'メキシコ',
       ],
+      'kor' => [
+        'official' => '멕시코 합중국',
+        'common' => '멕시코',
+      ],
       'nld' => [
         'official' => 'Verenigde Mexicaanse Staten',
         'common' => 'Mexico',
+      ],
+      'per' => [
+        'official' => 'ایالات متحد مکزیک',
+        'common' => 'مکزیک',
+      ],
+      'pol' => [
+        'official' => 'Meksykańskie Stany Zjednoczone',
+        'common' => 'Meksyk',
       ],
       'por' => [
         'official' => 'Estados Unidos Mexicanos',
@@ -21186,33 +22942,17 @@ class CountriesDataSource
         'official' => 'Estados Unidos Mexicanos',
         'common' => 'México',
       ],
-      'fin' => [
-        'official' => 'Meksikon yhdysvallat',
-        'common' => 'Meksiko',
-      ],
-      'est' => [
-        'official' => 'Mehhiko Ühendriigid',
-        'common' => 'Mehhiko',
-      ],
-      'zho' => [
-        'official' => '墨西哥合众国',
-        'common' => '墨西哥',
-      ],
-      'pol' => [
-        'official' => 'Meksykańskie Stany Zjednoczone',
-        'common' => 'Meksyk',
+      'swe' => [
+        'official' => 'Mexikos förenta stater',
+        'common' => 'Mexiko',
       ],
       'urd' => [
         'official' => 'ریاستہائے متحدہ میکسیکو',
         'common' => 'میکسیکو',
       ],
-      'kor' => [
-        'official' => '멕시코 합중국',
-        'common' => '멕시코',
-      ],
-      'per' => [
-        'official' => 'ایالات متحد مکزیک',
-        'common' => 'مکزیک',
+      'zho' => [
+        'official' => '墨西哥合众国',
+        'common' => '墨西哥',
       ],
     ],
     'latlng' => [
@@ -21236,6 +22976,9 @@ class CountriesDataSource
         'f' => 'Mexicaine',
         'm' => 'Mexicain',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+52',
     ],
   ],
   145 => [
@@ -21262,6 +23005,7 @@ class CountriesDataSource
     'cioc' => 'MHL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -21297,6 +23041,14 @@ class CountriesDataSource
         'official' => 'Republik Marshallinseln',
         'common' => 'Marshallinseln',
       ],
+      'est' => [
+        'official' => 'Marshalli Saarte Vabariik',
+        'common' => 'Marshalli Saared',
+      ],
+      'fin' => [
+        'official' => 'Marshallinsaarten tasavalta',
+        'common' => 'Marshallinsaaret',
+      ],
       'fra' => [
         'official' => 'République des Îles Marshall',
         'common' => 'Îles Marshall',
@@ -21304,6 +23056,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Maršalovi Otoci',
         'common' => 'Maršalovi Otoci',
+      ],
+      'hun' => [
+        'official' => 'Marshall-szigetek',
+        'common' => 'Marshall-szigetek',
       ],
       'ita' => [
         'official' => 'Repubblica delle Isole Marshall',
@@ -21313,9 +23069,21 @@ class CountriesDataSource
         'official' => 'マーシャル諸島共和国',
         'common' => 'マーシャル諸島',
       ],
+      'kor' => [
+        'official' => '마셜 제도 공화국',
+        'common' => '마셜 제도',
+      ],
       'nld' => [
         'official' => 'Republiek van de Marshall-eilanden',
         'common' => 'Marshalleilanden',
+      ],
+      'per' => [
+        'official' => 'جمهوری جزایر مارشال',
+        'common' => 'جزایر مارشال',
+      ],
+      'pol' => [
+        'official' => 'Republika Wysp Marshalla',
+        'common' => 'Wyspy Marshalla',
       ],
       'por' => [
         'official' => 'República das Ilhas Marshall',
@@ -21333,33 +23101,17 @@ class CountriesDataSource
         'official' => 'República de las Islas Marshall',
         'common' => 'Islas Marshall',
       ],
-      'fin' => [
-        'official' => 'Marshallinsaarten tasavalta',
-        'common' => 'Marshallinsaaret',
-      ],
-      'est' => [
-        'official' => 'Marshalli Saarte Vabariik',
-        'common' => 'Marshalli Saared',
-      ],
-      'zho' => [
-        'official' => '马绍尔群岛共和国',
-        'common' => '马绍尔群岛',
-      ],
-      'pol' => [
-        'official' => 'Republika Wysp Marshalla',
-        'common' => 'Wyspy Marshalla',
+      'swe' => [
+        'official' => 'Republiken Marshallöarna',
+        'common' => 'Marshallöarna',
       ],
       'urd' => [
         'official' => 'جمہوریہ جزائر مارشل',
         'common' => 'جزائر مارشل',
       ],
-      'kor' => [
-        'official' => '마셜 제도 공화국',
-        'common' => '마셜 제도',
-      ],
-      'per' => [
-        'official' => 'جمهوری جزایر مارشال',
-        'common' => 'جزایر مارشال',
+      'zho' => [
+        'official' => '马绍尔群岛共和国',
+        'common' => '马绍尔群岛',
       ],
     ],
     'latlng' => [
@@ -21380,6 +23132,9 @@ class CountriesDataSource
         'f' => 'Marshallaise',
         'm' => 'Marshallais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+692',
     ],
   ],
   146 => [
@@ -21402,6 +23157,7 @@ class CountriesDataSource
     'cioc' => 'MKD',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MKD' => [
         'name' => 'denar',
@@ -21425,7 +23181,7 @@ class CountriesDataSource
       4 => 'Република Северна Македонија',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'mkd' => 'Macedonian',
     ],
@@ -21438,6 +23194,14 @@ class CountriesDataSource
         'official' => 'Republik Nordmazedonien',
         'common' => 'Nordmazedonien',
       ],
+      'est' => [
+        'official' => 'Põhja-Makedoonia Vabariik',
+        'common' => 'Põhja-Makedoonia',
+      ],
+      'fin' => [
+        'official' => 'Pohjois-Makedonian tasavalta',
+        'common' => 'Pohjois-Makedonia',
+      ],
       'fra' => [
         'official' => 'République de Macédoine du Nord',
         'common' => 'Macédoine du Nord',
@@ -21445,6 +23209,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Sjeverna Makedonija',
         'common' => 'Sjeverna Makedonija',
+      ],
+      'hun' => [
+        'official' => 'Észak-macedón Köztársaság',
+        'common' => 'Észak-Macedónia',
       ],
       'ita' => [
         'official' => 'Repubblica di Macedonia del Nord',
@@ -21454,9 +23222,21 @@ class CountriesDataSource
         'official' => '北マケドニア共和国',
         'common' => '北マケドニア ',
       ],
+      'kor' => [
+        'official' => '북마케도니아 공화국',
+        'common' => '북마케도니아',
+      ],
       'nld' => [
         'official' => 'Republiek Noord-Macedonië',
         'common' => 'Noord-Macedonië',
+      ],
+      'per' => [
+        'official' => 'جمهوری مقدونیه شمالی',
+        'common' => 'مقدونیه شمالی',
+      ],
+      'pol' => [
+        'official' => 'Republika Macedonii Północnej',
+        'common' => 'Macedonia Północna',
       ],
       'por' => [
         'official' => 'República da Macedônia do Norte',
@@ -21474,33 +23254,17 @@ class CountriesDataSource
         'official' => 'República de Macedonia del Norte',
         'common' => 'Macedonia del Norte',
       ],
-      'fin' => [
-        'official' => 'Pohjois-Makedonian tasavalta',
-        'common' => 'Pohjois-Makedonia',
-      ],
-      'est' => [
-        'official' => 'Põhja-Makedoonia Vabariik',
-        'common' => 'Põhja-Makedoonia',
-      ],
-      'zho' => [
-        'official' => '北馬其頓共和國',
-        'common' => '北馬其頓',
-      ],
-      'pol' => [
-        'official' => 'Republika Macedonii Północnej',
-        'common' => 'Macedonia Północna',
+      'swe' => [
+        'official' => 'Republiken Nordmakedonien',
+        'common' => 'Nordmakedonien',
       ],
       'urd' => [
         'official' => 'جمہوریہ مقدونیہ',
         'common' => 'شمالی مقدونیہ',
       ],
-      'kor' => [
-        'official' => '북마케도니아 공화국',
-        'common' => '북마케도니아',
-      ],
-      'per' => [
-        'official' => 'جمهوری مقدونیه شمالی',
-        'common' => 'مقدونیه شمالی',
+      'zho' => [
+        'official' => '北馬其頓共和國',
+        'common' => '北馬其頓',
       ],
     ],
     'latlng' => [
@@ -21527,6 +23291,9 @@ class CountriesDataSource
         'm' => 'Macédonien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+389',
+    ],
   ],
   147 => [
     'name' => [
@@ -21548,6 +23315,7 @@ class CountriesDataSource
     'cioc' => 'MLI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -21582,12 +23350,24 @@ class CountriesDataSource
         'official' => 'Republik Mali',
         'common' => 'Mali',
       ],
+      'est' => [
+        'official' => 'Mali Vabariik',
+        'common' => 'Mali',
+      ],
+      'fin' => [
+        'official' => 'Malin tasavalta',
+        'common' => 'Mali',
+      ],
       'fra' => [
         'official' => 'République du Mali',
         'common' => 'Mali',
       ],
       'hrv' => [
         'official' => 'Republika Mali',
+        'common' => 'Mali',
+      ],
+      'hun' => [
+        'official' => 'Mali Köztársaság',
         'common' => 'Mali',
       ],
       'ita' => [
@@ -21598,8 +23378,20 @@ class CountriesDataSource
         'official' => 'マリ共和国',
         'common' => 'マリ',
       ],
+      'kor' => [
+        'official' => '말리 공화국',
+        'common' => '말리',
+      ],
       'nld' => [
         'official' => 'Republiek Mali',
+        'common' => 'Mali',
+      ],
+      'per' => [
+        'official' => 'جمهوری مالی',
+        'common' => 'مالی',
+      ],
+      'pol' => [
+        'official' => 'Republika Mali',
         'common' => 'Mali',
       ],
       'por' => [
@@ -21618,33 +23410,17 @@ class CountriesDataSource
         'official' => 'República de Malí',
         'common' => 'Mali',
       ],
-      'fin' => [
-        'official' => 'Malin tasavalta',
-        'common' => 'Mali',
-      ],
-      'est' => [
-        'official' => 'Mali Vabariik',
-        'common' => 'Mali',
-      ],
-      'zho' => [
-        'official' => '马里共和国',
-        'common' => '马里',
-      ],
-      'pol' => [
-        'official' => 'Republika Mali',
+      'swe' => [
+        'official' => 'Republiken Mali',
         'common' => 'Mali',
       ],
       'urd' => [
         'official' => 'جمہوریہ مالی',
         'common' => 'مالی',
       ],
-      'kor' => [
-        'official' => '말리 공화국',
-        'common' => '말리',
-      ],
-      'per' => [
-        'official' => 'جمهوری مالی',
-        'common' => 'مالی',
+      'zho' => [
+        'official' => '马里共和国',
+        'common' => '马里',
       ],
     ],
     'latlng' => [
@@ -21673,6 +23449,9 @@ class CountriesDataSource
         'm' => 'Malien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+223',
+    ],
   ],
   148 => [
     'name' => [
@@ -21698,6 +23477,7 @@ class CountriesDataSource
     'cioc' => 'MLT',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -21733,6 +23513,14 @@ class CountriesDataSource
         'official' => 'Republik Malta',
         'common' => 'Malta',
       ],
+      'est' => [
+        'official' => 'Malta Vabariik',
+        'common' => 'Malta',
+      ],
+      'fin' => [
+        'official' => 'Maltan tasavalta',
+        'common' => 'Malta',
+      ],
       'fra' => [
         'official' => 'République de Malte',
         'common' => 'Malte',
@@ -21740,6 +23528,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Malta',
         'common' => 'Malta',
+      ],
+      'hun' => [
+        'official' => 'Máltai Köztársaság',
+        'common' => 'Málta',
       ],
       'ita' => [
         'official' => 'Repubblica di Malta',
@@ -21749,8 +23541,20 @@ class CountriesDataSource
         'official' => 'マルタ共和国',
         'common' => 'マルタ',
       ],
+      'kor' => [
+        'official' => '몰타 공화국',
+        'common' => '몰타',
+      ],
       'nld' => [
         'official' => 'Republiek Malta',
+        'common' => 'Malta',
+      ],
+      'per' => [
+        'official' => 'جمهوری مالت',
+        'common' => 'مالت',
+      ],
+      'pol' => [
+        'official' => 'Republika Malty',
         'common' => 'Malta',
       ],
       'por' => [
@@ -21769,33 +23573,17 @@ class CountriesDataSource
         'official' => 'República de Malta',
         'common' => 'Malta',
       ],
-      'fin' => [
-        'official' => 'Maltan tasavalta',
-        'common' => 'Malta',
-      ],
-      'est' => [
-        'official' => 'Malta Vabariik',
-        'common' => 'Malta',
-      ],
-      'zho' => [
-        'official' => '马耳他共和国',
-        'common' => '马耳他',
-      ],
-      'pol' => [
-        'official' => 'Republika Malty',
+      'swe' => [
+        'official' => 'Republiken Malta',
         'common' => 'Malta',
       ],
       'urd' => [
         'official' => 'جمہوریہ مالٹا',
         'common' => 'مالٹا',
       ],
-      'kor' => [
-        'official' => '몰타 공화국',
-        'common' => '몰타',
-      ],
-      'per' => [
-        'official' => 'جمهوری مالت',
-        'common' => 'مالت',
+      'zho' => [
+        'official' => '马耳他共和国',
+        'common' => '马耳他',
       ],
     ],
     'latlng' => [
@@ -21816,6 +23604,9 @@ class CountriesDataSource
         'f' => 'Maltaise',
         'm' => 'Maltais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+356',
     ],
   ],
   149 => [
@@ -21838,6 +23629,7 @@ class CountriesDataSource
     'cioc' => 'MYA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MMK' => [
         'name' => 'Burmese kyat',
@@ -21873,6 +23665,14 @@ class CountriesDataSource
         'official' => 'Republik der Union Myanmar',
         'common' => 'Myanmar',
       ],
+      'est' => [
+        'official' => 'Myanmari Liidu Vabariik',
+        'common' => 'Myanmar',
+      ],
+      'fin' => [
+        'official' => 'Myanmarin liiton tasavalta',
+        'common' => 'Myanmar',
+      ],
       'fra' => [
         'official' => 'République de l\'Union du Myanmar',
         'common' => 'Birmanie',
@@ -21880,6 +23680,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Unije Mijanmar',
         'common' => 'Mijanmar',
+      ],
+      'hun' => [
+        'official' => 'Mianmari Államszövetség Köztársasága',
+        'common' => 'Mianmar',
       ],
       'ita' => [
         'official' => 'Repubblica dell\'Unione di Myanmar',
@@ -21889,9 +23693,21 @@ class CountriesDataSource
         'official' => 'ミャンマー連邦共和国',
         'common' => 'ミャンマー',
       ],
+      'kor' => [
+        'official' => '미얀마 연방 공화국',
+        'common' => '미얀마',
+      ],
       'nld' => [
         'official' => 'Republiek van de Unie van Myanmar',
         'common' => 'Myanmar',
+      ],
+      'per' => [
+        'official' => 'اتحادیه جمهوری میانمار',
+        'common' => 'میانمار',
+      ],
+      'pol' => [
+        'official' => 'Republika Związku Mjanmy',
+        'common' => 'Mjanma',
       ],
       'por' => [
         'official' => 'República da União de Myanmar',
@@ -21909,33 +23725,17 @@ class CountriesDataSource
         'official' => 'República de la Unión de Myanmar',
         'common' => 'Myanmar',
       ],
-      'fin' => [
-        'official' => 'Myanmarin liiton tasavalta',
+      'swe' => [
+        'official' => 'Republiken Unionen Myanmar',
         'common' => 'Myanmar',
-      ],
-      'est' => [
-        'official' => 'Myanmari Liidu Vabariik',
-        'common' => 'Myanmar',
-      ],
-      'zho' => [
-        'official' => '缅甸联邦共和国',
-        'common' => '缅甸',
-      ],
-      'pol' => [
-        'official' => 'Republika Związku Mjanmy',
-        'common' => 'Mjanma',
       ],
       'urd' => [
         'official' => 'متحدہ جمہوریہ میانمار',
         'common' => 'میانمار',
       ],
-      'kor' => [
-        'official' => '미얀마 연방 공화국',
-        'common' => '미얀마',
-      ],
-      'per' => [
-        'official' => 'اتحادیه جمهوری میانمار',
-        'common' => 'میانمار',
+      'zho' => [
+        'official' => '缅甸联邦共和国',
+        'common' => '缅甸',
       ],
     ],
     'latlng' => [
@@ -21962,13 +23762,16 @@ class CountriesDataSource
         'm' => 'Birman',
       ],
     ],
+    'callingCodes' => [
+      0 => '+95',
+    ],
   ],
   150 => [
     'name' => [
       'common' => 'Montenegro',
       'official' => 'Montenegro',
       'native' => [
-        'srp' => [
+        'cnr' => [
           'official' => 'Црна Гора',
           'common' => 'Црна Гора',
         ],
@@ -21983,6 +23786,7 @@ class CountriesDataSource
     'cioc' => 'MNE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -22003,9 +23807,9 @@ class CountriesDataSource
       1 => 'Crna Gora',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
-      'srp' => 'Montenegrin',
+      'cnr' => 'Montenegrin',
     ],
     'translations' => [
       'ces' => [
@@ -22013,6 +23817,14 @@ class CountriesDataSource
         'common' => 'Černá Hora',
       ],
       'deu' => [
+        'official' => 'Montenegro',
+        'common' => 'Montenegro',
+      ],
+      'est' => [
+        'official' => 'Montenegro',
+        'common' => 'Montenegro',
+      ],
+      'fin' => [
         'official' => 'Montenegro',
         'common' => 'Montenegro',
       ],
@@ -22024,6 +23836,10 @@ class CountriesDataSource
         'official' => 'Crna Gora',
         'common' => 'Crna Gora',
       ],
+      'hun' => [
+        'official' => 'Montenegró',
+        'common' => 'Montenegró',
+      ],
       'ita' => [
         'official' => 'Montenegro',
         'common' => 'Montenegro',
@@ -22032,9 +23848,21 @@ class CountriesDataSource
         'official' => 'モンテネグロ',
         'common' => 'モンテネグロ',
       ],
+      'kor' => [
+        'official' => '몬테네그로',
+        'common' => '몬테네그로',
+      ],
       'nld' => [
         'official' => 'Montenegro',
         'common' => 'Montenegro',
+      ],
+      'per' => [
+        'official' => 'مونته‌نگرو',
+        'common' => 'مونته‌نگرو',
+      ],
+      'pol' => [
+        'official' => 'Czarnogóra',
+        'common' => 'Czarnogóra',
       ],
       'por' => [
         'official' => 'Montenegro',
@@ -22052,33 +23880,17 @@ class CountriesDataSource
         'official' => 'Montenegro',
         'common' => 'Montenegro',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Montenegro',
         'common' => 'Montenegro',
-      ],
-      'est' => [
-        'official' => 'Montenegro',
-        'common' => 'Montenegro',
-      ],
-      'zho' => [
-        'official' => '黑山',
-        'common' => '黑山',
-      ],
-      'pol' => [
-        'official' => 'Czarnogóra',
-        'common' => 'Czarnogóra',
       ],
       'urd' => [
         'official' => 'مونٹینیگرو',
         'common' => 'مونٹینیگرو',
       ],
-      'kor' => [
-        'official' => '몬테네그로',
-        'common' => '몬테네그로',
-      ],
-      'per' => [
-        'official' => 'مونته‌نگرو',
-        'common' => 'مونته‌نگرو',
+      'zho' => [
+        'official' => '黑山',
+        'common' => '黑山',
       ],
     ],
     'latlng' => [
@@ -22105,6 +23917,9 @@ class CountriesDataSource
         'm' => 'Monténégrin',
       ],
     ],
+    'callingCodes' => [
+      0 => '+382',
+    ],
   ],
   151 => [
     'name' => [
@@ -22126,6 +23941,7 @@ class CountriesDataSource
     'cioc' => 'MGL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MNT' => [
         'name' => 'Mongolian tögrög',
@@ -22158,6 +23974,14 @@ class CountriesDataSource
         'official' => 'Mongolei',
         'common' => 'Mongolei',
       ],
+      'est' => [
+        'official' => 'Mongoolia',
+        'common' => 'Mongoolia',
+      ],
+      'fin' => [
+        'official' => 'Mongolian tasavalta',
+        'common' => 'Mongolia',
+      ],
       'fra' => [
         'official' => 'Mongolie',
         'common' => 'Mongolie',
@@ -22165,6 +23989,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Mongolija',
         'common' => 'Mongolija',
+      ],
+      'hun' => [
+        'official' => 'Mongólia',
+        'common' => 'Mongólia',
       ],
       'ita' => [
         'official' => 'Mongolia',
@@ -22174,9 +24002,21 @@ class CountriesDataSource
         'official' => 'モンゴル',
         'common' => 'モンゴル',
       ],
+      'kor' => [
+        'official' => '몽골',
+        'common' => '몽골국',
+      ],
       'nld' => [
         'official' => 'Mongolië',
         'common' => 'Mongolië',
+      ],
+      'per' => [
+        'official' => 'مغولستان',
+        'common' => 'مغولستان',
+      ],
+      'pol' => [
+        'official' => 'Mongolia',
+        'common' => 'Mongolia',
       ],
       'por' => [
         'official' => 'Mongólia',
@@ -22194,33 +24034,17 @@ class CountriesDataSource
         'official' => 'Mongolia',
         'common' => 'Mongolia',
       ],
-      'fin' => [
-        'official' => 'Mongolian tasavalta',
-        'common' => 'Mongolia',
-      ],
-      'est' => [
-        'official' => 'Mongoolia',
-        'common' => 'Mongoolia',
-      ],
-      'zho' => [
-        'official' => '蒙古',
-        'common' => '蒙古',
-      ],
-      'pol' => [
-        'official' => 'Mongolia',
-        'common' => 'Mongolia',
+      'swe' => [
+        'official' => 'Mongoliet',
+        'common' => 'Mongoliet',
       ],
       'urd' => [
         'official' => 'منگولیا',
         'common' => 'منگولیا',
       ],
-      'kor' => [
-        'official' => '몽골',
-        'common' => '몽골국',
-      ],
-      'per' => [
-        'official' => 'مغولستان',
-        'common' => 'مغولستان',
+      'zho' => [
+        'official' => '蒙古',
+        'common' => '蒙古',
       ],
     ],
     'latlng' => [
@@ -22243,6 +24067,9 @@ class CountriesDataSource
         'f' => 'Mongole',
         'm' => 'Mongol',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+976',
     ],
   ],
   152 => [
@@ -22273,6 +24100,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -22309,6 +24137,14 @@ class CountriesDataSource
         'official' => 'Commonwealth der Nördlichen Marianen',
         'common' => 'Nördliche Marianen',
       ],
+      'est' => [
+        'official' => 'Põhja-Mariaani Ühendus',
+        'common' => 'Põhja-Mariaanid',
+      ],
+      'fin' => [
+        'official' => 'Pohjois-Mariaanit',
+        'common' => 'Pohjois-Mariaanit',
+      ],
       'fra' => [
         'official' => 'Commonwealth des îles Mariannes du Nord',
         'common' => 'Îles Mariannes du Nord',
@@ -22316,6 +24152,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Zajednica je Sjeverni Marijanski otoci',
         'common' => 'Sjevernomarijanski otoci',
+      ],
+      'hun' => [
+        'official' => 'Északi-Mariana-szigetek',
+        'common' => 'Északi-Mariana-szigetek',
       ],
       'ita' => [
         'official' => 'Commonwealth delle Isole Marianne Settentrionali',
@@ -22325,9 +24165,21 @@ class CountriesDataSource
         'official' => '北マリアナ諸島',
         'common' => '北マリアナ諸島',
       ],
+      'kor' => [
+        'official' => '북마리아나 제도',
+        'common' => '북마리아나 제도',
+      ],
       'nld' => [
         'official' => 'Commonwealth van de Noordelijke Marianen',
         'common' => 'Noordelijke Marianeneilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر ماریانای شمالی',
+        'common' => 'جزایر ماریانای شمالی',
+      ],
+      'pol' => [
+        'official' => 'Wspólnota Marianów Północnych',
+        'common' => 'Mariany Północne',
       ],
       'por' => [
         'official' => 'Comunidade das Ilhas Marianas do Norte',
@@ -22345,33 +24197,17 @@ class CountriesDataSource
         'official' => 'Mancomunidad de las Islas Marianas del Norte',
         'common' => 'Islas Marianas del Norte',
       ],
-      'fin' => [
-        'official' => 'Pohjois-Mariaanit',
-        'common' => 'Pohjois-Mariaanit',
-      ],
-      'est' => [
-        'official' => 'Põhja-Mariaani Ühendus',
-        'common' => 'Põhja-Mariaanid',
-      ],
-      'zho' => [
-        'official' => '北马里亚纳群岛',
-        'common' => '北马里亚纳群岛',
-      ],
-      'pol' => [
-        'official' => 'Wspólnota Marianów Północnych',
-        'common' => 'Mariany Północne',
+      'swe' => [
+        'official' => 'Nordmarianerna',
+        'common' => 'Nordmarianerna',
       ],
       'urd' => [
         'official' => 'دولتِ مشترکہ جزائر شمالی ماریانا',
         'common' => 'جزائر شمالی ماریانا',
       ],
-      'kor' => [
-        'official' => '북마리아나 제도',
-        'common' => '북마리아나 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر ماریانای شمالی',
-        'common' => 'جزایر ماریانای شمالی',
+      'zho' => [
+        'official' => '北马里亚纳群岛',
+        'common' => '北马里亚纳群岛',
       ],
     ],
     'latlng' => [
@@ -22392,6 +24228,9 @@ class CountriesDataSource
         'f' => 'Américaine',
         'm' => 'Américan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1670',
     ],
   ],
   153 => [
@@ -22414,6 +24253,7 @@ class CountriesDataSource
     'cioc' => 'MOZ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MZN' => [
         'name' => 'Mozambican metical',
@@ -22448,12 +24288,24 @@ class CountriesDataSource
         'official' => 'Republik Mosambik',
         'common' => 'Mosambik',
       ],
+      'est' => [
+        'official' => 'Mosambiigi Vabariik',
+        'common' => 'Mosambiik',
+      ],
+      'fin' => [
+        'official' => 'Mosambikin tasavalta',
+        'common' => 'Mosambik',
+      ],
       'fra' => [
         'official' => 'République du Mozambique',
         'common' => 'Mozambique',
       ],
       'hrv' => [
         'official' => 'Republika Mozambiku',
+        'common' => 'Mozambik',
+      ],
+      'hun' => [
+        'official' => 'Mozambiki Köztársaság',
         'common' => 'Mozambik',
       ],
       'ita' => [
@@ -22464,9 +24316,21 @@ class CountriesDataSource
         'official' => 'モザンビーク共和国',
         'common' => 'モザンビーク',
       ],
+      'kor' => [
+        'official' => '모잠비크 공화국',
+        'common' => '모잠비크',
+      ],
       'nld' => [
         'official' => 'Republiek Mozambique',
         'common' => 'Mozambique',
+      ],
+      'per' => [
+        'official' => 'جمهوری موزامبیک',
+        'common' => 'موزامبیک',
+      ],
+      'pol' => [
+        'official' => 'Republika Mozambiku',
+        'common' => 'Mozambik',
       ],
       'por' => [
         'official' => 'República de Moçambique',
@@ -22484,33 +24348,17 @@ class CountriesDataSource
         'official' => 'República de Mozambique',
         'common' => 'Mozambique',
       ],
-      'fin' => [
-        'official' => 'Mosambikin tasavalta',
-        'common' => 'Mosambik',
-      ],
-      'est' => [
-        'official' => 'Mosambiigi Vabariik',
-        'common' => 'Mosambiik',
-      ],
-      'zho' => [
-        'official' => '莫桑比克共和国',
-        'common' => '莫桑比克',
-      ],
-      'pol' => [
-        'official' => 'Republika Mozambiku',
-        'common' => 'Mozambik',
+      'swe' => [
+        'official' => 'Republiken Moçambique',
+        'common' => 'Moçambique',
       ],
       'urd' => [
         'official' => 'جمہوریہ موزمبیق',
         'common' => 'موزمبیق',
       ],
-      'kor' => [
-        'official' => '모잠비크 공화국',
-        'common' => '모잠비크',
-      ],
-      'per' => [
-        'official' => 'جمهوری موزامبیک',
-        'common' => 'موزامبیک',
+      'zho' => [
+        'official' => '莫桑比克共和国',
+        'common' => '莫桑比克',
       ],
     ],
     'latlng' => [
@@ -22538,6 +24386,9 @@ class CountriesDataSource
         'm' => 'Mozambicain',
       ],
     ],
+    'callingCodes' => [
+      0 => '+258',
+    ],
   ],
   154 => [
     'name' => [
@@ -22559,6 +24410,7 @@ class CountriesDataSource
     'cioc' => 'MTN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MRU' => [
         'name' => 'Mauritanian ouguiya',
@@ -22593,6 +24445,14 @@ class CountriesDataSource
         'official' => 'Islamische Republik Mauretanien',
         'common' => 'Mauretanien',
       ],
+      'est' => [
+        'official' => 'Mauritaania Islamivabariik',
+        'common' => 'Mauritaania',
+      ],
+      'fin' => [
+        'official' => 'Mauritanian islamilainen tasavalta',
+        'common' => 'Mauritania',
+      ],
       'fra' => [
         'official' => 'République islamique de Mauritanie',
         'common' => 'Mauritanie',
@@ -22600,6 +24460,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Islamska Republika Mauritanija',
         'common' => 'Mauritanija',
+      ],
+      'hun' => [
+        'official' => 'Mauritániai Iszlám Köztársaság',
+        'common' => 'Mauritánia',
       ],
       'ita' => [
         'official' => 'Repubblica islamica di Mauritania',
@@ -22609,9 +24473,21 @@ class CountriesDataSource
         'official' => 'モーリタニア·イスラム共和国',
         'common' => 'モーリタニア',
       ],
+      'kor' => [
+        'official' => '모리타니 이슬람 공화국',
+        'common' => '모리타니',
+      ],
       'nld' => [
         'official' => 'Islamitische Republiek Mauritanië',
         'common' => 'Mauritanië',
+      ],
+      'per' => [
+        'official' => 'جمهوری اسلامی موریتانی',
+        'common' => 'موریتانی',
+      ],
+      'pol' => [
+        'official' => 'Islamska Republika Mauretańska',
+        'common' => 'Mauretania',
       ],
       'por' => [
         'official' => 'República Islâmica da Mauritânia',
@@ -22629,33 +24505,17 @@ class CountriesDataSource
         'official' => 'República Islámica de Mauritania',
         'common' => 'Mauritania',
       ],
-      'fin' => [
-        'official' => 'Mauritanian islamilainen tasavalta',
-        'common' => 'Mauritania',
-      ],
-      'est' => [
-        'official' => 'Mauritaania Islamivabariik',
-        'common' => 'Mauritaania',
-      ],
-      'zho' => [
-        'official' => '毛里塔尼亚伊斯兰共和国',
-        'common' => '毛里塔尼亚',
-      ],
-      'pol' => [
-        'official' => 'Islamska Republika Mauretańska',
-        'common' => 'Mauretania',
+      'swe' => [
+        'official' => 'Islamiska republiken Mauretanien',
+        'common' => 'Mauretanien',
       ],
       'urd' => [
         'official' => 'اسلامی جمہوریہ موریتانیہ',
         'common' => 'موریتانیہ',
       ],
-      'kor' => [
-        'official' => '모리타니 이슬람 공화국',
-        'common' => '모리타니',
-      ],
-      'per' => [
-        'official' => 'جمهوری اسلامی موریتانی',
-        'common' => 'موریتانی',
+      'zho' => [
+        'official' => '毛里塔尼亚伊斯兰共和国',
+        'common' => '毛里塔尼亚',
       ],
     ],
     'latlng' => [
@@ -22681,6 +24541,9 @@ class CountriesDataSource
         'm' => 'Mauritanien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+222',
+    ],
   ],
   155 => [
     'name' => [
@@ -22702,6 +24565,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -22734,11 +24598,23 @@ class CountriesDataSource
         'official' => 'Montserrat',
         'common' => 'Montserrat',
       ],
+      'est' => [
+        'official' => 'Montserrat',
+        'common' => 'Montserrat',
+      ],
+      'fin' => [
+        'official' => 'Montserrat',
+        'common' => 'Montserrat',
+      ],
       'fra' => [
         'official' => 'Montserrat',
         'common' => 'Montserrat',
       ],
       'hrv' => [
+        'official' => 'Montserrat',
+        'common' => 'Montserrat',
+      ],
+      'hun' => [
         'official' => 'Montserrat',
         'common' => 'Montserrat',
       ],
@@ -22750,7 +24626,19 @@ class CountriesDataSource
         'official' => 'モントセラト',
         'common' => 'モントセラト',
       ],
+      'kor' => [
+        'official' => '몬트세랫',
+        'common' => '몬트세랫',
+      ],
       'nld' => [
+        'official' => 'Montserrat',
+        'common' => 'Montserrat',
+      ],
+      'per' => [
+        'official' => 'مونتسرات',
+        'common' => 'مونتسرات',
+      ],
+      'pol' => [
         'official' => 'Montserrat',
         'common' => 'Montserrat',
       ],
@@ -22770,19 +24658,7 @@ class CountriesDataSource
         'official' => 'Montserrat',
         'common' => 'Montserrat',
       ],
-      'fin' => [
-        'official' => 'Montserrat',
-        'common' => 'Montserrat',
-      ],
-      'est' => [
-        'official' => 'Montserrat',
-        'common' => 'Montserrat',
-      ],
-      'zho' => [
-        'official' => '蒙特塞拉特',
-        'common' => '蒙特塞拉特',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Montserrat',
         'common' => 'Montserrat',
       ],
@@ -22790,13 +24666,9 @@ class CountriesDataSource
         'official' => 'مانٹسریٹ',
         'common' => 'مانٹسریٹ',
       ],
-      'kor' => [
-        'official' => '몬트세랫',
-        'common' => '몬트세랫',
-      ],
-      'per' => [
-        'official' => 'مونتسرات',
-        'common' => 'مونتسرات',
+      'zho' => [
+        'official' => '蒙特塞拉特',
+        'common' => '蒙特塞拉特',
       ],
     ],
     'latlng' => [
@@ -22817,6 +24689,9 @@ class CountriesDataSource
         'f' => 'Montserratienne',
         'm' => 'Montserratien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1664',
     ],
   ],
   156 => [
@@ -22839,6 +24714,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -22871,11 +24747,23 @@ class CountriesDataSource
         'official' => 'Martinique',
         'common' => 'Martinique',
       ],
+      'est' => [
+        'official' => 'Martinique’i departemang',
+        'common' => 'Martinique',
+      ],
+      'fin' => [
+        'official' => 'Martinique',
+        'common' => 'Martinique',
+      ],
       'fra' => [
         'official' => 'Martinique',
         'common' => 'Martinique',
       ],
       'hrv' => [
+        'official' => 'Martinique',
+        'common' => 'Martinique',
+      ],
+      'hun' => [
         'official' => 'Martinique',
         'common' => 'Martinique',
       ],
@@ -22887,9 +24775,21 @@ class CountriesDataSource
         'official' => 'マルティニーク島',
         'common' => 'マルティニーク',
       ],
+      'kor' => [
+        'official' => '마르티니크',
+        'common' => '마르티니크',
+      ],
       'nld' => [
         'official' => 'Martinique',
         'common' => 'Martinique',
+      ],
+      'per' => [
+        'official' => 'مارتینیک',
+        'common' => 'مارتینیک',
+      ],
+      'pol' => [
+        'official' => 'Martynika',
+        'common' => 'Martynika',
       ],
       'por' => [
         'official' => 'Martinique',
@@ -22899,41 +24799,25 @@ class CountriesDataSource
         'official' => 'Мартиника',
         'common' => 'Мартиника',
       ],
-      'spa' => [
-        'official' => 'Martinica',
-        'common' => 'Martinica',
-      ],
       'slk' => [
         'official' => 'Martinique',
         'common' => 'Martinique',
       ],
-      'fin' => [
+      'spa' => [
+        'official' => 'Martinica',
+        'common' => 'Martinica',
+      ],
+      'swe' => [
         'official' => 'Martinique',
         'common' => 'Martinique',
-      ],
-      'est' => [
-        'official' => 'Martinique’i departemang',
-        'common' => 'Martinique',
-      ],
-      'zho' => [
-        'official' => '马提尼克',
-        'common' => '马提尼克',
-      ],
-      'pol' => [
-        'official' => 'Martynika',
-        'common' => 'Martynika',
       ],
       'urd' => [
         'official' => 'مارٹینیک',
         'common' => 'مارٹینیک',
       ],
-      'kor' => [
-        'official' => '마르티니크',
-        'common' => '마르티니크',
-      ],
-      'per' => [
-        'official' => 'مارتینیک',
-        'common' => 'مارتینیک',
+      'zho' => [
+        'official' => '马提尼克',
+        'common' => '马提尼克',
       ],
     ],
     'latlng' => [
@@ -22954,6 +24838,9 @@ class CountriesDataSource
         'f' => 'Martiniquaise',
         'm' => 'Martiniquais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+596',
     ],
   ],
   157 => [
@@ -22984,6 +24871,7 @@ class CountriesDataSource
     'cioc' => 'MRI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MUR' => [
         'name' => 'Mauritian rupee',
@@ -23020,6 +24908,14 @@ class CountriesDataSource
         'official' => 'Republik Mauritius',
         'common' => 'Mauritius',
       ],
+      'est' => [
+        'official' => 'Mauritiuse Vabariik',
+        'common' => 'Mauritius',
+      ],
+      'fin' => [
+        'official' => 'Mauritiuksen tasavalta',
+        'common' => 'Mauritius',
+      ],
       'fra' => [
         'official' => 'République de Maurice',
         'common' => 'Île Maurice',
@@ -23027,6 +24923,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Mauricijus',
         'common' => 'Mauricijus',
+      ],
+      'hun' => [
+        'official' => 'Mauritiusi Köztársaság',
+        'common' => 'Mauritius',
       ],
       'ita' => [
         'official' => 'Repubblica di Mauritius',
@@ -23036,8 +24936,20 @@ class CountriesDataSource
         'official' => 'モーリシャス共和国',
         'common' => 'モーリシャス',
       ],
+      'kor' => [
+        'official' => '모리셔스 공화국',
+        'common' => '모리셔스',
+      ],
       'nld' => [
         'official' => 'Republiek Mauritius',
+        'common' => 'Mauritius',
+      ],
+      'per' => [
+        'official' => 'جمهوری موریس',
+        'common' => 'موریس',
+      ],
+      'pol' => [
+        'official' => 'Republika Mauritiusu',
         'common' => 'Mauritius',
       ],
       'por' => [
@@ -23056,33 +24968,17 @@ class CountriesDataSource
         'official' => 'República de Mauricio',
         'common' => 'Mauricio',
       ],
-      'fin' => [
-        'official' => 'Mauritiuksen tasavalta',
-        'common' => 'Mauritius',
-      ],
-      'est' => [
-        'official' => 'Mauritiuse Vabariik',
-        'common' => 'Mauritius',
-      ],
-      'zho' => [
-        'official' => '毛里求斯共和国',
-        'common' => '毛里求斯',
-      ],
-      'pol' => [
-        'official' => 'Republika Mauritiusu',
+      'swe' => [
+        'official' => 'Republiken Mauritius',
         'common' => 'Mauritius',
       ],
       'urd' => [
         'official' => 'جمہوریہ موریشس',
         'common' => 'موریشس',
       ],
-      'kor' => [
-        'official' => '모리셔스 공화국',
-        'common' => '모리셔스',
-      ],
-      'per' => [
-        'official' => 'جمهوری موریس',
-        'common' => 'موریس',
+      'zho' => [
+        'official' => '毛里求斯共和国',
+        'common' => '毛里求斯',
       ],
     ],
     'latlng' => [
@@ -23103,6 +24999,9 @@ class CountriesDataSource
         'f' => 'Mauricienne',
         'm' => 'Mauricien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+230',
     ],
   ],
   158 => [
@@ -23129,6 +25028,7 @@ class CountriesDataSource
     'cioc' => 'MAW',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MWK' => [
         'name' => 'Malawian kwacha',
@@ -23163,6 +25063,14 @@ class CountriesDataSource
         'official' => 'Republik Malawi',
         'common' => 'Malawi',
       ],
+      'est' => [
+        'official' => 'Malawi Vabariik',
+        'common' => 'Malawi',
+      ],
+      'fin' => [
+        'official' => 'Malawin tasavalta',
+        'common' => 'Malawi',
+      ],
       'fra' => [
         'official' => 'République du Malawi',
         'common' => 'Malawi',
@@ -23170,6 +25078,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Malavi',
         'common' => 'Malavi',
+      ],
+      'hun' => [
+        'official' => 'Malawi Köztársaság',
+        'common' => 'Malawi',
       ],
       'ita' => [
         'official' => 'Repubblica del Malawi',
@@ -23179,8 +25091,20 @@ class CountriesDataSource
         'official' => 'マラウイ共和国',
         'common' => 'マラウイ',
       ],
+      'kor' => [
+        'official' => '말라위 공화국',
+        'common' => '말라위',
+      ],
       'nld' => [
         'official' => 'Republiek Malawi',
+        'common' => 'Malawi',
+      ],
+      'per' => [
+        'official' => 'جمهوری مالاوی',
+        'common' => 'مالاوی',
+      ],
+      'pol' => [
+        'official' => 'Republika Malawi',
         'common' => 'Malawi',
       ],
       'por' => [
@@ -23199,33 +25123,17 @@ class CountriesDataSource
         'official' => 'República de Malawi',
         'common' => 'Malawi',
       ],
-      'fin' => [
-        'official' => 'Malawin tasavalta',
-        'common' => 'Malawi',
-      ],
-      'est' => [
-        'official' => 'Malawi Vabariik',
-        'common' => 'Malawi',
-      ],
-      'zho' => [
-        'official' => '马拉维共和国',
-        'common' => '马拉维',
-      ],
-      'pol' => [
-        'official' => 'Republika Malawi',
+      'swe' => [
+        'official' => 'Republiken Malawi',
         'common' => 'Malawi',
       ],
       'urd' => [
         'official' => 'جمہوریہ ملاوی',
         'common' => 'ملاوی',
       ],
-      'kor' => [
-        'official' => '말라위 공화국',
-        'common' => '말라위',
-      ],
-      'per' => [
-        'official' => 'جمهوری مالاوی',
-        'common' => 'مالاوی',
+      'zho' => [
+        'official' => '马拉维共和国',
+        'common' => '马拉维',
       ],
     ],
     'latlng' => [
@@ -23249,6 +25157,9 @@ class CountriesDataSource
         'f' => 'Malawienne',
         'm' => 'Malawien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+265',
     ],
   ],
   159 => [
@@ -23275,6 +25186,7 @@ class CountriesDataSource
     'cioc' => 'MAS',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'MYR' => [
         'name' => 'Malaysian ringgit',
@@ -23308,6 +25220,14 @@ class CountriesDataSource
         'official' => 'Malaysia',
         'common' => 'Malaysia',
       ],
+      'est' => [
+        'official' => 'Malaisia',
+        'common' => 'Malaisia',
+      ],
+      'fin' => [
+        'official' => 'Malesia',
+        'common' => 'Malesia',
+      ],
       'fra' => [
         'official' => 'Fédération de Malaisie',
         'common' => 'Malaisie',
@@ -23315,6 +25235,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Malezija',
         'common' => 'Malezija',
+      ],
+      'hun' => [
+        'official' => 'Malajzia',
+        'common' => 'Malajzia',
       ],
       'ita' => [
         'official' => 'Malaysia',
@@ -23324,9 +25248,21 @@ class CountriesDataSource
         'official' => 'マレーシア',
         'common' => 'マレーシア',
       ],
+      'kor' => [
+        'official' => '말레이시아',
+        'common' => '말레이시아',
+      ],
       'nld' => [
         'official' => 'Maleisië',
         'common' => 'Maleisië',
+      ],
+      'per' => [
+        'official' => 'فدراسیون مالزی',
+        'common' => 'مالزی',
+      ],
+      'pol' => [
+        'official' => 'Malezja',
+        'common' => 'Malezja',
       ],
       'por' => [
         'official' => 'Malásia',
@@ -23344,33 +25280,17 @@ class CountriesDataSource
         'official' => 'Malasia',
         'common' => 'Malasia',
       ],
-      'fin' => [
-        'official' => 'Malesia',
-        'common' => 'Malesia',
-      ],
-      'est' => [
-        'official' => 'Malaisia',
-        'common' => 'Malaisia',
-      ],
-      'zho' => [
-        'official' => '马来西亚',
-        'common' => '马来西亚',
-      ],
-      'pol' => [
-        'official' => 'Malezja',
-        'common' => 'Malezja',
+      'swe' => [
+        'official' => 'Malaysia',
+        'common' => 'Malaysia',
       ],
       'urd' => [
         'official' => 'ملائیشیا',
         'common' => 'ملائیشیا',
       ],
-      'kor' => [
-        'official' => '말레이시아',
-        'common' => '말레이시아',
-      ],
-      'per' => [
-        'official' => 'فدراسیون مالزی',
-        'common' => 'مالزی',
+      'zho' => [
+        'official' => '马来西亚',
+        'common' => '马来西亚',
       ],
     ],
     'latlng' => [
@@ -23395,6 +25315,9 @@ class CountriesDataSource
         'm' => 'Malaisien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+60',
+    ],
   ],
   160 => [
     'name' => [
@@ -23416,6 +25339,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -23450,12 +25374,24 @@ class CountriesDataSource
         'official' => 'Übersee-Département Mayotte',
         'common' => 'Mayotte',
       ],
+      'est' => [
+        'official' => 'Mayotte',
+        'common' => 'Mayotte',
+      ],
+      'fin' => [
+        'official' => 'Mayotte',
+        'common' => 'Mayotte',
+      ],
       'fra' => [
         'official' => 'Département de Mayotte',
         'common' => 'Mayotte',
       ],
       'hrv' => [
         'official' => 'Odjel Mayotte',
+        'common' => 'Mayotte',
+      ],
+      'hun' => [
+        'official' => 'Mayotte',
         'common' => 'Mayotte',
       ],
       'ita' => [
@@ -23466,9 +25402,21 @@ class CountriesDataSource
         'official' => 'マヨット科',
         'common' => 'マヨット',
       ],
+      'kor' => [
+        'official' => '마요트',
+        'common' => '마요트',
+      ],
       'nld' => [
         'official' => 'Afdeling Mayotte',
         'common' => 'Mayotte',
+      ],
+      'per' => [
+        'official' => 'مجموعه شهرستانی مایوت',
+        'common' => 'مایوت',
+      ],
+      'pol' => [
+        'official' => 'Majotta',
+        'common' => 'Majotta',
       ],
       'por' => [
         'official' => 'Departamento de Mayotte',
@@ -23486,33 +25434,17 @@ class CountriesDataSource
         'official' => 'Departamento de Mayotte',
         'common' => 'Mayotte',
       ],
-      'fin' => [
-        'official' => 'Mayotte',
+      'swe' => [
+        'official' => 'Departementsområdet Mayotte',
         'common' => 'Mayotte',
-      ],
-      'est' => [
-        'official' => 'Mayotte',
-        'common' => 'Mayotte',
-      ],
-      'zho' => [
-        'official' => '马约特',
-        'common' => '马约特',
-      ],
-      'pol' => [
-        'official' => 'Majotta',
-        'common' => 'Majotta',
       ],
       'urd' => [
         'official' => 'مایوٹ',
         'common' => 'مایوٹ',
       ],
-      'kor' => [
-        'official' => '마요트',
-        'common' => '마요트',
-      ],
-      'per' => [
-        'official' => 'مجموعه شهرستانی مایوت',
-        'common' => 'مایوت',
+      'zho' => [
+        'official' => '马约特',
+        'common' => '马约特',
       ],
     ],
     'latlng' => [
@@ -23533,6 +25465,9 @@ class CountriesDataSource
         'f' => 'Mahoraise',
         'm' => 'Mahorais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+262',
     ],
   ],
   161 => [
@@ -23587,6 +25522,7 @@ class CountriesDataSource
     'cioc' => 'NAM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'NAD' => [
         'name' => 'Namibian dollar',
@@ -23633,6 +25569,14 @@ class CountriesDataSource
         'official' => 'Republik Namibia',
         'common' => 'Namibia',
       ],
+      'est' => [
+        'official' => 'Namiibia Vabariik',
+        'common' => 'Namiibia',
+      ],
+      'fin' => [
+        'official' => 'Namibian tasavalta',
+        'common' => 'Namibia',
+      ],
       'fra' => [
         'official' => 'République de Namibie',
         'common' => 'Namibie',
@@ -23640,6 +25584,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Namibija',
         'common' => 'Namibija',
+      ],
+      'hun' => [
+        'official' => 'Namíbiai Köztársaság',
+        'common' => 'Namíbia',
       ],
       'ita' => [
         'official' => 'Repubblica di Namibia',
@@ -23649,9 +25597,21 @@ class CountriesDataSource
         'official' => 'ナミビア共和国',
         'common' => 'ナミビア',
       ],
+      'kor' => [
+        'official' => '나미비아 공화국',
+        'common' => '나미비아',
+      ],
       'nld' => [
         'official' => 'Republiek Namibië',
         'common' => 'Namibië',
+      ],
+      'per' => [
+        'official' => 'جمهوری نامیبیا',
+        'common' => 'نامیبیا',
+      ],
+      'pol' => [
+        'official' => 'Republika Namibii',
+        'common' => 'Namibia',
       ],
       'por' => [
         'official' => 'República da Namíbia',
@@ -23669,33 +25629,17 @@ class CountriesDataSource
         'official' => 'República de Namibia',
         'common' => 'Namibia',
       ],
-      'fin' => [
-        'official' => 'Namibian tasavalta',
-        'common' => 'Namibia',
-      ],
-      'est' => [
-        'official' => 'Namiibia Vabariik',
-        'common' => 'Namiibia',
-      ],
-      'zho' => [
-        'official' => '纳米比亚共和国',
-        'common' => '纳米比亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Namibii',
+      'swe' => [
+        'official' => 'Republiken Namibia',
         'common' => 'Namibia',
       ],
       'urd' => [
         'official' => 'جمہوریہ نمیبیا',
         'common' => 'نمیبیا',
       ],
-      'kor' => [
-        'official' => '나미비아 공화국',
-        'common' => '나미비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری نامیبیا',
-        'common' => 'نامیبیا',
+      'zho' => [
+        'official' => '纳米比亚共和国',
+        'common' => '纳米比亚',
       ],
     ],
     'latlng' => [
@@ -23721,6 +25665,9 @@ class CountriesDataSource
         'm' => 'Namibien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+264',
+    ],
   ],
   162 => [
     'name' => [
@@ -23742,6 +25689,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'XPF' => [
         'name' => 'CFP franc',
@@ -23774,6 +25722,14 @@ class CountriesDataSource
         'official' => 'Neukaledonien',
         'common' => 'Neukaledonien',
       ],
+      'est' => [
+        'official' => 'Uus-Kaledoonia',
+        'common' => 'Uus-Kaledoonia',
+      ],
+      'fin' => [
+        'official' => 'Uusi-Kaledonia',
+        'common' => 'Uusi-Kaledonia',
+      ],
       'fra' => [
         'official' => 'Nouvelle-Calédonie',
         'common' => 'Nouvelle-Calédonie',
@@ -23781,6 +25737,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Nova Kaledonija',
         'common' => 'Nova Kaledonija',
+      ],
+      'hun' => [
+        'official' => 'Új-Kaledónia',
+        'common' => 'Új-Kaledónia',
       ],
       'ita' => [
         'official' => 'Nuova Caledonia',
@@ -23790,9 +25750,21 @@ class CountriesDataSource
         'official' => 'ニューカレドニア',
         'common' => 'ニューカレドニア',
       ],
+      'kor' => [
+        'official' => '누벨칼레도니',
+        'common' => '누벨칼레도니',
+      ],
       'nld' => [
         'official' => 'nieuw -Caledonië',
         'common' => 'Nieuw-Caledonië',
+      ],
+      'per' => [
+        'official' => 'کالدونیای جدید',
+        'common' => 'کالدونیای جدید',
+      ],
+      'pol' => [
+        'official' => 'Nowa Kaledonia',
+        'common' => 'Nowa Kaledonia',
       ],
       'por' => [
         'official' => 'New Caledonia',
@@ -23810,33 +25782,17 @@ class CountriesDataSource
         'official' => 'nueva Caledonia',
         'common' => 'Nueva Caledonia',
       ],
-      'fin' => [
-        'official' => 'Uusi-Kaledonia',
-        'common' => 'Uusi-Kaledonia',
-      ],
-      'est' => [
-        'official' => 'Uus-Kaledoonia',
-        'common' => 'Uus-Kaledoonia',
-      ],
-      'zho' => [
-        'official' => '新喀里多尼亚',
-        'common' => '新喀里多尼亚',
-      ],
-      'pol' => [
-        'official' => 'Nowa Kaledonia',
-        'common' => 'Nowa Kaledonia',
+      'swe' => [
+        'official' => 'Nya Kaledonien',
+        'common' => 'Nya Kaledonien',
       ],
       'urd' => [
         'official' => 'نیو کیلیڈونیا',
         'common' => 'نیو کیلیڈونیا',
       ],
-      'kor' => [
-        'official' => '누벨칼레도니',
-        'common' => '누벨칼레도니',
-      ],
-      'per' => [
-        'official' => 'کالدونیای جدید',
-        'common' => 'کالدونیای جدید',
+      'zho' => [
+        'official' => '新喀里多尼亚',
+        'common' => '新喀里多尼亚',
       ],
     ],
     'latlng' => [
@@ -23857,6 +25813,9 @@ class CountriesDataSource
         'f' => 'Néo-Calédonienne',
         'm' => 'Néo-Calédonien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+687',
     ],
   ],
   163 => [
@@ -23879,6 +25838,7 @@ class CountriesDataSource
     'cioc' => 'NIG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -23912,12 +25872,24 @@ class CountriesDataSource
         'official' => 'Republik Niger',
         'common' => 'Niger',
       ],
+      'est' => [
+        'official' => 'Nigeri Vabariik',
+        'common' => 'Niger',
+      ],
+      'fin' => [
+        'official' => 'Nigerin tasavalta',
+        'common' => 'Niger',
+      ],
       'fra' => [
         'official' => 'République du Niger',
         'common' => 'Niger',
       ],
       'hrv' => [
         'official' => 'Republika Niger',
+        'common' => 'Niger',
+      ],
+      'hun' => [
+        'official' => 'Nigeri Köztársaság',
         'common' => 'Niger',
       ],
       'ita' => [
@@ -23928,8 +25900,20 @@ class CountriesDataSource
         'official' => 'ニジェール共和国',
         'common' => 'ニジェール',
       ],
+      'kor' => [
+        'official' => '니제르 공화국',
+        'common' => '니제르',
+      ],
       'nld' => [
         'official' => 'Republiek Niger',
+        'common' => 'Niger',
+      ],
+      'per' => [
+        'official' => 'جمهوری نیجر',
+        'common' => 'نیجر',
+      ],
+      'pol' => [
+        'official' => 'Republika Nigru',
         'common' => 'Niger',
       ],
       'por' => [
@@ -23948,33 +25932,17 @@ class CountriesDataSource
         'official' => 'República de Níger',
         'common' => 'Níger',
       ],
-      'fin' => [
-        'official' => 'Nigerin tasavalta',
-        'common' => 'Niger',
-      ],
-      'est' => [
-        'official' => 'Nigeri Vabariik',
-        'common' => 'Niger',
-      ],
-      'zho' => [
-        'official' => '尼日尔共和国',
-        'common' => '尼日尔',
-      ],
-      'pol' => [
-        'official' => 'Republika Nigru',
+      'swe' => [
+        'official' => 'Republiken Niger',
         'common' => 'Niger',
       ],
       'urd' => [
         'official' => 'جمہوریہ نائجر',
         'common' => 'نائجر',
       ],
-      'kor' => [
-        'official' => '니제르 공화국',
-        'common' => '니제르',
-      ],
-      'per' => [
-        'official' => 'جمهوری نیجر',
-        'common' => 'نیجر',
+      'zho' => [
+        'official' => '尼日尔共和国',
+        'common' => '尼日尔',
       ],
     ],
     'latlng' => [
@@ -24003,6 +25971,9 @@ class CountriesDataSource
         'm' => 'Nigérien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+227',
+    ],
   ],
   164 => [
     'name' => [
@@ -24028,6 +25999,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -24063,6 +26035,14 @@ class CountriesDataSource
         'official' => 'Gebiet der Norfolkinsel',
         'common' => 'Norfolkinsel',
       ],
+      'est' => [
+        'official' => 'Norfolki saare ala',
+        'common' => 'Norfolk',
+      ],
+      'fin' => [
+        'official' => 'Norfolkinsaaren territorio',
+        'common' => 'Norfolkinsaari',
+      ],
       'fra' => [
         'official' => 'Territoire de l\'île Norfolk',
         'common' => 'Île Norfolk',
@@ -24070,6 +26050,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Teritorij Norfolk Island',
         'common' => 'Otok Norfolk',
+      ],
+      'hun' => [
+        'official' => 'Norfolk-sziget',
+        'common' => 'Norfolk-sziget',
       ],
       'ita' => [
         'official' => 'Territorio di Norfolk Island',
@@ -24079,9 +26063,21 @@ class CountriesDataSource
         'official' => 'ノーフォーク島の領土',
         'common' => 'ノーフォーク島',
       ],
+      'kor' => [
+        'official' => '노퍽 섬',
+        'common' => '노퍽 섬',
+      ],
       'nld' => [
         'official' => 'Grondgebied van Norfolk Island',
         'common' => 'Norfolkeiland',
+      ],
+      'per' => [
+        'official' => 'قلمرو جزایر نورفک',
+        'common' => 'جزیره نورفک',
+      ],
+      'pol' => [
+        'official' => 'Terytorium Wyspy Norfolk',
+        'common' => 'Wyspa Norfolk',
       ],
       'por' => [
         'official' => 'Território da Ilha Norfolk',
@@ -24099,33 +26095,17 @@ class CountriesDataSource
         'official' => 'Territorio de la Isla Norfolk',
         'common' => 'Isla de Norfolk',
       ],
-      'fin' => [
-        'official' => 'Norfolkinsaaren territorio',
-        'common' => 'Norfolkinsaari',
-      ],
-      'est' => [
-        'official' => 'Norfolki saare ala',
-        'common' => 'Norfolk',
-      ],
-      'zho' => [
-        'official' => '诺福克岛',
-        'common' => '诺福克岛',
-      ],
-      'pol' => [
-        'official' => 'Terytorium Wyspy Norfolk',
-        'common' => 'Wyspa Norfolk',
+      'swe' => [
+        'official' => 'Norfolkön',
+        'common' => 'Norfolkön',
       ],
       'urd' => [
         'official' => 'جزیرہ نورفک خطہ',
         'common' => 'جزیرہ نورفک',
       ],
-      'kor' => [
-        'official' => '노퍽 섬',
-        'common' => '노퍽 섬',
-      ],
-      'per' => [
-        'official' => 'قلمرو جزایر نورفک',
-        'common' => 'جزیره نورفک',
+      'zho' => [
+        'official' => '诺福克岛',
+        'common' => '诺福克岛',
       ],
     ],
     'latlng' => [
@@ -24146,6 +26126,9 @@ class CountriesDataSource
         'f' => 'Norfolkaise',
         'm' => 'Norfolkais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+672',
     ],
   ],
   165 => [
@@ -24168,6 +26151,7 @@ class CountriesDataSource
     'cioc' => 'NGR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'NGN' => [
         'name' => 'Nigerian naira',
@@ -24203,6 +26187,14 @@ class CountriesDataSource
         'official' => 'Bundesrepublik Nigeria',
         'common' => 'Nigeria',
       ],
+      'est' => [
+        'official' => 'Nigeeria Liitvabariik',
+        'common' => 'Nigeeria',
+      ],
+      'fin' => [
+        'official' => 'Nigerian liittotasavalta',
+        'common' => 'Nigeria',
+      ],
       'fra' => [
         'official' => 'République fédérale du Nigeria',
         'common' => 'Nigéria',
@@ -24210,6 +26202,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savezna Republika Nigerija',
         'common' => 'Nigerija',
+      ],
+      'hun' => [
+        'official' => 'Nigéria',
+        'common' => 'Nigéria',
       ],
       'ita' => [
         'official' => 'Repubblica federale di Nigeria',
@@ -24219,8 +26215,20 @@ class CountriesDataSource
         'official' => 'ナイジェリア連邦共和国',
         'common' => 'ナイジェリア',
       ],
+      'kor' => [
+        'official' => '나이지리아 연방 공화국',
+        'common' => '나이지리아',
+      ],
       'nld' => [
         'official' => 'Federale Republiek Nigeria',
+        'common' => 'Nigeria',
+      ],
+      'per' => [
+        'official' => 'جمهوری فدرال نیجریه',
+        'common' => 'نیجریه',
+      ],
+      'pol' => [
+        'official' => 'Federalna Republika Nigerii',
         'common' => 'Nigeria',
       ],
       'por' => [
@@ -24239,33 +26247,17 @@ class CountriesDataSource
         'official' => 'República Federal de Nigeria',
         'common' => 'Nigeria',
       ],
-      'fin' => [
-        'official' => 'Nigerian liittotasavalta',
-        'common' => 'Nigeria',
-      ],
-      'est' => [
-        'official' => 'Nigeeria Liitvabariik',
-        'common' => 'Nigeeria',
-      ],
-      'zho' => [
-        'official' => '尼日利亚联邦共和国',
-        'common' => '尼日利亚',
-      ],
-      'pol' => [
-        'official' => 'Federalna Republika Nigerii',
+      'swe' => [
+        'official' => 'Förbundsrepubliken Nigeria',
         'common' => 'Nigeria',
       ],
       'urd' => [
         'official' => 'وفاقی جمہوریہ نائجیریا',
         'common' => 'نائجیریا',
       ],
-      'kor' => [
-        'official' => '나이지리아 연방 공화국',
-        'common' => '나이지리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری فدرال نیجریه',
-        'common' => 'نیجریه',
+      'zho' => [
+        'official' => '尼日利亚联邦共和国',
+        'common' => '尼日利亚',
       ],
     ],
     'latlng' => [
@@ -24291,6 +26283,9 @@ class CountriesDataSource
         'm' => 'Nigérian',
       ],
     ],
+    'callingCodes' => [
+      0 => '+234',
+    ],
   ],
   166 => [
     'name' => [
@@ -24312,6 +26307,7 @@ class CountriesDataSource
     'cioc' => 'NCA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'NIO' => [
         'name' => 'Nicaraguan córdoba',
@@ -24346,6 +26342,14 @@ class CountriesDataSource
         'official' => 'Republik Nicaragua',
         'common' => 'Nicaragua',
       ],
+      'est' => [
+        'official' => 'Nicaragua Vabariik',
+        'common' => 'Nicaragua',
+      ],
+      'fin' => [
+        'official' => 'Nicaraguan tasavalta',
+        'common' => 'Nicaragua',
+      ],
       'fra' => [
         'official' => 'République du Nicaragua',
         'common' => 'Nicaragua',
@@ -24353,6 +26357,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Nikaragva',
         'common' => 'Nikaragva',
+      ],
+      'hun' => [
+        'official' => 'Nicaraguai Köztársaság',
+        'common' => 'Nicaragua',
       ],
       'ita' => [
         'official' => 'Repubblica del Nicaragua',
@@ -24362,9 +26370,21 @@ class CountriesDataSource
         'official' => 'ニカラグア共和国',
         'common' => 'ニカラグア',
       ],
+      'kor' => [
+        'official' => '니카라과 공화국',
+        'common' => '니카라과',
+      ],
       'nld' => [
         'official' => 'Republiek Nicaragua',
         'common' => 'Nicaragua',
+      ],
+      'per' => [
+        'official' => 'جمهوری نیکاراگوئه',
+        'common' => 'نیکاراگوئه',
+      ],
+      'pol' => [
+        'official' => 'Republika Nikaragui',
+        'common' => 'Nikaragua',
       ],
       'por' => [
         'official' => 'República da Nicarágua',
@@ -24382,33 +26402,17 @@ class CountriesDataSource
         'official' => 'República de Nicaragua',
         'common' => 'Nicaragua',
       ],
-      'fin' => [
-        'official' => 'Nicaraguan tasavalta',
+      'swe' => [
+        'official' => 'Republiken Nicaragua',
         'common' => 'Nicaragua',
-      ],
-      'est' => [
-        'official' => 'Nicaragua Vabariik',
-        'common' => 'Nicaragua',
-      ],
-      'zho' => [
-        'official' => '尼加拉瓜共和国',
-        'common' => '尼加拉瓜',
-      ],
-      'pol' => [
-        'official' => 'Republika Nikaragui',
-        'common' => 'Nikaragua',
       ],
       'urd' => [
         'official' => 'جمہوریہ نکاراگوا',
         'common' => 'نکاراگوا',
       ],
-      'kor' => [
-        'official' => '니카라과 공화국',
-        'common' => '니카라과',
-      ],
-      'per' => [
-        'official' => 'جمهوری نیکاراگوئه',
-        'common' => 'نیکاراگوئه',
+      'zho' => [
+        'official' => '尼加拉瓜共和国',
+        'common' => '尼加拉瓜',
       ],
     ],
     'latlng' => [
@@ -24431,6 +26435,9 @@ class CountriesDataSource
         'f' => 'Nicaraguayenne',
         'm' => 'Nicaraguayen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+505',
     ],
   ],
   167 => [
@@ -24457,6 +26464,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'NZD' => [
         'name' => 'New Zealand dollar',
@@ -24490,11 +26498,23 @@ class CountriesDataSource
         'official' => 'Niue',
         'common' => 'Niue',
       ],
+      'est' => [
+        'official' => 'Niue',
+        'common' => 'Niue',
+      ],
+      'fin' => [
+        'official' => 'Niue',
+        'common' => 'Niue',
+      ],
       'fra' => [
         'official' => 'Niue',
         'common' => 'Niue',
       ],
       'hrv' => [
+        'official' => 'Niue',
+        'common' => 'Niue',
+      ],
+      'hun' => [
         'official' => 'Niue',
         'common' => 'Niue',
       ],
@@ -24506,7 +26526,19 @@ class CountriesDataSource
         'official' => 'ニウエ',
         'common' => 'ニウエ',
       ],
+      'kor' => [
+        'official' => '니우에',
+        'common' => '니우에',
+      ],
       'nld' => [
+        'official' => 'Niue',
+        'common' => 'Niue',
+      ],
+      'per' => [
+        'official' => 'نیووی',
+        'common' => 'نیووی',
+      ],
+      'pol' => [
         'official' => 'Niue',
         'common' => 'Niue',
       ],
@@ -24526,19 +26558,7 @@ class CountriesDataSource
         'official' => 'Niue',
         'common' => 'Niue',
       ],
-      'fin' => [
-        'official' => 'Niue',
-        'common' => 'Niue',
-      ],
-      'est' => [
-        'official' => 'Niue',
-        'common' => 'Niue',
-      ],
-      'zho' => [
-        'official' => '纽埃',
-        'common' => '纽埃',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Niue',
         'common' => 'Niue',
       ],
@@ -24546,13 +26566,9 @@ class CountriesDataSource
         'official' => 'نیووے',
         'common' => 'نیووے',
       ],
-      'kor' => [
-        'official' => '니우에',
-        'common' => '니우에',
-      ],
-      'per' => [
-        'official' => 'نیووی',
-        'common' => 'نیووی',
+      'zho' => [
+        'official' => '纽埃',
+        'common' => '纽埃',
       ],
     ],
     'latlng' => [
@@ -24573,6 +26589,9 @@ class CountriesDataSource
         'f' => 'Niuéenne',
         'm' => 'Niuéen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+683',
     ],
   ],
   168 => [
@@ -24595,6 +26614,7 @@ class CountriesDataSource
     'cioc' => 'NED',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -24630,6 +26650,14 @@ class CountriesDataSource
         'official' => 'Niederlande',
         'common' => 'Niederlande',
       ],
+      'est' => [
+        'official' => 'Madalmaade Kuningriik',
+        'common' => 'Holland',
+      ],
+      'fin' => [
+        'official' => 'Alankomaat',
+        'common' => 'Alankomaat',
+      ],
       'fra' => [
         'official' => 'Pays-Bas',
         'common' => 'Pays-Bas',
@@ -24637,6 +26665,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Holandija',
         'common' => 'Nizozemska',
+      ],
+      'hun' => [
+        'official' => 'Holland Királyság',
+        'common' => 'Hollandia',
       ],
       'ita' => [
         'official' => 'Paesi Bassi',
@@ -24646,9 +26678,21 @@ class CountriesDataSource
         'official' => 'オランダ',
         'common' => 'オランダ',
       ],
+      'kor' => [
+        'official' => '네덜란드 왕국',
+        'common' => '네덜란드',
+      ],
       'nld' => [
         'official' => 'Nederland',
         'common' => 'Nederland',
+      ],
+      'per' => [
+        'official' => 'هلند',
+        'common' => 'هلند',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Niderlandów',
+        'common' => 'Holandia',
       ],
       'por' => [
         'official' => 'Holanda',
@@ -24666,33 +26710,17 @@ class CountriesDataSource
         'official' => 'Países Bajos',
         'common' => 'Países Bajos',
       ],
-      'fin' => [
-        'official' => 'Alankomaat',
-        'common' => 'Alankomaat',
-      ],
-      'est' => [
-        'official' => 'Madalmaade Kuningriik',
-        'common' => 'Holland',
-      ],
-      'zho' => [
-        'official' => '荷兰',
-        'common' => '荷兰',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Niderlandów',
-        'common' => 'Holandia',
+      'swe' => [
+        'official' => 'Nederländerna',
+        'common' => 'Nederländerna',
       ],
       'urd' => [
         'official' => 'مملکتِ نیدرلینڈز',
         'common' => 'نیدرلینڈز',
       ],
-      'kor' => [
-        'official' => '네덜란드 왕국',
-        'common' => '네덜란드',
-      ],
-      'per' => [
-        'official' => 'هلند',
-        'common' => 'هلند',
+      'zho' => [
+        'official' => '荷兰',
+        'common' => '荷兰',
       ],
     ],
     'latlng' => [
@@ -24715,6 +26743,9 @@ class CountriesDataSource
         'f' => 'Néerlandaise',
         'm' => 'Néerlandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+31',
     ],
   ],
   169 => [
@@ -24745,6 +26776,7 @@ class CountriesDataSource
     'cioc' => 'NOR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'NOK' => [
         'name' => 'Norwegian krone',
@@ -24784,6 +26816,14 @@ class CountriesDataSource
         'official' => 'Königreich Norwegen',
         'common' => 'Norwegen',
       ],
+      'est' => [
+        'official' => 'Norra Kuningriik',
+        'common' => 'Norra',
+      ],
+      'fin' => [
+        'official' => 'Norjan kuningaskunta',
+        'common' => 'Norja',
+      ],
       'fra' => [
         'official' => 'Royaume de Norvège',
         'common' => 'Norvège',
@@ -24791,6 +26831,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Norveška',
         'common' => 'Norveška',
+      ],
+      'hun' => [
+        'official' => 'Norvég Királyság',
+        'common' => 'Norvégia',
       ],
       'ita' => [
         'official' => 'Regno di Norvegia',
@@ -24800,9 +26844,21 @@ class CountriesDataSource
         'official' => 'ノルウェー王国',
         'common' => 'ノルウェー',
       ],
+      'kor' => [
+        'official' => '노르웨이 왕국',
+        'common' => '노르웨이',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Noorwegen',
         'common' => 'Noorwegen',
+      ],
+      'per' => [
+        'official' => 'پادشاهی نروژ',
+        'common' => 'نروژ',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Norwegii',
+        'common' => 'Norwegia',
       ],
       'por' => [
         'official' => 'Reino da Noruega',
@@ -24820,33 +26876,17 @@ class CountriesDataSource
         'official' => 'Reino de Noruega',
         'common' => 'Noruega',
       ],
-      'fin' => [
-        'official' => 'Norjan kuningaskunta',
-        'common' => 'Norja',
-      ],
-      'est' => [
-        'official' => 'Norra Kuningriik',
-        'common' => 'Norra',
-      ],
-      'zho' => [
-        'official' => '挪威王国',
-        'common' => '挪威',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Norwegii',
-        'common' => 'Norwegia',
+      'swe' => [
+        'official' => 'Konungariket Norge',
+        'common' => 'Norge',
       ],
       'urd' => [
         'official' => 'مملکتِ ناروے',
         'common' => 'ناروے',
       ],
-      'kor' => [
-        'official' => '노르웨이 왕국',
-        'common' => '노르웨이',
-      ],
-      'per' => [
-        'official' => 'پادشاهی نروژ',
-        'common' => 'نروژ',
+      'zho' => [
+        'official' => '挪威王国',
+        'common' => '挪威',
       ],
     ],
     'latlng' => [
@@ -24871,6 +26911,9 @@ class CountriesDataSource
         'm' => 'Norvégien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+47',
+    ],
   ],
   170 => [
     'name' => [
@@ -24892,6 +26935,7 @@ class CountriesDataSource
     'cioc' => 'NEP',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'NPR' => [
         'name' => 'Nepalese rupee',
@@ -24926,6 +26970,14 @@ class CountriesDataSource
         'official' => 'Demokratische Bundesrepublik Nepal',
         'common' => 'Nepal',
       ],
+      'est' => [
+        'official' => 'Nepali Demokraatlik Liitvabariik',
+        'common' => 'Nepal',
+      ],
+      'fin' => [
+        'official' => 'Nepalin demokraattinen liittotasavalta',
+        'common' => 'Nepal',
+      ],
       'fra' => [
         'official' => 'République du Népal',
         'common' => 'Népal',
@@ -24933,6 +26985,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savezna Demokratska Republika Nepal',
         'common' => 'Nepal',
+      ],
+      'hun' => [
+        'official' => 'Nepáli Szövetségi Demokratikus Köztársaság',
+        'common' => 'Nepál',
       ],
       'ita' => [
         'official' => 'Repubblica federale democratica del Nepal',
@@ -24942,8 +26998,20 @@ class CountriesDataSource
         'official' => 'ネパール連邦民主共和国',
         'common' => 'ネパール',
       ],
+      'kor' => [
+        'official' => '네팔 연방 민주 공화국',
+        'common' => '네팔',
+      ],
       'nld' => [
         'official' => 'Federale Democratische Republiek Nepal',
+        'common' => 'Nepal',
+      ],
+      'per' => [
+        'official' => 'جمهوری فدرال دموکراتیک نپال',
+        'common' => 'نپال',
+      ],
+      'pol' => [
+        'official' => 'Federalna Demokratyczna Republika Nepalu',
         'common' => 'Nepal',
       ],
       'por' => [
@@ -24962,33 +27030,17 @@ class CountriesDataSource
         'official' => 'República Democrática Federal de Nepal',
         'common' => 'Nepal',
       ],
-      'fin' => [
-        'official' => 'Nepalin demokraattinen liittotasavalta',
-        'common' => 'Nepal',
-      ],
-      'est' => [
-        'official' => 'Nepali Demokraatlik Liitvabariik',
-        'common' => 'Nepal',
-      ],
-      'zho' => [
-        'official' => '尼泊尔联邦民主共和国',
-        'common' => '尼泊尔',
-      ],
-      'pol' => [
-        'official' => 'Federalna Demokratyczna Republika Nepalu',
+      'swe' => [
+        'official' => 'Demokratiska förbundsrepubliken Nepal',
         'common' => 'Nepal',
       ],
       'urd' => [
         'official' => 'وفاقی جمہوری جمہوریہ نیپال',
         'common' => 'نیپال',
       ],
-      'kor' => [
-        'official' => '네팔 연방 민주 공화국',
-        'common' => '네팔',
-      ],
-      'per' => [
-        'official' => 'جمهوری فدرال دموکراتیک نپال',
-        'common' => 'نپال',
+      'zho' => [
+        'official' => '尼泊尔联邦民主共和国',
+        'common' => '尼泊尔',
       ],
     ],
     'latlng' => [
@@ -25011,6 +27063,9 @@ class CountriesDataSource
         'f' => 'Népalaise',
         'm' => 'Népalais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+977',
     ],
   ],
   171 => [
@@ -25037,6 +27092,7 @@ class CountriesDataSource
     'cioc' => 'NRU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -25074,12 +27130,24 @@ class CountriesDataSource
         'official' => 'Republik Nauru',
         'common' => 'Nauru',
       ],
+      'est' => [
+        'official' => 'Nauru Vabariik',
+        'common' => 'Nauru',
+      ],
+      'fin' => [
+        'official' => 'Naurun tasavalta',
+        'common' => 'Nauru',
+      ],
       'fra' => [
         'official' => 'République de Nauru',
         'common' => 'Nauru',
       ],
       'hrv' => [
         'official' => 'Republika Nauru',
+        'common' => 'Nauru',
+      ],
+      'hun' => [
+        'official' => 'Naurui Köztársaság',
         'common' => 'Nauru',
       ],
       'ita' => [
@@ -25090,8 +27158,20 @@ class CountriesDataSource
         'official' => 'ナウル共和国',
         'common' => 'ナウル',
       ],
+      'kor' => [
+        'official' => '나우루 공화국',
+        'common' => '나우루',
+      ],
       'nld' => [
         'official' => 'Republiek Nauru',
+        'common' => 'Nauru',
+      ],
+      'per' => [
+        'official' => 'جمهوری نائورو',
+        'common' => 'نائورو',
+      ],
+      'pol' => [
+        'official' => 'Republika Nauru',
         'common' => 'Nauru',
       ],
       'por' => [
@@ -25110,33 +27190,17 @@ class CountriesDataSource
         'official' => 'República de Nauru',
         'common' => 'Nauru',
       ],
-      'fin' => [
-        'official' => 'Naurun tasavalta',
-        'common' => 'Nauru',
-      ],
-      'est' => [
-        'official' => 'Nauru Vabariik',
-        'common' => 'Nauru',
-      ],
-      'zho' => [
-        'official' => '瑙鲁共和国',
-        'common' => '瑙鲁',
-      ],
-      'pol' => [
-        'official' => 'Republika Nauru',
+      'swe' => [
+        'official' => 'Republiken Nauru',
         'common' => 'Nauru',
       ],
       'urd' => [
         'official' => 'جمہوریہ ناورو',
         'common' => 'ناورو',
       ],
-      'kor' => [
-        'official' => '나우루 공화국',
-        'common' => '나우루',
-      ],
-      'per' => [
-        'official' => 'جمهوری نائورو',
-        'common' => 'نائورو',
+      'zho' => [
+        'official' => '瑙鲁共和国',
+        'common' => '瑙鲁',
       ],
     ],
     'latlng' => [
@@ -25157,6 +27221,9 @@ class CountriesDataSource
         'f' => 'Nauruane',
         'm' => 'Nauruan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+674',
     ],
   ],
   172 => [
@@ -25187,6 +27254,7 @@ class CountriesDataSource
     'cioc' => 'NZL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'NZD' => [
         'name' => 'New Zealand dollar',
@@ -25222,6 +27290,14 @@ class CountriesDataSource
         'official' => 'Neuseeland',
         'common' => 'Neuseeland',
       ],
+      'est' => [
+        'official' => 'Uus-Meremaa',
+        'common' => 'Uus-Meremaa',
+      ],
+      'fin' => [
+        'official' => 'Uusi-Seelanti',
+        'common' => 'Uusi-Seelanti',
+      ],
       'fra' => [
         'official' => 'Nouvelle-Zélande',
         'common' => 'Nouvelle-Zélande',
@@ -25229,6 +27305,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Novi Zeland',
         'common' => 'Novi Zeland',
+      ],
+      'hun' => [
+        'official' => 'Új-Zéland',
+        'common' => 'Új-Zéland',
       ],
       'ita' => [
         'official' => 'Nuova Zelanda',
@@ -25238,9 +27318,21 @@ class CountriesDataSource
         'official' => 'ニュージーランド',
         'common' => 'ニュージーランド',
       ],
+      'kor' => [
+        'official' => '뉴질랜드',
+        'common' => '뉴질랜드',
+      ],
       'nld' => [
         'official' => 'Nieuw Zeeland',
         'common' => 'Nieuw-Zeeland',
+      ],
+      'per' => [
+        'official' => 'نیوزیلند',
+        'common' => 'نیوزیلند',
+      ],
+      'pol' => [
+        'official' => 'Nowa Zelandia',
+        'common' => 'Nowa Zelandia',
       ],
       'por' => [
         'official' => 'nova Zelândia',
@@ -25258,33 +27350,17 @@ class CountriesDataSource
         'official' => 'nueva Zelanda',
         'common' => 'Nueva Zelanda',
       ],
-      'fin' => [
-        'official' => 'Uusi-Seelanti',
-        'common' => 'Uusi-Seelanti',
-      ],
-      'est' => [
-        'official' => 'Uus-Meremaa',
-        'common' => 'Uus-Meremaa',
-      ],
-      'zho' => [
-        'official' => '新西兰',
-        'common' => '新西兰',
-      ],
-      'pol' => [
-        'official' => 'Nowa Zelandia',
-        'common' => 'Nowa Zelandia',
+      'swe' => [
+        'official' => 'Nya Zeeland',
+        'common' => 'Nya Zeeland',
       ],
       'urd' => [
         'official' => 'نیوزی لینڈ',
         'common' => 'نیوزی لینڈ',
       ],
-      'kor' => [
-        'official' => '뉴질랜드',
-        'common' => '뉴질랜드',
-      ],
-      'per' => [
-        'official' => 'نیوزیلند',
-        'common' => 'نیوزیلند',
+      'zho' => [
+        'official' => '新西兰',
+        'common' => '新西兰',
       ],
     ],
     'latlng' => [
@@ -25305,6 +27381,9 @@ class CountriesDataSource
         'f' => 'Neo-Zélandaise',
         'm' => 'Neo-Zélandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+64',
     ],
   ],
   173 => [
@@ -25327,6 +27406,7 @@ class CountriesDataSource
     'cioc' => 'OMA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'OMR' => [
         'name' => 'Omani rial',
@@ -25361,6 +27441,14 @@ class CountriesDataSource
         'official' => 'Sultanat Oman',
         'common' => 'Oman',
       ],
+      'est' => [
+        'official' => 'Omaani Sultaniriik',
+        'common' => 'Omaan',
+      ],
+      'fin' => [
+        'official' => 'Omanin sulttaanikunta',
+        'common' => 'Oman',
+      ],
       'fra' => [
         'official' => 'Sultanat d\'Oman',
         'common' => 'Oman',
@@ -25368,6 +27456,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sultanat Oman',
         'common' => 'Oman',
+      ],
+      'hun' => [
+        'official' => 'Ománi Szultanátus',
+        'common' => 'Omán',
       ],
       'ita' => [
         'official' => 'Sultanato dell\'Oman',
@@ -25377,8 +27469,20 @@ class CountriesDataSource
         'official' => 'オマーン·スルタン国',
         'common' => 'オマーン',
       ],
+      'kor' => [
+        'official' => '오만 술탄국',
+        'common' => '오만',
+      ],
       'nld' => [
         'official' => 'Sultanaat van Oman',
+        'common' => 'Oman',
+      ],
+      'per' => [
+        'official' => 'سلطان‌نشین عُمان',
+        'common' => 'عمان',
+      ],
+      'pol' => [
+        'official' => 'Sułtanat Omanu',
         'common' => 'Oman',
       ],
       'por' => [
@@ -25397,33 +27501,17 @@ class CountriesDataSource
         'official' => 'Sultanato de Omán',
         'common' => 'Omán',
       ],
-      'fin' => [
-        'official' => 'Omanin sulttaanikunta',
-        'common' => 'Oman',
-      ],
-      'est' => [
-        'official' => 'Omaani Sultaniriik',
-        'common' => 'Omaan',
-      ],
-      'zho' => [
-        'official' => '阿曼苏丹国',
-        'common' => '阿曼',
-      ],
-      'pol' => [
-        'official' => 'Sułtanat Omanu',
+      'swe' => [
+        'official' => 'Sultanatet Oman',
         'common' => 'Oman',
       ],
       'urd' => [
         'official' => 'سلطنت عمان',
         'common' => 'عمان',
       ],
-      'kor' => [
-        'official' => '오만 술탄국',
-        'common' => '오만',
-      ],
-      'per' => [
-        'official' => 'سلطان‌نشین عُمان',
-        'common' => 'عمان',
+      'zho' => [
+        'official' => '阿曼苏丹国',
+        'common' => '阿曼',
       ],
     ],
     'latlng' => [
@@ -25447,6 +27535,9 @@ class CountriesDataSource
         'f' => 'Omanaise',
         'm' => 'Omanais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+968',
     ],
   ],
   174 => [
@@ -25473,6 +27564,7 @@ class CountriesDataSource
     'cioc' => 'PAK',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PKR' => [
         'name' => 'Pakistani rupee',
@@ -25509,6 +27601,14 @@ class CountriesDataSource
         'official' => 'Islamische Republik Pakistan',
         'common' => 'Pakistan',
       ],
+      'est' => [
+        'official' => 'Pakistani Islamivabariik',
+        'common' => 'Pakistan',
+      ],
+      'fin' => [
+        'official' => 'Pakistanin islamilainen tasavalta',
+        'common' => 'Pakistan',
+      ],
       'fra' => [
         'official' => 'République islamique du Pakistan',
         'common' => 'Pakistan',
@@ -25516,6 +27616,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Islamska Republika Pakistan',
         'common' => 'Pakistan',
+      ],
+      'hun' => [
+        'official' => 'Pakisztán',
+        'common' => 'Pakisztán',
       ],
       'ita' => [
         'official' => 'Repubblica islamica del Pakistan',
@@ -25525,8 +27629,20 @@ class CountriesDataSource
         'official' => 'パキスタン',
         'common' => 'パキスタン',
       ],
+      'kor' => [
+        'official' => '파키스탄 이슬람 공화국',
+        'common' => '파키스탄',
+      ],
       'nld' => [
         'official' => 'Islamitische Republiek Pakistan',
+        'common' => 'Pakistan',
+      ],
+      'per' => [
+        'official' => 'جمهوری اسلامی پاکستان',
+        'common' => 'پاکستان',
+      ],
+      'pol' => [
+        'official' => 'Islamska Republika Pakistanu',
         'common' => 'Pakistan',
       ],
       'por' => [
@@ -25545,33 +27661,17 @@ class CountriesDataSource
         'official' => 'República Islámica de Pakistán',
         'common' => 'Pakistán',
       ],
-      'fin' => [
-        'official' => 'Pakistanin islamilainen tasavalta',
-        'common' => 'Pakistan',
-      ],
-      'est' => [
-        'official' => 'Pakistani Islamivabariik',
-        'common' => 'Pakistan',
-      ],
-      'zho' => [
-        'official' => '巴基斯坦伊斯兰共和国',
-        'common' => '巴基斯坦',
-      ],
-      'pol' => [
-        'official' => 'Islamska Republika Pakistanu',
+      'swe' => [
+        'official' => 'Islamiska republiken Pakistan',
         'common' => 'Pakistan',
       ],
       'urd' => [
         'official' => 'اسلامی جمہوریہ پاکستان',
         'common' => 'پاکستان',
       ],
-      'kor' => [
-        'official' => '파키스탄 이슬람 공화국',
-        'common' => '파키스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری اسلامی پاکستان',
-        'common' => 'پاکستان',
+      'zho' => [
+        'official' => '巴基斯坦伊斯兰共和国',
+        'common' => '巴基斯坦',
       ],
     ],
     'latlng' => [
@@ -25597,6 +27697,9 @@ class CountriesDataSource
         'm' => 'Pakistanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+92',
+    ],
   ],
   175 => [
     'name' => [
@@ -25618,6 +27721,7 @@ class CountriesDataSource
     'cioc' => 'PAN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PAB' => [
         'name' => 'Panamanian balboa',
@@ -25656,12 +27760,24 @@ class CountriesDataSource
         'official' => 'Republik Panama',
         'common' => 'Panama',
       ],
+      'est' => [
+        'official' => 'Panama Vabariik',
+        'common' => 'Panama',
+      ],
+      'fin' => [
+        'official' => 'Panaman tasavalta',
+        'common' => 'Panama',
+      ],
       'fra' => [
         'official' => 'République du Panama',
         'common' => 'Panama',
       ],
       'hrv' => [
         'official' => 'Republika Panama',
+        'common' => 'Panama',
+      ],
+      'hun' => [
+        'official' => 'Panamai Köztársaság',
         'common' => 'Panama',
       ],
       'ita' => [
@@ -25672,8 +27788,20 @@ class CountriesDataSource
         'official' => 'パナマ共和国',
         'common' => 'パナマ',
       ],
+      'kor' => [
+        'official' => '파나마 공화국',
+        'common' => '파나마',
+      ],
       'nld' => [
         'official' => 'Republiek Panama',
+        'common' => 'Panama',
+      ],
+      'per' => [
+        'official' => 'جمهوری پاناما',
+        'common' => 'پاناما',
+      ],
+      'pol' => [
+        'official' => 'Republika Panamy',
         'common' => 'Panama',
       ],
       'por' => [
@@ -25692,33 +27820,17 @@ class CountriesDataSource
         'official' => 'República de Panamá',
         'common' => 'Panamá',
       ],
-      'fin' => [
-        'official' => 'Panaman tasavalta',
-        'common' => 'Panama',
-      ],
-      'est' => [
-        'official' => 'Panama Vabariik',
-        'common' => 'Panama',
-      ],
-      'zho' => [
-        'official' => '巴拿马共和国',
-        'common' => '巴拿马',
-      ],
-      'pol' => [
-        'official' => 'Republika Panamy',
+      'swe' => [
+        'official' => 'Republiken Panama',
         'common' => 'Panama',
       ],
       'urd' => [
         'official' => 'جمہوریہ پاناما',
         'common' => 'پاناما',
       ],
-      'kor' => [
-        'official' => '파나마 공화국',
-        'common' => '파나마',
-      ],
-      'per' => [
-        'official' => 'جمهوری پاناما',
-        'common' => 'پاناما',
+      'zho' => [
+        'official' => '巴拿马共和国',
+        'common' => '巴拿马',
       ],
     ],
     'latlng' => [
@@ -25742,6 +27854,9 @@ class CountriesDataSource
         'm' => 'Panaméen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+507',
+    ],
   ],
   176 => [
     'name' => [
@@ -25763,6 +27878,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'NZD' => [
         'name' => 'New Zealand dollar',
@@ -25797,6 +27913,14 @@ class CountriesDataSource
         'official' => 'Pitcairninseln',
         'common' => 'Pitcairninseln',
       ],
+      'est' => [
+        'official' => 'Pitcairni, Hendersoni, Ducie ja Oeno saar',
+        'common' => 'Pitcairn',
+      ],
+      'fin' => [
+        'official' => 'Pitcairn',
+        'common' => 'Pitcairn',
+      ],
       'fra' => [
         'official' => 'Groupe d\'îles Pitcairn',
         'common' => 'Îles Pitcairn',
@@ -25804,6 +27928,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Pitcairn skupine otoka',
         'common' => 'Pitcairnovo otočje',
+      ],
+      'hun' => [
+        'official' => 'Pitcairn-szigetek',
+        'common' => 'Pitcairn-szigetek',
       ],
       'ita' => [
         'official' => 'Pitcairn gruppo di isole',
@@ -25813,9 +27941,21 @@ class CountriesDataSource
         'official' => '島のピトケアングループ',
         'common' => 'ピトケアン',
       ],
+      'kor' => [
+        'official' => '핏케언 제도',
+        'common' => '핏케언 제도',
+      ],
       'nld' => [
         'official' => 'Pitcairn groep eilanden',
         'common' => 'Pitcairneilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر پیت‌کرن',
+        'common' => 'جزایر پیت‌کرن',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Pitcairn, Henderson, Ducie i Oeno',
+        'common' => 'Pitcairn',
       ],
       'por' => [
         'official' => 'Pitcairn grupo de ilhas',
@@ -25833,33 +27973,17 @@ class CountriesDataSource
         'official' => 'Grupo de Islas Pitcairn',
         'common' => 'Islas Pitcairn',
       ],
-      'fin' => [
-        'official' => 'Pitcairn',
-        'common' => 'Pitcairn',
-      ],
-      'est' => [
-        'official' => 'Pitcairni, Hendersoni, Ducie ja Oeno saar',
-        'common' => 'Pitcairn',
-      ],
-      'zho' => [
-        'official' => '皮特凯恩群岛',
-        'common' => '皮特凯恩群岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Pitcairn, Henderson, Ducie i Oeno',
-        'common' => 'Pitcairn',
+      'swe' => [
+        'official' => 'Pitcairnöarna',
+        'common' => 'Pitcairnöarna',
       ],
       'urd' => [
         'official' => 'پٹکیرن جزائر',
         'common' => 'جزائر پٹکیرن',
       ],
-      'kor' => [
-        'official' => '핏케언 제도',
-        'common' => '핏케언 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر پیت‌کرن',
-        'common' => 'جزایر پیت‌کرن',
+      'zho' => [
+        'official' => '皮特凯恩群岛',
+        'common' => '皮特凯恩群岛',
       ],
     ],
     'latlng' => [
@@ -25880,6 +28004,9 @@ class CountriesDataSource
         'f' => 'Pitcairnaise',
         'm' => 'Pitcairnais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+64',
     ],
   ],
   177 => [
@@ -25910,6 +28037,7 @@ class CountriesDataSource
     'cioc' => 'PER',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PEN' => [
         'name' => 'Peruvian sol',
@@ -25946,12 +28074,24 @@ class CountriesDataSource
         'official' => 'Republik Peru',
         'common' => 'Peru',
       ],
+      'est' => [
+        'official' => 'Peruu Vabariik',
+        'common' => 'Peruu',
+      ],
+      'fin' => [
+        'official' => 'Perun tasavalta',
+        'common' => 'Peru',
+      ],
       'fra' => [
         'official' => 'République du Pérou',
         'common' => 'Pérou',
       ],
       'hrv' => [
         'official' => 'Republika Peru',
+        'common' => 'Peru',
+      ],
+      'hun' => [
+        'official' => 'Perui Köztársaság',
         'common' => 'Peru',
       ],
       'ita' => [
@@ -25962,8 +28102,20 @@ class CountriesDataSource
         'official' => 'ペルー共和国',
         'common' => 'ペルー',
       ],
+      'kor' => [
+        'official' => '페루 공화국',
+        'common' => '페루',
+      ],
       'nld' => [
         'official' => 'Republiek Peru',
+        'common' => 'Peru',
+      ],
+      'per' => [
+        'official' => 'جمهوری پرو',
+        'common' => 'پرو',
+      ],
+      'pol' => [
+        'official' => 'Republika Peru',
         'common' => 'Peru',
       ],
       'por' => [
@@ -25982,33 +28134,17 @@ class CountriesDataSource
         'official' => 'República de Perú',
         'common' => 'Perú',
       ],
-      'fin' => [
-        'official' => 'Perun tasavalta',
-        'common' => 'Peru',
-      ],
-      'est' => [
-        'official' => 'Peruu Vabariik',
-        'common' => 'Peruu',
-      ],
-      'zho' => [
-        'official' => '秘鲁共和国',
-        'common' => '秘鲁',
-      ],
-      'pol' => [
-        'official' => 'Republika Peru',
+      'swe' => [
+        'official' => 'Republiken Peru',
         'common' => 'Peru',
       ],
       'urd' => [
         'official' => 'جمہوریہ پیرو',
         'common' => 'پیرو',
       ],
-      'kor' => [
-        'official' => '페루 공화국',
-        'common' => '페루',
-      ],
-      'per' => [
-        'official' => 'جمهوری پرو',
-        'common' => 'پرو',
+      'zho' => [
+        'official' => '秘鲁共和国',
+        'common' => '秘鲁',
       ],
     ],
     'latlng' => [
@@ -26035,6 +28171,9 @@ class CountriesDataSource
         'm' => 'Péruvien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+51',
+    ],
   ],
   178 => [
     'name' => [
@@ -26060,6 +28199,7 @@ class CountriesDataSource
     'cioc' => 'PHI',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PHP' => [
         'name' => 'Philippine peso',
@@ -26095,6 +28235,14 @@ class CountriesDataSource
         'official' => 'Republik der Philippinen',
         'common' => 'Philippinen',
       ],
+      'est' => [
+        'official' => 'Filipiini Vabariik',
+        'common' => 'Filipiinid',
+      ],
+      'fin' => [
+        'official' => 'Filippiinien tasavalta',
+        'common' => 'Filippiinit',
+      ],
       'fra' => [
         'official' => 'République des Philippines',
         'common' => 'Philippines',
@@ -26102,6 +28250,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Filipini',
         'common' => 'Filipini',
+      ],
+      'hun' => [
+        'official' => 'Fülöp-szigeteki Köztársaság',
+        'common' => 'Fülöp-szigetek',
       ],
       'ita' => [
         'official' => 'Repubblica delle Filippine',
@@ -26111,9 +28263,21 @@ class CountriesDataSource
         'official' => 'フィリピン共和国',
         'common' => 'フィリピン',
       ],
+      'kor' => [
+        'official' => '필리핀 공화국',
+        'common' => '필리핀',
+      ],
       'nld' => [
         'official' => 'Republiek der Filipijnen',
         'common' => 'Filipijnen',
+      ],
+      'per' => [
+        'official' => 'جمهوری فیلیپین',
+        'common' => 'فیلیپین',
+      ],
+      'pol' => [
+        'official' => 'Republika Filipin',
+        'common' => 'Filipiny',
       ],
       'por' => [
         'official' => 'República das Filipinas',
@@ -26131,33 +28295,17 @@ class CountriesDataSource
         'official' => 'República de las Filipinas',
         'common' => 'Filipinas',
       ],
-      'fin' => [
-        'official' => 'Filippiinien tasavalta',
-        'common' => 'Filippiinit',
-      ],
-      'est' => [
-        'official' => 'Filipiini Vabariik',
-        'common' => 'Filipiinid',
-      ],
-      'zho' => [
-        'official' => '菲律宾共和国',
-        'common' => '菲律宾',
-      ],
-      'pol' => [
-        'official' => 'Republika Filipin',
-        'common' => 'Filipiny',
+      'swe' => [
+        'official' => 'Republiken Filippinerna',
+        'common' => 'Filippinerna',
       ],
       'urd' => [
         'official' => 'جمہوریہ فلپائن',
         'common' => 'فلپائن',
       ],
-      'kor' => [
-        'official' => '필리핀 공화국',
-        'common' => '필리핀',
-      ],
-      'per' => [
-        'official' => 'جمهوری فیلیپین',
-        'common' => 'فیلیپین',
+      'zho' => [
+        'official' => '菲律宾共和国',
+        'common' => '菲律宾',
       ],
     ],
     'latlng' => [
@@ -26178,6 +28326,9 @@ class CountriesDataSource
         'f' => 'Philippine',
         'm' => 'Philippin',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+63',
     ],
   ],
   179 => [
@@ -26204,6 +28355,7 @@ class CountriesDataSource
     'cioc' => 'PLW',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -26239,12 +28391,24 @@ class CountriesDataSource
         'official' => 'Republik Palau',
         'common' => 'Palau',
       ],
+      'est' => [
+        'official' => 'Belau Vabariik',
+        'common' => 'Belau',
+      ],
+      'fin' => [
+        'official' => 'Palaun tasavalta',
+        'common' => 'Palau',
+      ],
       'fra' => [
         'official' => 'République des Palaos (Palau)',
         'common' => 'Palaos (Palau)',
       ],
       'hrv' => [
         'official' => 'Republika Palau',
+        'common' => 'Palau',
+      ],
+      'hun' => [
+        'official' => 'Palaui Köztársaság',
         'common' => 'Palau',
       ],
       'ita' => [
@@ -26255,8 +28419,20 @@ class CountriesDataSource
         'official' => 'パラオ共和国',
         'common' => 'パラオ',
       ],
+      'kor' => [
+        'official' => '팔라우 공화국',
+        'common' => '팔라우',
+      ],
       'nld' => [
         'official' => 'Republiek van Palau',
+        'common' => 'Palau',
+      ],
+      'per' => [
+        'official' => 'جمهوری پالائو',
+        'common' => 'پالائو',
+      ],
+      'pol' => [
+        'official' => 'Republika Palau',
         'common' => 'Palau',
       ],
       'por' => [
@@ -26275,33 +28451,17 @@ class CountriesDataSource
         'official' => 'República de Palau',
         'common' => 'Palau',
       ],
-      'fin' => [
-        'official' => 'Palaun tasavalta',
-        'common' => 'Palau',
-      ],
-      'est' => [
-        'official' => 'Belau Vabariik',
-        'common' => 'Belau',
-      ],
-      'zho' => [
-        'official' => '帕劳共和国',
-        'common' => '帕劳',
-      ],
-      'pol' => [
-        'official' => 'Republika Palau',
+      'swe' => [
+        'official' => 'Republiken Palau',
         'common' => 'Palau',
       ],
       'urd' => [
         'official' => 'جمہوریہ پلاؤ',
         'common' => 'پلاؤ',
       ],
-      'kor' => [
-        'official' => '팔라우 공화국',
-        'common' => '팔라우',
-      ],
-      'per' => [
-        'official' => 'جمهوری پالائو',
-        'common' => 'پالائو',
+      'zho' => [
+        'official' => '帕劳共和国',
+        'common' => '帕劳',
       ],
     ],
     'latlng' => [
@@ -26322,6 +28482,9 @@ class CountriesDataSource
         'f' => 'Paluane',
         'm' => 'Paluan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+680',
     ],
   ],
   180 => [
@@ -26352,6 +28515,7 @@ class CountriesDataSource
     'cioc' => 'PNG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PGK' => [
         'name' => 'Papua New Guinean kina',
@@ -26388,6 +28552,14 @@ class CountriesDataSource
         'official' => 'Unabhängiger Staat Papua-Neuguinea',
         'common' => 'Papua-Neuguinea',
       ],
+      'est' => [
+        'official' => 'Paapua Uus-Guinea Iseseisvusriik',
+        'common' => 'Paapua Uus-Guinea',
+      ],
+      'fin' => [
+        'official' => 'Papua-Uuden-Guinean Itsenäinen valtio',
+        'common' => 'Papua-Uusi-Guinea',
+      ],
       'fra' => [
         'official' => 'État indépendant de Papouasie-Nouvelle-Guinée',
         'common' => 'Papouasie-Nouvelle-Guinée',
@@ -26395,6 +28567,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Nezavisna Država Papui Novoj Gvineji',
         'common' => 'Papua Nova Gvineja',
+      ],
+      'hun' => [
+        'official' => 'Pápua Új-Guinea Független Állam',
+        'common' => 'Pápua Új-Guinea',
       ],
       'ita' => [
         'official' => 'Stato indipendente di Papua Nuova Guinea',
@@ -26404,9 +28580,21 @@ class CountriesDataSource
         'official' => 'パプアニューギニア独立国',
         'common' => 'パプアニューギニア',
       ],
+      'kor' => [
+        'official' => '파푸아뉴기니 독립국',
+        'common' => '파푸아뉴기니',
+      ],
       'nld' => [
         'official' => 'Onafhankelijke Staat Papoea -Nieuw-Guinea',
         'common' => 'Papoea-Nieuw-Guinea',
+      ],
+      'per' => [
+        'official' => 'مملکت مستقل پاپوآ گینهٔ نو',
+        'common' => 'پاپوآ گینه نو',
+      ],
+      'pol' => [
+        'official' => 'Niezależne Państwo Papui-Nowej Gwinei',
+        'common' => 'Papua-Nowa Gwinea',
       ],
       'por' => [
         'official' => 'Estado Independente da Papua Nova Guiné',
@@ -26424,33 +28612,17 @@ class CountriesDataSource
         'official' => 'Estado Independiente de Papúa Nueva Guinea',
         'common' => 'Papúa Nueva Guinea',
       ],
-      'fin' => [
-        'official' => 'Papua-Uuden-Guinean Itsenäinen valtio',
-        'common' => 'Papua-Uusi-Guinea',
-      ],
-      'est' => [
-        'official' => 'Paapua Uus-Guinea Iseseisvusriik',
-        'common' => 'Paapua Uus-Guinea',
-      ],
-      'zho' => [
-        'official' => '巴布亚新几内亚',
-        'common' => '巴布亚新几内亚',
-      ],
-      'pol' => [
-        'official' => 'Niezależne Państwo Papui-Nowej Gwinei',
-        'common' => 'Papua-Nowa Gwinea',
+      'swe' => [
+        'official' => 'Den oberoende staten Papua Nya Guinea',
+        'common' => 'Papua Nya Guinea',
       ],
       'urd' => [
         'official' => 'آزاد ریاستِ پاپوا نیو گنی',
         'common' => 'پاپوا نیو گنی',
       ],
-      'kor' => [
-        'official' => '파푸아뉴기니 독립국',
-        'common' => '파푸아뉴기니',
-      ],
-      'per' => [
-        'official' => 'مملکت مستقل پاپوآ گینهٔ نو',
-        'common' => 'پاپوآ گینه نو',
+      'zho' => [
+        'official' => '巴布亚新几内亚',
+        'common' => '巴布亚新几内亚',
       ],
     ],
     'latlng' => [
@@ -26473,6 +28645,9 @@ class CountriesDataSource
         'm' => 'Papouasien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+675',
+    ],
   ],
   181 => [
     'name' => [
@@ -26494,6 +28669,7 @@ class CountriesDataSource
     'cioc' => 'POL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PLN' => [
         'name' => 'Polish złoty',
@@ -26515,7 +28691,7 @@ class CountriesDataSource
       2 => 'Rzeczpospolita Polska',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Central Europe',
     'languages' => [
       'pol' => 'Polish',
     ],
@@ -26528,6 +28704,14 @@ class CountriesDataSource
         'official' => 'Republik Polen',
         'common' => 'Polen',
       ],
+      'est' => [
+        'official' => 'Poola Vabariik',
+        'common' => 'Poola',
+      ],
+      'fin' => [
+        'official' => 'Puolan tasavalta',
+        'common' => 'Puola',
+      ],
       'fra' => [
         'official' => 'République de Pologne',
         'common' => 'Pologne',
@@ -26535,6 +28719,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Poljska',
         'common' => 'Poljska',
+      ],
+      'hun' => [
+        'official' => 'Lengyel Köztársaság',
+        'common' => 'Lengyelország',
       ],
       'ita' => [
         'official' => 'Repubblica di Polonia',
@@ -26544,9 +28732,21 @@ class CountriesDataSource
         'official' => 'ポーランド共和国',
         'common' => 'ポーランド',
       ],
+      'kor' => [
+        'official' => '폴란드 공화국',
+        'common' => '폴란드',
+      ],
       'nld' => [
         'official' => 'Republiek Polen',
         'common' => 'Polen',
+      ],
+      'per' => [
+        'official' => 'جمهوری لهستان',
+        'common' => 'لهستان',
+      ],
+      'pol' => [
+        'official' => 'Rzeczpospolita Polska',
+        'common' => 'Polska',
       ],
       'por' => [
         'official' => 'República da Polónia',
@@ -26564,33 +28764,17 @@ class CountriesDataSource
         'official' => 'República de Polonia',
         'common' => 'Polonia',
       ],
-      'fin' => [
-        'official' => 'Puolan tasavalta',
-        'common' => 'Puola',
-      ],
-      'est' => [
-        'official' => 'Poola Vabariik',
-        'common' => 'Poola',
-      ],
-      'zho' => [
-        'official' => '波兰共和国',
-        'common' => '波兰',
-      ],
-      'pol' => [
-        'official' => 'Rzeczpospolita Polska',
-        'common' => 'Polska',
+      'swe' => [
+        'official' => 'Republiken Polen',
+        'common' => 'Polen',
       ],
       'urd' => [
         'official' => 'جمہوریہ پولینڈ',
         'common' => 'پولینڈ',
       ],
-      'kor' => [
-        'official' => '폴란드 공화국',
-        'common' => '폴란드',
-      ],
-      'per' => [
-        'official' => 'جمهوری لهستان',
-        'common' => 'لهستان',
+      'zho' => [
+        'official' => '波兰共和国',
+        'common' => '波兰',
       ],
     ],
     'latlng' => [
@@ -26619,6 +28803,9 @@ class CountriesDataSource
         'm' => 'Polonais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+48',
+    ],
   ],
   182 => [
     'name' => [
@@ -26644,6 +28831,7 @@ class CountriesDataSource
     'cioc' => 'PUR',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -26680,6 +28868,14 @@ class CountriesDataSource
         'official' => 'Freistaat Puerto Rico',
         'common' => 'Puerto Rico',
       ],
+      'est' => [
+        'official' => 'Puerto Rico Ühendus',
+        'common' => 'Puerto Rico',
+      ],
+      'fin' => [
+        'official' => 'Puerto Rico',
+        'common' => 'Puerto Rico',
+      ],
       'fra' => [
         'official' => 'Porto Rico',
         'common' => 'Porto Rico',
@@ -26687,6 +28883,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Zajednica Puerto Rico',
         'common' => 'Portoriko',
+      ],
+      'hun' => [
+        'official' => 'Puerto Rico',
+        'common' => 'Puerto Rico',
       ],
       'ita' => [
         'official' => 'Commonwealth di Porto Rico',
@@ -26696,9 +28896,21 @@ class CountriesDataSource
         'official' => 'プエルトリコのコモンウェルス',
         'common' => 'プエルトリコ',
       ],
+      'kor' => [
+        'official' => '푸에르토리코',
+        'common' => '푸에르토리코',
+      ],
       'nld' => [
         'official' => 'Gemenebest van Puerto Rico',
         'common' => 'Puerto Rico',
+      ],
+      'per' => [
+        'official' => 'قلمرو همسود پورتوریکو',
+        'common' => 'پورتوریکو',
+      ],
+      'pol' => [
+        'official' => 'Wolne Stowarzyszone Państwo Portoryko',
+        'common' => 'Portoryko',
       ],
       'por' => [
         'official' => 'Commonwealth of Puerto Rico',
@@ -26716,33 +28928,17 @@ class CountriesDataSource
         'official' => 'Asociado de Puerto Rico',
         'common' => 'Puerto Rico',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Puerto Rico',
         'common' => 'Puerto Rico',
-      ],
-      'est' => [
-        'official' => 'Puerto Rico Ühendus',
-        'common' => 'Puerto Rico',
-      ],
-      'zho' => [
-        'official' => '波多黎各联邦',
-        'common' => '波多黎各',
-      ],
-      'pol' => [
-        'official' => 'Wolne Stowarzyszone Państwo Portoryko',
-        'common' => 'Portoryko',
       ],
       'urd' => [
         'official' => ' دولتِ مشترکہ پورٹو ریکو',
         'common' => 'پورٹو ریکو',
       ],
-      'kor' => [
-        'official' => '푸에르토리코',
-        'common' => '푸에르토리코',
-      ],
-      'per' => [
-        'official' => 'قلمرو همسود پورتوریکو',
-        'common' => 'پورتوریکو',
+      'zho' => [
+        'official' => '波多黎各联邦',
+        'common' => '波多黎各',
       ],
     ],
     'latlng' => [
@@ -26763,6 +28959,10 @@ class CountriesDataSource
         'f' => 'Portoricaine',
         'm' => 'Portoricain',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1787',
+      1 => '+1939',
     ],
   ],
   183 => [
@@ -26785,6 +28985,7 @@ class CountriesDataSource
     'cioc' => 'PRK',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'KPW' => [
         'name' => 'North Korean won',
@@ -26824,6 +29025,14 @@ class CountriesDataSource
         'official' => 'Demokratische Volksrepublik Korea',
         'common' => 'Nordkorea',
       ],
+      'est' => [
+        'official' => 'Korea Rahvademokraatlik Vabariik',
+        'common' => 'Põhja-Korea',
+      ],
+      'fin' => [
+        'official' => 'Korean demokraattinen kansantasavalta',
+        'common' => 'Pohjois-Korea',
+      ],
       'fra' => [
         'official' => 'République populaire démocratique de Corée',
         'common' => 'Corée du Nord',
@@ -26831,6 +29040,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Demokratska Narodna Republika Koreja',
         'common' => 'Sjeverna Koreja',
+      ],
+      'hun' => [
+        'official' => 'Koreai Népi Demokratikus Köztársaság',
+        'common' => 'Észak-Korea',
       ],
       'ita' => [
         'official' => 'Repubblica democratica popolare di Corea',
@@ -26840,9 +29053,21 @@ class CountriesDataSource
         'official' => '朝鮮民主主義人民共和国',
         'common' => '朝鮮民主主義人民共和国',
       ],
+      'kor' => [
+        'official' => '조선민주주의인민공화국',
+        'common' => '조선',
+      ],
       'nld' => [
         'official' => 'Democratische Volksrepubliek Korea',
         'common' => 'Noord-Korea',
+      ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک خلق کره',
+        'common' => 'کُره شمالی',
+      ],
+      'pol' => [
+        'official' => 'Koreańska Republika Ludowo-Demokratyczna',
+        'common' => 'Korea Północna',
       ],
       'por' => [
         'official' => 'República Popular Democrática da Coreia',
@@ -26860,33 +29085,17 @@ class CountriesDataSource
         'official' => 'República Popular Democrática de Corea',
         'common' => 'Corea del Norte',
       ],
-      'fin' => [
-        'official' => 'Korean demokraattinen kansantasavalta',
-        'common' => 'Pohjois-Korea',
-      ],
-      'est' => [
-        'official' => 'Korea Rahvademokraatlik Vabariik',
-        'common' => 'Põhja-Korea',
-      ],
-      'zho' => [
-        'official' => '朝鲜人民民主共和国',
-        'common' => '朝鲜',
-      ],
-      'pol' => [
-        'official' => 'Koreańska Republika Ludowo-Demokratyczna',
-        'common' => 'Korea Północna',
+      'swe' => [
+        'official' => 'Demokratiska Folkrepubliken Korea',
+        'common' => 'Nordkorea',
       ],
       'urd' => [
         'official' => 'جمہوری عوامی جمہوریہ کوریا',
         'common' => 'شمالی کوریا',
       ],
-      'kor' => [
-        'official' => '조선민주주의인민공화국',
-        'common' => '조선',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک خلق کره',
-        'common' => 'کُره شمالی',
+      'zho' => [
+        'official' => '朝鲜人民民主共和国',
+        'common' => '朝鲜',
       ],
     ],
     'latlng' => [
@@ -26911,6 +29120,9 @@ class CountriesDataSource
         'm' => 'Nord-coréen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+850',
+    ],
   ],
   184 => [
     'name' => [
@@ -26932,6 +29144,7 @@ class CountriesDataSource
     'cioc' => 'POR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -26967,6 +29180,14 @@ class CountriesDataSource
         'official' => 'Portugiesische Republik',
         'common' => 'Portugal',
       ],
+      'est' => [
+        'official' => 'Portugali Vabariik',
+        'common' => 'Portugal',
+      ],
+      'fin' => [
+        'official' => 'Portugalin tasavalta',
+        'common' => 'Portugali',
+      ],
       'fra' => [
         'official' => 'République portugaise',
         'common' => 'Portugal',
@@ -26974,6 +29195,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Portugalska Republika',
         'common' => 'Portugal',
+      ],
+      'hun' => [
+        'official' => 'Portugál Köztársaság',
+        'common' => 'Portugália',
       ],
       'ita' => [
         'official' => 'Repubblica portoghese',
@@ -26983,9 +29208,21 @@ class CountriesDataSource
         'official' => 'ポルトガル共和国',
         'common' => 'ポルトガル',
       ],
+      'kor' => [
+        'official' => '포르투갈 공화국',
+        'common' => '포르투갈',
+      ],
       'nld' => [
         'official' => 'Portugese Republiek',
         'common' => 'Portugal',
+      ],
+      'per' => [
+        'official' => 'جمهوری پرتغال',
+        'common' => 'پرتغال',
+      ],
+      'pol' => [
+        'official' => 'Republika Portugalska',
+        'common' => 'Portugalia',
       ],
       'por' => [
         'official' => 'República português',
@@ -27003,33 +29240,17 @@ class CountriesDataSource
         'official' => 'República Portuguesa',
         'common' => 'Portugal',
       ],
-      'fin' => [
-        'official' => 'Portugalin tasavalta',
-        'common' => 'Portugali',
-      ],
-      'est' => [
-        'official' => 'Portugali Vabariik',
+      'swe' => [
+        'official' => 'Republiken Portugal',
         'common' => 'Portugal',
-      ],
-      'zho' => [
-        'official' => '葡萄牙共和国',
-        'common' => '葡萄牙',
-      ],
-      'pol' => [
-        'official' => 'Republika Portugalska',
-        'common' => 'Portugalia',
       ],
       'urd' => [
         'official' => 'جمہوریہ پرتگال',
         'common' => 'پرتگال',
       ],
-      'kor' => [
-        'official' => '포르투갈 공화국',
-        'common' => '포르투갈',
-      ],
-      'per' => [
-        'official' => 'جمهوری پرتغال',
-        'common' => 'پرتغال',
+      'zho' => [
+        'official' => '葡萄牙共和国',
+        'common' => '葡萄牙',
       ],
     ],
     'latlng' => [
@@ -27051,6 +29272,9 @@ class CountriesDataSource
         'f' => 'Portugaise',
         'm' => 'Portugais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+351',
     ],
   ],
   185 => [
@@ -27077,6 +29301,7 @@ class CountriesDataSource
     'cioc' => 'PAR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'PYG' => [
         'name' => 'Paraguayan guaraní',
@@ -27113,6 +29338,14 @@ class CountriesDataSource
         'official' => 'Republik Paraguay',
         'common' => 'Paraguay',
       ],
+      'est' => [
+        'official' => 'Paraguay Vabariik',
+        'common' => 'Paraguay',
+      ],
+      'fin' => [
+        'official' => 'Paraguayn tasavalta',
+        'common' => 'Paraguay',
+      ],
       'fra' => [
         'official' => 'République du Paraguay',
         'common' => 'Paraguay',
@@ -27120,6 +29353,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Paragvaj',
         'common' => 'Paragvaj',
+      ],
+      'hun' => [
+        'official' => 'Paraguayi Köztársaság',
+        'common' => 'Paraguay',
       ],
       'ita' => [
         'official' => 'Repubblica del Paraguay',
@@ -27129,9 +29366,21 @@ class CountriesDataSource
         'official' => 'パラグアイ共和国',
         'common' => 'パラグアイ',
       ],
+      'kor' => [
+        'official' => '파라과이 공화국',
+        'common' => '파라과이',
+      ],
       'nld' => [
         'official' => 'Republiek Paraguay',
         'common' => 'Paraguay',
+      ],
+      'per' => [
+        'official' => 'جمهوری پاراگوئه',
+        'common' => 'پاراگوئه',
+      ],
+      'pol' => [
+        'official' => 'Republika Paragwaju',
+        'common' => 'Paragwaj',
       ],
       'por' => [
         'official' => 'República do Paraguai',
@@ -27149,33 +29398,17 @@ class CountriesDataSource
         'official' => 'República de Paraguay',
         'common' => 'Paraguay',
       ],
-      'fin' => [
-        'official' => 'Paraguayn tasavalta',
+      'swe' => [
+        'official' => 'Republiken Paraguay',
         'common' => 'Paraguay',
-      ],
-      'est' => [
-        'official' => 'Paraguay Vabariik',
-        'common' => 'Paraguay',
-      ],
-      'zho' => [
-        'official' => '巴拉圭共和国',
-        'common' => '巴拉圭',
-      ],
-      'pol' => [
-        'official' => 'Republika Paragwaju',
-        'common' => 'Paragwaj',
       ],
       'urd' => [
         'official' => 'جمہوریہ پیراگوئے',
         'common' => 'پیراگوئے',
       ],
-      'kor' => [
-        'official' => '파라과이 공화국',
-        'common' => '파라과이',
-      ],
-      'per' => [
-        'official' => 'جمهوری پاراگوئه',
-        'common' => 'پاراگوئه',
+      'zho' => [
+        'official' => '巴拉圭共和国',
+        'common' => '巴拉圭',
       ],
     ],
     'latlng' => [
@@ -27200,6 +29433,9 @@ class CountriesDataSource
         'm' => 'Paraguayen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+595',
+    ],
   ],
   186 => [
     'name' => [
@@ -27222,6 +29458,7 @@ class CountriesDataSource
     'cioc' => 'PLE',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EGP' => [
         'name' => 'Egyptian pound',
@@ -27265,6 +29502,14 @@ class CountriesDataSource
         'official' => 'Staat Palästina',
         'common' => 'Palästina',
       ],
+      'est' => [
+        'official' => 'Palestiina Riik',
+        'common' => 'Palestiina',
+      ],
+      'fin' => [
+        'official' => 'Palestiinan valtio',
+        'common' => 'Palestiina',
+      ],
       'fra' => [
         'official' => 'État de Palestine',
         'common' => 'Palestine',
@@ -27272,6 +29517,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'State of Palestine',
         'common' => 'Palestina',
+      ],
+      'hun' => [
+        'official' => 'Palesztin Autonómia',
+        'common' => 'Palesztina',
       ],
       'ita' => [
         'official' => 'Stato di Palestina',
@@ -27281,9 +29530,21 @@ class CountriesDataSource
         'official' => 'パレスチナ自治政府',
         'common' => 'パレスチナ',
       ],
+      'kor' => [
+        'official' => '팔레스타인국',
+        'common' => '팔레스타인',
+      ],
       'nld' => [
         'official' => 'Staat Palestina',
         'common' => 'Palestijnse gebieden',
+      ],
+      'per' => [
+        'official' => 'دولت فلسطین',
+        'common' => 'فلسطین',
+      ],
+      'pol' => [
+        'official' => 'Państwo Palestyna',
+        'common' => 'Palestyna',
       ],
       'por' => [
         'official' => 'Estado da Palestina',
@@ -27301,33 +29562,17 @@ class CountriesDataSource
         'official' => 'Estado de Palestina',
         'common' => 'Palestina',
       ],
-      'fin' => [
-        'official' => 'Palestiinan valtio',
-        'common' => 'Palestiina',
-      ],
-      'est' => [
-        'official' => 'Palestiina Riik',
-        'common' => 'Palestiina',
-      ],
-      'zho' => [
-        'official' => '巴勒斯坦国',
-        'common' => '巴勒斯坦',
-      ],
-      'pol' => [
-        'official' => 'Państwo Palestyna',
-        'common' => 'Palestyna',
+      'swe' => [
+        'official' => 'Palestina',
+        'common' => 'Palestina',
       ],
       'urd' => [
         'official' => 'ریاستِ فلسطین',
         'common' => 'فلسطین',
       ],
-      'kor' => [
-        'official' => '팔레스타인국',
-        'common' => '팔레스타인',
-      ],
-      'per' => [
-        'official' => 'دولت فلسطین',
-        'common' => 'فلسطین',
+      'zho' => [
+        'official' => '巴勒斯坦国',
+        'common' => '巴勒斯坦',
       ],
     ],
     'latlng' => [
@@ -27352,6 +29597,9 @@ class CountriesDataSource
         'm' => 'Palestinien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+970',
+    ],
   ],
   187 => [
     'name' => [
@@ -27373,6 +29621,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'XPF' => [
         'name' => 'CFP franc',
@@ -27408,6 +29657,14 @@ class CountriesDataSource
         'official' => 'Französisch-Polynesien',
         'common' => 'Französisch-Polynesien',
       ],
+      'est' => [
+        'official' => 'Prantsuse Polüneesia',
+        'common' => 'Prantsuse Polüneesia',
+      ],
+      'fin' => [
+        'official' => 'Ranskan Polynesia',
+        'common' => 'Ranskan Polynesia',
+      ],
       'fra' => [
         'official' => 'Polynésie française',
         'common' => 'Polynésie française',
@@ -27415,6 +29672,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Francuska Polinezija',
         'common' => 'Francuska Polinezija',
+      ],
+      'hun' => [
+        'official' => 'Francia Polinézia',
+        'common' => 'Francia Polinézia',
       ],
       'ita' => [
         'official' => 'Polinesia Francese',
@@ -27424,9 +29685,21 @@ class CountriesDataSource
         'official' => 'フランス領ポリネシア',
         'common' => 'フランス領ポリネシア',
       ],
+      'kor' => [
+        'official' => '프랑스령 폴리네시아',
+        'common' => '프랑스령 폴리네시아',
+      ],
       'nld' => [
         'official' => 'Frans-Polynesië',
         'common' => 'Frans-Polynesië',
+      ],
+      'per' => [
+        'official' => 'پُلی‌نِزی فرانسه',
+        'common' => 'پُلی‌نِزی فرانسه',
+      ],
+      'pol' => [
+        'official' => 'Polinezja Francuska',
+        'common' => 'Polinezja Francuska',
       ],
       'por' => [
         'official' => 'Polinésia Francesa',
@@ -27444,33 +29717,17 @@ class CountriesDataSource
         'official' => 'Polinesia francés',
         'common' => 'Polinesia Francesa',
       ],
-      'fin' => [
-        'official' => 'Ranskan Polynesia',
-        'common' => 'Ranskan Polynesia',
-      ],
-      'est' => [
-        'official' => 'Prantsuse Polüneesia',
-        'common' => 'Prantsuse Polüneesia',
-      ],
-      'zho' => [
-        'official' => '法属波利尼西亚',
-        'common' => '法属波利尼西亚',
-      ],
-      'pol' => [
-        'official' => 'Polinezja Francuska',
-        'common' => 'Polinezja Francuska',
+      'swe' => [
+        'official' => 'Franska Polynesien',
+        'common' => 'Franska Polynesien',
       ],
       'urd' => [
         'official' => 'فرانسیسی پولینیشیا',
         'common' => 'فرانسیسی پولینیشیا',
       ],
-      'kor' => [
-        'official' => '프랑스령 폴리네시아',
-        'common' => '프랑스령 폴리네시아',
-      ],
-      'per' => [
-        'official' => 'پُلی‌نِزی فرانسه',
-        'common' => 'پُلی‌نِزی فرانسه',
+      'zho' => [
+        'official' => '法属波利尼西亚',
+        'common' => '法属波利尼西亚',
       ],
     ],
     'latlng' => [
@@ -27491,6 +29748,9 @@ class CountriesDataSource
         'f' => 'Polynésienne',
         'm' => 'Polynésien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+689',
     ],
   ],
   188 => [
@@ -27514,6 +29774,7 @@ class CountriesDataSource
     'cioc' => 'QAT',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'QAR' => [
         'name' => 'Qatari riyal',
@@ -27548,12 +29809,24 @@ class CountriesDataSource
         'official' => 'Staat Katar',
         'common' => 'Katar',
       ],
+      'est' => [
+        'official' => 'Katari Riik',
+        'common' => 'Katar',
+      ],
+      'fin' => [
+        'official' => 'Qatarin valtio',
+        'common' => 'Qatar',
+      ],
       'fra' => [
         'official' => 'État du Qatar',
         'common' => 'Qatar',
       ],
       'hrv' => [
         'official' => 'Država Katar',
+        'common' => 'Katar',
+      ],
+      'hun' => [
+        'official' => 'Katari Állam',
         'common' => 'Katar',
       ],
       'ita' => [
@@ -27564,9 +29837,21 @@ class CountriesDataSource
         'official' => 'カタール国',
         'common' => 'カタール',
       ],
+      'kor' => [
+        'official' => '카타르국',
+        'common' => '카타르',
+      ],
       'nld' => [
         'official' => 'Staat Qatar',
         'common' => 'Qatar',
+      ],
+      'per' => [
+        'official' => 'دولت قطر',
+        'common' => 'قطر',
+      ],
+      'pol' => [
+        'official' => 'Państwo Katar',
+        'common' => 'Katar',
       ],
       'por' => [
         'official' => 'Estado do Qatar',
@@ -27584,33 +29869,17 @@ class CountriesDataSource
         'official' => 'Estado de Qatar',
         'common' => 'Catar',
       ],
-      'fin' => [
-        'official' => 'Qatarin valtio',
+      'swe' => [
+        'official' => 'Staten Qatar',
         'common' => 'Qatar',
-      ],
-      'est' => [
-        'official' => 'Katari Riik',
-        'common' => 'Katar',
-      ],
-      'zho' => [
-        'official' => '卡塔尔国',
-        'common' => '卡塔尔',
-      ],
-      'pol' => [
-        'official' => 'Państwo Katar',
-        'common' => 'Katar',
       ],
       'urd' => [
         'official' => 'ریاستِ قطر',
         'common' => 'قطر',
       ],
-      'kor' => [
-        'official' => '카타르국',
-        'common' => '카타르',
-      ],
-      'per' => [
-        'official' => 'دولت قطر',
-        'common' => 'قطر',
+      'zho' => [
+        'official' => '卡塔尔国',
+        'common' => '卡塔尔',
       ],
     ],
     'latlng' => [
@@ -27633,6 +29902,9 @@ class CountriesDataSource
         'm' => 'Qatarien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+974',
+    ],
   ],
   189 => [
     'name' => [
@@ -27654,6 +29926,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -27687,12 +29960,24 @@ class CountriesDataSource
         'official' => 'Réunion',
         'common' => 'Réunion',
       ],
+      'est' => [
+        'official' => 'Réunioni departemang',
+        'common' => 'Réunion',
+      ],
+      'fin' => [
+        'official' => 'Réunion',
+        'common' => 'Réunion',
+      ],
       'fra' => [
         'official' => 'Ile de la Réunion',
         'common' => 'Réunion',
       ],
       'hrv' => [
         'official' => 'Réunion Island',
+        'common' => 'Réunion',
+      ],
+      'hun' => [
+        'official' => 'Réunion',
         'common' => 'Réunion',
       ],
       'ita' => [
@@ -27703,9 +29988,21 @@ class CountriesDataSource
         'official' => 'レユニオン島',
         'common' => 'レユニオン',
       ],
+      'kor' => [
+        'official' => '레위니옹',
+        'common' => '레위니옹',
+      ],
       'nld' => [
         'official' => 'Réunion',
         'common' => 'Réunion',
+      ],
+      'per' => [
+        'official' => 'رئونیون',
+        'common' => 'رئونیون',
+      ],
+      'pol' => [
+        'official' => 'Reunion',
+        'common' => 'Reunion',
       ],
       'por' => [
         'official' => 'Ilha da Reunião',
@@ -27723,33 +30020,17 @@ class CountriesDataSource
         'official' => 'Isla de la Reunión',
         'common' => 'Reunión',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Réunion',
         'common' => 'Réunion',
-      ],
-      'est' => [
-        'official' => 'Réunioni departemang',
-        'common' => 'Réunion',
-      ],
-      'zho' => [
-        'official' => '留尼旺岛',
-        'common' => '留尼旺岛',
-      ],
-      'pol' => [
-        'official' => 'Reunion',
-        'common' => 'Reunion',
       ],
       'urd' => [
         'official' => 'رے یونیوں جزیرہ',
         'common' => 'رے یونیوں',
       ],
-      'kor' => [
-        'official' => '레위니옹',
-        'common' => '레위니옹',
-      ],
-      'per' => [
-        'official' => 'رئونیون',
-        'common' => 'رئونیون',
+      'zho' => [
+        'official' => '留尼旺岛',
+        'common' => '留尼旺岛',
       ],
     ],
     'latlng' => [
@@ -27770,6 +30051,9 @@ class CountriesDataSource
         'f' => 'Réunionnaise',
         'm' => 'Réunionnais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+262',
     ],
   ],
   190 => [
@@ -27792,6 +30076,7 @@ class CountriesDataSource
     'cioc' => 'ROU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'RON' => [
         'name' => 'Romanian leu',
@@ -27814,7 +30099,7 @@ class CountriesDataSource
       3 => 'România',
     ],
     'region' => 'Europe',
-    'subregion' => 'Eastern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'ron' => 'Romanian',
     ],
@@ -27827,6 +30112,14 @@ class CountriesDataSource
         'official' => 'Rumänien',
         'common' => 'Rumänien',
       ],
+      'est' => [
+        'official' => 'Rumeenia',
+        'common' => 'Rumeenia',
+      ],
+      'fin' => [
+        'official' => 'Romania',
+        'common' => 'Romania',
+      ],
       'fra' => [
         'official' => 'Roumanie',
         'common' => 'Roumanie',
@@ -27834,6 +30127,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Rumunija',
         'common' => 'Rumunjska',
+      ],
+      'hun' => [
+        'official' => 'Románia',
+        'common' => 'Románia',
       ],
       'ita' => [
         'official' => 'Romania',
@@ -27843,9 +30140,21 @@ class CountriesDataSource
         'official' => 'ルーマニア',
         'common' => 'ルーマニア',
       ],
+      'kor' => [
+        'official' => '루마니아',
+        'common' => '루마니아',
+      ],
       'nld' => [
         'official' => 'Roemenië',
         'common' => 'Roemenië',
+      ],
+      'per' => [
+        'official' => 'رومانی',
+        'common' => 'رومانی',
+      ],
+      'pol' => [
+        'official' => 'Rumunia',
+        'common' => 'Rumunia',
       ],
       'por' => [
         'official' => 'Romênia',
@@ -27863,33 +30172,17 @@ class CountriesDataSource
         'official' => 'Rumania',
         'common' => 'Rumania',
       ],
-      'fin' => [
-        'official' => 'Romania',
-        'common' => 'Romania',
-      ],
-      'est' => [
-        'official' => 'Rumeenia',
-        'common' => 'Rumeenia',
-      ],
-      'zho' => [
-        'official' => '罗马尼亚',
-        'common' => '罗马尼亚',
-      ],
-      'pol' => [
-        'official' => 'Rumunia',
-        'common' => 'Rumunia',
+      'swe' => [
+        'official' => 'Rumänien',
+        'common' => 'Rumänien',
       ],
       'urd' => [
         'official' => 'رومانیہ',
         'common' => 'رومانیہ',
       ],
-      'kor' => [
-        'official' => '루마니아',
-        'common' => '루마니아',
-      ],
-      'per' => [
-        'official' => 'رومانی',
-        'common' => 'رومانی',
+      'zho' => [
+        'official' => '罗马尼亚',
+        'common' => '罗马尼亚',
       ],
     ],
     'latlng' => [
@@ -27916,6 +30209,9 @@ class CountriesDataSource
         'm' => 'Roumain',
       ],
     ],
+    'callingCodes' => [
+      0 => '+40',
+    ],
   ],
   191 => [
     'name' => [
@@ -27939,6 +30235,7 @@ class CountriesDataSource
     'cioc' => 'RUS',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'RUB' => [
         'name' => 'Russian ruble',
@@ -27948,11 +30245,11 @@ class CountriesDataSource
     'idd' => [
       'root' => '+7',
       'suffixes' => [
-        0 => '3XX',
-        1 => '4XX',
-        2 => '5XX',
-        3 => '8XX',
-        4 => '9XX',
+        0 => '3',
+        1 => '4',
+        2 => '5',
+        3 => '8',
+        4 => '9',
       ],
     ],
     'capital' => [
@@ -27977,6 +30274,14 @@ class CountriesDataSource
         'official' => 'Russische Föderation',
         'common' => 'Russland',
       ],
+      'est' => [
+        'official' => 'Venemaa Föderatsioon',
+        'common' => 'Venemaa',
+      ],
+      'fin' => [
+        'official' => 'Venäjän federaatio',
+        'common' => 'Venäjä',
+      ],
       'fra' => [
         'official' => 'Fédération de Russie',
         'common' => 'Russie',
@@ -27984,6 +30289,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Ruska Federacija',
         'common' => 'Rusija',
+      ],
+      'hun' => [
+        'official' => 'Oroszországi Föderáció',
+        'common' => 'Oroszország',
       ],
       'ita' => [
         'official' => 'Federazione russa',
@@ -27993,9 +30302,21 @@ class CountriesDataSource
         'official' => 'ロシア連邦',
         'common' => 'ロシア連邦',
       ],
+      'kor' => [
+        'official' => '러시아 연방',
+        'common' => '러시아',
+      ],
       'nld' => [
         'official' => 'Russische Federatie',
         'common' => 'Rusland',
+      ],
+      'per' => [
+        'official' => 'فدراسیون روسیه',
+        'common' => 'روسیه',
+      ],
+      'pol' => [
+        'official' => 'Federacja Rosyjska',
+        'common' => 'Rosja',
       ],
       'por' => [
         'official' => 'Federação Russa',
@@ -28013,33 +30334,17 @@ class CountriesDataSource
         'official' => 'Federación de Rusia',
         'common' => 'Rusia',
       ],
-      'fin' => [
-        'official' => 'Venäjän federaatio',
-        'common' => 'Venäjä',
-      ],
-      'est' => [
-        'official' => 'Venemaa Föderatsioon',
-        'common' => 'Venemaa',
-      ],
-      'zho' => [
-        'official' => '俄罗斯联邦',
-        'common' => '俄罗斯',
-      ],
-      'pol' => [
-        'official' => 'Federacja Rosyjska',
-        'common' => 'Rosja',
+      'swe' => [
+        'official' => 'Ryska federationen',
+        'common' => 'Ryssland',
       ],
       'urd' => [
         'official' => 'روسی وفاق',
         'common' => 'روس',
       ],
-      'kor' => [
-        'official' => '러시아 연방',
-        'common' => '러시아',
-      ],
-      'per' => [
-        'official' => 'فدراسیون روسیه',
-        'common' => 'روسیه',
+      'zho' => [
+        'official' => '俄罗斯联邦',
+        'common' => '俄罗斯',
       ],
     ],
     'latlng' => [
@@ -28075,6 +30380,13 @@ class CountriesDataSource
         'm' => 'Russe',
       ],
     ],
+    'callingCodes' => [
+      0 => '+73',
+      1 => '+74',
+      2 => '+75',
+      3 => '+78',
+      4 => '+79',
+    ],
   ],
   192 => [
     'name' => [
@@ -28104,6 +30416,7 @@ class CountriesDataSource
     'cioc' => 'RWA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'RWF' => [
         'name' => 'Rwandan franc',
@@ -28141,12 +30454,24 @@ class CountriesDataSource
         'official' => 'Republik Ruanda',
         'common' => 'Ruanda',
       ],
+      'est' => [
+        'official' => 'Rwanda Vabariik',
+        'common' => 'Rwanda',
+      ],
+      'fin' => [
+        'official' => 'Ruandan tasavalta',
+        'common' => 'Ruanda',
+      ],
       'fra' => [
         'official' => 'République rwandaise',
         'common' => 'Rwanda',
       ],
       'hrv' => [
         'official' => 'Republika Ruandi',
+        'common' => 'Ruanda',
+      ],
+      'hun' => [
+        'official' => 'Ruandai Köztársaság',
         'common' => 'Ruanda',
       ],
       'ita' => [
@@ -28157,8 +30482,20 @@ class CountriesDataSource
         'official' => 'ルワンダ共和国',
         'common' => 'ルワンダ',
       ],
+      'kor' => [
+        'official' => '르완다 공화국',
+        'common' => '르완다',
+      ],
       'nld' => [
         'official' => 'Republiek Rwanda',
+        'common' => 'Rwanda',
+      ],
+      'per' => [
+        'official' => 'جمهوری رواندا',
+        'common' => 'رواندا',
+      ],
+      'pol' => [
+        'official' => 'Republika Rwandy',
         'common' => 'Rwanda',
       ],
       'por' => [
@@ -28177,33 +30514,17 @@ class CountriesDataSource
         'official' => 'República de Rwanda',
         'common' => 'Ruanda',
       ],
-      'fin' => [
-        'official' => 'Ruandan tasavalta',
-        'common' => 'Ruanda',
-      ],
-      'est' => [
-        'official' => 'Rwanda Vabariik',
-        'common' => 'Rwanda',
-      ],
-      'zho' => [
-        'official' => '卢旺达共和国',
-        'common' => '卢旺达',
-      ],
-      'pol' => [
-        'official' => 'Republika Rwandy',
+      'swe' => [
+        'official' => 'Republiken Rwanda',
         'common' => 'Rwanda',
       ],
       'urd' => [
         'official' => 'جمہوریہ روانڈا',
         'common' => 'روانڈا',
       ],
-      'kor' => [
-        'official' => '르완다 공화국',
-        'common' => '르완다',
-      ],
-      'per' => [
-        'official' => 'جمهوری رواندا',
-        'common' => 'رواندا',
+      'zho' => [
+        'official' => '卢旺达共和国',
+        'common' => '卢旺达',
       ],
     ],
     'latlng' => [
@@ -28229,6 +30550,9 @@ class CountriesDataSource
         'm' => 'Rwandais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+250',
+    ],
   ],
   193 => [
     'name' => [
@@ -28251,6 +30575,7 @@ class CountriesDataSource
     'cioc' => 'KSA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SAR' => [
         'name' => 'Saudi riyal',
@@ -28286,6 +30611,14 @@ class CountriesDataSource
         'official' => 'Königreich Saudi-Arabien',
         'common' => 'Saudi-Arabien',
       ],
+      'est' => [
+        'official' => 'Saudi Araabia Kuningriik',
+        'common' => 'Saudi Araabia',
+      ],
+      'fin' => [
+        'official' => 'Saudi-Arabian kuningaskunta',
+        'common' => 'Saudi-Arabia',
+      ],
       'fra' => [
         'official' => 'Royaume d\'Arabie Saoudite',
         'common' => 'Arabie Saoudite',
@@ -28293,6 +30626,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Saudijska Arabija',
         'common' => 'Saudijska Arabija',
+      ],
+      'hun' => [
+        'official' => 'Szaúd-Arábia',
+        'common' => 'Szaúd-Arábia',
       ],
       'ita' => [
         'official' => 'Arabia Saudita',
@@ -28302,9 +30639,21 @@ class CountriesDataSource
         'official' => 'サウジアラビア王国',
         'common' => 'サウジアラビア',
       ],
+      'kor' => [
+        'official' => '사우디아라비아 왕국',
+        'common' => '사우디아라비아',
+      ],
       'nld' => [
         'official' => 'Koninkrijk van Saoedi-Arabië',
         'common' => 'Saoedi-Arabië',
+      ],
+      'per' => [
+        'official' => 'پادشاهی عربی سَعودی',
+        'common' => 'عربستان سعودی',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Arabii Saudyjskiej',
+        'common' => 'Arabia Saudyjska',
       ],
       'por' => [
         'official' => 'Reino da Arábia Saudita',
@@ -28322,33 +30671,17 @@ class CountriesDataSource
         'official' => 'Reino de Arabia Saudita',
         'common' => 'Arabia Saudí',
       ],
-      'fin' => [
-        'official' => 'Saudi-Arabian kuningaskunta',
-        'common' => 'Saudi-Arabia',
-      ],
-      'est' => [
-        'official' => 'Saudi Araabia Kuningriik',
-        'common' => 'Saudi Araabia',
-      ],
-      'zho' => [
-        'official' => '沙特阿拉伯王国',
-        'common' => '沙特阿拉伯',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Arabii Saudyjskiej',
-        'common' => 'Arabia Saudyjska',
+      'swe' => [
+        'official' => 'Kungadömet Saudiarabien',
+        'common' => 'Saudiarabien',
       ],
       'urd' => [
         'official' => 'مملکتِ سعودی عرب',
         'common' => 'سعودی عرب',
       ],
-      'kor' => [
-        'official' => '사우디아라비아 왕국',
-        'common' => '사우디아라비아',
-      ],
-      'per' => [
-        'official' => 'پادشاهی عربی سَعودی',
-        'common' => 'عربستان سعودی',
+      'zho' => [
+        'official' => '沙特阿拉伯王国',
+        'common' => '沙特阿拉伯',
       ],
     ],
     'latlng' => [
@@ -28377,6 +30710,9 @@ class CountriesDataSource
         'm' => 'Saoudien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+966',
+    ],
   ],
   194 => [
     'name' => [
@@ -28402,6 +30738,7 @@ class CountriesDataSource
     'cioc' => 'SUD',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SDG' => [
         'name' => 'Sudanese pound',
@@ -28437,6 +30774,14 @@ class CountriesDataSource
         'official' => 'Republik Sudan',
         'common' => 'Sudan',
       ],
+      'est' => [
+        'official' => 'Sudaani Vabariik',
+        'common' => 'Sudaan',
+      ],
+      'fin' => [
+        'official' => 'Sudanin tasavalta',
+        'common' => 'Sudan',
+      ],
       'fra' => [
         'official' => 'République du Soudan',
         'common' => 'Soudan',
@@ -28444,6 +30789,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Sudan',
         'common' => 'Sudan',
+      ],
+      'hun' => [
+        'official' => 'Szudáni Köztársaság',
+        'common' => 'Szudán',
       ],
       'ita' => [
         'official' => 'Repubblica del Sudan',
@@ -28453,9 +30802,21 @@ class CountriesDataSource
         'official' => 'スーダン共和国',
         'common' => 'スーダン',
       ],
+      'kor' => [
+        'official' => '수단 공화국',
+        'common' => '수단',
+      ],
       'nld' => [
         'official' => 'Republiek Soedan',
         'common' => 'Soedan',
+      ],
+      'per' => [
+        'official' => 'جمهوری سودان',
+        'common' => 'سودان',
+      ],
+      'pol' => [
+        'official' => 'Republika Sudanu',
+        'common' => 'Sudan',
       ],
       'por' => [
         'official' => 'República do Sudão',
@@ -28473,33 +30834,17 @@ class CountriesDataSource
         'official' => 'República de Sudán',
         'common' => 'Sudán',
       ],
-      'fin' => [
-        'official' => 'Sudanin tasavalta',
-        'common' => 'Sudan',
-      ],
-      'est' => [
-        'official' => 'Sudaani Vabariik',
-        'common' => 'Sudaan',
-      ],
-      'zho' => [
-        'official' => '苏丹共和国',
-        'common' => '苏丹',
-      ],
-      'pol' => [
-        'official' => 'Republika Sudanu',
+      'swe' => [
+        'official' => 'Republiken Sudan',
         'common' => 'Sudan',
       ],
       'urd' => [
         'official' => 'جمہوریہ سودان',
         'common' => 'سودان',
       ],
-      'kor' => [
-        'official' => '수단 공화국',
-        'common' => '수단',
-      ],
-      'per' => [
-        'official' => 'جمهوری سودان',
-        'common' => 'سودان',
+      'zho' => [
+        'official' => '苏丹共和国',
+        'common' => '苏丹',
       ],
     ],
     'latlng' => [
@@ -28528,6 +30873,9 @@ class CountriesDataSource
         'm' => 'Soudanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+249',
+    ],
   ],
   195 => [
     'name' => [
@@ -28549,6 +30897,7 @@ class CountriesDataSource
     'cioc' => 'SEN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -28583,6 +30932,14 @@ class CountriesDataSource
         'official' => 'Republik Senegal',
         'common' => 'Senegal',
       ],
+      'est' => [
+        'official' => 'Senegali Vabariik',
+        'common' => 'Senegal',
+      ],
+      'fin' => [
+        'official' => 'Senegalin tasavalta',
+        'common' => 'Senegal',
+      ],
       'fra' => [
         'official' => 'République du Sénégal',
         'common' => 'Sénégal',
@@ -28590,6 +30947,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Senegal',
         'common' => 'Senegal',
+      ],
+      'hun' => [
+        'official' => 'Szenegáli Köztársaság',
+        'common' => 'Szenegál',
       ],
       'ita' => [
         'official' => 'Repubblica del Senegal',
@@ -28599,8 +30960,20 @@ class CountriesDataSource
         'official' => 'セネガル共和国',
         'common' => 'セネガル',
       ],
+      'kor' => [
+        'official' => '세네갈 공화국',
+        'common' => '세네갈',
+      ],
       'nld' => [
         'official' => 'Republiek Senegal',
+        'common' => 'Senegal',
+      ],
+      'per' => [
+        'official' => 'جمهوری سنگال',
+        'common' => 'سنگال',
+      ],
+      'pol' => [
+        'official' => 'Senegal',
         'common' => 'Senegal',
       ],
       'por' => [
@@ -28619,33 +30992,17 @@ class CountriesDataSource
         'official' => 'República de Senegal',
         'common' => 'Senegal',
       ],
-      'fin' => [
-        'official' => 'Senegalin tasavalta',
-        'common' => 'Senegal',
-      ],
-      'est' => [
-        'official' => 'Senegali Vabariik',
-        'common' => 'Senegal',
-      ],
-      'zho' => [
-        'official' => '塞内加尔共和国',
-        'common' => '塞内加尔',
-      ],
-      'pol' => [
-        'official' => 'Senegal',
+      'swe' => [
+        'official' => 'Republiken Senegal',
         'common' => 'Senegal',
       ],
       'urd' => [
         'official' => 'جمہوریہ سینیگال',
         'common' => 'سینیگال',
       ],
-      'kor' => [
-        'official' => '세네갈 공화국',
-        'common' => '세네갈',
-      ],
-      'per' => [
-        'official' => 'جمهوری سنگال',
-        'common' => 'سنگال',
+      'zho' => [
+        'official' => '塞内加尔共和国',
+        'common' => '塞内加尔',
       ],
     ],
     'latlng' => [
@@ -28671,6 +31028,9 @@ class CountriesDataSource
         'f' => 'Sénégalaise',
         'm' => 'Sénégalais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+221',
     ],
   ],
   196 => [
@@ -28707,6 +31067,7 @@ class CountriesDataSource
     'cioc' => 'SIN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SGD' => [
         'name' => 'Singapore dollar',
@@ -28745,6 +31106,14 @@ class CountriesDataSource
         'official' => 'Republik Singapur',
         'common' => 'Singapur',
       ],
+      'est' => [
+        'official' => 'Singapuri Vabariik',
+        'common' => 'Singapur',
+      ],
+      'fin' => [
+        'official' => 'Singaporen tasavalta',
+        'common' => 'Singapore',
+      ],
       'fra' => [
         'official' => 'République de Singapour',
         'common' => 'Singapour',
@@ -28752,6 +31121,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Singapur',
         'common' => 'Singapur',
+      ],
+      'hun' => [
+        'official' => 'Szingapúri Köztársaság',
+        'common' => 'Szingapúr',
       ],
       'ita' => [
         'official' => 'Repubblica di Singapore',
@@ -28761,9 +31134,21 @@ class CountriesDataSource
         'official' => 'シンガポール共和国',
         'common' => 'シンガポール',
       ],
+      'kor' => [
+        'official' => '싱가포르 공화국',
+        'common' => '싱가포르',
+      ],
       'nld' => [
         'official' => 'Republiek Singapore',
         'common' => 'Singapore',
+      ],
+      'per' => [
+        'official' => 'جمهوری سنگاپور',
+        'common' => 'سنگاپور',
+      ],
+      'pol' => [
+        'official' => 'Republika Singapuru',
+        'common' => 'Singapur',
       ],
       'por' => [
         'official' => 'República de Singapura',
@@ -28781,28 +31166,12 @@ class CountriesDataSource
         'official' => 'República de Singapur',
         'common' => 'Singapur',
       ],
-      'fin' => [
-        'official' => 'Singaporen tasavalta',
+      'swe' => [
+        'official' => 'Republiken Singapore',
         'common' => 'Singapore',
-      ],
-      'est' => [
-        'official' => 'Singapuri Vabariik',
-        'common' => 'Singapur',
-      ],
-      'pol' => [
-        'official' => 'Republika Singapuru',
-        'common' => 'Singapur',
       ],
       'urd' => [
         'official' => 'جمہوریہ سنگاپور',
-        'common' => 'سنگاپور',
-      ],
-      'kor' => [
-        'official' => '싱가포르 공화국',
-        'common' => '싱가포르',
-      ],
-      'per' => [
-        'official' => 'جمهوری سنگاپور',
         'common' => 'سنگاپور',
       ],
     ],
@@ -28825,6 +31194,9 @@ class CountriesDataSource
         'm' => 'Singapourien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+65',
+    ],
   ],
   197 => [
     'name' => [
@@ -28846,6 +31218,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'SHP' => [
         'name' => 'Saint Helena pound',
@@ -28879,6 +31252,14 @@ class CountriesDataSource
         'official' => 'Südgeorgien und die Südlichen Sandwichinseln',
         'common' => 'Südgeorgien und die Südlichen Sandwichinseln',
       ],
+      'est' => [
+        'official' => 'Lõuna-Georgia ja Lõuna-Sandwichi saared',
+        'common' => 'Lõuna-Georgia ja Lõuna-Sandwichi saared',
+      ],
+      'fin' => [
+        'official' => 'Etelä-Georgia ja Eteläiset Sandwichsaaret',
+        'common' => 'Etelä-Georgia ja Eteläiset Sandwichsaaret',
+      ],
       'fra' => [
         'official' => 'Géorgie du Sud et les îles Sandwich du Sud',
         'common' => 'Géorgie du Sud-et-les Îles Sandwich du Sud',
@@ -28886,6 +31267,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Južna Džordžija i Otoci Južni Sendvič',
         'common' => 'Južna Georgija i otočje Južni Sandwich',
+      ],
+      'hun' => [
+        'official' => 'Déli-Georgia és Déli-Sandwich-szigetek',
+        'common' => 'Déli-Georgia és Déli-Sandwich-szigetek',
       ],
       'ita' => [
         'official' => 'Georgia del Sud e isole Sandwich del Sud',
@@ -28895,9 +31280,21 @@ class CountriesDataSource
         'official' => 'サウスジョージア·サウスサンドウィッチ諸島',
         'common' => 'サウスジョージア・サウスサンドウィッチ諸島',
       ],
+      'kor' => [
+        'official' => '조지아',
+        'common' => '조지아',
+      ],
       'nld' => [
         'official' => 'Zuid-Georgië en de Zuidelijke Sandwich-eilanden',
         'common' => 'Zuid-Georgia en Zuidelijke Sandwicheilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر جورجیای جنوبی و ساندویچ جنوبی',
+        'common' => 'جزایر جورجیای جنوبی و ساندویچ جنوبی',
+      ],
+      'pol' => [
+        'official' => 'Georgia Południowa i Sandwich Południowy',
+        'common' => 'Georgia Południowa i Sandwich Południowy',
       ],
       'por' => [
         'official' => 'Geórgia do Sul e Sandwich do Sul',
@@ -28915,33 +31312,17 @@ class CountriesDataSource
         'official' => 'Georgia del Sur y las Islas Sandwich del Sur',
         'common' => 'Islas Georgias del Sur y Sandwich del Sur',
       ],
-      'fin' => [
-        'official' => 'Etelä-Georgia ja Eteläiset Sandwichsaaret',
-        'common' => 'Etelä-Georgia ja Eteläiset Sandwichsaaret',
-      ],
-      'est' => [
-        'official' => 'Lõuna-Georgia ja Lõuna-Sandwichi saared',
-        'common' => 'Lõuna-Georgia ja Lõuna-Sandwichi saared',
-      ],
-      'zho' => [
-        'official' => '南乔治亚岛和南桑威奇群岛',
-        'common' => '南乔治亚',
-      ],
-      'pol' => [
-        'official' => 'Georgia Południowa i Sandwich Południowy',
-        'common' => 'Georgia Południowa i Sandwich Południowy',
+      'swe' => [
+        'official' => 'Sydgeorgien',
+        'common' => 'Sydgeorgien',
       ],
       'urd' => [
         'official' => 'جنوبی جارجیا و جزائر جنوبی سینڈوچ',
         'common' => 'جنوبی جارجیا',
       ],
-      'kor' => [
-        'official' => '조지아',
-        'common' => '조지아',
-      ],
-      'per' => [
-        'official' => 'جزایر جورجیای جنوبی و ساندویچ جنوبی',
-        'common' => 'جزایر جورجیای جنوبی و ساندویچ جنوبی',
+      'zho' => [
+        'official' => '南乔治亚岛和南桑威奇群岛',
+        'common' => '南乔治亚',
       ],
     ],
     'latlng' => [
@@ -28962,6 +31343,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+500',
     ],
   ],
   198 => [
@@ -28984,6 +31368,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'NOK' => [
         'name' => 'krone',
@@ -29017,6 +31402,14 @@ class CountriesDataSource
         'official' => 'Spitzbergen und Jan Mayen',
         'common' => 'Spitzbergen und Jan Mayen',
       ],
+      'est' => [
+        'official' => 'Svalbard',
+        'common' => 'Svalbard',
+      ],
+      'fin' => [
+        'official' => 'Huippuvuoret',
+        'common' => 'Huippuvuoret',
+      ],
       'fra' => [
         'official' => 'Jan Mayen Svalbard',
         'common' => 'Svalbard et Jan Mayen',
@@ -29024,6 +31417,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Svalbard og Jan Mayen',
         'common' => 'Svalbard i Jan Mayen',
+      ],
+      'hun' => [
+        'official' => 'Svalbard és Jan Mayen',
+        'common' => 'Svalbard és Jan Mayen',
       ],
       'ita' => [
         'official' => 'Svalbard og Jan Mayen',
@@ -29033,9 +31430,21 @@ class CountriesDataSource
         'official' => 'スバールバル諸島OGヤンマイエン',
         'common' => 'スヴァールバル諸島およびヤンマイエン島',
       ],
+      'kor' => [
+        'official' => '스발바르 얀마옌 제도',
+        'common' => '스발바르 얀마옌 제도',
+      ],
       'nld' => [
         'official' => 'Svalbard og Jan Mayen',
         'common' => 'Svalbard en Jan Mayen',
+      ],
+      'per' => [
+        'official' => 'سوالبارد و یان ماین',
+        'common' => 'سوالبارد و یان ماین',
+      ],
+      'pol' => [
+        'official' => 'Svalbard i Jan Mayen',
+        'common' => 'Svalbard i Jan Mayen',
       ],
       'por' => [
         'official' => 'Svalbard og Jan Mayen',
@@ -29053,33 +31462,17 @@ class CountriesDataSource
         'official' => 'Svalbard og Jan Mayen',
         'common' => 'Islas Svalbard y Jan Mayen',
       ],
-      'fin' => [
-        'official' => 'Huippuvuoret',
-        'common' => 'Huippuvuoret',
-      ],
-      'est' => [
-        'official' => 'Svalbard',
-        'common' => 'Svalbard',
-      ],
-      'zho' => [
-        'official' => '斯瓦尔巴特',
-        'common' => '斯瓦尔巴特',
-      ],
-      'pol' => [
-        'official' => 'Svalbard i Jan Mayen',
-        'common' => 'Svalbard i Jan Mayen',
+      'swe' => [
+        'official' => 'Svalbard och Jan Mayen',
+        'common' => 'Svalbard och Jan Mayen',
       ],
       'urd' => [
         'official' => 'سوالبارڈ اور جان میئن',
         'common' => 'سوالبارڈ اور جان میئن',
       ],
-      'kor' => [
-        'official' => '스발바르 얀마옌 제도',
-        'common' => '스발바르 얀마옌 제도',
-      ],
-      'per' => [
-        'official' => 'سوالبارد و یان ماین',
-        'common' => 'سوالبارد و یان ماین',
+      'zho' => [
+        'official' => '斯瓦尔巴特',
+        'common' => '斯瓦尔巴特',
       ],
     ],
     'latlng' => [
@@ -29100,6 +31493,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+4779',
     ],
   ],
   199 => [
@@ -29122,6 +31518,7 @@ class CountriesDataSource
     'cioc' => 'SOL',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SBD' => [
         'name' => 'Solomon Islands dollar',
@@ -29154,6 +31551,14 @@ class CountriesDataSource
         'official' => 'Salomonen',
         'common' => 'Salomonen',
       ],
+      'est' => [
+        'official' => 'Saalomoni Saared',
+        'common' => 'Saalomoni Saared',
+      ],
+      'fin' => [
+        'official' => 'Salomonsaaret',
+        'common' => 'Salomonsaaret',
+      ],
       'fra' => [
         'official' => 'Îles Salomon',
         'common' => 'Îles Salomon',
@@ -29161,6 +31566,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Solomonski Otoci',
         'common' => 'Solomonski Otoci',
+      ],
+      'hun' => [
+        'official' => 'Salamon-szigetek',
+        'common' => 'Salamon-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Salomone',
@@ -29170,9 +31579,21 @@ class CountriesDataSource
         'official' => 'ソロモン諸島',
         'common' => 'ソロモン諸島',
       ],
+      'kor' => [
+        'official' => '솔로몬 제도',
+        'common' => '솔로몬 제도',
+      ],
       'nld' => [
         'official' => 'Solomon eilanden',
         'common' => 'Salomonseilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر سلیمان',
+        'common' => 'جزایر سلیمان',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Salomona',
+        'common' => 'Wyspy Salomona',
       ],
       'por' => [
         'official' => 'Ilhas Salomão',
@@ -29190,33 +31611,17 @@ class CountriesDataSource
         'official' => 'islas Salomón',
         'common' => 'Islas Salomón',
       ],
-      'fin' => [
-        'official' => 'Salomonsaaret',
-        'common' => 'Salomonsaaret',
-      ],
-      'est' => [
-        'official' => 'Saalomoni Saared',
-        'common' => 'Saalomoni Saared',
-      ],
-      'zho' => [
-        'official' => '所罗门群岛',
-        'common' => '所罗门群岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Salomona',
-        'common' => 'Wyspy Salomona',
+      'swe' => [
+        'official' => 'Salomonöarna',
+        'common' => 'Salomonöarna',
       ],
       'urd' => [
         'official' => 'جزائر سلیمان',
         'common' => 'جزائر سلیمان',
       ],
-      'kor' => [
-        'official' => '솔로몬 제도',
-        'common' => '솔로몬 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر سلیمان',
-        'common' => 'جزایر سلیمان',
+      'zho' => [
+        'official' => '所罗门群岛',
+        'common' => '所罗门群岛',
       ],
     ],
     'latlng' => [
@@ -29237,6 +31642,9 @@ class CountriesDataSource
         'f' => 'Salomonienne',
         'm' => 'Salomonien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+677',
     ],
   ],
   200 => [
@@ -29259,6 +31667,7 @@ class CountriesDataSource
     'cioc' => 'SLE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SLL' => [
         'name' => 'Sierra Leonean leone',
@@ -29292,6 +31701,14 @@ class CountriesDataSource
         'official' => 'Republik Sierra Leone',
         'common' => 'Sierra Leone',
       ],
+      'est' => [
+        'official' => 'Sierra Leone Vabariik',
+        'common' => 'Sierra Leone',
+      ],
+      'fin' => [
+        'official' => 'Sierra Leonen tasavalta',
+        'common' => 'Sierra Leone',
+      ],
       'fra' => [
         'official' => 'République de Sierra Leone',
         'common' => 'Sierra Leone',
@@ -29299,6 +31716,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Sijera Leone',
         'common' => 'Sijera Leone',
+      ],
+      'hun' => [
+        'official' => 'Sierra Leone Köztársaság',
+        'common' => 'Sierra Leone',
       ],
       'ita' => [
         'official' => 'Repubblica della Sierra Leone',
@@ -29308,8 +31729,20 @@ class CountriesDataSource
         'official' => 'シエラレオネ共和国',
         'common' => 'シエラレオネ',
       ],
+      'kor' => [
+        'official' => '시에라리온 공화국',
+        'common' => '시에라리온',
+      ],
       'nld' => [
         'official' => 'Republiek Sierra Leone',
+        'common' => 'Sierra Leone',
+      ],
+      'per' => [
+        'official' => 'جمهوری سیرالئون',
+        'common' => 'سیرالئون',
+      ],
+      'pol' => [
+        'official' => 'Sierra Leone',
         'common' => 'Sierra Leone',
       ],
       'por' => [
@@ -29328,33 +31761,17 @@ class CountriesDataSource
         'official' => 'República de Sierra Leona',
         'common' => 'Sierra Leone',
       ],
-      'fin' => [
-        'official' => 'Sierra Leonen tasavalta',
-        'common' => 'Sierra Leone',
-      ],
-      'est' => [
-        'official' => 'Sierra Leone Vabariik',
-        'common' => 'Sierra Leone',
-      ],
-      'zho' => [
-        'official' => '塞拉利昂共和国',
-        'common' => '塞拉利昂',
-      ],
-      'pol' => [
-        'official' => 'Sierra Leone',
+      'swe' => [
+        'official' => 'Republiken Sierra Leone',
         'common' => 'Sierra Leone',
       ],
       'urd' => [
         'official' => 'جمہوریہ سیرالیون',
         'common' => 'سیرالیون',
       ],
-      'kor' => [
-        'official' => '시에라리온 공화국',
-        'common' => '시에라리온',
-      ],
-      'per' => [
-        'official' => 'جمهوری سیرالئون',
-        'common' => 'سیرالئون',
+      'zho' => [
+        'official' => '塞拉利昂共和国',
+        'common' => '塞拉利昂',
       ],
     ],
     'latlng' => [
@@ -29378,6 +31795,9 @@ class CountriesDataSource
         'm' => 'Sierra-leonais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+232',
+    ],
   ],
   201 => [
     'name' => [
@@ -29399,6 +31819,7 @@ class CountriesDataSource
     'cioc' => 'ESA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -29437,12 +31858,24 @@ class CountriesDataSource
         'official' => 'Republik El Salvador',
         'common' => 'El Salvador',
       ],
+      'est' => [
+        'official' => 'El Salvadori Vabariik',
+        'common' => 'El Salvador',
+      ],
+      'fin' => [
+        'official' => 'El Salvadorin tasavalta',
+        'common' => 'El Salvador',
+      ],
       'fra' => [
         'official' => 'République du Salvador',
         'common' => 'Salvador',
       ],
       'hrv' => [
         'official' => 'Republika El Salvador',
+        'common' => 'Salvador',
+      ],
+      'hun' => [
+        'official' => 'Salvadori Köztársaság',
         'common' => 'Salvador',
       ],
       'ita' => [
@@ -29453,9 +31886,21 @@ class CountriesDataSource
         'official' => 'エルサルバドル共和国',
         'common' => 'エルサルバドル',
       ],
+      'kor' => [
+        'official' => '엘살바도르 공화국',
+        'common' => '엘살바도르',
+      ],
       'nld' => [
         'official' => 'Republiek El Salvador',
         'common' => 'El Salvador',
+      ],
+      'per' => [
+        'official' => 'جمهوری السالوادور',
+        'common' => 'السالوادور',
+      ],
+      'pol' => [
+        'official' => 'Republika Salwadoru',
+        'common' => 'Salwador',
       ],
       'por' => [
         'official' => 'República de El Salvador',
@@ -29473,33 +31918,17 @@ class CountriesDataSource
         'official' => 'República de El Salvador',
         'common' => 'El Salvador',
       ],
-      'fin' => [
-        'official' => 'El Salvadorin tasavalta',
+      'swe' => [
+        'official' => 'Republiken El Salvador',
         'common' => 'El Salvador',
-      ],
-      'est' => [
-        'official' => 'El Salvadori Vabariik',
-        'common' => 'El Salvador',
-      ],
-      'zho' => [
-        'official' => '萨尔瓦多共和国',
-        'common' => '萨尔瓦多',
-      ],
-      'pol' => [
-        'official' => 'Republika Salwadoru',
-        'common' => 'Salwador',
       ],
       'urd' => [
         'official' => 'جمہوریہ ایل سیلواڈور',
         'common' => 'ایل سیلواڈور',
       ],
-      'kor' => [
-        'official' => '엘살바도르 공화국',
-        'common' => '엘살바도르',
-      ],
-      'per' => [
-        'official' => 'جمهوری السالوادور',
-        'common' => 'السالوادور',
+      'zho' => [
+        'official' => '萨尔瓦多共和国',
+        'common' => '萨尔瓦多',
       ],
     ],
     'latlng' => [
@@ -29523,6 +31952,9 @@ class CountriesDataSource
         'm' => 'Salvadorien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+503',
+    ],
   ],
   202 => [
     'name' => [
@@ -29544,6 +31976,7 @@ class CountriesDataSource
     'cioc' => 'SMR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -29578,12 +32011,24 @@ class CountriesDataSource
         'official' => 'Republik San Marino',
         'common' => 'San Marino',
       ],
+      'est' => [
+        'official' => 'San Marino Vabariik',
+        'common' => 'San Marino',
+      ],
+      'fin' => [
+        'official' => 'San Marinon seesteinen tasavalta',
+        'common' => 'San Marino',
+      ],
       'fra' => [
         'official' => 'République de Saint-Marin',
         'common' => 'Saint-Marin',
       ],
       'hrv' => [
         'official' => 'Većina Serene Republika San Marino',
+        'common' => 'San Marino',
+      ],
+      'hun' => [
+        'official' => 'San Marino Köztársaság',
         'common' => 'San Marino',
       ],
       'ita' => [
@@ -29594,8 +32039,20 @@ class CountriesDataSource
         'official' => 'サンマリノのほとんどセリーヌ共和国',
         'common' => 'サンマリノ',
       ],
+      'kor' => [
+        'official' => '산마리노 공화국',
+        'common' => '산마리노',
+      ],
       'nld' => [
         'official' => 'Meest Serene Republiek San Marino',
+        'common' => 'San Marino',
+      ],
+      'per' => [
+        'official' => 'جمهوری سان مارینو',
+        'common' => 'سان مارینو',
+      ],
+      'pol' => [
+        'official' => 'Republika San Marino',
         'common' => 'San Marino',
       ],
       'por' => [
@@ -29614,33 +32071,17 @@ class CountriesDataSource
         'official' => 'Serenísima República de San Marino',
         'common' => 'San Marino',
       ],
-      'fin' => [
-        'official' => 'San Marinon seesteinen tasavalta',
-        'common' => 'San Marino',
-      ],
-      'est' => [
-        'official' => 'San Marino Vabariik',
-        'common' => 'San Marino',
-      ],
-      'zho' => [
-        'official' => '圣马力诺共和国',
-        'common' => '圣马力诺',
-      ],
-      'pol' => [
-        'official' => 'Republika San Marino',
+      'swe' => [
+        'official' => 'Republiken San Marino',
         'common' => 'San Marino',
       ],
       'urd' => [
         'official' => 'جمہوریہ سان مارینو',
         'common' => 'سان مارینو',
       ],
-      'kor' => [
-        'official' => '산마리노 공화국',
-        'common' => '산마리노',
-      ],
-      'per' => [
-        'official' => 'جمهوری سان مارینو',
-        'common' => 'سان مارینو',
+      'zho' => [
+        'official' => '圣马力诺共和国',
+        'common' => '圣马力诺',
       ],
     ],
     'latlng' => [
@@ -29662,6 +32103,9 @@ class CountriesDataSource
         'f' => 'Saint-Marinaise',
         'm' => 'Saint-Marinais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+378',
     ],
   ],
   203 => [
@@ -29688,6 +32132,7 @@ class CountriesDataSource
     'cioc' => 'SOM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SOS' => [
         'name' => 'Somali shilling',
@@ -29725,6 +32170,14 @@ class CountriesDataSource
         'official' => 'Bundesrepublik Somalia',
         'common' => 'Somalia',
       ],
+      'est' => [
+        'official' => 'Somaalia Liitvabariik',
+        'common' => 'Somaalia',
+      ],
+      'fin' => [
+        'official' => 'Somalian liittotasavalta',
+        'common' => 'Somalia',
+      ],
       'fra' => [
         'official' => 'République fédérale de Somalie',
         'common' => 'Somalie',
@@ -29732,6 +32185,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Savezna Republika Somaliji',
         'common' => 'Somalija',
+      ],
+      'hun' => [
+        'official' => 'Szomáli Szövetségi Köztársaság',
+        'common' => 'Szomália',
       ],
       'ita' => [
         'official' => 'Repubblica federale di Somalia',
@@ -29741,9 +32198,21 @@ class CountriesDataSource
         'official' => 'ソマリア連邦共和国',
         'common' => 'ソマリア',
       ],
+      'kor' => [
+        'official' => ' 소말리아 연방 공화국',
+        'common' => '소말리아',
+      ],
       'nld' => [
         'official' => 'Federale Republiek Somalië',
         'common' => 'Somalië',
+      ],
+      'per' => [
+        'official' => 'جمهوری فدرال سومالی',
+        'common' => 'سومالی',
+      ],
+      'pol' => [
+        'official' => 'Federalna Republika Somalii',
+        'common' => 'Somalia',
       ],
       'por' => [
         'official' => 'República Federal da Somália',
@@ -29761,33 +32230,17 @@ class CountriesDataSource
         'official' => 'República Federal de Somalia',
         'common' => 'Somalia',
       ],
-      'fin' => [
-        'official' => 'Somalian liittotasavalta',
-        'common' => 'Somalia',
-      ],
-      'est' => [
-        'official' => 'Somaalia Liitvabariik',
-        'common' => 'Somaalia',
-      ],
-      'zho' => [
-        'official' => '索马里共和国',
-        'common' => '索马里',
-      ],
-      'pol' => [
-        'official' => 'Federalna Republika Somalii',
+      'swe' => [
+        'official' => 'Förbundsrepubliken Somalia',
         'common' => 'Somalia',
       ],
       'urd' => [
         'official' => 'وفاقی جمہوریہ صومالیہ',
         'common' => 'صومالیہ',
       ],
-      'kor' => [
-        'official' => ' 소말리아 연방 공화국',
-        'common' => '소말리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری فدرال سومالی',
-        'common' => 'سومالی',
+      'zho' => [
+        'official' => '索马里共和国',
+        'common' => '索马里',
       ],
     ],
     'latlng' => [
@@ -29812,6 +32265,9 @@ class CountriesDataSource
         'm' => 'Somalien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+252',
+    ],
   ],
   204 => [
     'name' => [
@@ -29833,6 +32289,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -29866,6 +32323,14 @@ class CountriesDataSource
         'official' => 'St. Pierre und Miquelon',
         'common' => 'St. Pierre und Miquelon',
       ],
+      'est' => [
+        'official' => 'Saint-Pierre’i ja Miqueloni territoriaalühendus',
+        'common' => 'Saint-Pierre ja Miquelon',
+      ],
+      'fin' => [
+        'official' => 'Saint-Pierre ja Miquelon',
+        'common' => 'Saint-Pierre ja Miquelon',
+      ],
       'fra' => [
         'official' => 'Saint-Pierre-et-Miquelon',
         'common' => 'Saint-Pierre-et-Miquelon',
@@ -29873,6 +32338,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Saint Pierre i Miquelon',
         'common' => 'Sveti Petar i Mikelon',
+      ],
+      'hun' => [
+        'official' => 'Saint-Pierre és Miquelon',
+        'common' => 'Saint-Pierre és Miquelon',
       ],
       'ita' => [
         'official' => 'Saint Pierre e Miquelon',
@@ -29882,9 +32351,21 @@ class CountriesDataSource
         'official' => 'サンピエール島·ミクロン島',
         'common' => 'サンピエール島・ミクロン島',
       ],
+      'kor' => [
+        'official' => '생피에르 미클롱',
+        'common' => '생피에르 미클롱',
+      ],
       'nld' => [
         'official' => 'Saint-Pierre en Miquelon',
         'common' => 'Saint Pierre en Miquelon',
+      ],
+      'per' => [
+        'official' => 'سن-پیر-ا-میکلون',
+        'common' => 'سن-پیِر و میکلُن',
+      ],
+      'pol' => [
+        'official' => 'Saint-Pierre i Miquelon',
+        'common' => 'Saint-Pierre i Miquelon',
       ],
       'por' => [
         'official' => 'Saint Pierre e Miquelon',
@@ -29902,33 +32383,17 @@ class CountriesDataSource
         'official' => 'San Pedro y Miquelón',
         'common' => 'San Pedro y Miquelón',
       ],
-      'fin' => [
-        'official' => 'Saint-Pierre ja Miquelon',
-        'common' => 'Saint-Pierre ja Miquelon',
-      ],
-      'est' => [
-        'official' => 'Saint-Pierre’i ja Miqueloni territoriaalühendus',
-        'common' => 'Saint-Pierre ja Miquelon',
-      ],
-      'zho' => [
-        'official' => '圣皮埃尔和密克隆',
-        'common' => '圣皮埃尔和密克隆',
-      ],
-      'pol' => [
-        'official' => 'Saint-Pierre i Miquelon',
-        'common' => 'Saint-Pierre i Miquelon',
+      'swe' => [
+        'official' => 'Saint-Pierre och Miquelon',
+        'common' => 'Saint-Pierre och Miquelon',
       ],
       'urd' => [
         'official' => 'سینٹ پیئر و میکیلون',
         'common' => 'سینٹ پیئر و میکیلون',
       ],
-      'kor' => [
-        'official' => '생피에르 미클롱',
-        'common' => '생피에르 미클롱',
-      ],
-      'per' => [
-        'official' => 'سن-پیر-ا-میکلون',
-        'common' => 'سن-پیِر و میکلُن',
+      'zho' => [
+        'official' => '圣皮埃尔和密克隆',
+        'common' => '圣皮埃尔和密克隆',
       ],
     ],
     'latlng' => [
@@ -29949,6 +32414,9 @@ class CountriesDataSource
         'f' => 'Saint-Pierraise, Miquelonaise',
         'm' => 'Saint-Pierrais, Miquelonais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+508',
     ],
   ],
   205 => [
@@ -29972,6 +32440,7 @@ class CountriesDataSource
     'cioc' => 'SRB',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'RSD' => [
         'name' => 'Serbian dinar',
@@ -29995,7 +32464,7 @@ class CountriesDataSource
       4 => 'Republika Srbija',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Southeast Europe',
     'languages' => [
       'srp' => 'Serbian',
     ],
@@ -30008,6 +32477,14 @@ class CountriesDataSource
         'official' => 'Republik Serbien',
         'common' => 'Serbien',
       ],
+      'est' => [
+        'official' => 'Serbia Vabariik',
+        'common' => 'Serbia',
+      ],
+      'fin' => [
+        'official' => 'Serbian tasavalta',
+        'common' => 'Serbia',
+      ],
       'fra' => [
         'official' => 'République de Serbie',
         'common' => 'Serbie',
@@ -30015,6 +32492,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Srbija',
         'common' => 'Srbija',
+      ],
+      'hun' => [
+        'official' => 'Szerb Köztársaság',
+        'common' => 'Szerbia',
       ],
       'ita' => [
         'official' => 'Repubblica di Serbia',
@@ -30024,9 +32505,21 @@ class CountriesDataSource
         'official' => 'セルビア共和国',
         'common' => 'セルビア',
       ],
+      'kor' => [
+        'official' => '세르비아 공화국',
+        'common' => '세르비아',
+      ],
       'nld' => [
         'official' => 'Republiek Servië',
         'common' => 'Servië',
+      ],
+      'per' => [
+        'official' => 'جمهوری صربستان',
+        'common' => 'صربستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Serbii',
+        'common' => 'Serbia',
       ],
       'por' => [
         'official' => 'República da Sérvia',
@@ -30044,33 +32537,17 @@ class CountriesDataSource
         'official' => 'República de Serbia',
         'common' => 'Serbia',
       ],
-      'fin' => [
-        'official' => 'Serbian tasavalta',
-        'common' => 'Serbia',
-      ],
-      'est' => [
-        'official' => 'Serbia Vabariik',
-        'common' => 'Serbia',
-      ],
-      'zho' => [
-        'official' => '塞尔维亚共和国',
-        'common' => '塞尔维亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Serbii',
-        'common' => 'Serbia',
+      'swe' => [
+        'official' => 'Republiken Serbien',
+        'common' => 'Serbien',
       ],
       'urd' => [
         'official' => 'جمہوریہ سربیا',
         'common' => 'سربیا',
       ],
-      'kor' => [
-        'official' => '세르비아 공화국',
-        'common' => '세르비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری صربستان',
-        'common' => 'صربستان',
+      'zho' => [
+        'official' => '塞尔维亚共和国',
+        'common' => '塞尔维亚',
       ],
     ],
     'latlng' => [
@@ -30100,6 +32577,9 @@ class CountriesDataSource
         'm' => 'Serbe',
       ],
     ],
+    'callingCodes' => [
+      0 => '+381',
+    ],
   ],
   206 => [
     'name' => [
@@ -30121,6 +32601,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SSP' => [
         'name' => 'South Sudanese pound',
@@ -30153,6 +32634,14 @@ class CountriesDataSource
         'official' => 'Republik Südsudan',
         'common' => 'Südsudan',
       ],
+      'est' => [
+        'official' => 'Lõuna-Sudaani Vabariik',
+        'common' => 'Lõuna-Sudaan',
+      ],
+      'fin' => [
+        'official' => 'Etelä-Sudanin tasavalta',
+        'common' => 'Etelä-Sudan',
+      ],
       'fra' => [
         'official' => 'République du Soudan du Sud',
         'common' => 'Soudan du Sud',
@@ -30160,6 +32649,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Južni Sudan',
         'common' => 'Južni Sudan',
+      ],
+      'hun' => [
+        'official' => 'Dél-szudáni Köztársaság',
+        'common' => 'Dél-Szudán',
       ],
       'ita' => [
         'official' => 'Repubblica del Sudan del Sud',
@@ -30169,9 +32662,21 @@ class CountriesDataSource
         'official' => '南スーダン共和国',
         'common' => '南スーダン',
       ],
+      'kor' => [
+        'official' => '남수단 공화국',
+        'common' => '남수단',
+      ],
       'nld' => [
         'official' => 'Republiek Zuid-Soedan',
         'common' => 'Zuid-Soedan',
+      ],
+      'per' => [
+        'official' => 'جمهوری سودان جنوبی',
+        'common' => 'سودان جنوبی',
+      ],
+      'pol' => [
+        'official' => 'Republika Sudanu',
+        'common' => 'Sudan',
       ],
       'por' => [
         'official' => 'República do Sudão do Sul',
@@ -30189,33 +32694,17 @@ class CountriesDataSource
         'official' => 'República de Sudán del Sur',
         'common' => 'Sudán del Sur',
       ],
-      'fin' => [
-        'official' => 'Etelä-Sudanin tasavalta',
-        'common' => 'Etelä-Sudan',
-      ],
-      'est' => [
-        'official' => 'Lõuna-Sudaani Vabariik',
-        'common' => 'Lõuna-Sudaan',
-      ],
-      'zho' => [
-        'official' => '南苏丹共和国',
-        'common' => '南苏丹',
-      ],
-      'pol' => [
-        'official' => 'Republika Sudanu',
-        'common' => 'Sudan',
+      'swe' => [
+        'official' => 'Republiken Sydsudan',
+        'common' => 'Sydsudan',
       ],
       'urd' => [
         'official' => 'جمہوریہ جنوبی سوڈان',
         'common' => 'جنوبی سوڈان',
       ],
-      'kor' => [
-        'official' => '남수단 공화국',
-        'common' => '남수단',
-      ],
-      'per' => [
-        'official' => 'جمهوری سودان جنوبی',
-        'common' => 'سودان جنوبی',
+      'zho' => [
+        'official' => '南苏丹共和国',
+        'common' => '南苏丹',
       ],
     ],
     'latlng' => [
@@ -30243,6 +32732,9 @@ class CountriesDataSource
         'm' => 'Sud-Soudanais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+211',
+    ],
   ],
   207 => [
     'name' => [
@@ -30264,6 +32756,7 @@ class CountriesDataSource
     'cioc' => 'STP',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'STN' => [
         'name' => 'São Tomé and Príncipe dobra',
@@ -30299,6 +32792,14 @@ class CountriesDataSource
         'official' => 'Demokratische Republik São Tomé und Príncipe',
         'common' => 'São Tomé und Príncipe',
       ],
+      'est' => [
+        'official' => 'São Tomé ja Príncipe Demokraatlik Vabariik',
+        'common' => 'São Tomé ja Príncipe',
+      ],
+      'fin' => [
+        'official' => 'São Tomé ja Príncipen demokraattinen tasavalta',
+        'common' => 'São Téme ja Príncipe',
+      ],
       'fra' => [
         'official' => 'République démocratique de São Tomé et Príncipe',
         'common' => 'São Tomé et Príncipe',
@@ -30306,6 +32807,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Demokratska Republika São Tome i Principe',
         'common' => 'Sveti Toma i Princip',
+      ],
+      'hun' => [
+        'official' => 'São Tomé és Príncipe Demokratikus Köztársaság',
+        'common' => 'São Tomé és Príncipe',
       ],
       'ita' => [
         'official' => 'Repubblica democratica di São Tomé e Príncipe',
@@ -30315,17 +32820,25 @@ class CountriesDataSource
         'official' => 'サントメ·プリンシペ民主共和国',
         'common' => 'サントメ・プリンシペ',
       ],
+      'kor' => [
+        'official' => '상투메 프린시페 민주 공화국',
+        'common' => '상투메 프린시페',
+      ],
       'nld' => [
         'official' => 'Democratische Republiek Sao Tomé en Principe',
         'common' => 'Sao Tomé en Principe',
       ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک سائوتومه و پرنسیپ',
+        'common' => 'سائوتومه و پرنسیپ',
+      ],
+      'pol' => [
+        'official' => 'Demokratyczna Republika Wysp Świętego Tomasza i Książęcej',
+        'common' => 'Wyspy Świętego Tomasza i Książęca',
+      ],
       'por' => [
         'official' => 'República Democrática de São Tomé e Príncipe',
         'common' => 'São Tomé e Príncipe',
-      ],
-      'spa' => [
-        'official' => 'República Democrática de Santo Tomé y Príncipe',
-        'common' => 'Santo Tomé y Príncipe',
       ],
       'rus' => [
         'official' => 'Демократическая Республика Сан-Томе и Принсипи',
@@ -30335,33 +32848,21 @@ class CountriesDataSource
         'official' => 'Demokratická republika Svätého Tomáša A princovho ostrova',
         'common' => 'Svätý Tomáš a Princov ostrov',
       ],
-      'fin' => [
-        'official' => 'São Tomé ja Príncipen demokraattinen tasavalta',
-        'common' => 'São Téme ja Príncipe',
+      'spa' => [
+        'official' => 'República Democrática de Santo Tomé y Príncipe',
+        'common' => 'Santo Tomé y Príncipe',
       ],
-      'est' => [
-        'official' => 'São Tomé ja Príncipe Demokraatlik Vabariik',
-        'common' => 'São Tomé ja Príncipe',
-      ],
-      'zho' => [
-        'official' => '圣多美和普林西比民主共和国',
-        'common' => '圣多美和普林西比',
-      ],
-      'pol' => [
-        'official' => 'Demokratyczna Republika Wysp Świętego Tomasza i Książęcej',
-        'common' => 'Wyspy Świętego Tomasza i Książęca',
+      'swe' => [
+        'official' => 'Demokratiska republiken São Tomé och Príncipe',
+        'common' => 'São Tomé och Príncipe',
       ],
       'urd' => [
         'official' => 'جمہوریہ ساؤ ٹومے و پرنسپے',
         'common' => 'ساؤ ٹومے و پرنسپے',
       ],
-      'kor' => [
-        'official' => '상투메 프린시페 민주 공화국',
-        'common' => '상투메 프린시페',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک سائوتومه و پرنسیپ',
-        'common' => 'سائوتومه و پرنسیپ',
+      'zho' => [
+        'official' => '圣多美和普林西比民主共和国',
+        'common' => '圣多美和普林西比',
       ],
     ],
     'latlng' => [
@@ -30382,6 +32883,9 @@ class CountriesDataSource
         'f' => 'Santoméenne',
         'm' => 'Santoméen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+239',
     ],
   ],
   208 => [
@@ -30404,6 +32908,7 @@ class CountriesDataSource
     'cioc' => 'SUR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SRD' => [
         'name' => 'Surinamese dollar',
@@ -30440,6 +32945,14 @@ class CountriesDataSource
         'official' => 'Republik Suriname',
         'common' => 'Suriname',
       ],
+      'est' => [
+        'official' => 'Suriname Vabariik',
+        'common' => 'Suriname',
+      ],
+      'fin' => [
+        'official' => 'Surinamen tasavalta',
+        'common' => 'Suriname',
+      ],
       'fra' => [
         'official' => 'République du Suriname',
         'common' => 'Surinam',
@@ -30447,6 +32960,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Surinam',
         'common' => 'Surinam',
+      ],
+      'hun' => [
+        'official' => 'Suriname Köztársaság',
+        'common' => 'Suriname',
       ],
       'ita' => [
         'official' => 'Repubblica del Suriname',
@@ -30456,9 +32973,21 @@ class CountriesDataSource
         'official' => 'スリナム共和国',
         'common' => 'スリナム',
       ],
+      'kor' => [
+        'official' => '수리남 공화국',
+        'common' => '수리남',
+      ],
       'nld' => [
         'official' => 'Republiek Suriname',
         'common' => 'Suriname',
+      ],
+      'per' => [
+        'official' => 'جمهوری سورینام',
+        'common' => 'سورینام',
+      ],
+      'pol' => [
+        'official' => 'Republika Surinamu',
+        'common' => 'Surinam',
       ],
       'por' => [
         'official' => 'República do Suriname',
@@ -30476,33 +33005,17 @@ class CountriesDataSource
         'official' => 'República de Suriname',
         'common' => 'Surinam',
       ],
-      'fin' => [
-        'official' => 'Surinamen tasavalta',
-        'common' => 'Suriname',
-      ],
-      'est' => [
-        'official' => 'Suriname Vabariik',
-        'common' => 'Suriname',
-      ],
-      'zho' => [
-        'official' => '苏里南共和国',
-        'common' => '苏里南',
-      ],
-      'pol' => [
-        'official' => 'Republika Surinamu',
+      'swe' => [
+        'official' => 'Republiken Surinam',
         'common' => 'Surinam',
       ],
       'urd' => [
         'official' => 'جمہوریہ سرینام',
         'common' => 'سرینام',
       ],
-      'kor' => [
-        'official' => '수리남 공화국',
-        'common' => '수리남',
-      ],
-      'per' => [
-        'official' => 'جمهوری سورینام',
-        'common' => 'سورینام',
+      'zho' => [
+        'official' => '苏里南共和国',
+        'common' => '苏里南',
       ],
     ],
     'latlng' => [
@@ -30527,6 +33040,9 @@ class CountriesDataSource
         'm' => 'Surinamais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+597',
+    ],
   ],
   209 => [
     'name' => [
@@ -30548,6 +33064,7 @@ class CountriesDataSource
     'cioc' => 'SVK',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -30582,6 +33099,14 @@ class CountriesDataSource
         'official' => 'Slowakische Republik',
         'common' => 'Slowakei',
       ],
+      'est' => [
+        'official' => 'Slovaki Vabariik',
+        'common' => 'Slovakkia',
+      ],
+      'fin' => [
+        'official' => 'Slovakian tasavalta',
+        'common' => 'Slovakia',
+      ],
       'fra' => [
         'official' => 'République slovaque',
         'common' => 'Slovaquie',
@@ -30589,6 +33114,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'slovačka',
         'common' => 'Slovačka',
+      ],
+      'hun' => [
+        'official' => 'Szlovák Köztársaság',
+        'common' => 'Szlovákia',
       ],
       'ita' => [
         'official' => 'Repubblica slovacca',
@@ -30598,9 +33127,21 @@ class CountriesDataSource
         'official' => 'スロバキア共和国',
         'common' => 'スロバキア',
       ],
+      'kor' => [
+        'official' => '슬로바키아 공화국',
+        'common' => '슬로바키아',
+      ],
       'nld' => [
         'official' => 'Slowaakse Republiek',
         'common' => 'Slowakije',
+      ],
+      'per' => [
+        'official' => 'جمهوری اسلواکی',
+        'common' => 'اِسلُواکی',
+      ],
+      'pol' => [
+        'official' => 'Republika Słowacka',
+        'common' => 'Słowacja',
       ],
       'por' => [
         'official' => 'República Eslovaca',
@@ -30618,33 +33159,17 @@ class CountriesDataSource
         'official' => 'República Eslovaca',
         'common' => 'República Eslovaca',
       ],
-      'fin' => [
-        'official' => 'Slovakian tasavalta',
-        'common' => 'Slovakia',
-      ],
-      'est' => [
-        'official' => 'Slovaki Vabariik',
-        'common' => 'Slovakkia',
-      ],
-      'zho' => [
-        'official' => '斯洛伐克共和国',
-        'common' => '斯洛伐克',
-      ],
-      'pol' => [
-        'official' => 'Republika Słowacka',
-        'common' => 'Słowacja',
+      'swe' => [
+        'official' => 'Republiken Slovakien',
+        'common' => 'Slovakien',
       ],
       'urd' => [
         'official' => 'جمہوریہ سلوواکیہ',
         'common' => 'سلوواکیہ',
       ],
-      'kor' => [
-        'official' => '슬로바키아 공화국',
-        'common' => '슬로바키아',
-      ],
-      'per' => [
-        'official' => 'جمهوری اسلواکی',
-        'common' => 'اِسلُواکی',
+      'zho' => [
+        'official' => '斯洛伐克共和国',
+        'common' => '斯洛伐克',
       ],
     ],
     'latlng' => [
@@ -30671,6 +33196,9 @@ class CountriesDataSource
         'm' => 'Slovaque',
       ],
     ],
+    'callingCodes' => [
+      0 => '+421',
+    ],
   ],
   210 => [
     'name' => [
@@ -30692,6 +33220,7 @@ class CountriesDataSource
     'cioc' => 'SLO',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -30713,7 +33242,7 @@ class CountriesDataSource
       2 => 'Republika Slovenija',
     ],
     'region' => 'Europe',
-    'subregion' => 'Southern Europe',
+    'subregion' => 'Central Europe',
     'languages' => [
       'slv' => 'Slovene',
     ],
@@ -30726,6 +33255,14 @@ class CountriesDataSource
         'official' => 'Republik Slowenien',
         'common' => 'Slowenien',
       ],
+      'est' => [
+        'official' => 'Sloveenia Vabariik',
+        'common' => 'Sloveenia',
+      ],
+      'fin' => [
+        'official' => 'Slovenian tasavalta',
+        'common' => 'Slovenia',
+      ],
       'fra' => [
         'official' => 'République de Slovénie',
         'common' => 'Slovénie',
@@ -30733,6 +33270,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Slovenija',
         'common' => 'Slovenija',
+      ],
+      'hun' => [
+        'official' => 'Szlovén Köztársaság',
+        'common' => 'Szlovénia',
       ],
       'ita' => [
         'official' => 'Repubblica di Slovenia',
@@ -30742,9 +33283,21 @@ class CountriesDataSource
         'official' => 'スロベニア共和国',
         'common' => 'スロベニア',
       ],
+      'kor' => [
+        'official' => '슬로베니아 공화국',
+        'common' => '슬로베니아',
+      ],
       'nld' => [
         'official' => 'Republiek Slovenië',
         'common' => 'Slovenië',
+      ],
+      'per' => [
+        'official' => 'جمهوری اسلوونی',
+        'common' => 'اسلوونی',
+      ],
+      'pol' => [
+        'official' => 'Republika Słowenii',
+        'common' => 'Słowenia',
       ],
       'por' => [
         'official' => 'República da Eslovénia',
@@ -30762,33 +33315,17 @@ class CountriesDataSource
         'official' => 'República de Eslovenia',
         'common' => 'Eslovenia',
       ],
-      'fin' => [
-        'official' => 'Slovenian tasavalta',
-        'common' => 'Slovenia',
-      ],
-      'est' => [
-        'official' => 'Sloveenia Vabariik',
-        'common' => 'Sloveenia',
-      ],
-      'zho' => [
-        'official' => '斯洛文尼亚共和国',
-        'common' => '斯洛文尼亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Słowenii',
-        'common' => 'Słowenia',
+      'swe' => [
+        'official' => 'Republiken Slovenien',
+        'common' => 'Slovenien',
       ],
       'urd' => [
         'official' => 'جمہوریہ سلووینیا',
         'common' => 'سلووینیا',
       ],
-      'kor' => [
-        'official' => '슬로베니아 공화국',
-        'common' => '슬로베니아',
-      ],
-      'per' => [
-        'official' => 'جمهوری اسلوونی',
-        'common' => 'اسلوونی',
+      'zho' => [
+        'official' => '斯洛文尼亚共和国',
+        'common' => '斯洛文尼亚',
       ],
     ],
     'latlng' => [
@@ -30814,6 +33351,9 @@ class CountriesDataSource
         'm' => 'Slovène',
       ],
     ],
+    'callingCodes' => [
+      0 => '+386',
+    ],
   ],
   211 => [
     'name' => [
@@ -30835,6 +33375,7 @@ class CountriesDataSource
     'cioc' => 'SWE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SEK' => [
         'name' => 'Swedish krona',
@@ -30869,6 +33410,14 @@ class CountriesDataSource
         'official' => 'Königreich Schweden',
         'common' => 'Schweden',
       ],
+      'est' => [
+        'official' => 'Rootsi Kuningriik',
+        'common' => 'Rootsi',
+      ],
+      'fin' => [
+        'official' => 'Ruotsin kuningaskunta',
+        'common' => 'Ruotsi',
+      ],
       'fra' => [
         'official' => 'Royaume de Suède',
         'common' => 'Suède',
@@ -30876,6 +33425,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Švedska',
         'common' => 'Švedska',
+      ],
+      'hun' => [
+        'official' => 'Svéd Királyság',
+        'common' => 'Svédország',
       ],
       'ita' => [
         'official' => 'Regno di Svezia',
@@ -30885,9 +33438,21 @@ class CountriesDataSource
         'official' => 'スウェーデン王国',
         'common' => 'スウェーデン',
       ],
+      'kor' => [
+        'official' => '스웨덴 왕국',
+        'common' => '스웨덴',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Zweden',
         'common' => 'Zweden',
+      ],
+      'per' => [
+        'official' => 'پادشاهی سوئد',
+        'common' => 'سوئد',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Szwecji',
+        'common' => 'Szwecja',
       ],
       'por' => [
         'official' => 'Reino da Suécia',
@@ -30905,33 +33470,17 @@ class CountriesDataSource
         'official' => 'Reino de Suecia',
         'common' => 'Suecia',
       ],
-      'fin' => [
-        'official' => 'Ruotsin kuningaskunta',
-        'common' => 'Ruotsi',
-      ],
-      'est' => [
-        'official' => 'Rootsi Kuningriik',
-        'common' => 'Rootsi',
-      ],
-      'zho' => [
-        'official' => '瑞典王国',
-        'common' => '瑞典',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Szwecji',
-        'common' => 'Szwecja',
+      'swe' => [
+        'official' => 'Konungariket Sverige',
+        'common' => 'Sverige',
       ],
       'urd' => [
         'official' => 'مملکتِ سویڈن',
         'common' => 'سویڈن',
       ],
-      'kor' => [
-        'official' => '스웨덴 왕국',
-        'common' => '스웨덴',
-      ],
-      'per' => [
-        'official' => 'پادشاهی سوئد',
-        'common' => 'سوئد',
+      'zho' => [
+        'official' => '瑞典王国',
+        'common' => '瑞典',
       ],
     ],
     'latlng' => [
@@ -30954,6 +33503,9 @@ class CountriesDataSource
         'f' => 'Suédoise',
         'm' => 'Suédois',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+46',
     ],
   ],
   212 => [
@@ -30980,10 +33532,15 @@ class CountriesDataSource
     'cioc' => 'SWZ',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SZL' => [
         'name' => 'Swazi lilangeni',
         'symbol' => 'L',
+      ],
+      'ZAR' => [
+        'name' => 'South African rand',
+        'symbol' => 'R',
       ],
     ],
     'idd' => [
@@ -31019,6 +33576,14 @@ class CountriesDataSource
         'official' => 'Königreich Eswatini',
         'common' => 'Swasiland',
       ],
+      'est' => [
+        'official' => 'eSwatini Kuningriik',
+        'common' => 'Svaasimaa',
+      ],
+      'fin' => [
+        'official' => 'Swazimaan kuningaskunta',
+        'common' => 'Swazimaa',
+      ],
       'fra' => [
         'official' => 'Royaume d’Eswatini',
         'common' => 'Swaziland',
@@ -31026,6 +33591,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina eSwatini',
         'common' => 'Svazi',
+      ],
+      'hun' => [
+        'official' => 'Szváziföldi Királyság',
+        'common' => 'Szváziföld',
       ],
       'ita' => [
         'official' => 'Regno di eSwatini',
@@ -31035,9 +33604,21 @@ class CountriesDataSource
         'official' => 'スワジランド王国',
         'common' => 'スワジランド',
       ],
+      'kor' => [
+        'official' => '에스와티니 왕국',
+        'common' => '에스와티니',
+      ],
       'nld' => [
         'official' => 'Koninkrijk eSwatini',
         'common' => 'Swaziland',
+      ],
+      'per' => [
+        'official' => 'پادشاهی سوازیلند',
+        'common' => 'اسواتینی',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Suazi',
+        'common' => 'Suazi',
       ],
       'por' => [
         'official' => 'Reino de eSwatini',
@@ -31055,33 +33636,17 @@ class CountriesDataSource
         'official' => 'Reino de eSwatini',
         'common' => 'Suazilandia',
       ],
-      'fin' => [
-        'official' => 'Swazimaan kuningaskunta',
-        'common' => 'Swazimaa',
-      ],
-      'est' => [
-        'official' => 'eSwatini Kuningriik',
-        'common' => 'Svaasimaa',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Suazi',
-        'common' => 'Suazi',
-      ],
-      'zho' => [
-        'official' => '斯威士兰王国',
-        'common' => '斯威士兰',
+      'swe' => [
+        'official' => 'Konungariket Eswatini',
+        'common' => 'Swaziland',
       ],
       'urd' => [
         'official' => 'مملکتِ سوازی لینڈ',
         'common' => 'سوازی لینڈ',
       ],
-      'kor' => [
-        'official' => '에스와티니 왕국',
-        'common' => '에스와티니',
-      ],
-      'per' => [
-        'official' => 'پادشاهی سوازیلند',
-        'common' => 'اسواتینی',
+      'zho' => [
+        'official' => '斯威士兰王国',
+        'common' => '斯威士兰',
       ],
     ],
     'latlng' => [
@@ -31104,6 +33669,9 @@ class CountriesDataSource
         'f' => 'Swazie',
         'm' => 'Swazie',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+268',
     ],
   ],
   213 => [
@@ -31134,6 +33702,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'ANG' => [
         'name' => 'Netherlands Antillean guilder',
@@ -31169,6 +33738,14 @@ class CountriesDataSource
         'official' => 'Sint Maarten',
         'common' => 'Sint Maarten',
       ],
+      'est' => [
+        'official' => 'Sint Maarten',
+        'common' => 'Sint Maarten',
+      ],
+      'fin' => [
+        'official' => 'Sint Maarten',
+        'common' => 'Sint Maarten',
+      ],
       'fra' => [
         'official' => 'Sint Maarten',
         'common' => 'Saint-Martin',
@@ -31176,6 +33753,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sveti Martin',
         'common' => 'Sveti Martin',
+      ],
+      'hun' => [
+        'official' => 'Sint Maarten',
+        'common' => 'Sint Maarten',
       ],
       'ita' => [
         'official' => 'Sint Maarten',
@@ -31185,7 +33766,19 @@ class CountriesDataSource
         'official' => 'シントマールテン島',
         'common' => 'シント・マールテン',
       ],
+      'kor' => [
+        'official' => '신트마르턴',
+        'common' => '신트마르턴',
+      ],
       'nld' => [
+        'official' => 'Sint Maarten',
+        'common' => 'Sint Maarten',
+      ],
+      'per' => [
+        'official' => 'سن مارتن',
+        'common' => 'سن مارتن',
+      ],
+      'pol' => [
         'official' => 'Sint Maarten',
         'common' => 'Sint Maarten',
       ],
@@ -31205,19 +33798,7 @@ class CountriesDataSource
         'official' => 'Sint Maarten',
         'common' => 'Sint Maarten',
       ],
-      'fin' => [
-        'official' => 'Sint Maarten',
-        'common' => 'Sint Maarten',
-      ],
-      'est' => [
-        'official' => 'Sint Maarten',
-        'common' => 'Sint Maarten',
-      ],
-      'zho' => [
-        'official' => '圣马丁岛',
-        'common' => '圣马丁岛',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Sint Maarten',
         'common' => 'Sint Maarten',
       ],
@@ -31225,13 +33806,9 @@ class CountriesDataSource
         'official' => 'سنٹ مارٹن',
         'common' => 'سنٹ مارٹن',
       ],
-      'kor' => [
-        'official' => '신트마르턴',
-        'common' => '신트마르턴',
-      ],
-      'per' => [
-        'official' => 'سن مارتن',
-        'common' => 'سن مارتن',
+      'zho' => [
+        'official' => '圣马丁岛',
+        'common' => '圣马丁岛',
       ],
     ],
     'latlng' => [
@@ -31253,6 +33830,9 @@ class CountriesDataSource
         'f' => 'Saint-Martinoise',
         'm' => 'Saint-Martinois',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1721',
     ],
   ],
   214 => [
@@ -31283,6 +33863,7 @@ class CountriesDataSource
     'cioc' => 'SEY',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SCR' => [
         'name' => 'Seychellois rupee',
@@ -31320,6 +33901,14 @@ class CountriesDataSource
         'official' => 'Republik der Seychellen',
         'common' => 'Seychellen',
       ],
+      'est' => [
+        'official' => 'Seišelli Vabariik',
+        'common' => 'Seišellid',
+      ],
+      'fin' => [
+        'official' => 'Seychellien tasavalta',
+        'common' => 'Seychellit',
+      ],
       'fra' => [
         'official' => 'République des Seychelles',
         'common' => 'Seychelles',
@@ -31327,6 +33916,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Sejšeli',
         'common' => 'Sejšeli',
+      ],
+      'hun' => [
+        'official' => 'Seychelle Köztársaság',
+        'common' => 'Seychelle-szigetek',
       ],
       'ita' => [
         'official' => 'Repubblica delle Seychelles',
@@ -31336,9 +33929,21 @@ class CountriesDataSource
         'official' => 'セイシェル共和国',
         'common' => 'セーシェル',
       ],
+      'kor' => [
+        'official' => '세이셸 공화국',
+        'common' => '세이셸',
+      ],
       'nld' => [
         'official' => 'Republiek der Seychellen',
         'common' => 'Seychellen',
+      ],
+      'per' => [
+        'official' => 'جمهوری سیشل',
+        'common' => 'سیشل',
+      ],
+      'pol' => [
+        'official' => 'Republika Seszeli',
+        'common' => 'Seszele',
       ],
       'por' => [
         'official' => 'República das Seychelles',
@@ -31356,33 +33961,17 @@ class CountriesDataSource
         'official' => 'República de las Seychelles',
         'common' => 'Seychelles',
       ],
-      'fin' => [
-        'official' => 'Seychellien tasavalta',
-        'common' => 'Seychellit',
-      ],
-      'est' => [
-        'official' => 'Seišelli Vabariik',
-        'common' => 'Seišellid',
-      ],
-      'zho' => [
-        'official' => '塞舌尔共和国',
-        'common' => '塞舌尔',
-      ],
-      'pol' => [
-        'official' => 'Republika Seszeli',
-        'common' => 'Seszele',
+      'swe' => [
+        'official' => 'Republiken Seychellerna',
+        'common' => 'Seychellerna',
       ],
       'urd' => [
         'official' => 'جمہوریہ سیچیلیس',
         'common' => 'سیچیلیس',
       ],
-      'kor' => [
-        'official' => '세이셸 공화국',
-        'common' => '세이셸',
-      ],
-      'per' => [
-        'official' => 'جمهوری سیشل',
-        'common' => 'سیشل',
+      'zho' => [
+        'official' => '塞舌尔共和国',
+        'common' => '塞舌尔',
       ],
     ],
     'latlng' => [
@@ -31403,6 +33992,9 @@ class CountriesDataSource
         'f' => 'Seychelloise',
         'm' => 'Seychellois',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+248',
     ],
   ],
   215 => [
@@ -31426,6 +34018,7 @@ class CountriesDataSource
     'cioc' => 'SYR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'SYP' => [
         'name' => 'Syrian pound',
@@ -31460,6 +34053,14 @@ class CountriesDataSource
         'official' => 'Arabische Republik Syrien',
         'common' => 'Syrien',
       ],
+      'est' => [
+        'official' => 'Süüria Araabia Vabariik',
+        'common' => 'Süüria',
+      ],
+      'fin' => [
+        'official' => 'Syyrian arabitasavalta',
+        'common' => 'Syyria',
+      ],
       'fra' => [
         'official' => 'République arabe syrienne',
         'common' => 'Syrie',
@@ -31467,6 +34068,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sirijska Arapska Republika',
         'common' => 'Sirija',
+      ],
+      'hun' => [
+        'official' => 'Szíriai Arab Köztársaság',
+        'common' => 'Szíria',
       ],
       'ita' => [
         'official' => 'Repubblica araba siriana',
@@ -31476,9 +34081,21 @@ class CountriesDataSource
         'official' => 'シリアアラブ共和国',
         'common' => 'シリア・アラブ共和国',
       ],
+      'kor' => [
+        'official' => '시리아 아랍 공화국',
+        'common' => '시리아',
+      ],
       'nld' => [
         'official' => 'Syrische Arabische Republiek',
         'common' => 'Syrië',
+      ],
+      'per' => [
+        'official' => 'جمهوری عربی سوریه',
+        'common' => 'سوریه',
+      ],
+      'pol' => [
+        'official' => 'Syryjska Republika Arabska',
+        'common' => 'Syria',
       ],
       'por' => [
         'official' => 'República Árabe Síria',
@@ -31496,33 +34113,17 @@ class CountriesDataSource
         'official' => 'República Árabe Siria',
         'common' => 'Siria',
       ],
-      'fin' => [
-        'official' => 'Syyrian arabitasavalta',
-        'common' => 'Syyria',
-      ],
-      'est' => [
-        'official' => 'Süüria Araabia Vabariik',
-        'common' => 'Süüria',
-      ],
-      'zho' => [
-        'official' => '叙利亚阿拉伯共和国',
-        'common' => '叙利亚',
-      ],
-      'pol' => [
-        'official' => 'Syryjska Republika Arabska',
-        'common' => 'Syria',
+      'swe' => [
+        'official' => 'Syriska arabiska republiken',
+        'common' => 'Syrien',
       ],
       'urd' => [
         'official' => 'عرب جمہوریہ سوریہ',
         'common' => 'سوریہ',
       ],
-      'kor' => [
-        'official' => '시리아 아랍 공화국',
-        'common' => '시리아',
-      ],
-      'per' => [
-        'official' => 'جمهوری عربی سوریه',
-        'common' => 'سوریه',
+      'zho' => [
+        'official' => '叙利亚阿拉伯共和国',
+        'common' => '叙利亚',
       ],
     ],
     'latlng' => [
@@ -31549,6 +34150,9 @@ class CountriesDataSource
         'm' => 'Syrien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+963',
+    ],
   ],
   216 => [
     'name' => [
@@ -31570,6 +34174,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -31602,6 +34207,14 @@ class CountriesDataSource
         'official' => 'Turks und Caicos Inseln',
         'common' => 'Turks-und Caicosinseln',
       ],
+      'est' => [
+        'official' => 'Turksi ja Caicose saared',
+        'common' => 'Turks ja Caicos',
+      ],
+      'fin' => [
+        'official' => 'Turks-ja Caicossaaret',
+        'common' => 'Turks-ja Caicossaaret',
+      ],
       'fra' => [
         'official' => 'Îles Turques et Caïques',
         'common' => 'Îles Turques-et-Caïques',
@@ -31609,6 +34222,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Otoci Turks i Caicos',
         'common' => 'Otoci Turks i Caicos',
+      ],
+      'hun' => [
+        'official' => 'Turks- és Caicos-szigetek',
+        'common' => 'Turks- és Caicos-szigetek',
       ],
       'ita' => [
         'official' => 'Turks e Caicos',
@@ -31618,9 +34235,21 @@ class CountriesDataSource
         'official' => 'タークス·カイコス諸島',
         'common' => 'タークス・カイコス諸島',
       ],
+      'kor' => [
+        'official' => '터크스 케이커스 제도',
+        'common' => '터크스 케이커스 제도',
+      ],
       'nld' => [
         'official' => 'Turks-en Caicoseilanden',
         'common' => 'Turks-en Caicoseilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر تورکس و کایکوس',
+        'common' => 'جزایر تورکس و کایکوس',
+      ],
+      'pol' => [
+        'official' => 'Turks i Caicos',
+        'common' => 'Turks i Caicos',
       ],
       'por' => [
         'official' => 'Ilhas Turks e Caicos',
@@ -31638,33 +34267,17 @@ class CountriesDataSource
         'official' => 'Islas Turcas y Caicos',
         'common' => 'Islas Turks y Caicos',
       ],
-      'fin' => [
-        'official' => 'Turks-ja Caicossaaret',
-        'common' => 'Turks-ja Caicossaaret',
-      ],
-      'est' => [
-        'official' => 'Turksi ja Caicose saared',
-        'common' => 'Turks ja Caicos',
-      ],
-      'zho' => [
-        'official' => '特克斯和凯科斯群岛',
-        'common' => '特克斯和凯科斯群岛',
-      ],
-      'pol' => [
-        'official' => 'Turks i Caicos',
-        'common' => 'Turks i Caicos',
+      'swe' => [
+        'official' => 'Turks- och Caicosöarna',
+        'common' => 'Turks- och Caicosöarna',
       ],
       'urd' => [
         'official' => 'جزائر کیکس و ترکیہ',
         'common' => 'جزائر کیکس و ترکیہ',
       ],
-      'kor' => [
-        'official' => '터크스 케이커스 제도',
-        'common' => '터크스 케이커스 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر تورکس و کایکوس',
-        'common' => 'جزایر تورکس و کایکوس',
+      'zho' => [
+        'official' => '特克斯和凯科斯群岛',
+        'common' => '特克斯和凯科斯群岛',
       ],
     ],
     'latlng' => [
@@ -31685,6 +34298,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1649',
     ],
   ],
   217 => [
@@ -31711,6 +34327,7 @@ class CountriesDataSource
     'cioc' => 'CHA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XAF' => [
         'name' => 'Central African CFA franc',
@@ -31751,6 +34368,14 @@ class CountriesDataSource
         'official' => 'Republik Tschad',
         'common' => 'Tschad',
       ],
+      'est' => [
+        'official' => 'Tšaadi Vabariik',
+        'common' => 'Tšaad',
+      ],
+      'fin' => [
+        'official' => 'Tšadin tasavalta',
+        'common' => 'Tšad',
+      ],
       'fra' => [
         'official' => 'République du Tchad',
         'common' => 'Tchad',
@@ -31758,6 +34383,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Čadu',
         'common' => 'Čad',
+      ],
+      'hun' => [
+        'official' => 'Csád Köztársaság',
+        'common' => 'Csád',
       ],
       'ita' => [
         'official' => 'Repubblica del Ciad',
@@ -31767,9 +34396,21 @@ class CountriesDataSource
         'official' => 'チャド共和国',
         'common' => 'チャド',
       ],
+      'kor' => [
+        'official' => '차드 공화국',
+        'common' => '차드',
+      ],
       'nld' => [
         'official' => 'Republiek Tsjaad',
         'common' => 'Tsjaad',
+      ],
+      'per' => [
+        'official' => 'جمهوری چاد',
+        'common' => 'چاد',
+      ],
+      'pol' => [
+        'official' => 'Republika Czadu',
+        'common' => 'Czad',
       ],
       'por' => [
         'official' => 'República do Chade',
@@ -31787,33 +34428,17 @@ class CountriesDataSource
         'official' => 'República de Chad',
         'common' => 'Chad',
       ],
-      'fin' => [
-        'official' => 'Tšadin tasavalta',
-        'common' => 'Tšad',
-      ],
-      'est' => [
-        'official' => 'Tšaadi Vabariik',
-        'common' => 'Tšaad',
-      ],
-      'zho' => [
-        'official' => '乍得共和国',
-        'common' => '乍得',
-      ],
-      'pol' => [
-        'official' => 'Republika Czadu',
-        'common' => 'Czad',
+      'swe' => [
+        'official' => 'Republiken Tchad',
+        'common' => 'Tchad',
       ],
       'urd' => [
         'official' => 'جمہوریہ چاڈ',
         'common' => 'چاڈ',
       ],
-      'kor' => [
-        'official' => '차드 공화국',
-        'common' => '차드',
-      ],
-      'per' => [
-        'official' => 'جمهوری چاد',
-        'common' => 'چاد',
+      'zho' => [
+        'official' => '乍得共和国',
+        'common' => '乍得',
       ],
     ],
     'latlng' => [
@@ -31841,6 +34466,9 @@ class CountriesDataSource
         'm' => 'Tchadien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+235',
+    ],
   ],
   218 => [
     'name' => [
@@ -31862,6 +34490,7 @@ class CountriesDataSource
     'cioc' => 'TOG',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XOF' => [
         'name' => 'West African CFA franc',
@@ -31897,12 +34526,24 @@ class CountriesDataSource
         'official' => 'Republik Togo',
         'common' => 'Togo',
       ],
+      'est' => [
+        'official' => 'Togo Vabariik',
+        'common' => 'Togo',
+      ],
+      'fin' => [
+        'official' => 'Togon tasavalta',
+        'common' => 'Togo',
+      ],
       'fra' => [
         'official' => 'République togolaise',
         'common' => 'Togo',
       ],
       'hrv' => [
         'official' => 'Togolese Republika',
+        'common' => 'Togo',
+      ],
+      'hun' => [
+        'official' => 'Togói Köztársaság',
         'common' => 'Togo',
       ],
       'ita' => [
@@ -31913,8 +34554,20 @@ class CountriesDataSource
         'official' => 'トーゴ共和国',
         'common' => 'トーゴ',
       ],
+      'kor' => [
+        'official' => '토고 공화국',
+        'common' => '토고',
+      ],
       'nld' => [
         'official' => 'Republiek Togo',
+        'common' => 'Togo',
+      ],
+      'per' => [
+        'official' => 'جمهوری توگو',
+        'common' => 'توگو',
+      ],
+      'pol' => [
+        'official' => 'Republika Togijska',
         'common' => 'Togo',
       ],
       'por' => [
@@ -31933,33 +34586,17 @@ class CountriesDataSource
         'official' => 'República de Togo',
         'common' => 'Togo',
       ],
-      'fin' => [
-        'official' => 'Togon tasavalta',
-        'common' => 'Togo',
-      ],
-      'est' => [
-        'official' => 'Togo Vabariik',
-        'common' => 'Togo',
-      ],
-      'zho' => [
-        'official' => '多哥共和国',
-        'common' => '多哥',
-      ],
-      'pol' => [
-        'official' => 'Republika Togijska',
+      'swe' => [
+        'official' => 'Republiken Togo',
         'common' => 'Togo',
       ],
       'urd' => [
         'official' => 'جمہوریہ ٹوگو',
         'common' => 'ٹوگو',
       ],
-      'kor' => [
-        'official' => '토고 공화국',
-        'common' => '토고',
-      ],
-      'per' => [
-        'official' => 'جمهوری توگو',
-        'common' => 'توگو',
+      'zho' => [
+        'official' => '多哥共和国',
+        'common' => '多哥',
       ],
     ],
     'latlng' => [
@@ -31984,6 +34621,9 @@ class CountriesDataSource
         'm' => 'Togolais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+228',
+    ],
   ],
   219 => [
     'name' => [
@@ -32006,6 +34646,7 @@ class CountriesDataSource
     'cioc' => 'THA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'THB' => [
         'name' => 'Thai baht',
@@ -32043,6 +34684,14 @@ class CountriesDataSource
         'official' => 'Königreich Thailand',
         'common' => 'Thailand',
       ],
+      'est' => [
+        'official' => 'Tai Kuningriik',
+        'common' => 'Tai',
+      ],
+      'fin' => [
+        'official' => 'Thaimaan kuningaskunta',
+        'common' => 'Thaimaa',
+      ],
       'fra' => [
         'official' => 'Royaume de Thaïlande',
         'common' => 'Thaïlande',
@@ -32050,6 +34699,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Kraljevina Tajland',
         'common' => 'Tajland',
+      ],
+      'hun' => [
+        'official' => 'Thaiföldi Királyság',
+        'common' => 'Thaiföld',
       ],
       'ita' => [
         'official' => 'Regno di Thailandia',
@@ -32059,9 +34712,21 @@ class CountriesDataSource
         'official' => 'タイ王国',
         'common' => 'タイ',
       ],
+      'kor' => [
+        'official' => '타이 왕국',
+        'common' => '태국',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Thailand',
         'common' => 'Thailand',
+      ],
+      'per' => [
+        'official' => 'پادشاهی تایلند',
+        'common' => 'تایلند',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Tajlandii',
+        'common' => 'Tajlandia',
       ],
       'por' => [
         'official' => 'Reino da Tailândia',
@@ -32079,33 +34744,17 @@ class CountriesDataSource
         'official' => 'Reino de Tailandia',
         'common' => 'Tailandia',
       ],
-      'fin' => [
-        'official' => 'Thaimaan kuningaskunta',
-        'common' => 'Thaimaa',
-      ],
-      'est' => [
-        'official' => 'Tai Kuningriik',
-        'common' => 'Tai',
-      ],
-      'zho' => [
-        'official' => '泰王国',
-        'common' => '泰国',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Tajlandii',
-        'common' => 'Tajlandia',
+      'swe' => [
+        'official' => 'Konungariket Thailand',
+        'common' => 'Thailand',
       ],
       'urd' => [
         'official' => 'مملکتِ تھائی لینڈ',
         'common' => 'تھائی لینڈ',
       ],
-      'kor' => [
-        'official' => '타이 왕국',
-        'common' => '태국',
-      ],
-      'per' => [
-        'official' => 'پادشاهی تایلند',
-        'common' => 'تایلند',
+      'zho' => [
+        'official' => '泰王国',
+        'common' => '泰国',
       ],
     ],
     'latlng' => [
@@ -32130,6 +34779,9 @@ class CountriesDataSource
         'f' => 'Thaïlandaise',
         'm' => 'Thaïlandais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+66',
     ],
   ],
   220 => [
@@ -32156,6 +34808,7 @@ class CountriesDataSource
     'cioc' => 'TJK',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TJS' => [
         'name' => 'Tajikistani somoni',
@@ -32193,6 +34846,14 @@ class CountriesDataSource
         'official' => 'Republik Tadschikistan',
         'common' => 'Tadschikistan',
       ],
+      'est' => [
+        'official' => 'Tadžikistani Vabariik',
+        'common' => 'Tadžikistan',
+      ],
+      'fin' => [
+        'official' => 'Tadžikistanin tasavalta',
+        'common' => 'Tadžikistan',
+      ],
       'fra' => [
         'official' => 'République du Tadjikistan',
         'common' => 'Tadjikistan',
@@ -32200,6 +34861,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Tadžikistan',
         'common' => 'Tađikistan',
+      ],
+      'hun' => [
+        'official' => 'Tádzsik Köztársaság',
+        'common' => 'Tádzsikisztán',
       ],
       'ita' => [
         'official' => 'Repubblica del Tajikistan',
@@ -32209,9 +34874,21 @@ class CountriesDataSource
         'official' => 'タジキスタン共和国',
         'common' => 'タジキスタン',
       ],
+      'kor' => [
+        'official' => '타지키스탄 공화국',
+        'common' => '타지키스탄',
+      ],
       'nld' => [
         'official' => 'Tadzjikistan',
         'common' => 'Tadzjikistan',
+      ],
+      'per' => [
+        'official' => 'جمهوری تاجیکستان',
+        'common' => 'تاجیکِستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Tadżykistanu',
+        'common' => 'Tadżykistan',
       ],
       'por' => [
         'official' => 'República do Tajiquistão',
@@ -32229,33 +34906,17 @@ class CountriesDataSource
         'official' => 'República de Tayikistán',
         'common' => 'Tayikistán',
       ],
-      'fin' => [
-        'official' => 'Tadžikistanin tasavalta',
-        'common' => 'Tadžikistan',
-      ],
-      'est' => [
-        'official' => 'Tadžikistani Vabariik',
-        'common' => 'Tadžikistan',
-      ],
-      'zho' => [
-        'official' => '塔吉克斯坦共和国',
-        'common' => '塔吉克斯坦',
-      ],
-      'pol' => [
-        'official' => 'Republika Tadżykistanu',
-        'common' => 'Tadżykistan',
+      'swe' => [
+        'official' => 'Republiken Tadzjikistan',
+        'common' => 'Tadzjikistan',
       ],
       'urd' => [
         'official' => 'جمہوریہ تاجکستان',
         'common' => 'تاجکستان',
       ],
-      'kor' => [
-        'official' => '타지키스탄 공화국',
-        'common' => '타지키스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری تاجیکستان',
-        'common' => 'تاجیکِستان',
+      'zho' => [
+        'official' => '塔吉克斯坦共和国',
+        'common' => '塔吉克斯坦',
       ],
     ],
     'latlng' => [
@@ -32280,6 +34941,9 @@ class CountriesDataSource
         'f' => 'Tadjike',
         'm' => 'Tadjike',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+992',
     ],
   ],
   221 => [
@@ -32310,6 +34974,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'NZD' => [
         'name' => 'New Zealand dollar',
@@ -32344,6 +35009,14 @@ class CountriesDataSource
         'official' => 'Tokelau',
         'common' => 'Tokelau',
       ],
+      'est' => [
+        'official' => 'Tokelau',
+        'common' => 'Tokelau',
+      ],
+      'fin' => [
+        'official' => 'Tokelau',
+        'common' => 'Tokelau',
+      ],
       'fra' => [
         'official' => 'Îles Tokelau',
         'common' => 'Tokelau',
@@ -32351,6 +35024,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Tokelau',
         'common' => 'Tokelau',
+      ],
+      'hun' => [
+        'official' => 'Tokelau-szigetek',
+        'common' => 'Tokelau-szigetek',
       ],
       'ita' => [
         'official' => 'Tokelau',
@@ -32360,7 +35037,19 @@ class CountriesDataSource
         'official' => 'トケラウ諸島',
         'common' => 'トケラウ',
       ],
+      'kor' => [
+        'official' => '토켈라우',
+        'common' => '토켈라우',
+      ],
       'nld' => [
+        'official' => 'Tokelau',
+        'common' => 'Tokelau',
+      ],
+      'per' => [
+        'official' => 'توکلائو',
+        'common' => 'توکلائو',
+      ],
+      'pol' => [
         'official' => 'Tokelau',
         'common' => 'Tokelau',
       ],
@@ -32380,33 +35069,17 @@ class CountriesDataSource
         'official' => 'Tokelau',
         'common' => 'Islas Tokelau',
       ],
-      'fin' => [
-        'official' => 'Tokelau',
-        'common' => 'Tokelau',
-      ],
-      'est' => [
-        'official' => 'Tokelau',
-        'common' => 'Tokelau',
-      ],
-      'zho' => [
-        'official' => '托克劳',
-        'common' => '托克劳',
-      ],
-      'pol' => [
-        'official' => 'Tokelau',
-        'common' => 'Tokelau',
+      'swe' => [
+        'official' => 'Tokelauöarna',
+        'common' => 'Tokelauöarna',
       ],
       'urd' => [
         'official' => 'ٹوکیلاؤ',
         'common' => 'ٹوکیلاؤ',
       ],
-      'kor' => [
-        'official' => '토켈라우',
-        'common' => '토켈라우',
-      ],
-      'per' => [
-        'official' => 'توکلائو',
-        'common' => 'توکلائو',
+      'zho' => [
+        'official' => '托克劳',
+        'common' => '托克劳',
       ],
     ],
     'latlng' => [
@@ -32427,6 +35100,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+690',
     ],
   ],
   222 => [
@@ -32453,6 +35129,7 @@ class CountriesDataSource
     'cioc' => 'TKM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TMT' => [
         'name' => 'Turkmenistan manat',
@@ -32486,6 +35163,14 @@ class CountriesDataSource
         'official' => 'Turkmenistan',
         'common' => 'Turkmenistan',
       ],
+      'est' => [
+        'official' => 'Türkmenistan',
+        'common' => 'Türkmenistan',
+      ],
+      'fin' => [
+        'official' => 'Turkmenistan',
+        'common' => 'Turkmenistan',
+      ],
       'fra' => [
         'official' => 'Turkménistan',
         'common' => 'Turkménistan',
@@ -32493,6 +35178,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Turkmenistan',
         'common' => 'Turkmenistan',
+      ],
+      'hun' => [
+        'official' => 'Türkmén Köztársaság',
+        'common' => 'Türkmenisztán',
       ],
       'ita' => [
         'official' => 'Turkmenistan',
@@ -32502,8 +35191,20 @@ class CountriesDataSource
         'official' => 'トルクメニスタン',
         'common' => 'トルクメニスタン',
       ],
+      'kor' => [
+        'official' => '투르크메니스탄',
+        'common' => '투르크메니스탄',
+      ],
       'nld' => [
         'official' => 'Turkmenistan',
+        'common' => 'Turkmenistan',
+      ],
+      'per' => [
+        'official' => 'جمهوری خلق ترکمنستان',
+        'common' => 'ترکمنستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Turkmenistanu',
         'common' => 'Turkmenistan',
       ],
       'por' => [
@@ -32522,33 +35223,17 @@ class CountriesDataSource
         'official' => 'Turkmenistán',
         'common' => 'Turkmenistán',
       ],
-      'fin' => [
+      'swe' => [
         'official' => 'Turkmenistan',
-        'common' => 'Turkmenistan',
-      ],
-      'est' => [
-        'official' => 'Türkmenistan',
-        'common' => 'Türkmenistan',
-      ],
-      'zho' => [
-        'official' => '土库曼斯坦',
-        'common' => '土库曼斯坦',
-      ],
-      'pol' => [
-        'official' => 'Republika Turkmenistanu',
         'common' => 'Turkmenistan',
       ],
       'urd' => [
         'official' => 'ترکمانستان',
         'common' => 'ترکمانستان',
       ],
-      'kor' => [
-        'official' => '투르크메니스탄',
-        'common' => '투르크메니스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری خلق ترکمنستان',
-        'common' => 'ترکمنستان',
+      'zho' => [
+        'official' => '土库曼斯坦',
+        'common' => '土库曼斯坦',
       ],
     ],
     'latlng' => [
@@ -32573,6 +35258,9 @@ class CountriesDataSource
         'f' => 'Turkmène',
         'm' => 'Turkmène',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+993',
     ],
   ],
   223 => [
@@ -32599,6 +35287,7 @@ class CountriesDataSource
     'cioc' => 'TLS',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -32638,6 +35327,14 @@ class CountriesDataSource
         'official' => 'Demokratische Republik Timor-Leste',
         'common' => 'Osttimor',
       ],
+      'est' => [
+        'official' => 'Timor-Leste Demokraatlik Vabariik',
+        'common' => 'Ida-Timor',
+      ],
+      'fin' => [
+        'official' => 'Itä-Timorin demokraattinen tasavalta',
+        'common' => 'Itä-Timor',
+      ],
       'fra' => [
         'official' => 'République démocratique du Timor oriental',
         'common' => 'Timor oriental',
@@ -32645,6 +35342,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Demokratska Republika Timor-Leste',
         'common' => 'Istočni Timor',
+      ],
+      'hun' => [
+        'official' => 'Kelet-timori Demokratikus Köztársaság',
+        'common' => 'Kelet-Timor',
       ],
       'ita' => [
         'official' => 'Repubblica Democratica di Timor Est',
@@ -32654,9 +35355,21 @@ class CountriesDataSource
         'official' => '東ティモール民主共和国',
         'common' => '東ティモール',
       ],
+      'kor' => [
+        'official' => '동티모르 민주 공화국',
+        'common' => '동티모르',
+      ],
       'nld' => [
         'official' => 'Democratische Republiek Oost-Timor',
         'common' => 'Oost-Timor',
+      ],
+      'per' => [
+        'official' => 'جمهوری دموکراتیک تیمور شرقی',
+        'common' => 'تیمور شرقی',
+      ],
+      'pol' => [
+        'official' => 'Demokratyczna Republika Timoru Wschodniego',
+        'common' => 'Timor Wschodni',
       ],
       'por' => [
         'official' => 'República Democrática de Timor-Leste',
@@ -32674,33 +35387,17 @@ class CountriesDataSource
         'official' => 'República Democrática de Timor-Leste',
         'common' => 'Timor Oriental',
       ],
-      'fin' => [
-        'official' => 'Itä-Timorin demokraattinen tasavalta',
-        'common' => 'Itä-Timor',
-      ],
-      'est' => [
-        'official' => 'Timor-Leste Demokraatlik Vabariik',
-        'common' => 'Ida-Timor',
-      ],
-      'zho' => [
-        'official' => '东帝汶民主共和国',
-        'common' => '东帝汶',
-      ],
-      'pol' => [
-        'official' => 'Demokratyczna Republika Timoru Wschodniego',
-        'common' => 'Timor Wschodni',
+      'swe' => [
+        'official' => 'Demokratiska republiken Östtimor',
+        'common' => 'Östtimor',
       ],
       'urd' => [
         'official' => 'جمہوری جمہوریہ مشرقی تیمور',
         'common' => 'مشرقی تیمور',
       ],
-      'kor' => [
-        'official' => '동티모르 민주 공화국',
-        'common' => '동티모르',
-      ],
-      'per' => [
-        'official' => 'جمهوری دموکراتیک تیمور شرقی',
-        'common' => 'تیمور شرقی',
+      'zho' => [
+        'official' => '东帝汶民主共和国',
+        'common' => '东帝汶',
       ],
     ],
     'latlng' => [
@@ -32722,6 +35419,9 @@ class CountriesDataSource
         'f' => 'Est-timoraise',
         'm' => 'Est-timorais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+670',
     ],
   ],
   224 => [
@@ -32748,6 +35448,7 @@ class CountriesDataSource
     'cioc' => 'TGA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TOP' => [
         'name' => 'Tongan paʻanga',
@@ -32781,12 +35482,24 @@ class CountriesDataSource
         'official' => 'Königreich Tonga',
         'common' => 'Tonga',
       ],
+      'est' => [
+        'official' => 'Tonga Kuningriik',
+        'common' => 'Tonga',
+      ],
+      'fin' => [
+        'official' => 'Tongan kuningaskunta',
+        'common' => 'Tonga',
+      ],
       'fra' => [
         'official' => 'Royaume des Tonga',
         'common' => 'Tonga',
       ],
       'hrv' => [
         'official' => 'Kraljevina Tonga',
+        'common' => 'Tonga',
+      ],
+      'hun' => [
+        'official' => 'Tongai Királyság',
         'common' => 'Tonga',
       ],
       'ita' => [
@@ -32797,8 +35510,20 @@ class CountriesDataSource
         'official' => 'トンガ王国',
         'common' => 'トンガ',
       ],
+      'kor' => [
+        'official' => '통가 왕국',
+        'common' => '통가',
+      ],
       'nld' => [
         'official' => 'Koninkrijk Tonga',
+        'common' => 'Tonga',
+      ],
+      'per' => [
+        'official' => 'پادشاهی تونگا',
+        'common' => 'تونگا',
+      ],
+      'pol' => [
+        'official' => 'Królestwo Tonga',
         'common' => 'Tonga',
       ],
       'por' => [
@@ -32817,33 +35542,17 @@ class CountriesDataSource
         'official' => 'Reino de Tonga',
         'common' => 'Tonga',
       ],
-      'fin' => [
-        'official' => 'Tongan kuningaskunta',
-        'common' => 'Tonga',
-      ],
-      'est' => [
-        'official' => 'Tonga Kuningriik',
-        'common' => 'Tonga',
-      ],
-      'zho' => [
-        'official' => '汤加王国',
-        'common' => '汤加',
-      ],
-      'pol' => [
-        'official' => 'Królestwo Tonga',
+      'swe' => [
+        'official' => 'Konungariket Tonga',
         'common' => 'Tonga',
       ],
       'urd' => [
         'official' => 'مملکتِ ٹونگا',
         'common' => 'ٹونگا',
       ],
-      'kor' => [
-        'official' => '통가 왕국',
-        'common' => '통가',
-      ],
-      'per' => [
-        'official' => 'پادشاهی تونگا',
-        'common' => 'تونگا',
+      'zho' => [
+        'official' => '汤加王国',
+        'common' => '汤加',
       ],
     ],
     'latlng' => [
@@ -32864,6 +35573,9 @@ class CountriesDataSource
         'f' => 'Tonguienne',
         'm' => 'Tonguien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+676',
     ],
   ],
   225 => [
@@ -32886,6 +35598,7 @@ class CountriesDataSource
     'cioc' => 'TTO',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TTD' => [
         'name' => 'Trinidad and Tobago dollar',
@@ -32919,6 +35632,14 @@ class CountriesDataSource
         'official' => 'Republik Trinidad und Tobago',
         'common' => 'Trinidad und Tobago',
       ],
+      'est' => [
+        'official' => 'Trinidadi ja Tobago Vabariik',
+        'common' => 'Trinidad ja Tobago',
+      ],
+      'fin' => [
+        'official' => 'Trinidadin ja Tobagon tasavalta',
+        'common' => 'Trinidad ja Tobago',
+      ],
       'fra' => [
         'official' => 'République de Trinité-et-Tobago',
         'common' => 'Trinité-et-Tobago',
@@ -32926,6 +35647,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Trinidad i Tobago',
         'common' => 'Trinidad i Tobago',
+      ],
+      'hun' => [
+        'official' => 'Trinidad és Tobago Köztársaság',
+        'common' => 'Trinidad és Tobago',
       ],
       'ita' => [
         'official' => 'Repubblica di Trinidad e Tobago',
@@ -32935,9 +35660,21 @@ class CountriesDataSource
         'official' => 'トリニダード·トバゴ共和国',
         'common' => 'トリニダード・トバゴ',
       ],
+      'kor' => [
+        'official' => '트리니다드 토바고 공화국',
+        'common' => '트리니다드 토바고',
+      ],
       'nld' => [
         'official' => 'Republiek Trinidad en Tobago',
         'common' => 'Trinidad en Tobago',
+      ],
+      'per' => [
+        'official' => 'جمهوری ترینیداد و توباگو',
+        'common' => 'ترینیداد و توباگو',
+      ],
+      'pol' => [
+        'official' => 'Trynidad i Tobago',
+        'common' => 'Trynidad i Tobago',
       ],
       'por' => [
         'official' => 'República de Trinidad e Tobago',
@@ -32955,33 +35692,17 @@ class CountriesDataSource
         'official' => 'República de Trinidad y Tobago',
         'common' => 'Trinidad y Tobago',
       ],
-      'fin' => [
-        'official' => 'Trinidadin ja Tobagon tasavalta',
-        'common' => 'Trinidad ja Tobago',
-      ],
-      'est' => [
-        'official' => 'Trinidadi ja Tobago Vabariik',
-        'common' => 'Trinidad ja Tobago',
-      ],
-      'zho' => [
-        'official' => '特立尼达和多巴哥共和国',
-        'common' => '特立尼达和多巴哥',
-      ],
-      'pol' => [
-        'official' => 'Trynidad i Tobago',
-        'common' => 'Trynidad i Tobago',
+      'swe' => [
+        'official' => 'Republiken Trinidad och Tobago',
+        'common' => 'Trinidad och Tobago',
       ],
       'urd' => [
         'official' => 'جمہوریہ ٹرینیڈاڈ و ٹوباگو',
         'common' => 'ٹرینیڈاڈ و ٹوباگو',
       ],
-      'kor' => [
-        'official' => '트리니다드 토바고 공화국',
-        'common' => '트리니다드 토바고',
-      ],
-      'per' => [
-        'official' => 'جمهوری ترینیداد و توباگو',
-        'common' => 'ترینیداد و توباگو',
+      'zho' => [
+        'official' => '特立尼达和多巴哥共和国',
+        'common' => '特立尼达和多巴哥',
       ],
     ],
     'latlng' => [
@@ -33002,6 +35723,9 @@ class CountriesDataSource
         'f' => 'Trinidadienne',
         'm' => 'Trinidadien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1868',
     ],
   ],
   226 => [
@@ -33024,6 +35748,7 @@ class CountriesDataSource
     'cioc' => 'TUN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TND' => [
         'name' => 'Tunisian dinar',
@@ -33058,6 +35783,14 @@ class CountriesDataSource
         'official' => 'Tunesische Republik',
         'common' => 'Tunesien',
       ],
+      'est' => [
+        'official' => 'Tuneesia Vabariik',
+        'common' => 'Tuneesia',
+      ],
+      'fin' => [
+        'official' => 'Tunisian tasavalta',
+        'common' => 'Tunisia',
+      ],
       'fra' => [
         'official' => 'République tunisienne',
         'common' => 'Tunisie',
@@ -33065,6 +35798,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Tuniski Republika',
         'common' => 'Tunis',
+      ],
+      'hun' => [
+        'official' => 'Tunéziai Köztársaság',
+        'common' => 'Tunézia',
       ],
       'ita' => [
         'official' => 'Repubblica tunisina',
@@ -33074,9 +35811,21 @@ class CountriesDataSource
         'official' => 'チュニジア共和国',
         'common' => 'チュニジア',
       ],
+      'kor' => [
+        'official' => '튀니지 공화국',
+        'common' => '튀니지',
+      ],
       'nld' => [
         'official' => 'Republiek Tunesië',
         'common' => 'Tunesië',
+      ],
+      'per' => [
+        'official' => 'جمهوری تونس',
+        'common' => 'تونس',
+      ],
+      'pol' => [
+        'official' => 'Republika Tunezyjska',
+        'common' => 'Tunezja',
       ],
       'por' => [
         'official' => 'República da Tunísia',
@@ -33094,33 +35843,17 @@ class CountriesDataSource
         'official' => 'República de Túnez',
         'common' => 'Túnez',
       ],
-      'fin' => [
-        'official' => 'Tunisian tasavalta',
-        'common' => 'Tunisia',
-      ],
-      'est' => [
-        'official' => 'Tuneesia Vabariik',
-        'common' => 'Tuneesia',
-      ],
-      'zho' => [
-        'official' => '突尼斯共和国',
-        'common' => '突尼斯',
-      ],
-      'pol' => [
-        'official' => 'Republika Tunezyjska',
-        'common' => 'Tunezja',
+      'swe' => [
+        'official' => 'Republiken Tunisien',
+        'common' => 'Tunisien',
       ],
       'urd' => [
         'official' => 'جمہوریہ تونس',
         'common' => 'تونس',
       ],
-      'kor' => [
-        'official' => '튀니지 공화국',
-        'common' => '튀니지',
-      ],
-      'per' => [
-        'official' => 'جمهوری تونس',
-        'common' => 'تونس',
+      'zho' => [
+        'official' => '突尼斯共和国',
+        'common' => '突尼斯',
       ],
     ],
     'latlng' => [
@@ -33144,6 +35877,9 @@ class CountriesDataSource
         'm' => 'Tunisien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+216',
+    ],
   ],
   227 => [
     'name' => [
@@ -33165,6 +35901,7 @@ class CountriesDataSource
     'cioc' => 'TUR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TRY' => [
         'name' => 'Turkish lira',
@@ -33200,6 +35937,14 @@ class CountriesDataSource
         'official' => 'Republik Türkei',
         'common' => 'Türkei',
       ],
+      'est' => [
+        'official' => 'Türgi Vabariik',
+        'common' => 'Türgi',
+      ],
+      'fin' => [
+        'official' => 'Turkin tasavalta',
+        'common' => 'Turkki',
+      ],
       'fra' => [
         'official' => 'République de Turquie',
         'common' => 'Turquie',
@@ -33207,6 +35952,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Turska',
         'common' => 'Turska',
+      ],
+      'hun' => [
+        'official' => 'Török Köztársaság',
+        'common' => 'Törökország',
       ],
       'ita' => [
         'official' => 'Repubblica di Turchia',
@@ -33216,9 +35965,21 @@ class CountriesDataSource
         'official' => 'トルコ共和国',
         'common' => 'トルコ',
       ],
+      'kor' => [
+        'official' => '터키 공화국',
+        'common' => '터키',
+      ],
       'nld' => [
         'official' => 'Republiek Turkije',
         'common' => 'Turkije',
+      ],
+      'per' => [
+        'official' => 'جمهوری ترکیه',
+        'common' => 'ترکیه',
+      ],
+      'pol' => [
+        'official' => 'Republika Turcji',
+        'common' => 'Turcja',
       ],
       'por' => [
         'official' => 'República da Turquia',
@@ -33236,33 +35997,17 @@ class CountriesDataSource
         'official' => 'República de Turquía',
         'common' => 'Turquía',
       ],
-      'fin' => [
-        'official' => 'Turkin tasavalta',
-        'common' => 'Turkki',
-      ],
-      'est' => [
-        'official' => 'Türgi Vabariik',
-        'common' => 'Türgi',
-      ],
-      'zho' => [
-        'official' => '土耳其共和国',
-        'common' => '土耳其',
-      ],
-      'pol' => [
-        'official' => 'Republika Turcji',
-        'common' => 'Turcja',
+      'swe' => [
+        'official' => 'Republiken Turkiet',
+        'common' => 'Turkiet',
       ],
       'urd' => [
         'official' => 'جمہوریہ ترکی',
         'common' => 'ترکی',
       ],
-      'kor' => [
-        'official' => '터키 공화국',
-        'common' => '터키',
-      ],
-      'per' => [
-        'official' => 'جمهوری ترکیه',
-        'common' => 'ترکیه',
+      'zho' => [
+        'official' => '土耳其共和国',
+        'common' => '土耳其',
       ],
     ],
     'latlng' => [
@@ -33292,6 +36037,9 @@ class CountriesDataSource
         'm' => 'Turc',
       ],
     ],
+    'callingCodes' => [
+      0 => '+90',
+    ],
   ],
   228 => [
     'name' => [
@@ -33317,6 +36065,7 @@ class CountriesDataSource
     'cioc' => 'TUV',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'AUD' => [
         'name' => 'Australian dollar',
@@ -33354,11 +36103,23 @@ class CountriesDataSource
         'official' => 'Tuvalu',
         'common' => 'Tuvalu',
       ],
+      'est' => [
+        'official' => 'Tuvalu',
+        'common' => 'Tuvalu',
+      ],
+      'fin' => [
+        'official' => 'Tuvalu',
+        'common' => 'Tuvalu',
+      ],
       'fra' => [
         'official' => 'Tuvalu',
         'common' => 'Tuvalu',
       ],
       'hrv' => [
+        'official' => 'Tuvalu',
+        'common' => 'Tuvalu',
+      ],
+      'hun' => [
         'official' => 'Tuvalu',
         'common' => 'Tuvalu',
       ],
@@ -33370,7 +36131,19 @@ class CountriesDataSource
         'official' => 'ツバル',
         'common' => 'ツバル',
       ],
+      'kor' => [
+        'official' => '투발루',
+        'common' => '투발루',
+      ],
       'nld' => [
+        'official' => 'Tuvalu',
+        'common' => 'Tuvalu',
+      ],
+      'per' => [
+        'official' => 'تووالو',
+        'common' => 'تووالو',
+      ],
+      'pol' => [
         'official' => 'Tuvalu',
         'common' => 'Tuvalu',
       ],
@@ -33390,19 +36163,7 @@ class CountriesDataSource
         'official' => 'Tuvalu',
         'common' => 'Tuvalu',
       ],
-      'fin' => [
-        'official' => 'Tuvalu',
-        'common' => 'Tuvalu',
-      ],
-      'est' => [
-        'official' => 'Tuvalu',
-        'common' => 'Tuvalu',
-      ],
-      'zho' => [
-        'official' => '图瓦卢',
-        'common' => '图瓦卢',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Tuvalu',
         'common' => 'Tuvalu',
       ],
@@ -33410,13 +36171,9 @@ class CountriesDataSource
         'official' => 'تووالو',
         'common' => 'تووالو',
       ],
-      'kor' => [
-        'official' => '투발루',
-        'common' => '투발루',
-      ],
-      'per' => [
-        'official' => 'تووالو',
-        'common' => 'تووالو',
+      'zho' => [
+        'official' => '图瓦卢',
+        'common' => '图瓦卢',
       ],
     ],
     'latlng' => [
@@ -33437,6 +36194,9 @@ class CountriesDataSource
         'f' => 'Tuvaluane',
         'm' => 'Tuvaluan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+688',
     ],
   ],
   229 => [
@@ -33461,6 +36221,7 @@ class CountriesDataSource
     'cioc' => 'TPE',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'TWD' => [
         'name' => 'New Taiwan dollar',
@@ -33498,12 +36259,24 @@ class CountriesDataSource
         'official' => 'Republik China (Taiwan)',
         'common' => 'Taiwan',
       ],
+      'est' => [
+        'official' => 'Taiwani',
+        'common' => 'Taiwan',
+      ],
+      'fin' => [
+        'official' => 'Kiinan tasavalta',
+        'common' => 'Taiwan',
+      ],
       'fra' => [
         'official' => 'République de Chine (Taïwan)',
         'common' => 'Taïwan',
       ],
       'hrv' => [
         'official' => 'Republika Kina',
+        'common' => 'Tajvan',
+      ],
+      'hun' => [
+        'official' => 'Kínai Köztársaság',
         'common' => 'Tajvan',
       ],
       'ita' => [
@@ -33514,9 +36287,21 @@ class CountriesDataSource
         'official' => '中華民国',
         'common' => '台湾',
       ],
+      'kor' => [
+        'official' => '중화민국',
+        'common' => '대만',
+      ],
       'nld' => [
         'official' => 'Republiek China (Taiwan)',
         'common' => 'Taiwan',
+      ],
+      'per' => [
+        'official' => 'جمهوری چین',
+        'common' => 'تایوان',
+      ],
+      'pol' => [
+        'official' => 'Republika Chińska (Tajwan)',
+        'common' => 'Tajwan',
       ],
       'por' => [
         'official' => 'República da China',
@@ -33534,29 +36319,13 @@ class CountriesDataSource
         'official' => 'República de China en Taiwán',
         'common' => 'Taiwán',
       ],
-      'fin' => [
-        'official' => 'Kiinan tasavalta',
+      'swe' => [
+        'official' => 'Republiken Kina',
         'common' => 'Taiwan',
-      ],
-      'est' => [
-        'official' => 'Taiwani',
-        'common' => 'Taiwan',
-      ],
-      'pol' => [
-        'official' => 'Republika Chińska (Tajwan)',
-        'common' => 'Tajwan',
       ],
       'urd' => [
         'official' => 'جمہوریہ چین (تائیوان)',
         'common' => 'تائیوان',
-      ],
-      'kor' => [
-        'official' => '중화민국',
-        'common' => '대만',
-      ],
-      'per' => [
-        'official' => 'جمهوری چین',
-        'common' => 'تایوان',
       ],
     ],
     'latlng' => [
@@ -33577,6 +36346,9 @@ class CountriesDataSource
         'f' => 'Taïwanaise',
         'm' => 'Taïwanais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+886',
     ],
   ],
   230 => [
@@ -33603,6 +36375,7 @@ class CountriesDataSource
     'cioc' => 'TAN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'TZS' => [
         'name' => 'Tanzanian shilling',
@@ -33639,6 +36412,14 @@ class CountriesDataSource
         'official' => 'Vereinigte Republik Tansania',
         'common' => 'Tansania',
       ],
+      'est' => [
+        'official' => 'Tansaania Ühendvabariik',
+        'common' => 'Tansaania',
+      ],
+      'fin' => [
+        'official' => 'Tansanian yhdistynyt tasavalta',
+        'common' => 'Tansania',
+      ],
       'fra' => [
         'official' => 'République -Unie de Tanzanie',
         'common' => 'Tanzanie',
@@ -33646,6 +36427,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Ujedinjena Republika Tanzanija',
         'common' => 'Tanzanija',
+      ],
+      'hun' => [
+        'official' => 'Tádzsik Köztársaság',
+        'common' => 'Tádzsikisztán',
       ],
       'ita' => [
         'official' => 'Repubblica Unita di Tanzania',
@@ -33655,8 +36440,20 @@ class CountriesDataSource
         'official' => 'タンザニア連合共和国',
         'common' => 'タンザニア',
       ],
+      'kor' => [
+        'official' => '탄자니아 연합 공화국',
+        'common' => '탄자니아',
+      ],
       'nld' => [
         'official' => 'Verenigde Republiek Tanzania',
+        'common' => 'Tanzania',
+      ],
+      'per' => [
+        'official' => 'جمهوری متحد تانزانیا',
+        'common' => 'تانزانیا',
+      ],
+      'pol' => [
+        'official' => 'Zjednoczona Republika Tanzanii',
         'common' => 'Tanzania',
       ],
       'por' => [
@@ -33675,33 +36472,17 @@ class CountriesDataSource
         'official' => 'República Unida de Tanzania',
         'common' => 'Tanzania',
       ],
-      'fin' => [
-        'official' => 'Tansanian yhdistynyt tasavalta',
-        'common' => 'Tansania',
-      ],
-      'est' => [
-        'official' => 'Tansaania Ühendvabariik',
-        'common' => 'Tansaania',
-      ],
-      'zho' => [
-        'official' => '坦桑尼亚联合共和国',
-        'common' => '坦桑尼亚',
-      ],
-      'pol' => [
-        'official' => 'Zjednoczona Republika Tanzanii',
+      'swe' => [
+        'official' => 'Förenade republiken Tanzania',
         'common' => 'Tanzania',
       ],
       'urd' => [
         'official' => 'متحدہ جمہوریہ تنزانیہ',
         'common' => 'تنزانیہ',
       ],
-      'kor' => [
-        'official' => '탄자니아 연합 공화국',
-        'common' => '탄자니아',
-      ],
-      'per' => [
-        'official' => 'جمهوری متحد تانزانیا',
-        'common' => 'تانزانیا',
+      'zho' => [
+        'official' => '坦桑尼亚联合共和国',
+        'common' => '坦桑尼亚',
       ],
     ],
     'latlng' => [
@@ -33731,6 +36512,9 @@ class CountriesDataSource
         'm' => 'Tanzanien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+255',
+    ],
   ],
   231 => [
     'name' => [
@@ -33756,6 +36540,7 @@ class CountriesDataSource
     'cioc' => 'UGA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'UGX' => [
         'name' => 'Ugandan shilling',
@@ -33791,12 +36576,24 @@ class CountriesDataSource
         'official' => 'Republik Uganda',
         'common' => 'Uganda',
       ],
+      'est' => [
+        'official' => 'Uganda Vabariik',
+        'common' => 'Uganda',
+      ],
+      'fin' => [
+        'official' => 'Ugandan tasavalta',
+        'common' => 'Uganda',
+      ],
       'fra' => [
         'official' => 'République de l\'Ouganda',
         'common' => 'Ouganda',
       ],
       'hrv' => [
         'official' => 'Republika Uganda',
+        'common' => 'Uganda',
+      ],
+      'hun' => [
+        'official' => 'Ugandai Köztársaság',
         'common' => 'Uganda',
       ],
       'ita' => [
@@ -33807,9 +36604,21 @@ class CountriesDataSource
         'official' => 'ウガンダ共和国',
         'common' => 'ウガンダ',
       ],
+      'kor' => [
+        'official' => '우간다 공화국',
+        'common' => '우간다',
+      ],
       'nld' => [
         'official' => 'Republiek Uganda',
         'common' => 'Oeganda',
+      ],
+      'per' => [
+        'official' => 'جمهوری اوگاندا',
+        'common' => 'اوگاندا',
+      ],
+      'pol' => [
+        'official' => 'Republika Ugandy',
+        'common' => 'Uganda',
       ],
       'por' => [
         'official' => 'República do Uganda',
@@ -33827,33 +36636,17 @@ class CountriesDataSource
         'official' => 'República de Uganda',
         'common' => 'Uganda',
       ],
-      'fin' => [
-        'official' => 'Ugandan tasavalta',
-        'common' => 'Uganda',
-      ],
-      'est' => [
-        'official' => 'Uganda Vabariik',
-        'common' => 'Uganda',
-      ],
-      'zho' => [
-        'official' => '乌干达共和国',
-        'common' => '乌干达',
-      ],
-      'pol' => [
-        'official' => 'Republika Ugandy',
+      'swe' => [
+        'official' => 'Republiken Uganda',
         'common' => 'Uganda',
       ],
       'urd' => [
         'official' => 'جمہوریہ یوگنڈا',
         'common' => 'یوگنڈا',
       ],
-      'kor' => [
-        'official' => '우간다 공화국',
-        'common' => '우간다',
-      ],
-      'per' => [
-        'official' => 'جمهوری اوگاندا',
-        'common' => 'اوگاندا',
+      'zho' => [
+        'official' => '乌干达共和国',
+        'common' => '乌干达',
       ],
     ],
     'latlng' => [
@@ -33880,6 +36673,9 @@ class CountriesDataSource
         'm' => 'Ougandais',
       ],
     ],
+    'callingCodes' => [
+      0 => '+256',
+    ],
   ],
   232 => [
     'name' => [
@@ -33902,6 +36698,7 @@ class CountriesDataSource
     'cioc' => 'UKR',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'UAH' => [
         'name' => 'Ukrainian hryvnia',
@@ -33935,6 +36732,14 @@ class CountriesDataSource
         'official' => 'Ukraine',
         'common' => 'Ukraine',
       ],
+      'est' => [
+        'official' => 'Ukraina',
+        'common' => 'Ukraina',
+      ],
+      'fin' => [
+        'official' => 'Ukraina',
+        'common' => 'Ukraina',
+      ],
       'fra' => [
         'official' => 'Ukraine',
         'common' => 'Ukraine',
@@ -33942,6 +36747,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Ukrajina',
         'common' => 'Ukrajina',
+      ],
+      'hun' => [
+        'official' => 'Ukrajna',
+        'common' => 'Ukrajna',
       ],
       'ita' => [
         'official' => 'Ucraina',
@@ -33951,9 +36760,21 @@ class CountriesDataSource
         'official' => 'ウクライナ',
         'common' => 'ウクライナ',
       ],
+      'kor' => [
+        'official' => '우크라이나',
+        'common' => '우크라이나',
+      ],
       'nld' => [
         'official' => 'Oekraïne',
         'common' => 'Oekraïne',
+      ],
+      'per' => [
+        'official' => 'اوکراین',
+        'common' => 'اوکراین',
+      ],
+      'pol' => [
+        'official' => 'Ukraina',
+        'common' => 'Ukraina',
       ],
       'por' => [
         'official' => 'Ucrânia',
@@ -33971,19 +36792,7 @@ class CountriesDataSource
         'official' => 'Ucrania',
         'common' => 'Ucrania',
       ],
-      'fin' => [
-        'official' => 'Ukraina',
-        'common' => 'Ukraina',
-      ],
-      'est' => [
-        'official' => 'Ukraina',
-        'common' => 'Ukraina',
-      ],
-      'zho' => [
-        'official' => '乌克兰',
-        'common' => '乌克兰',
-      ],
-      'pol' => [
+      'swe' => [
         'official' => 'Ukraina',
         'common' => 'Ukraina',
       ],
@@ -33991,13 +36800,9 @@ class CountriesDataSource
         'official' => 'یوکرین',
         'common' => 'یوکرین',
       ],
-      'kor' => [
-        'official' => '우크라이나',
-        'common' => '우크라이나',
-      ],
-      'per' => [
-        'official' => 'اوکراین',
-        'common' => 'اوکراین',
+      'zho' => [
+        'official' => '乌克兰',
+        'common' => '乌克兰',
       ],
     ],
     'latlng' => [
@@ -34026,6 +36831,9 @@ class CountriesDataSource
         'm' => 'Ukrainien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+380',
+    ],
   ],
   233 => [
     'name' => [
@@ -34047,6 +36855,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -34079,6 +36888,14 @@ class CountriesDataSource
         'official' => 'USA, kleinere ausgelagerte Inseln',
         'common' => 'Kleinere Inselbesitzungen der Vereinigten Staaten',
       ],
+      'est' => [
+        'official' => 'Ühendriikide väikesed hajasaared',
+        'common' => 'Ühendriikide hajasaared',
+      ],
+      'fin' => [
+        'official' => 'Yhdysvaltain asumattomat saaret',
+        'common' => 'Yhdysvaltain asumattomat saaret',
+      ],
       'fra' => [
         'official' => 'Îles mineures éloignées des États-Unis',
         'common' => 'Îles mineures éloignées des États-Unis',
@@ -34086,6 +36903,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Mali udaljeni otoci SAD-a',
         'common' => 'Mali udaljeni otoci SAD-a',
+      ],
+      'hun' => [
+        'official' => 'Az Amerikai Egyesült Államok lakatlan külbirtokai',
+        'common' => 'Az Amerikai Egyesült Államok lakatlan külbirtokai',
       ],
       'ita' => [
         'official' => 'Stati Uniti Isole Minori',
@@ -34095,9 +36916,21 @@ class CountriesDataSource
         'official' => 'アメリカ合衆国外諸島',
         'common' => '合衆国領有小離島',
       ],
+      'kor' => [
+        'official' => '미국령 군소 제도',
+        'common' => '미국령 군소 제도',
+      ],
       'nld' => [
         'official' => 'Kleine afgelegen eilanden van de Verenigde Staten',
         'common' => 'Kleine afgelegen eilanden van de Verenigde Staten',
+      ],
+      'per' => [
+        'official' => 'جزایر کوچک حاشیه‌ای ایالات متحده آمریکا',
+        'common' => 'جزایر کوچک حاشیه‌ای ایالات متحده آمریکا',
+      ],
+      'pol' => [
+        'official' => 'Dalekie Wyspy Mniejsze Stanów Zjednoczonych',
+        'common' => 'Dalekie Wyspy Mniejsze Stanów Zjednoczonych',
       ],
       'por' => [
         'official' => 'Estados Unidos Ilhas Menores Distantes',
@@ -34115,33 +36948,17 @@ class CountriesDataSource
         'official' => 'Estados Unidos Islas menores alejadas de',
         'common' => 'Islas Ultramarinas Menores de Estados Unidos',
       ],
-      'fin' => [
-        'official' => 'Yhdysvaltain asumattomat saaret',
-        'common' => 'Yhdysvaltain asumattomat saaret',
-      ],
-      'est' => [
-        'official' => 'Ühendriikide väikesed hajasaared',
-        'common' => 'Ühendriikide hajasaared',
-      ],
-      'zho' => [
-        'official' => '美国本土外小岛屿',
-        'common' => '美国本土外小岛屿',
-      ],
-      'pol' => [
-        'official' => 'Dalekie Wyspy Mniejsze Stanów Zjednoczonych',
-        'common' => 'Dalekie Wyspy Mniejsze Stanów Zjednoczonych',
+      'swe' => [
+        'official' => 'Förenta staternas mindre öar i Oceanien och Västindien',
+        'common' => 'Förenta staternas mindre öar i Oceanien och Västindien',
       ],
       'urd' => [
         'official' => 'امریکی چھوٹے بیرونی جزائر',
         'common' => 'امریکی چھوٹے بیرونی جزائر',
       ],
-      'kor' => [
-        'official' => '미국령 군소 제도',
-        'common' => '미국령 군소 제도',
-      ],
-      'per' => [
-        'official' => 'جزایر کوچک حاشیه‌ای ایالات متحده آمریکا',
-        'common' => 'جزایر کوچک حاشیه‌ای ایالات متحده آمریکا',
+      'zho' => [
+        'official' => '美国本土外小岛屿',
+        'common' => '美国本土外小岛屿',
       ],
     ],
     'latlng' => [
@@ -34155,13 +36972,16 @@ class CountriesDataSource
     'flag' => '🇺🇲',
     'demonyms' => [
       'eng' => [
-        'f' => 'American',
-        'm' => 'American',
+        'f' => 'American Islander',
+        'm' => 'American Islander',
       ],
       'fra' => [
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+268',
     ],
   ],
   234 => [
@@ -34184,6 +37004,7 @@ class CountriesDataSource
     'cioc' => 'URU',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'UYU' => [
         'name' => 'Uruguayan peso',
@@ -34218,6 +37039,14 @@ class CountriesDataSource
         'official' => 'Republik Östlich des Uruguay',
         'common' => 'Uruguay',
       ],
+      'est' => [
+        'official' => 'Uruguay Idavabariik',
+        'common' => 'Uruguay',
+      ],
+      'fin' => [
+        'official' => 'Uruguayn itäinen tasavalta',
+        'common' => 'Uruguay',
+      ],
       'fra' => [
         'official' => 'République orientale de l\'Uruguay',
         'common' => 'Uruguay',
@@ -34225,6 +37054,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Orijentalna Republika Urugvaj',
         'common' => 'Urugvaj',
+      ],
+      'hun' => [
+        'official' => 'Uruguayi Keleti Köztársaság',
+        'common' => 'Uruguay',
       ],
       'ita' => [
         'official' => 'Repubblica Orientale dell\'Uruguay',
@@ -34234,9 +37067,21 @@ class CountriesDataSource
         'official' => 'ウルグアイ東方共和国',
         'common' => 'ウルグアイ',
       ],
+      'kor' => [
+        'official' => '우루과이 동방 공화국',
+        'common' => '우루과이',
+      ],
       'nld' => [
         'official' => 'Oosterse Republiek Uruguay',
         'common' => 'Uruguay',
+      ],
+      'per' => [
+        'official' => 'جمهوری اروگوئه',
+        'common' => 'اروگوئه',
+      ],
+      'pol' => [
+        'official' => 'Wschodnia Republika Urugwaju',
+        'common' => 'Urugwaj',
       ],
       'por' => [
         'official' => 'República Oriental do Uruguai',
@@ -34254,33 +37099,17 @@ class CountriesDataSource
         'official' => 'República Oriental del Uruguay',
         'common' => 'Uruguay',
       ],
-      'fin' => [
-        'official' => 'Uruguayn itäinen tasavalta',
+      'swe' => [
+        'official' => 'Republiken Uruguay',
         'common' => 'Uruguay',
-      ],
-      'est' => [
-        'official' => 'Uruguay Idavabariik',
-        'common' => 'Uruguay',
-      ],
-      'zho' => [
-        'official' => '乌拉圭东岸共和国',
-        'common' => '乌拉圭',
-      ],
-      'pol' => [
-        'official' => 'Wschodnia Republika Urugwaju',
-        'common' => 'Urugwaj',
       ],
       'urd' => [
         'official' => 'جمہوریہ شرقیہ یوراگوئے',
         'common' => 'یوراگوئے',
       ],
-      'kor' => [
-        'official' => '우루과이 동방 공화국',
-        'common' => '우루과이',
-      ],
-      'per' => [
-        'official' => 'جمهوری اروگوئه',
-        'common' => 'اروگوئه',
+      'zho' => [
+        'official' => '乌拉圭东岸共和国',
+        'common' => '乌拉圭',
       ],
     ],
     'latlng' => [
@@ -34304,6 +37133,9 @@ class CountriesDataSource
         'm' => 'Uruguayen',
       ],
     ],
+    'callingCodes' => [
+      0 => '+598',
+    ],
   ],
   235 => [
     'name' => [
@@ -34325,6 +37157,7 @@ class CountriesDataSource
     'cioc' => 'USA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -34675,6 +37508,14 @@ class CountriesDataSource
         'official' => 'Vereinigte Staaten von Amerika',
         'common' => 'Vereinigte Staaten',
       ],
+      'est' => [
+        'official' => 'Ameerika Ühendriigid',
+        'common' => 'Ameerika Ühendriigid',
+      ],
+      'fin' => [
+        'official' => 'Amerikan yhdysvallat',
+        'common' => 'Yhdysvallat',
+      ],
       'fra' => [
         'official' => 'Les états-unis d\'Amérique',
         'common' => 'États-Unis',
@@ -34682,6 +37523,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sjedinjene Države Amerike',
         'common' => 'Sjedinjene Američke Države',
+      ],
+      'hun' => [
+        'official' => 'Amerikai Egyesült Államok',
+        'common' => 'Amerikai Egyesült Államok',
       ],
       'ita' => [
         'official' => 'Stati Uniti d\'America',
@@ -34691,9 +37536,21 @@ class CountriesDataSource
         'official' => 'アメリカ合衆国',
         'common' => 'アメリカ合衆国',
       ],
+      'kor' => [
+        'official' => '아메리카 합중국',
+        'common' => '미국',
+      ],
       'nld' => [
         'official' => 'Verenigde Staten van Amerika',
         'common' => 'Verenigde Staten',
+      ],
+      'per' => [
+        'official' => 'ایالات متحده آمریکا',
+        'common' => 'ایالات متحده آمریکا',
+      ],
+      'pol' => [
+        'official' => 'Stany Zjednoczone Ameryki',
+        'common' => 'Stany Zjednoczone',
       ],
       'por' => [
         'official' => 'Estados Unidos da América',
@@ -34711,33 +37568,17 @@ class CountriesDataSource
         'official' => 'Estados Unidos de América',
         'common' => 'Estados Unidos',
       ],
-      'fin' => [
-        'official' => 'Amerikan yhdysvallat',
-        'common' => 'Yhdysvallat',
-      ],
-      'est' => [
-        'official' => 'Ameerika Ühendriigid',
-        'common' => 'Ameerika Ühendriigid',
-      ],
-      'zho' => [
-        'official' => '美利坚合众国',
-        'common' => '美国',
-      ],
-      'pol' => [
-        'official' => 'Stany Zjednoczone Ameryki',
-        'common' => 'Stany Zjednoczone',
+      'swe' => [
+        'official' => 'Amerikas förenta stater',
+        'common' => 'USA',
       ],
       'urd' => [
         'official' => 'ریاستہائے متحدہ امریکا',
         'common' => 'ریاستہائے متحدہ',
       ],
-      'kor' => [
-        'official' => '아메리카 합중국',
-        'common' => '미국',
-      ],
-      'per' => [
-        'official' => 'ایالات متحده آمریکا',
-        'common' => 'ایالات متحده آمریکا',
+      'zho' => [
+        'official' => '美利坚合众国',
+        'common' => '美国',
       ],
     ],
     'latlng' => [
@@ -34760,6 +37601,325 @@ class CountriesDataSource
         'f' => 'Américaine',
         'm' => 'Américain',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1201',
+      1 => '+1202',
+      2 => '+1203',
+      3 => '+1205',
+      4 => '+1206',
+      5 => '+1207',
+      6 => '+1208',
+      7 => '+1209',
+      8 => '+1210',
+      9 => '+1212',
+      10 => '+1213',
+      11 => '+1214',
+      12 => '+1215',
+      13 => '+1216',
+      14 => '+1217',
+      15 => '+1218',
+      16 => '+1219',
+      17 => '+1220',
+      18 => '+1224',
+      19 => '+1225',
+      20 => '+1227',
+      21 => '+1228',
+      22 => '+1229',
+      23 => '+1231',
+      24 => '+1234',
+      25 => '+1239',
+      26 => '+1240',
+      27 => '+1248',
+      28 => '+1251',
+      29 => '+1252',
+      30 => '+1253',
+      31 => '+1254',
+      32 => '+1256',
+      33 => '+1260',
+      34 => '+1262',
+      35 => '+1267',
+      36 => '+1269',
+      37 => '+1270',
+      38 => '+1272',
+      39 => '+1274',
+      40 => '+1276',
+      41 => '+1281',
+      42 => '+1283',
+      43 => '+1301',
+      44 => '+1302',
+      45 => '+1303',
+      46 => '+1304',
+      47 => '+1305',
+      48 => '+1307',
+      49 => '+1308',
+      50 => '+1309',
+      51 => '+1310',
+      52 => '+1312',
+      53 => '+1313',
+      54 => '+1314',
+      55 => '+1315',
+      56 => '+1316',
+      57 => '+1317',
+      58 => '+1318',
+      59 => '+1319',
+      60 => '+1320',
+      61 => '+1321',
+      62 => '+1323',
+      63 => '+1325',
+      64 => '+1327',
+      65 => '+1330',
+      66 => '+1331',
+      67 => '+1334',
+      68 => '+1336',
+      69 => '+1337',
+      70 => '+1339',
+      71 => '+1346',
+      72 => '+1347',
+      73 => '+1351',
+      74 => '+1352',
+      75 => '+1360',
+      76 => '+1361',
+      77 => '+1364',
+      78 => '+1380',
+      79 => '+1385',
+      80 => '+1386',
+      81 => '+1401',
+      82 => '+1402',
+      83 => '+1404',
+      84 => '+1405',
+      85 => '+1406',
+      86 => '+1407',
+      87 => '+1408',
+      88 => '+1409',
+      89 => '+1410',
+      90 => '+1412',
+      91 => '+1413',
+      92 => '+1414',
+      93 => '+1415',
+      94 => '+1417',
+      95 => '+1419',
+      96 => '+1423',
+      97 => '+1424',
+      98 => '+1425',
+      99 => '+1430',
+      100 => '+1432',
+      101 => '+1434',
+      102 => '+1435',
+      103 => '+1440',
+      104 => '+1442',
+      105 => '+1443',
+      106 => '+1447',
+      107 => '+1458',
+      108 => '+1463',
+      109 => '+1464',
+      110 => '+1469',
+      111 => '+1470',
+      112 => '+1475',
+      113 => '+1478',
+      114 => '+1479',
+      115 => '+1480',
+      116 => '+1484',
+      117 => '+1501',
+      118 => '+1502',
+      119 => '+1503',
+      120 => '+1504',
+      121 => '+1505',
+      122 => '+1507',
+      123 => '+1508',
+      124 => '+1509',
+      125 => '+1510',
+      126 => '+1512',
+      127 => '+1513',
+      128 => '+1515',
+      129 => '+1516',
+      130 => '+1517',
+      131 => '+1518',
+      132 => '+1520',
+      133 => '+1530',
+      134 => '+1531',
+      135 => '+1534',
+      136 => '+1539',
+      137 => '+1540',
+      138 => '+1541',
+      139 => '+1551',
+      140 => '+1559',
+      141 => '+1561',
+      142 => '+1562',
+      143 => '+1563',
+      144 => '+1564',
+      145 => '+1567',
+      146 => '+1570',
+      147 => '+1571',
+      148 => '+1573',
+      149 => '+1574',
+      150 => '+1575',
+      151 => '+1580',
+      152 => '+1585',
+      153 => '+1586',
+      154 => '+1601',
+      155 => '+1602',
+      156 => '+1603',
+      157 => '+1605',
+      158 => '+1606',
+      159 => '+1607',
+      160 => '+1608',
+      161 => '+1609',
+      162 => '+1610',
+      163 => '+1612',
+      164 => '+1614',
+      165 => '+1615',
+      166 => '+1616',
+      167 => '+1617',
+      168 => '+1618',
+      169 => '+1619',
+      170 => '+1620',
+      171 => '+1623',
+      172 => '+1626',
+      173 => '+1628',
+      174 => '+1629',
+      175 => '+1630',
+      176 => '+1631',
+      177 => '+1636',
+      178 => '+1641',
+      179 => '+1646',
+      180 => '+1650',
+      181 => '+1651',
+      182 => '+1657',
+      183 => '+1660',
+      184 => '+1661',
+      185 => '+1662',
+      186 => '+1667',
+      187 => '+1669',
+      188 => '+1678',
+      189 => '+1681',
+      190 => '+1682',
+      191 => '+1701',
+      192 => '+1702',
+      193 => '+1703',
+      194 => '+1704',
+      195 => '+1706',
+      196 => '+1707',
+      197 => '+1708',
+      198 => '+1712',
+      199 => '+1713',
+      200 => '+1714',
+      201 => '+1715',
+      202 => '+1716',
+      203 => '+1717',
+      204 => '+1718',
+      205 => '+1719',
+      206 => '+1720',
+      207 => '+1724',
+      208 => '+1725',
+      209 => '+1727',
+      210 => '+1730',
+      211 => '+1731',
+      212 => '+1732',
+      213 => '+1734',
+      214 => '+1737',
+      215 => '+1740',
+      216 => '+1743',
+      217 => '+1747',
+      218 => '+1754',
+      219 => '+1757',
+      220 => '+1760',
+      221 => '+1762',
+      222 => '+1763',
+      223 => '+1765',
+      224 => '+1769',
+      225 => '+1770',
+      226 => '+1772',
+      227 => '+1773',
+      228 => '+1774',
+      229 => '+1775',
+      230 => '+1779',
+      231 => '+1781',
+      232 => '+1785',
+      233 => '+1786',
+      234 => '+1801',
+      235 => '+1802',
+      236 => '+1803',
+      237 => '+1804',
+      238 => '+1805',
+      239 => '+1806',
+      240 => '+1808',
+      241 => '+1810',
+      242 => '+1812',
+      243 => '+1813',
+      244 => '+1814',
+      245 => '+1815',
+      246 => '+1816',
+      247 => '+1817',
+      248 => '+1818',
+      249 => '+1828',
+      250 => '+1830',
+      251 => '+1831',
+      252 => '+1832',
+      253 => '+1843',
+      254 => '+1845',
+      255 => '+1847',
+      256 => '+1848',
+      257 => '+1850',
+      258 => '+1854',
+      259 => '+1856',
+      260 => '+1857',
+      261 => '+1858',
+      262 => '+1859',
+      263 => '+1860',
+      264 => '+1862',
+      265 => '+1863',
+      266 => '+1864',
+      267 => '+1865',
+      268 => '+1870',
+      269 => '+1872',
+      270 => '+1878',
+      271 => '+1901',
+      272 => '+1903',
+      273 => '+1904',
+      274 => '+1906',
+      275 => '+1907',
+      276 => '+1908',
+      277 => '+1909',
+      278 => '+1910',
+      279 => '+1912',
+      280 => '+1913',
+      281 => '+1914',
+      282 => '+1915',
+      283 => '+1916',
+      284 => '+1917',
+      285 => '+1918',
+      286 => '+1919',
+      287 => '+1920',
+      288 => '+1925',
+      289 => '+1928',
+      290 => '+1929',
+      291 => '+1930',
+      292 => '+1931',
+      293 => '+1934',
+      294 => '+1936',
+      295 => '+1937',
+      296 => '+1938',
+      297 => '+1940',
+      298 => '+1941',
+      299 => '+1947',
+      300 => '+1949',
+      301 => '+1951',
+      302 => '+1952',
+      303 => '+1954',
+      304 => '+1956',
+      305 => '+1959',
+      306 => '+1970',
+      307 => '+1971',
+      308 => '+1972',
+      309 => '+1973',
+      310 => '+1975',
+      311 => '+1978',
+      312 => '+1979',
+      313 => '+1980',
+      314 => '+1984',
+      315 => '+1985',
+      316 => '+1989',
     ],
   ],
   236 => [
@@ -34786,6 +37946,7 @@ class CountriesDataSource
     'cioc' => 'UZB',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'UZS' => [
         'name' => 'Uzbekistani soʻm',
@@ -34822,6 +37983,14 @@ class CountriesDataSource
         'official' => 'Republik Usbekistan',
         'common' => 'Usbekistan',
       ],
+      'est' => [
+        'official' => 'Usbekistani Vabariik',
+        'common' => 'Usbekistan',
+      ],
+      'fin' => [
+        'official' => 'Uzbekistanin tasavalta',
+        'common' => 'Uzbekistan',
+      ],
       'fra' => [
         'official' => 'République d\'Ouzbékistan',
         'common' => 'Ouzbékistan',
@@ -34829,6 +37998,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Uzbekistan',
         'common' => 'Uzbekistan',
+      ],
+      'hun' => [
+        'official' => 'Üzbég Köztársaság',
+        'common' => 'Üzbegisztán',
       ],
       'ita' => [
         'official' => 'Repubblica di Uzbekistan',
@@ -34838,9 +38011,21 @@ class CountriesDataSource
         'official' => 'ウズベキスタン共和国',
         'common' => 'ウズベキスタン',
       ],
+      'kor' => [
+        'official' => '우즈베키스탄 공화국',
+        'common' => '우즈베키스탄',
+      ],
       'nld' => [
         'official' => 'Republiek Oezbekistan',
         'common' => 'Oezbekistan',
+      ],
+      'per' => [
+        'official' => 'جمهوری ازبکستان',
+        'common' => 'ازبکستان',
+      ],
+      'pol' => [
+        'official' => 'Republika Uzbekistanu',
+        'common' => 'Uzbekistan',
       ],
       'por' => [
         'official' => 'República do Usbequistão',
@@ -34858,33 +38043,17 @@ class CountriesDataSource
         'official' => 'República de Uzbekistán',
         'common' => 'Uzbekistán',
       ],
-      'fin' => [
-        'official' => 'Uzbekistanin tasavalta',
-        'common' => 'Uzbekistan',
-      ],
-      'est' => [
-        'official' => 'Usbekistani Vabariik',
-        'common' => 'Usbekistan',
-      ],
-      'zho' => [
-        'official' => '乌兹别克斯坦共和国',
-        'common' => '乌兹别克斯坦',
-      ],
-      'pol' => [
-        'official' => 'Republika Uzbekistanu',
+      'swe' => [
+        'official' => 'Republiken Uzbekistan',
         'common' => 'Uzbekistan',
       ],
       'urd' => [
         'official' => 'جمہوریہ ازبکستان',
         'common' => 'ازبکستان',
       ],
-      'kor' => [
-        'official' => '우즈베키스탄 공화국',
-        'common' => '우즈베키스탄',
-      ],
-      'per' => [
-        'official' => 'جمهوری ازبکستان',
-        'common' => 'ازبکستان',
+      'zho' => [
+        'official' => '乌兹别克斯坦共和国',
+        'common' => '乌兹别克斯坦',
       ],
     ],
     'latlng' => [
@@ -34911,6 +38080,9 @@ class CountriesDataSource
         'm' => 'Ouzbèke',
       ],
     ],
+    'callingCodes' => [
+      0 => '+998',
+    ],
   ],
   237 => [
     'name' => [
@@ -34936,6 +38108,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'EUR' => [
         'name' => 'Euro',
@@ -34973,6 +38146,14 @@ class CountriesDataSource
         'official' => 'Staat Vatikanstadt',
         'common' => 'Vatikanstadt',
       ],
+      'est' => [
+        'official' => 'Vatikani Linnriik',
+        'common' => 'Vatikan',
+      ],
+      'fin' => [
+        'official' => 'Vatikaanin kaupunkivaltio',
+        'common' => 'Vatikaani',
+      ],
       'fra' => [
         'official' => 'Cité du Vatican',
         'common' => 'Cité du Vatican',
@@ -34980,6 +38161,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Vatikan',
         'common' => 'Vatikan',
+      ],
+      'hun' => [
+        'official' => 'Vatikán Állam',
+        'common' => 'Vatikán',
       ],
       'ita' => [
         'official' => 'Città del Vaticano',
@@ -34989,9 +38174,21 @@ class CountriesDataSource
         'official' => 'バチカン市国の状態',
         'common' => 'バチカン市国',
       ],
+      'kor' => [
+        'official' => '바티칸 시국',
+        'common' => '바티칸',
+      ],
       'nld' => [
         'official' => 'Vaticaanstad',
         'common' => 'Vaticaanstad',
+      ],
+      'per' => [
+        'official' => 'دولت‌شهر واتیکان',
+        'common' => 'واتیکان',
+      ],
+      'pol' => [
+        'official' => 'Państwo Watykańskie',
+        'common' => 'Watykan',
       ],
       'por' => [
         'official' => 'Cidade do Vaticano',
@@ -35009,33 +38206,17 @@ class CountriesDataSource
         'official' => 'Ciudad del Vaticano',
         'common' => 'Ciudad del Vaticano',
       ],
-      'fin' => [
-        'official' => 'Vatikaanin kaupunkivaltio',
-        'common' => 'Vatikaani',
-      ],
-      'est' => [
-        'official' => 'Vatikani Linnriik',
-        'common' => 'Vatikan',
-      ],
-      'zho' => [
-        'official' => '梵蒂冈城国',
-        'common' => '梵蒂冈',
-      ],
-      'pol' => [
-        'official' => 'Państwo Watykańskie',
-        'common' => 'Watykan',
+      'swe' => [
+        'official' => 'Vatikanstaten',
+        'common' => 'Vatikanstaten',
       ],
       'urd' => [
         'official' => 'ویٹیکن سٹی',
         'common' => 'ویٹیکن سٹی',
       ],
-      'kor' => [
-        'official' => '바티칸 시국',
-        'common' => '바티칸',
-      ],
-      'per' => [
-        'official' => 'دولت‌شهر واتیکان',
-        'common' => 'واتیکان',
+      'zho' => [
+        'official' => '梵蒂冈城国',
+        'common' => '梵蒂冈',
       ],
     ],
     'latlng' => [
@@ -35058,6 +38239,10 @@ class CountriesDataSource
         'm' => 'Vatican',
       ],
     ],
+    'callingCodes' => [
+      0 => '+3906698',
+      1 => '+379',
+    ],
   ],
   238 => [
     'name' => [
@@ -35079,6 +38264,7 @@ class CountriesDataSource
     'cioc' => 'VIN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'XCD' => [
         'name' => 'Eastern Caribbean dollar',
@@ -35111,6 +38297,14 @@ class CountriesDataSource
         'official' => 'St. Vincent und die Grenadinen',
         'common' => 'St. Vincent und die Grenadinen',
       ],
+      'est' => [
+        'official' => 'Saint Vincent ja Grenadiinid',
+        'common' => 'Saint Vincent',
+      ],
+      'fin' => [
+        'official' => 'Saint Vincent ja Grenadiinit',
+        'common' => 'Saint Vincent ja Grenadiinit',
+      ],
       'fra' => [
         'official' => 'Saint-Vincent-et-les Grenadines',
         'common' => 'Saint-Vincent-et-les-Grenadines',
@@ -35118,6 +38312,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Sveti Vincent i Grenadini',
         'common' => 'Sveti Vincent i Grenadini',
+      ],
+      'hun' => [
+        'official' => 'Saint Vincent és a Grenadine-szigetek',
+        'common' => 'Saint Vincent és a Grenadine-szigetek',
       ],
       'ita' => [
         'official' => 'Saint Vincent e Grenadine',
@@ -35127,9 +38325,21 @@ class CountriesDataSource
         'official' => 'セントビンセントおよびグレナディーン諸島',
         'common' => 'セントビンセントおよびグレナディーン諸島',
       ],
+      'kor' => [
+        'official' => '세인트빈센트 그레나딘',
+        'common' => '세인트빈센트 그레나딘',
+      ],
       'nld' => [
         'official' => 'Saint Vincent en de Grenadines',
         'common' => 'Saint Vincent en de Grenadines',
+      ],
+      'per' => [
+        'official' => 'سنت وینسنت و گرنادین‌ها',
+        'common' => 'سنت وینسنت و گرنادین‌ها',
+      ],
+      'pol' => [
+        'official' => 'Saint Vincent i Grenadyny',
+        'common' => 'Saint Vincent i Grenadyny',
       ],
       'por' => [
         'official' => 'São Vicente e Granadinas',
@@ -35147,33 +38357,17 @@ class CountriesDataSource
         'official' => 'San Vicente y las Granadinas',
         'common' => 'San Vicente y Granadinas',
       ],
-      'fin' => [
-        'official' => 'Saint Vincent ja Grenadiinit',
-        'common' => 'Saint Vincent ja Grenadiinit',
-      ],
-      'est' => [
-        'official' => 'Saint Vincent ja Grenadiinid',
-        'common' => 'Saint Vincent',
-      ],
-      'zho' => [
-        'official' => '圣文森特和格林纳丁斯',
-        'common' => '圣文森特和格林纳丁斯',
-      ],
-      'pol' => [
-        'official' => 'Saint Vincent i Grenadyny',
-        'common' => 'Saint Vincent i Grenadyny',
+      'swe' => [
+        'official' => 'Saint Vincent och Grenadinerna',
+        'common' => 'Saint Vincent och Grenadinerna',
       ],
       'urd' => [
         'official' => 'سینٹ وینسینٹ و گریناڈائنز',
         'common' => 'سینٹ وینسینٹ و گریناڈائنز',
       ],
-      'kor' => [
-        'official' => '세인트빈센트 그레나딘',
-        'common' => '세인트빈센트 그레나딘',
-      ],
-      'per' => [
-        'official' => 'سنت وینسنت و گرنادین‌ها',
-        'common' => 'سنت وینسنت و گرنادین‌ها',
+      'zho' => [
+        'official' => '圣文森特和格林纳丁斯',
+        'common' => '圣文森特和格林纳丁斯',
       ],
     ],
     'latlng' => [
@@ -35194,6 +38388,9 @@ class CountriesDataSource
         'f' => 'Vincentaise',
         'm' => 'Vincentais',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1784',
     ],
   ],
   239 => [
@@ -35216,6 +38413,7 @@ class CountriesDataSource
     'cioc' => 'VEN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'VES' => [
         'name' => 'Venezuelan bolívar soberano',
@@ -35251,12 +38449,24 @@ class CountriesDataSource
         'official' => 'Bolivarische Republik Venezuela',
         'common' => 'Venezuela',
       ],
+      'est' => [
+        'official' => 'Venezuela Bolívari Vabariik',
+        'common' => 'Venezuela',
+      ],
+      'fin' => [
+        'official' => 'Venezuelan bolivariaainen tasavalta',
+        'common' => 'Venezuela',
+      ],
       'fra' => [
         'official' => 'République bolivarienne du Venezuela',
         'common' => 'Venezuela',
       ],
       'hrv' => [
         'official' => 'BOLIVARIJANSKA Republika Venezuela',
+        'common' => 'Venezuela',
+      ],
+      'hun' => [
+        'official' => 'Venezuelai Bolivári Köztársaság',
         'common' => 'Venezuela',
       ],
       'ita' => [
@@ -35267,9 +38477,21 @@ class CountriesDataSource
         'official' => 'ベネズエラ·ボリバル共和国',
         'common' => 'ベネズエラ・ボリバル共和国',
       ],
+      'kor' => [
+        'official' => '베네수엘라 볼리바르 공화국',
+        'common' => '베네수엘라',
+      ],
       'nld' => [
         'official' => 'Bolivariaanse Republiek Venezuela',
         'common' => 'Venezuela',
+      ],
+      'per' => [
+        'official' => 'جمهوری بولیواری ونزوئلا',
+        'common' => 'ونزوئلا',
+      ],
+      'pol' => [
+        'official' => 'Boliwariańska Republika Wenezueli',
+        'common' => 'Wenezuela',
       ],
       'por' => [
         'official' => 'República Bolivariana da Venezuela',
@@ -35287,33 +38509,17 @@ class CountriesDataSource
         'official' => 'República Bolivariana de Venezuela',
         'common' => 'Venezuela',
       ],
-      'fin' => [
-        'official' => 'Venezuelan bolivariaainen tasavalta',
+      'swe' => [
+        'official' => 'Bolivarianska republiken Venezuela',
         'common' => 'Venezuela',
-      ],
-      'est' => [
-        'official' => 'Venezuela Bolívari Vabariik',
-        'common' => 'Venezuela',
-      ],
-      'zho' => [
-        'official' => '委内瑞拉玻利瓦尔共和国',
-        'common' => '委内瑞拉',
-      ],
-      'pol' => [
-        'official' => 'Boliwariańska Republika Wenezueli',
-        'common' => 'Wenezuela',
       ],
       'urd' => [
         'official' => 'جمہوریہ وینیزویلا',
         'common' => 'وینیزویلا',
       ],
-      'kor' => [
-        'official' => '베네수엘라 볼리바르 공화국',
-        'common' => '베네수엘라',
-      ],
-      'per' => [
-        'official' => 'جمهوری بولیواری ونزوئلا',
-        'common' => 'ونزوئلا',
+      'zho' => [
+        'official' => '委内瑞拉玻利瓦尔共和国',
+        'common' => '委内瑞拉',
       ],
     ],
     'latlng' => [
@@ -35338,6 +38544,9 @@ class CountriesDataSource
         'm' => 'Vénézuélien',
       ],
     ],
+    'callingCodes' => [
+      0 => '+58',
+    ],
   ],
   240 => [
     'name' => [
@@ -35359,6 +38568,7 @@ class CountriesDataSource
     'cioc' => 'IVB',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -35392,6 +38602,14 @@ class CountriesDataSource
         'official' => 'Jungferninseln',
         'common' => 'Britische Jungferninseln',
       ],
+      'est' => [
+        'official' => 'Neitsisaared',
+        'common' => 'Briti Neitsisaared',
+      ],
+      'fin' => [
+        'official' => 'Brittiläiset Neitsytsaaret',
+        'common' => 'Neitsytsaaret',
+      ],
       'fra' => [
         'official' => 'îles Vierges',
         'common' => 'Îles Vierges britanniques',
@@ -35399,6 +38617,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Djevičanski Otoci',
         'common' => 'Britanski Djevičanski Otoci',
+      ],
+      'hun' => [
+        'official' => 'Brit Virgin-szigetek',
+        'common' => 'Brit Virgin-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Vergini',
@@ -35408,9 +38630,21 @@ class CountriesDataSource
         'official' => 'バージン諸島',
         'common' => 'イギリス領ヴァージン諸島',
       ],
+      'kor' => [
+        'official' => '영국령 버진아일랜드',
+        'common' => '영국령 버진아일랜드',
+      ],
       'nld' => [
         'official' => 'Maagdeneilanden',
         'common' => 'Britse Maagdeneilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر ویرجین بریتانیا',
+        'common' => 'جزایر ویرجین بریتانیا',
+      ],
+      'pol' => [
+        'official' => 'Brytyjskie Wyspy Dziewicze',
+        'common' => 'Brytyjskie Wyspy Dziewicze',
       ],
       'por' => [
         'official' => 'Ilhas Virgens',
@@ -35428,33 +38662,17 @@ class CountriesDataSource
         'official' => 'Islas Vírgenes',
         'common' => 'Islas Vírgenes del Reino Unido',
       ],
-      'fin' => [
-        'official' => 'Brittiläiset Neitsytsaaret',
-        'common' => 'Neitsytsaaret',
-      ],
-      'est' => [
-        'official' => 'Neitsisaared',
-        'common' => 'Briti Neitsisaared',
-      ],
-      'zho' => [
-        'official' => '英属维尔京群岛',
-        'common' => '英属维尔京群岛',
-      ],
-      'pol' => [
-        'official' => 'Brytyjskie Wyspy Dziewicze',
-        'common' => 'Brytyjskie Wyspy Dziewicze',
+      'swe' => [
+        'official' => 'Brittiska Jungfruöarna',
+        'common' => 'Brittiska Jungfruöarna',
       ],
       'urd' => [
         'official' => 'برطانوی جزائر ورجن',
         'common' => 'برطانوی جزائر ورجن',
       ],
-      'kor' => [
-        'official' => '영국령 버진아일랜드',
-        'common' => '영국령 버진아일랜드',
-      ],
-      'per' => [
-        'official' => 'جزایر ویرجین بریتانیا',
-        'common' => 'جزایر ویرجین بریتانیا',
+      'zho' => [
+        'official' => '英属维尔京群岛',
+        'common' => '英属维尔京群岛',
       ],
     ],
     'latlng' => [
@@ -35475,6 +38693,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1284',
     ],
   ],
   241 => [
@@ -35497,6 +38718,7 @@ class CountriesDataSource
     'cioc' => 'ISV',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'USD' => [
         'name' => 'United States dollar',
@@ -35530,6 +38752,14 @@ class CountriesDataSource
         'official' => 'Amerikanische Jungferninseln',
         'common' => 'Amerikanische Jungferninseln',
       ],
+      'est' => [
+        'official' => 'Ühendriikide Neitsisaared',
+        'common' => 'Neitsisaared, USA',
+      ],
+      'fin' => [
+        'official' => 'Yhdysvaltain Neitsytsaaret',
+        'common' => 'Neitsytsaaret',
+      ],
       'fra' => [
         'official' => 'Îles Vierges des États-Unis',
         'common' => 'Îles Vierges des États-Unis',
@@ -35537,6 +38767,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Djevičanski Otoci SAD',
         'common' => 'Američki Djevičanski Otoci',
+      ],
+      'hun' => [
+        'official' => 'Amerikai Virgin-szigetek',
+        'common' => 'Amerikai Virgin-szigetek',
       ],
       'ita' => [
         'official' => 'Isole Vergini degli Stati Uniti',
@@ -35546,9 +38780,21 @@ class CountriesDataSource
         'official' => '米国のバージン諸島',
         'common' => 'アメリカ領ヴァージン諸島',
       ],
+      'kor' => [
+        'official' => '미국령 버진아일랜드',
+        'common' => '미국령 버진아일랜드',
+      ],
       'nld' => [
         'official' => 'Maagdeneilanden van de Verenigde Staten',
         'common' => 'Amerikaanse Maagdeneilanden',
+      ],
+      'per' => [
+        'official' => 'جزایر ویرجین ایالات متحده آمریکا',
+        'common' => 'جزایر ویرجین ایالات متحده آمریکا',
+      ],
+      'pol' => [
+        'official' => 'Wyspy Dziewicze Stanów Zjednoczonych',
+        'common' => 'Wyspy Dziewicze Stanów Zjednoczonych',
       ],
       'por' => [
         'official' => 'Ilhas Virgens dos Estados Unidos',
@@ -35566,33 +38812,17 @@ class CountriesDataSource
         'official' => 'Islas Vírgenes de los Estados Unidos',
         'common' => 'Islas Vírgenes de los Estados Unidos',
       ],
-      'fin' => [
-        'official' => 'Yhdysvaltain Neitsytsaaret',
-        'common' => 'Neitsytsaaret',
-      ],
-      'est' => [
-        'official' => 'Ühendriikide Neitsisaared',
-        'common' => 'Neitsisaared, USA',
-      ],
-      'zho' => [
-        'official' => '美属维尔京群岛',
-        'common' => '美属维尔京群岛',
-      ],
-      'pol' => [
-        'official' => 'Wyspy Dziewicze Stanów Zjednoczonych',
-        'common' => 'Wyspy Dziewicze Stanów Zjednoczonych',
+      'swe' => [
+        'official' => 'Amerikanska Jungfruöarna',
+        'common' => 'Amerikanska Jungfruöarna',
       ],
       'urd' => [
         'official' => 'امریکی جزائر ورجن',
         'common' => 'امریکی جزائر ورجن',
       ],
-      'kor' => [
-        'official' => '미국령 버진아일랜드',
-        'common' => '미국령 버진아일랜드',
-      ],
-      'per' => [
-        'official' => 'جزایر ویرجین ایالات متحده آمریکا',
-        'common' => 'جزایر ویرجین ایالات متحده آمریکا',
+      'zho' => [
+        'official' => '美属维尔京群岛',
+        'common' => '美属维尔京群岛',
       ],
     ],
     'latlng' => [
@@ -35613,6 +38843,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+1340',
     ],
   ],
   242 => [
@@ -35635,6 +38868,7 @@ class CountriesDataSource
     'cioc' => 'VIE',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'VND' => [
         'name' => 'Vietnamese đồng',
@@ -35670,6 +38904,14 @@ class CountriesDataSource
         'official' => 'Sozialistische Republik Vietnam',
         'common' => 'Vietnam',
       ],
+      'est' => [
+        'official' => 'Vietnami Sotsialistlik Vabariik',
+        'common' => 'Vietnam',
+      ],
+      'fin' => [
+        'official' => 'Vietnamin sosialistinen tasavalta',
+        'common' => 'Vietnam',
+      ],
       'fra' => [
         'official' => 'République socialiste du Viêt Nam',
         'common' => 'Viêt Nam',
@@ -35677,6 +38919,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Socijalistička Republika Vijetnam',
         'common' => 'Vijetnam',
+      ],
+      'hun' => [
+        'official' => 'Vietnámi Szocialista Köztársaság',
+        'common' => 'Vietnám',
       ],
       'ita' => [
         'official' => 'Repubblica socialista del Vietnam',
@@ -35686,9 +38932,21 @@ class CountriesDataSource
         'official' => 'ベトナム社会主義共和国',
         'common' => 'ベトナム',
       ],
+      'kor' => [
+        'official' => '베트남 사회주의 공화국',
+        'common' => '베트남',
+      ],
       'nld' => [
         'official' => 'Socialistische Republiek Vietnam',
         'common' => 'Vietnam',
+      ],
+      'per' => [
+        'official' => 'جمهوری سوسیالیستی ویتنام',
+        'common' => 'ویتنام',
+      ],
+      'pol' => [
+        'official' => 'Socjalistyczna Republika Wietnamu',
+        'common' => 'Wietnam',
       ],
       'por' => [
         'official' => 'República Socialista do Vietname',
@@ -35706,33 +38964,17 @@ class CountriesDataSource
         'official' => 'República Socialista de Vietnam',
         'common' => 'Vietnam',
       ],
-      'fin' => [
-        'official' => 'Vietnamin sosialistinen tasavalta',
+      'swe' => [
+        'official' => 'Socialistiska republiken Vietnam',
         'common' => 'Vietnam',
-      ],
-      'est' => [
-        'official' => 'Vietnami Sotsialistlik Vabariik',
-        'common' => 'Vietnam',
-      ],
-      'zho' => [
-        'official' => '越南社会主义共和国',
-        'common' => '越南',
-      ],
-      'pol' => [
-        'official' => 'Socjalistyczna Republika Wietnamu',
-        'common' => 'Wietnam',
       ],
       'urd' => [
         'official' => 'اشتراکی جمہوریہ ویتنام',
         'common' => 'ویتنام',
       ],
-      'kor' => [
-        'official' => '베트남 사회주의 공화국',
-        'common' => '베트남',
-      ],
-      'per' => [
-        'official' => 'جمهوری سوسیالیستی ویتنام',
-        'common' => 'ویتنام',
+      'zho' => [
+        'official' => '越南社会主义共和国',
+        'common' => '越南',
       ],
     ],
     'latlng' => [
@@ -35756,6 +38998,9 @@ class CountriesDataSource
         'f' => 'Vietnamienne',
         'm' => 'Vietnamien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+84',
     ],
   ],
   243 => [
@@ -35786,6 +39031,7 @@ class CountriesDataSource
     'cioc' => 'VAN',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'VUV' => [
         'name' => 'Vanuatu vatu',
@@ -35823,12 +39069,24 @@ class CountriesDataSource
         'official' => 'Vanuatu',
         'common' => 'Vanuatu',
       ],
+      'est' => [
+        'official' => 'Vanuatu Vabariik',
+        'common' => 'Vanuatu',
+      ],
+      'fin' => [
+        'official' => 'Vanuatun tasavalta',
+        'common' => 'Vanuatu',
+      ],
       'fra' => [
         'official' => 'République de Vanuatu',
         'common' => 'Vanuatu',
       ],
       'hrv' => [
         'official' => 'Republika Vanuatu',
+        'common' => 'Vanuatu',
+      ],
+      'hun' => [
+        'official' => 'Vanuatui Köztársaság',
         'common' => 'Vanuatu',
       ],
       'ita' => [
@@ -35839,8 +39097,20 @@ class CountriesDataSource
         'official' => 'バヌアツ共和国',
         'common' => 'バヌアツ',
       ],
+      'kor' => [
+        'official' => '바누아투 공화국',
+        'common' => '바누아투',
+      ],
       'nld' => [
         'official' => 'Republiek Vanuatu',
+        'common' => 'Vanuatu',
+      ],
+      'per' => [
+        'official' => 'جمهوری وانواتو',
+        'common' => 'وانواتو',
+      ],
+      'pol' => [
+        'official' => 'Republika Vanuatu',
         'common' => 'Vanuatu',
       ],
       'por' => [
@@ -35859,33 +39129,17 @@ class CountriesDataSource
         'official' => 'República de Vanuatu',
         'common' => 'Vanuatu',
       ],
-      'fin' => [
-        'official' => 'Vanuatun tasavalta',
-        'common' => 'Vanuatu',
-      ],
-      'est' => [
-        'official' => 'Vanuatu Vabariik',
-        'common' => 'Vanuatu',
-      ],
-      'zho' => [
-        'official' => '瓦努阿图共和国',
-        'common' => '瓦努阿图',
-      ],
-      'pol' => [
-        'official' => 'Republika Vanuatu',
+      'swe' => [
+        'official' => 'Republiken Vanuatu',
         'common' => 'Vanuatu',
       ],
       'urd' => [
         'official' => 'جمہوریہ وانواتو',
         'common' => 'وانواتو',
       ],
-      'kor' => [
-        'official' => '바누아투 공화국',
-        'common' => '바누아투',
-      ],
-      'per' => [
-        'official' => 'جمهوری وانواتو',
-        'common' => 'وانواتو',
+      'zho' => [
+        'official' => '瓦努阿图共和国',
+        'common' => '瓦努阿图',
       ],
     ],
     'latlng' => [
@@ -35906,6 +39160,9 @@ class CountriesDataSource
         'f' => 'Vanuatuane',
         'm' => 'Vanuatuan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+678',
     ],
   ],
   244 => [
@@ -35928,6 +39185,7 @@ class CountriesDataSource
     'cioc' => '',
     'independent' => false,
     'status' => 'officially-assigned',
+    'unMember' => false,
     'currencies' => [
       'XPF' => [
         'name' => 'CFP franc',
@@ -35962,6 +39220,14 @@ class CountriesDataSource
         'official' => 'Gebiet der Wallis und Futuna',
         'common' => 'Wallis und Futuna',
       ],
+      'est' => [
+        'official' => 'Wallise ja Futuna ala',
+        'common' => 'Wallis ja Futuna',
+      ],
+      'fin' => [
+        'official' => 'Wallisin ja Futunan yhteisö',
+        'common' => 'Wallis ja Futuna',
+      ],
       'fra' => [
         'official' => 'Territoire des îles Wallis et Futuna',
         'common' => 'Wallis-et-Futuna',
@@ -35969,6 +39235,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Teritoriju Wallis i Futuna',
         'common' => 'Wallis i Fortuna',
+      ],
+      'hun' => [
+        'official' => 'Wallis és Futuna',
+        'common' => 'Wallis és Futuna',
       ],
       'ita' => [
         'official' => 'Territorio delle Isole Wallis e Futuna',
@@ -35978,9 +39248,21 @@ class CountriesDataSource
         'official' => 'ウォリス·フツナ諸島の領土',
         'common' => 'ウォリス・フツナ',
       ],
+      'kor' => [
+        'official' => '왈리스 퓌튀나',
+        'common' => '왈리스 퓌튀나',
+      ],
       'nld' => [
         'official' => 'Grondgebied van de Wallis en Futuna',
         'common' => 'Wallis en Futuna',
+      ],
+      'per' => [
+        'official' => 'جزایر والیس و فوتونا',
+        'common' => 'والیس و فوتونا',
+      ],
+      'pol' => [
+        'official' => 'Terytorium Wysp Wallis i Futuna',
+        'common' => 'Wallis i Futuna',
       ],
       'por' => [
         'official' => 'Território das Ilhas Wallis e Futuna',
@@ -35998,33 +39280,17 @@ class CountriesDataSource
         'official' => 'Territorio de las Islas Wallis y Futuna',
         'common' => 'Wallis y Futuna',
       ],
-      'fin' => [
-        'official' => 'Wallisin ja Futunan yhteisö',
-        'common' => 'Wallis ja Futuna',
-      ],
-      'est' => [
-        'official' => 'Wallise ja Futuna ala',
-        'common' => 'Wallis ja Futuna',
-      ],
-      'zho' => [
-        'official' => '瓦利斯和富图纳群岛',
-        'common' => '瓦利斯和富图纳群岛',
-      ],
-      'pol' => [
-        'official' => 'Terytorium Wysp Wallis i Futuna',
-        'common' => 'Wallis i Futuna',
+      'swe' => [
+        'official' => 'Territoriet Wallis- och Futunaöarna',
+        'common' => 'Wallis- och Futunaöarna',
       ],
       'urd' => [
         'official' => 'سر زمینِ والس و فتونہ جزائر',
         'common' => 'والس و فتونہ',
       ],
-      'kor' => [
-        'official' => '왈리스 퓌튀나',
-        'common' => '왈리스 퓌튀나',
-      ],
-      'per' => [
-        'official' => 'جزایر والیس و فوتونا',
-        'common' => 'والیس و فوتونا',
+      'zho' => [
+        'official' => '瓦利斯和富图纳群岛',
+        'common' => '瓦利斯和富图纳群岛',
       ],
     ],
     'latlng' => [
@@ -36045,6 +39311,9 @@ class CountriesDataSource
         'f' => '',
         'm' => '',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+681',
     ],
   ],
   245 => [
@@ -36071,6 +39340,7 @@ class CountriesDataSource
     'cioc' => 'SAM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'WST' => [
         'name' => 'Samoan tālā',
@@ -36106,6 +39376,14 @@ class CountriesDataSource
         'official' => 'Unabhängige Staat Samoa',
         'common' => 'Samoa',
       ],
+      'est' => [
+        'official' => 'Samoa Iseseisvusriik',
+        'common' => 'Samoa',
+      ],
+      'fin' => [
+        'official' => 'Samoan itsenäinen valtio',
+        'common' => 'Samoa',
+      ],
       'fra' => [
         'official' => 'Samoa',
         'common' => 'Samoa',
@@ -36113,6 +39391,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Nezavisna Država Samoa',
         'common' => 'Samoa',
+      ],
+      'hun' => [
+        'official' => 'Szamoai Független Állam',
+        'common' => 'Szamoa',
       ],
       'ita' => [
         'official' => 'Stato indipendente di Samoa',
@@ -36122,8 +39404,20 @@ class CountriesDataSource
         'official' => 'サモア独立国',
         'common' => 'サモア',
       ],
+      'kor' => [
+        'official' => '사모아 독립국',
+        'common' => '사모아',
+      ],
       'nld' => [
         'official' => 'Onafhankelijke Staat Samoa',
+        'common' => 'Samoa',
+      ],
+      'per' => [
+        'official' => 'ایالت مستقل ساموآ',
+        'common' => 'ساموآ',
+      ],
+      'pol' => [
+        'official' => 'Niezależne Państwo Samoa',
         'common' => 'Samoa',
       ],
       'por' => [
@@ -36142,33 +39436,17 @@ class CountriesDataSource
         'official' => 'Estado Independiente de Samoa',
         'common' => 'Samoa',
       ],
-      'fin' => [
-        'official' => 'Samoan itsenäinen valtio',
-        'common' => 'Samoa',
-      ],
-      'est' => [
-        'official' => 'Samoa Iseseisvusriik',
-        'common' => 'Samoa',
-      ],
-      'zho' => [
-        'official' => '萨摩亚独立国',
-        'common' => '萨摩亚',
-      ],
-      'pol' => [
-        'official' => 'Niezależne Państwo Samoa',
+      'swe' => [
+        'official' => 'Självständiga staten Samoa',
         'common' => 'Samoa',
       ],
       'urd' => [
         'official' => 'آزاد سلطنتِ ساموا',
         'common' => 'سامووا',
       ],
-      'kor' => [
-        'official' => '사모아 독립국',
-        'common' => '사모아',
-      ],
-      'per' => [
-        'official' => 'ایالت مستقل ساموآ',
-        'common' => 'ساموآ',
+      'zho' => [
+        'official' => '萨摩亚独立国',
+        'common' => '萨摩亚',
       ],
     ],
     'latlng' => [
@@ -36189,6 +39467,9 @@ class CountriesDataSource
         'f' => 'Samoane',
         'm' => 'Samoan',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+685',
     ],
   ],
   246 => [
@@ -36211,6 +39492,7 @@ class CountriesDataSource
     'cioc' => 'YEM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'YER' => [
         'name' => 'Yemeni rial',
@@ -36245,12 +39527,24 @@ class CountriesDataSource
         'official' => 'Republik Jemen',
         'common' => 'Jemen',
       ],
+      'est' => [
+        'official' => 'Jeemeni Vabariik',
+        'common' => 'Jeemen',
+      ],
+      'fin' => [
+        'official' => 'Jemenin tasavalta',
+        'common' => 'Jemen',
+      ],
       'fra' => [
         'official' => 'République du Yémen',
         'common' => 'Yémen',
       ],
       'hrv' => [
         'official' => 'Republika Jemen',
+        'common' => 'Jemen',
+      ],
+      'hun' => [
+        'official' => 'Jemeni Köztársaság',
         'common' => 'Jemen',
       ],
       'ita' => [
@@ -36261,8 +39555,20 @@ class CountriesDataSource
         'official' => 'イエメン共和国',
         'common' => 'イエメン',
       ],
+      'kor' => [
+        'official' => '예멘 공화국',
+        'common' => '예멘',
+      ],
       'nld' => [
         'official' => 'Republiek Jemen',
+        'common' => 'Jemen',
+      ],
+      'per' => [
+        'official' => 'جمهوری یمن',
+        'common' => 'یمن',
+      ],
+      'pol' => [
+        'official' => 'Republika Jemeńska',
         'common' => 'Jemen',
       ],
       'por' => [
@@ -36281,33 +39587,17 @@ class CountriesDataSource
         'official' => 'República de Yemen',
         'common' => 'Yemen',
       ],
-      'fin' => [
-        'official' => 'Jemenin tasavalta',
-        'common' => 'Jemen',
-      ],
-      'est' => [
-        'official' => 'Jeemeni Vabariik',
-        'common' => 'Jeemen',
-      ],
-      'zho' => [
-        'official' => '也门共和国',
-        'common' => '也门',
-      ],
-      'pol' => [
-        'official' => 'Republika Jemeńska',
+      'swe' => [
+        'official' => 'Republiken Jemen',
         'common' => 'Jemen',
       ],
       'urd' => [
         'official' => 'جمہوریہ یمن',
         'common' => 'یمن',
       ],
-      'kor' => [
-        'official' => '예멘 공화국',
-        'common' => '예멘',
-      ],
-      'per' => [
-        'official' => 'جمهوری یمن',
-        'common' => 'یمن',
+      'zho' => [
+        'official' => '也门共和国',
+        'common' => '也门',
       ],
     ],
     'latlng' => [
@@ -36330,6 +39620,9 @@ class CountriesDataSource
         'f' => 'Yéménite',
         'm' => 'Yéménite',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+967',
     ],
   ],
   247 => [
@@ -36392,6 +39685,7 @@ class CountriesDataSource
     'cioc' => 'RSA',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ZAR' => [
         'name' => 'South African rand',
@@ -36439,6 +39733,14 @@ class CountriesDataSource
         'official' => 'Republik Südafrika',
         'common' => 'Südafrika',
       ],
+      'est' => [
+        'official' => 'Lõuna-Aafrika Vabariik',
+        'common' => 'Lõuna-Aafrika Vabariik',
+      ],
+      'fin' => [
+        'official' => 'Etelä-Afrikan tasavalta',
+        'common' => 'Etelä-Afrikka',
+      ],
       'fra' => [
         'official' => 'République d\'Afrique du Sud',
         'common' => 'Afrique du Sud',
@@ -36446,6 +39748,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Južnoafrička Republika',
         'common' => 'Južnoafrička Republika',
+      ],
+      'hun' => [
+        'official' => 'Dél-afrikai Köztársaság',
+        'common' => 'Dél-afrikai Köztársaság',
       ],
       'ita' => [
         'official' => 'Repubblica del Sud Africa',
@@ -36455,9 +39761,21 @@ class CountriesDataSource
         'official' => '南アフリカ共和国',
         'common' => '南アフリカ',
       ],
+      'kor' => [
+        'official' => '남아프리카 공화국',
+        'common' => '남아프리카',
+      ],
       'nld' => [
         'official' => 'Republiek Zuid-Afrika',
         'common' => 'Zuid-Afrika',
+      ],
+      'per' => [
+        'official' => 'جمهوری آفریقای جنوبی',
+        'common' => 'آفریقای جنوبی',
+      ],
+      'pol' => [
+        'official' => 'Republika Południowej Afryki',
+        'common' => 'Południowa Afryka',
       ],
       'por' => [
         'official' => 'República da África do Sul',
@@ -36475,33 +39793,17 @@ class CountriesDataSource
         'official' => 'República de Sudáfrica',
         'common' => 'República de Sudáfrica',
       ],
-      'fin' => [
-        'official' => 'Etelä-Afrikan tasavalta',
-        'common' => 'Etelä-Afrikka',
-      ],
-      'est' => [
-        'official' => 'Lõuna-Aafrika Vabariik',
-        'common' => 'Lõuna-Aafrika Vabariik',
-      ],
-      'zho' => [
-        'official' => '南非共和国',
-        'common' => '南非',
-      ],
-      'pol' => [
-        'official' => 'Republika Południowej Afryki',
-        'common' => 'Południowa Afryka',
+      'swe' => [
+        'official' => 'Republiken Sydafrika',
+        'common' => 'Sydafrika',
       ],
       'urd' => [
         'official' => 'جمہوریہ جنوبی افریقا',
         'common' => 'جنوبی افریقا',
       ],
-      'kor' => [
-        'official' => '남아프리카 공화국',
-        'common' => '남아프리카',
-      ],
-      'per' => [
-        'official' => 'جمهوری آفریقای جنوبی',
-        'common' => 'آفریقای جنوبی',
+      'zho' => [
+        'official' => '南非共和国',
+        'common' => '南非',
       ],
     ],
     'latlng' => [
@@ -36529,6 +39831,9 @@ class CountriesDataSource
         'm' => 'Sud-africain',
       ],
     ],
+    'callingCodes' => [
+      0 => '+27',
+    ],
   ],
   248 => [
     'name' => [
@@ -36550,6 +39855,7 @@ class CountriesDataSource
     'cioc' => 'ZAM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'ZMW' => [
         'name' => 'Zambian kwacha',
@@ -36583,6 +39889,14 @@ class CountriesDataSource
         'official' => 'Republik Sambia',
         'common' => 'Sambia',
       ],
+      'est' => [
+        'official' => 'Sambia Vabariik',
+        'common' => 'Sambia',
+      ],
+      'fin' => [
+        'official' => 'Sambian tasavalta',
+        'common' => 'Sambia',
+      ],
       'fra' => [
         'official' => 'République de Zambie',
         'common' => 'Zambie',
@@ -36590,6 +39904,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Zambija',
         'common' => 'Zambija',
+      ],
+      'hun' => [
+        'official' => 'Zambiai Köztársaság',
+        'common' => 'Zambia',
       ],
       'ita' => [
         'official' => 'Repubblica di Zambia',
@@ -36599,8 +39917,20 @@ class CountriesDataSource
         'official' => 'ザンビア共和国',
         'common' => 'ザンビア',
       ],
+      'kor' => [
+        'official' => '잠비아 공화국',
+        'common' => '잠비아',
+      ],
       'nld' => [
         'official' => 'Republiek Zambia',
+        'common' => 'Zambia',
+      ],
+      'per' => [
+        'official' => 'جمهوری زامبیا',
+        'common' => 'زامبیا',
+      ],
+      'pol' => [
+        'official' => 'Republika Zambii',
         'common' => 'Zambia',
       ],
       'por' => [
@@ -36619,33 +39949,17 @@ class CountriesDataSource
         'official' => 'República de Zambia',
         'common' => 'Zambia',
       ],
-      'fin' => [
-        'official' => 'Sambian tasavalta',
-        'common' => 'Sambia',
-      ],
-      'est' => [
-        'official' => 'Sambia Vabariik',
-        'common' => 'Sambia',
-      ],
-      'zho' => [
-        'official' => '赞比亚共和国',
-        'common' => '赞比亚',
-      ],
-      'pol' => [
-        'official' => 'Republika Zambii',
+      'swe' => [
+        'official' => 'Republiken Zambia',
         'common' => 'Zambia',
       ],
       'urd' => [
         'official' => 'جمہوریہ زیمبیا',
         'common' => 'زیمبیا',
       ],
-      'kor' => [
-        'official' => '잠비아 공화국',
-        'common' => '잠비아',
-      ],
-      'per' => [
-        'official' => 'جمهوری زامبیا',
-        'common' => 'زامبیا',
+      'zho' => [
+        'official' => '赞比亚共和国',
+        'common' => '赞比亚',
       ],
     ],
     'latlng' => [
@@ -36674,6 +39988,9 @@ class CountriesDataSource
         'f' => 'Zambienne',
         'm' => 'Zambien',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+260',
     ],
   ],
   249 => [
@@ -36752,6 +40069,7 @@ class CountriesDataSource
     'cioc' => 'ZIM',
     'independent' => true,
     'status' => 'officially-assigned',
+    'unMember' => true,
     'currencies' => [
       'BWP' => [
         'name' => 'Botswana pula',
@@ -36831,6 +40149,14 @@ class CountriesDataSource
         'official' => 'Republik Simbabwe',
         'common' => 'Simbabwe',
       ],
+      'est' => [
+        'official' => 'Zimbabwe Vabariik',
+        'common' => 'Zimbabwe',
+      ],
+      'fin' => [
+        'official' => 'Zimbabwen tasavalta',
+        'common' => 'Zimbabwe',
+      ],
       'fra' => [
         'official' => 'République du Zimbabwe',
         'common' => 'Zimbabwe',
@@ -36838,6 +40164,10 @@ class CountriesDataSource
       'hrv' => [
         'official' => 'Republika Zimbabve',
         'common' => 'Zimbabve',
+      ],
+      'hun' => [
+        'official' => 'Zimbabwei Köztársaság',
+        'common' => 'Zimbabwe',
       ],
       'ita' => [
         'official' => 'Repubblica dello Zimbabwe',
@@ -36847,8 +40177,20 @@ class CountriesDataSource
         'official' => 'ジンバブエ共和国',
         'common' => 'ジンバブエ',
       ],
+      'kor' => [
+        'official' => '짐바브웨 공화국',
+        'common' => '짐바브웨',
+      ],
       'nld' => [
         'official' => 'Republiek Zimbabwe',
+        'common' => 'Zimbabwe',
+      ],
+      'per' => [
+        'official' => 'جمهوری زیمبابوه',
+        'common' => 'زیمبابوه',
+      ],
+      'pol' => [
+        'official' => 'Republika Zimbabwe',
         'common' => 'Zimbabwe',
       ],
       'por' => [
@@ -36867,33 +40209,17 @@ class CountriesDataSource
         'official' => 'República de Zimbabue',
         'common' => 'Zimbabue',
       ],
-      'fin' => [
-        'official' => 'Zimbabwen tasavalta',
-        'common' => 'Zimbabwe',
-      ],
-      'est' => [
-        'official' => 'Zimbabwe Vabariik',
-        'common' => 'Zimbabwe',
-      ],
-      'zho' => [
-        'official' => '津巴布韦共和国',
-        'common' => '津巴布韦',
-      ],
-      'pol' => [
-        'official' => 'Republika Zimbabwe',
+      'swe' => [
+        'official' => 'Republiken Zimbabwe',
         'common' => 'Zimbabwe',
       ],
       'urd' => [
         'official' => 'جمہوریہ زمبابوے',
         'common' => 'زمبابوے',
       ],
-      'kor' => [
-        'official' => '짐바브웨 공화국',
-        'common' => '짐바브웨',
-      ],
-      'per' => [
-        'official' => 'جمهوری زیمبابوه',
-        'common' => 'زیمبابوه',
+      'zho' => [
+        'official' => '津巴布韦共和国',
+        'common' => '津巴布韦',
       ],
     ],
     'latlng' => [
@@ -36918,6 +40244,9 @@ class CountriesDataSource
         'f' => 'Zimbabwéenne',
         'm' => 'Zimbabwéen',
       ],
+    ],
+    'callingCodes' => [
+      0 => '+263',
     ],
   ],
 ];

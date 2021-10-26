@@ -2,7 +2,10 @@
 name: "Update data source"
 
 on:
+  workflow_dispatch:
   push:
+    branches:
+      - 'master'
   pull_request:
   schedule:
     # Every Sunday at 03:58

@@ -37,6 +37,14 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
 
+      - name: Create new branch and switch
+        run: |
+          git branch data-source-updates/$(date +%F)
+          git switch data-source-updates/$(date +%F)
+
+      - name: Show Git status
+        run: git status
+
       - name: Create commit on a new branch
         run: |
           # Stage the file, commit and push

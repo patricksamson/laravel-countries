@@ -32,7 +32,7 @@ jobs:
         run: composer test
 
       - name: Create PR for the release branch
-        run: gh pr create --base master --title "[$(date +%F)] Update data source" --body "Update data source to the latest version."
+        run: gh pr create --base master --head update-data-source/$(date +%F) --label data-source-update --title "[$(date +%F)] Update data source" --body "Update data source to the latest version."
 
       #- name: Set the newly created PR to auto merge
       #  run: gh pr merge --auto --merge

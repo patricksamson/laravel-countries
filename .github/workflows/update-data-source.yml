@@ -1,0 +1,27 @@
+
+name: "Update data source"
+
+on:
+  push:
+  pull_request:
+  schedule:
+    # Every Sunday at 03:58
+    - cron: '58 3 * * 0'
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: composer update --prefer-dist --no-interaction
+
+      - name: Compile data source
+        run: php ./scripts/compile-data-source.php
+
+      - name: Execute tests
+        run: vendor/bin/phpunit

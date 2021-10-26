@@ -31,8 +31,21 @@ jobs:
       - name: Execute tests
         run: composer test
 
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Create commit on a new branch
+        run: |
+          # Stage the file, commit and push
+          git add src/CountriesDataSource.php
+          git commit -m "[$(date +%F)] DataSource Update"
+          git push origin data-source-updates/$(date +%F)
+
       - name: Create PR for the release branch
-        run: gh pr create --base master --head update-data-source/$(date +%F) --label "DataSource Update" --title "[$(date +%F)] Update data source" --body "Update data source to the latest version."
+        run: gh pr create --base master --head data-source-updates/$(date +%F) --label "DataSource Update" --title "[$(date +%F)] DataSource Update" --body "Update data source to the latest version."
 
       #- name: Set the newly created PR to auto merge
       #  run: gh pr merge --auto --merge

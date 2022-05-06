@@ -132,6 +132,10 @@ class CountriesRepository
         // Only the first matching key will be returned, or null.
         $key = array_search($input, array_column($this->data, $columnKey));
 
+        if ($key === false) {
+            return null;
+        }
+
         return new Country($this->data[$key]);
     }
 

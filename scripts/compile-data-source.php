@@ -23,9 +23,14 @@ function short_var_export($expression, $return=false)
     }
 }
 
-$countriesJsonPath = './vendor/mledoze/countries/dist/countries-unescaped.json';
+// The data source can be directly from the repo in GitHub, or locally through Composer.
+$countriesJsonPath = 'https://raw.githubusercontent.com/mledoze/countries/master/dist/countries-unescaped.json';
+// $countriesJsonPath = './vendor/mledoze/countries/dist/countries-unescaped.json';
+
 $data = [];
-if (file_exists($countriesJsonPath)) {
+if (filter_var($countriesJsonPath, FILTER_VALIDATE_URL)) {
+    $data = json_decode(file_get_contents($countriesJsonPath), true);
+} elseif (file_exists($countriesJsonPath)) {
     $data = json_decode(file_get_contents($countriesJsonPath), true);
 } else {
     throw new Exception(sprintf('Cannot find the file "%s".', $countriesJsonPath));

@@ -12,7 +12,7 @@ class LatestDataTest extends LaravelCountriesTestCase
      */
     protected function getEnvironmentSetUp($app)
     {
-        $app['config']->set('laravel-countries.countries_json_path', './vendor/mledoze/countries/dist/countries-unescaped.json');
+        $app['config']->set('laravel-countries.countries_json_path', './tests/data/canada-only.json');
     }
 
     /** @test */
@@ -20,5 +20,7 @@ class LatestDataTest extends LaravelCountriesTestCase
     {
         $country = $this->countries->getByAlpha2Code('CA');
         $this->assertEquals('Canada', $country->getOfficialName());
+
+        $this->assertNull($this->countries->getByAlpha2Code('JP'));
     }
 }
